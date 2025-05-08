@@ -1,0 +1,7 @@
+name: nextstrain
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - augur=30.0

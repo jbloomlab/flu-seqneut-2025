@@ -1,0 +1,12 @@
+.*
+!.git*
+_*
+*.out
+
+data/sequences/*
+results/alignments/*
+results/summary_tables/*
+results/selected_library_strains
+results/strains_for_library/*
+!results/strains_for_library/match_prot_to_genbank_nt.csv
+!results/strains_for_library/*nt_seqs_for_library.fasta

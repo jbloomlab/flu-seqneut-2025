@@ -1,0 +1,11 @@
+name: library_design
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - altair=5.5
+  - biopython=1.85
+  - jupyterlab
+  - pandas=2.2
+  - python=3.12

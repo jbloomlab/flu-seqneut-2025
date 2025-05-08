@@ -1,0 +1,7 @@
+.*
+!.git*
+_*
+*.out
+
+docs/*
+!docs/*.html

@@ -1,0 +1,26 @@
+"""
+``snakemake`` file that runs analysis.
+"""
+
+# Identify configuration file
+configfile: "config.yml"
+
+# Include rules
+include: "rules/count_circulating_strains.smk"
+include: "rules/align_fastas.smk"
+# include: "rules/calculate_shannon_entropy.smk"
+# include: "rules/infer_phylogenetic_tree.smk"
+
+# Specify output files
+rule all:
+    """ 
+    Target rule.
+    """
+    input:
+        "results/strain_counts/gisaid-ectodomain-within1_strain_matches.csv",  
+        "results/strain_counts/gisaid-ha1-exact_strain_matches.csv",
+        "results/strain_counts/gisaid-ha1-within1_strain_matches.csv",
+#        config["shannon_entropy_gisaid_prots"],
+#        config["aligned_reduced_gisaid_library_prots"],
+#        config["gisaid_iqtree"],
+#        config["reduced_gisaid_iqtree"],
