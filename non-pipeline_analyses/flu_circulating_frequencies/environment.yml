@@ -1,18 +1,15 @@
-name: circulating_HA_analysis
+name: flu_circulating_frequencies
 channels:
   - conda-forge
   - bioconda
 
 dependencies:
   - altair
-  - regex
   - biopython
+  - cd-hit
   - jupyterlab
+  - mafft
   - pandas
+  - regex
   - seaborn
   - snakemake
-  - mafft
-  - iqtree
-  - ete3
-  - emboss
-  - cd-hit
