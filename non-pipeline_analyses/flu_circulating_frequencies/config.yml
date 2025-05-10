@@ -2,11 +2,15 @@
 
 # Library strains
 # strain_prots: data/h3_strains.fasta
-strain_prots: data/h1_strains.fasta
+strain_prots:
+  h1: data/h1_strains.fasta
+  h3: data/h3_strains.fasta
 
 # GISAID sequences
 # gisaid_prots: data/gisaid_circulating_h3.fasta
-gisaid_prots: data/gisaid_circulating_h1.fasta
+gisaid_prots: 
+  h1: data/gisaid_circulating_h1.fasta
+  h3: data/gisaid_circulating_h3.fasta
 
 # Specify protein sequences to search for matches to `strain_prots` to get the
 # counts of each strain (variant) at each time.
@@ -28,71 +32,37 @@ gisaid_prots: data/gisaid_circulating_h1.fasta
 # substitution, insertion, or deletion.
 protsets:
 
-  # gisaid-ha1-within1:
-  #   protset: data/gisaid_circulating_h3.fasta
-  #   trim: [20, 348]
-  #   maxdiff: 1
-  # gisaid-ha1-exact:
-  #   protset: data/gisaid_circulating_h3.fasta
-  #   trim: [20, 348]
-  #   maxdiff: 0
-  # gisaid-ectodomain-within1:
-  #   protset: data/gisaid_circulating_h3.fasta
-  #   trim: [20, 533]
-  #   maxdiff: 1
-
-  gisaid-ha1-within1:
+protsets:
+  h1-gisaid-ha1-within1:
     protset: data/gisaid_circulating_h1.fasta
     trim: [18, 327]
     maxdiff: 1
-  gisaid-ha1-exact:
+    group: h1
+  h1-gisaid-ha1-exact:
     protset: data/gisaid_circulating_h1.fasta
     trim: [18, 327]
     maxdiff: 0
-  gisaid-ectodomain-within1:
+    group: h1
+  h1-gisaid-ectodomain-within1:
     protset: data/gisaid_circulating_h1.fasta
     trim: [18, 327]
     maxdiff: 1
-
-
-###### GISAID Output ##########################################
-
-# GISAID strain metadata from headers
-gisaid_metadata: results/gisaid_metadata.csv
-
-# Reduced similarity GISAID protein sequences
-reduced_gisaid_prots: results/reduced_gisaid_flu_h3_prots.fa
-# MAFFT auto alignment of GISIAD protein sequences
-aligned_gisaid_prots: results/aligned_gisaid_flu_h3_prots.fa
-
-# Merged reduced GISIAD and library protein sequences
-reduced_gisaid_library_prots: results/reduced_gisaid_library_flu_h3_prots.fa
-
-# MAFFT auto alignment of reduced GISIAD and library protein sequences
-aligned_reduced_gisaid_library_prots: results/aligned_reduced_gisaid_library_flu_h3_prots.fa
-
-
-# Site-wise Shannon entropy from GISAID
-shannon_entropy_gisaid_prots: results/shannon_entropy_gisaid_prots.csv
-
-
-# Full IQTREE treefile
-gisaid_iqtree: results/iqtree/gisaid_HA.treefile
-# Full IQTREE prefix
-gisaid_iqtree_prefix: results/iqtree/HA
-# Reduced IQTREE treefile
-reduced_gisaid_iqtree: results/iqtree/reduced_gisaid_HA.treefile
-# Reduced IQTREE prefix
-reduced_gisaid_iqtree_prefix: results/iqtree/HA_reduced
-# IQTREE logs
-iqtree_log: results/iqtree/logs
-
-
-
-
-# Strain counts output
-# counts_overall: "results/strain_counts/{protset}_counts_overall.csv",
-# counts_by_date: "results/strain_counts/{protset}_counts_by_date.csv",
-# strain_matches: "results/strain_counts/{protset}_strain_matches.csv",
+    group: h1
+  h3-gisaid-ha1-within1:
+    protset: data/gisaid_circulating_h3.fasta
+    trim: [20, 348]
+    maxdiff: 1
+    group: h3
+  h3-gisaid-ha1-exact:
+    protset: data/gisaid_circulating_h3.fasta
+    trim: [20, 348]
+    maxdiff: 0
+    group: h3
+  h3-gisaid-ectodomain-within1:
+    protset: data/gisaid_circulating_h3.fasta
+    trim: [20, 533]
+    maxdiff: 1
+    group: h3
+    
 
 

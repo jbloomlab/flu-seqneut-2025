@@ -7,9 +7,10 @@ configfile: "config.yml"
 
 # Include rules
 include: "rules/count_circulating_strains.smk"
-include: "rules/align_fastas.smk"
-# include: "rules/calculate_shannon_entropy.smk"
-# include: "rules/infer_phylogenetic_tree.smk"
+include: "rules/generate_summary_notebook.smk"
+
+# Define h1 and h3 combinations
+valid_combos = [(v["group"], k) for k, v in config["protsets"].items()]
 
 # Specify output files
 rule all:
@@ -17,10 +18,10 @@ rule all:
     Target rule.
     """
     input:
-        "results/strain_counts/gisaid-ectodomain-within1_strain_matches.csv",  
-        "results/strain_counts/gisaid-ha1-exact_strain_matches.csv",
-        "results/strain_counts/gisaid-ha1-within1_strain_matches.csv",
-#        config["shannon_entropy_gisaid_prots"],
-#        config["aligned_reduced_gisaid_library_prots"],
-#        config["gisaid_iqtree"],
-#        config["reduced_gisaid_iqtree"],
+        expand(
+            "results/notebooks/strain_counts_{group}_{protset}.ipynb",
+            zip,
+            group=[g for g, p in valid_combos],
+            protset=[p for g, p in valid_combos],
+        ),
+        expand("/fh/fast/bloom_j/computational_notebooks/ckikawa/2025/flu-seqneut-2025/non-pipeline_analyses/flu_circulating_frequencies/results/notebooks/{notebook}.html", notebook=[f.replace('.ipynb', '') for f in os.listdir('results/notebooks') if f.endswith('.ipynb')])
