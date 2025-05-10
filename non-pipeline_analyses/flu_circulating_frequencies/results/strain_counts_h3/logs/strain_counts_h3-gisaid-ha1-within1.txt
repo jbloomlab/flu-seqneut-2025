@@ -1,0 +1,34 @@
+Reading strain_prots from data/h3_strains.fasta
+Trimming to 20 to 348
+Skipping name='A/Utah/88/2024|EPI_ISL_19628190' due to invalid residues:
+MKAIIALSNILCLVFAQKIPGNDNSTATLCLGHHAVPNGTIVKTITNDRIEVTNATELVQNSSXGKICNSPHQILDGGNCTLIDALLGDPQCDGFQNKEWDLFVERSRANSSCYPYDVPDYASLRSLVASSGTLEFKDESFNWTGVKQNGTSSACKRGSSSSFFSRLNWLTSLNNIYPAQNVTMPNKEQFDKLYIWGVHHPDTDKNQFSLFAQSSGRITVSTKRSQQAVIPNIGSRPRIRDIPSRISIYWTIVKPGDILLINSTGNLIAPRGYFKIRSGKSSIMRSDAPIGECRSECITPNGSIPNDKPFQNVNRITYGACPRYVKQSTLKLATGMRNVPEKQTRGIFGAIAGFIENGWEGMVDGWYGFRHQNSEGRGQAADLKSTQAAIDQISGKLNRLIGKTNEKFHQIEKEFSEVEGRVQDLEKYVEDTKIDLWSYNAELLVALENQHTIDLTDSEMNKLFEKTKKQLRENAEDMGNGCFKIYHKCDNACIGSIRNETYDHNVYRDEALNNRFQIKGVELKSGYKDWILWI
+
+Read len(strain_prots)=75 strain proteins after skipping 1 with invalid residues
+
+Reading proteins from data/gisaid_circulating_h3.fasta, matching with maxdiff=1
+Dropped 0 for having an incomplete date
+Read 24469 sequences.
+Here are overall number matching each strain:
+                                        variant  n_sequences                                           sequence
+75                                        other         3441                                                NaN
+60       A/Texas/ISC-1148/2025|EPI_ISL_19759499         2600  PGNDNSTATLCLGHHAVPNGTIVKTITNDRIEVTNATELVQNSSIG...
+24     A/Massachusetts/93/2024|EPI_ISL_19646975         2124  PGNDDSTATLCLGHHAVPNGTIVKTITNDRIEVTNATELVQNSSIG...
+44  A/Queensland/IN000692/2024|EPI_ISL_19664768         1080  PGNDNSTATLCLGHHAVPNGTIVKTITNDRIEVTNATELVQNSSIG...
+72        A/Wisconsin/172/2024|EPI_ISL_19628110          868  PGNDNSTATLCLGHHAVPNGTIVKTITNDRIEVTNATELVQNSSIG...
+..                                          ...          ...                                                ...
+16     A/Ghana/FS-25-0256/2025|EPI_ISL_19762385            1  PGNDNSTATLCLGHHAVPNGTTVKTITNDRIEVTNATELVQNSSIG...
+69          A/Victoria/96/2025|EPI_ISL_19778249            1  PGNDNSTATLCLGHHAVPNGTMVKTITNDRIEVTNATELVQNSSIG...
+14  A/France/IDF-IPP29542/2023|EPI_ISL_19296342            0  PGNDNSTATLCLGHHAVPNGTIVKTITNDRIEVTNATELVQNSSIG...
+40         A/Norway/12374/2023|EPI_ISL_18949997            0  PGNDNSTATLCLGHHAVPNGTIVKTITNDRIEVTNATELVQNSSIG...
+55         A/Tasmania/788/2024|EPI_ISL_19561198            0  PGNDNSTATLCLGHHAVPNGTIVKTITNDRIEVTNATELVQNSSIG...
+
+[76 rows x 3 columns]
+Writing to results/strain_counts_h3/h3-gisaid-ha1-within1_counts_overall.csv
+
+Writing all strain matches to results/strain_counts_h3/h3-gisaid-ha1-within1_strain_matches.csv
+
+Writing strain counts by date to results/strain_counts_h3/h3-gisaid-ha1-within1_counts_by_date.csv
+
+Writing counts of sequences with no library matches to results/strain_counts_h3/h3-gisaid-ha1-within1_unmatched_sequence_counts.csv
+
+Writing counts of recent sequences with no library matches to results/strain_counts_h3/h3-gisaid-ha1-within1_counts_recent_unmatched_sequences.csv

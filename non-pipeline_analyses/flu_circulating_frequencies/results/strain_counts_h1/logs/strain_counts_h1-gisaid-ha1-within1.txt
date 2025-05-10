@@ -50,12 +50,12 @@ Here are overall number matching each strain:
 27        A/Uganda/UVRI_KIS6850_2024|EPI_ISL_19780477            7  DTLCIGYHANNSTDTVDTVLEKNVTVTHSVNLLEDNHNGKLCKLRG...
 5             A/KANAGAWA/AC2408/2025|EPI_ISL_19778353            6  DTLCIGYHANNSTDTVDTVLEKNVTVTHSVNLLEDKHDGKLCKLRG...
 9      A/Massachusetts/ISC-1679/2025|EPI_ISL_19791010            6  DTLCIGYHANNSTDTVDTVLEKNVTVTHSVNLLEDKHNGKLCKLRG...
-Writing to results/strain_counts/gisaid-ha1-within1_counts_overall.csv
+Writing to results/strain_counts_h1/h1-gisaid-ha1-within1_counts_overall.csv
 
-Writing all strain matches to results/strain_counts/gisaid-ha1-within1_strain_matches.csv
+Writing all strain matches to results/strain_counts_h1/h1-gisaid-ha1-within1_strain_matches.csv
 
-Writing strain counts by date to results/strain_counts/gisaid-ha1-within1_counts_by_date.csv
+Writing strain counts by date to results/strain_counts_h1/h1-gisaid-ha1-within1_counts_by_date.csv
 
-Writing counts of sequences with no library matches to results/strain_counts/gisaid-ha1-within1_unmatched_sequence_counts.csv
+Writing counts of sequences with no library matches to results/strain_counts_h1/h1-gisaid-ha1-within1_unmatched_sequence_counts.csv
 
-Writing counts of recent sequences with no library matches to results/strain_counts/gisaid-ha1-within1_counts_recent_unmatched_sequences.csv
+Writing counts of recent sequences with no library matches to results/strain_counts_h1/h1-gisaid-ha1-within1_counts_recent_unmatched_sequences.csv
