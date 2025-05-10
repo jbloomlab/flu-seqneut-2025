@@ -1,0 +1,13 @@
+Reading strain_prots from data/h1_strains.fasta
+Trimming to 20 to 348
+Skipping name='A/Shanghai-Jiading/SWL11039/2024|EPI_ISL_19599353' due to invalid residues:
+MKAILVVMLYTFTTANADTLCIGYHANNSTDTVDTVLEKNVTVTHSVNLLEDKHNGKLCKLRGVAPLHLGQCNIAGWILGNPECESLSTARSWSYIVETSNSDNGTCYPGDFINYEELREQLSSVSSFERFEIFPKASSWPNHDSDNGVTAACPHAGAKSFYKNLIWLVKKGKSYPKINQTYINDQGKEVLVLWGIHHPPTITDQESLYQNADAYVFVGTSRYSKMFKPEIATRPKVRDQAGRMNYYWTLVEPGDKITFEATGNLVAPRYAFTMEKDAGSGIIISDTPVHDCNTTCQTPEGAINTSLPFQNVHPITIGKCPKYVRSTKLRLATGLRNVPSIQSRGLFGAIAGFIEGGWTGMVDGWYGYHHQNEQGSGYAADLKSTQNAIDKITNKVNSVIEKMNTQFTAVGKEFNHLEKRIENLNKKVDDGFLDVWTYNAELLVLLENERXLDYHDSNVKNLYEKVRNQLKNNAKEIGNGCFEFYHKCDNTCMESVKNGTYDYPKYSEEAKLNREKIDGVKLDSTRIYQILAIY
+
+Read len(strain_prots)=39 strain proteins after skipping 1 with invalid residues
+
+Reading proteins from data/gisaid_circulating_h3.fasta, matching with maxdiff=1
+Traceback (most recent call last):
+  File "/fh/fast/bloom_j/computational_notebooks/ckikawa/2025/flu-seqneut-2025/non-pipeline_analyses/flu_circulating_frequencies/.snakemake/scripts/tmp02tp0s5h.strain_counts.py", line 90, in <module>
+    if m := strain_regex.search(p):
+            ^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
