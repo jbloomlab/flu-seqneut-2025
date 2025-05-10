@@ -10,6 +10,7 @@ dependencies:
   - jupyterlab
   - mafft
   - pandas
+  - papermill
   - regex
   - seaborn
   - snakemake
