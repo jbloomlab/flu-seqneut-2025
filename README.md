@@ -3,8 +3,8 @@ Experiments and analysis performed by Caroline Kikawa, using method and analysis
 
 ## Quick summary
 * The viruses included in the library are outlined here:
-    * Nucleotide and protein sequences in CSV format in [data/ha_sequences/flu-seqneut-2025-library.csv](data/ha_sequences/flu-seqneut-2025-library.csv)
-    * Protein sequences FASTA format are placed in [data/ha_sequences/library_2025_HA_ectodomain_protein_sequences.fasta](data/ha_sequences/library_2025_HA_ectodomain_protein_sequences.fasta)
+    * Nucleotide and protein **HA ectodomain only** sequences in CSV format in [data/ha_sequences/flu-seqneut-2025-library.csv](data/ha_sequences/flu-seqneut-2025-library.csv)
+    * Protein **HA ctodomain only** sequences FASTA format are placed in [data/ha_sequences/library_2025_HA_ectodomain_protein_sequences.fasta](data/ha_sequences/library_2025_HA_ectodomain_protein_sequences.fasta)
 * The library design is outlined in detail in [non-pipeline_analyses/library_design/](non-pipeline_analyses/library_design/)
 * The sera we will assay and their associated metadata are placed in [data/sera_metadata/](data/sera_metadata/)
     * The Seattle Children's Hospital (`SCH`) cohort in Seattle, Washington, United States of America [data/sera_metadata/SCH_metadata.csv](data/sera_metadata/SCH_metadata.csv)
