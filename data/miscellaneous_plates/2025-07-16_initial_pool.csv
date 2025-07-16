@@ -1,0 +1,17 @@
+﻿well,serum,dilution_factor,replicate,fastq
+A1,none,4,1,/shared/ngs/illumina/bloom_lab/250715_VH01189_386_AAH2JHKM5/Unaligned/Project_bloom_lab/virus_dilution_4_rep1_S1_R1_001.fastq.gz
+B1,none,4,2,/shared/ngs/illumina/bloom_lab/250715_VH01189_386_AAH2JHKM5/Unaligned/Project_bloom_lab/virus_dilution_4_rep2_S2_R1_001.fastq.gz
+A2,none,8,1,/shared/ngs/illumina/bloom_lab/250715_VH01189_386_AAH2JHKM5/Unaligned/Project_bloom_lab/virus_dilution_8_rep1_S3_R1_001.fastq.gz
+B2,none,8,2,/shared/ngs/illumina/bloom_lab/250715_VH01189_386_AAH2JHKM5/Unaligned/Project_bloom_lab/virus_dilution_8_rep2_S4_R1_001.fastq.gz
+A3,none,16,1,/shared/ngs/illumina/bloom_lab/250715_VH01189_386_AAH2JHKM5/Unaligned/Project_bloom_lab/virus_dilution_16_rep1_S5_R1_001.fastq.gz
+B3,none,16,2,/shared/ngs/illumina/bloom_lab/250715_VH01189_386_AAH2JHKM5/Unaligned/Project_bloom_lab/virus_dilution_16_rep2_S6_R1_001.fastq.gz
+A4,none,32,1,/shared/ngs/illumina/bloom_lab/250715_VH01189_386_AAH2JHKM5/Unaligned/Project_bloom_lab/virus_dilution_32_rep1_S7_R1_001.fastq.gz
+B4,none,32,2,/shared/ngs/illumina/bloom_lab/250715_VH01189_386_AAH2JHKM5/Unaligned/Project_bloom_lab/virus_dilution_32_rep2_S8_R1_001.fastq.gz
+A5,none,64,1,/shared/ngs/illumina/bloom_lab/250715_VH01189_386_AAH2JHKM5/Unaligned/Project_bloom_lab/virus_dilution_64_rep1_S9_R1_001.fastq.gz
+B5,none,64,2,/shared/ngs/illumina/bloom_lab/250715_VH01189_386_AAH2JHKM5/Unaligned/Project_bloom_lab/virus_dilution_64_rep2_S10_R1_001.fastq.gz
+A6,none,128,1,/shared/ngs/illumina/bloom_lab/250715_VH01189_386_AAH2JHKM5/Unaligned/Project_bloom_lab/virus_dilution_128_rep1_S11_R1_001.fastq.gz
+B6,none,128,2,/shared/ngs/illumina/bloom_lab/250715_VH01189_386_AAH2JHKM5/Unaligned/Project_bloom_lab/virus_dilution_128_rep2_S12_R1_001.fastq.gz
+A7,none,256,1,/shared/ngs/illumina/bloom_lab/250715_VH01189_386_AAH2JHKM5/Unaligned/Project_bloom_lab/virus_dilution_256_rep1_S13_R1_001.fastq.gz
+B7,none,256,2,/shared/ngs/illumina/bloom_lab/250715_VH01189_386_AAH2JHKM5/Unaligned/Project_bloom_lab/virus_dilution_256_rep2_S14_R1_001.fastq.gz
+A8,none,512,1,/shared/ngs/illumina/bloom_lab/250715_VH01189_386_AAH2JHKM5/Unaligned/Project_bloom_lab/virus_dilution_512_rep1_S15_R1_001.fastq.gz
+B8,none,512,2,/shared/ngs/illumina/bloom_lab/250715_VH01189_386_AAH2JHKM5/Unaligned/Project_bloom_lab/virus_dilution_512_rep2_S16_R1_001.fastq.gz
