@@ -6,8 +6,6 @@ _*
 docs/*
 !docs/*.html
 
-results/*
-
 !results/barcode_counts
 results/barcode_counts/*
 !results/barcode_counts/*.csv
@@ -18,7 +16,9 @@ results/plates/*/*
 !results/plates/*/curvefits.csv
 !results/plates/*/qc_drops.yml
 
-!results/miscellaneous_plates/*/*.csv
+!results/miscellaneous_plates
+results/miscellaneous_plates/*/*
+!results/miscellaneous/*/*.csv
 
 !results/sera
 results/sera/*/*
