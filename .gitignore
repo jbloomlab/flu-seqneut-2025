@@ -6,9 +6,14 @@ _*
 docs/*
 !docs/*.html
 
-results/*
+**/.ipynb_checkpoints/
+**/.ipynb_checkpoints/**
+**/.DS_Store
+**/._*
+**/.*
 
-!results/barcode_counts
+results/logs
+
 results/barcode_counts/*
 !results/barcode_counts/*.csv
 
@@ -17,6 +22,9 @@ results/plates/*/*
 !results/plates/*/frac_infectivity.csv
 !results/plates/*/curvefits.csv
 !results/plates/*/qc_drops.yml
+
+!results/miscellaneous_plates
+!results/miscellaneous/*/*
 
 !results/sera
 results/sera/*/*
