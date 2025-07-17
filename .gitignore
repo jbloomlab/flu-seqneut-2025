@@ -18,6 +18,8 @@ results/plates/*/*
 !results/plates/*/curvefits.csv
 !results/plates/*/qc_drops.yml
 
+!results/miscellaneous_plates/*/*.csv
+
 !results/sera
 results/sera/*/*
 !results/sera/sera_by_plate.csv
