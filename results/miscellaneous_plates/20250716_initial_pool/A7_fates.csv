@@ -1,7 +1,7 @@
 fate,count
-valid barcode,3650240
+valid barcode,3665456
 low quality barcode,286557
-invalid barcode,177523
+invalid barcode,162307
 invalid outer flank,157650
 unparseable barcode,51980
 read too short,0
