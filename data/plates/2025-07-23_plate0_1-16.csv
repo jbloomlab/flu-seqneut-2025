@@ -1,0 +1,17 @@
+well,serum,dilution_factor,replicate,fastq
+A7,PENN23_y1999_s048_d0,40,1,/shared/ngs/illumina/bloom_lab/20250728_LH00740_0111_A233MC7LT3/Unaligned/CK_20250725_repool/PlateA_49_S49_L001_R1_001.fastq.gz
+B7,PENN23_y1999_s048_d0,92,1,/shared/ngs/illumina/bloom_lab/20250728_LH00740_0111_A233MC7LT3/Unaligned/CK_20250725_repool/PlateA_50_S50_L001_R1_001.fastq.gz
+C7,PENN23_y1999_s048_d0,212,1,/shared/ngs/illumina/bloom_lab/20250728_LH00740_0111_A233MC7LT3/Unaligned/CK_20250725_repool/PlateA_51_S51_L001_R1_001.fastq.gz
+D7,PENN23_y1999_s048_d0,487,1,/shared/ngs/illumina/bloom_lab/20250728_LH00740_0111_A233MC7LT3/Unaligned/CK_20250725_repool/PlateA_52_S52_L001_R1_001.fastq.gz
+E7,PENN23_y1999_s048_d0,1119,1,/shared/ngs/illumina/bloom_lab/20250728_LH00740_0111_A233MC7LT3/Unaligned/CK_20250725_repool/PlateA_53_S53_L001_R1_001.fastq.gz
+F7,PENN23_y1999_s048_d0,2575,1,/shared/ngs/illumina/bloom_lab/20250728_LH00740_0111_A233MC7LT3/Unaligned/CK_20250725_repool/PlateA_54_S54_L001_R1_001.fastq.gz
+G7,PENN23_y1999_s048_d0,5921,1,/shared/ngs/illumina/bloom_lab/20250728_LH00740_0111_A233MC7LT3/Unaligned/CK_20250725_repool/PlateA_55_S55_L001_R1_001.fastq.gz
+H7,PENN23_y1999_s048_d0,13619,1,/shared/ngs/illumina/bloom_lab/20250728_LH00740_0111_A233MC7LT3/Unaligned/CK_20250725_repool/PlateA_56_S56_L001_R1_001.fastq.gz
+A8,none,,1,/shared/ngs/illumina/bloom_lab/20250728_LH00740_0111_A233MC7LT3/Unaligned/CK_20250725_repool/PlateA_57_S57_L001_R1_001.fastq.gz
+B8,none,,2,/shared/ngs/illumina/bloom_lab/20250728_LH00740_0111_A233MC7LT3/Unaligned/CK_20250725_repool/PlateA_58_S58_L001_R1_001.fastq.gz
+C8,none,,3,/shared/ngs/illumina/bloom_lab/20250728_LH00740_0111_A233MC7LT3/Unaligned/CK_20250725_repool/PlateA_59_S59_L001_R1_001.fastq.gz
+D8,none,,4,/shared/ngs/illumina/bloom_lab/20250728_LH00740_0111_A233MC7LT3/Unaligned/CK_20250725_repool/PlateA_60_S60_L001_R1_001.fastq.gz
+E8,none,,5,/shared/ngs/illumina/bloom_lab/20250728_LH00740_0111_A233MC7LT3/Unaligned/CK_20250725_repool/PlateA_61_S61_L001_R1_001.fastq.gz
+F8,none,,6,/shared/ngs/illumina/bloom_lab/20250728_LH00740_0111_A233MC7LT3/Unaligned/CK_20250725_repool/PlateA_62_S62_L001_R1_001.fastq.gz
+G8,none,,7,/shared/ngs/illumina/bloom_lab/20250728_LH00740_0111_A233MC7LT3/Unaligned/CK_20250725_repool/PlateA_63_S63_L001_R1_001.fastq.gz
+H8,none,,8,/shared/ngs/illumina/bloom_lab/20250728_LH00740_0111_A233MC7LT3/Unaligned/CK_20250725_repool/PlateA_64_S64_L001_R1_001.fastq.gz
