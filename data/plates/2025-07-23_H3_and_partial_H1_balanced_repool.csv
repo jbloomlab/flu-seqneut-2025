@@ -1,0 +1,17 @@
+﻿well,serum,dilution_factor,replicate,fastq
+A3,none,4,1,/shared/ngs/illumina/bloom_lab/250812_VH00699_579_AAH35MGM5/Unaligned/Project_bloom_lab/PlateA_17_S17_R1_001.fastq.gz
+B3,none,8,1,/shared/ngs/illumina/bloom_lab/250812_VH00699_579_AAH35MGM5/Unaligned/Project_bloom_lab/PlateA_18_S18_R1_001.fastq.gz
+C3,none,16,1,/shared/ngs/illumina/bloom_lab/250812_VH00699_579_AAH35MGM5/Unaligned/Project_bloom_lab/PlateA_19_S19_R1_001.fastq.gz
+D3,none,32,1,/shared/ngs/illumina/bloom_lab/250812_VH00699_579_AAH35MGM5/Unaligned/Project_bloom_lab/PlateA_20_S20_R1_001.fastq.gz
+E3,none,64,1,/shared/ngs/illumina/bloom_lab/250812_VH00699_579_AAH35MGM5/Unaligned/Project_bloom_lab/PlateA_21_S21_R1_001.fastq.gz
+F3,none,128,1,/shared/ngs/illumina/bloom_lab/250812_VH00699_579_AAH35MGM5/Unaligned/Project_bloom_lab/PlateA_22_S22_R1_001.fastq.gz
+G3,none,256,1,/shared/ngs/illumina/bloom_lab/250812_VH00699_579_AAH35MGM5/Unaligned/Project_bloom_lab/PlateA_23_S23_R1_001.fastq.gz
+H3,none,512,1,/shared/ngs/illumina/bloom_lab/250812_VH00699_579_AAH35MGM5/Unaligned/Project_bloom_lab/PlateA_24_S24_R1_001.fastq.gz
+A4,none,4,2,/shared/ngs/illumina/bloom_lab/250812_VH00699_579_AAH35MGM5/Unaligned/Project_bloom_lab/PlateA_25_S25_R1_001.fastq.gz
+B4,none,8,2,/shared/ngs/illumina/bloom_lab/250812_VH00699_579_AAH35MGM5/Unaligned/Project_bloom_lab/PlateA_26_S26_R1_001.fastq.gz
+C4,none,16,2,/shared/ngs/illumina/bloom_lab/250812_VH00699_579_AAH35MGM5/Unaligned/Project_bloom_lab/PlateA_27_S27_R1_001.fastq.gz
+D4,none,32,2,/shared/ngs/illumina/bloom_lab/250812_VH00699_579_AAH35MGM5/Unaligned/Project_bloom_lab/PlateA_28_S28_R1_001.fastq.gz
+E4,none,64,2,/shared/ngs/illumina/bloom_lab/250812_VH00699_579_AAH35MGM5/Unaligned/Project_bloom_lab/PlateA_29_S29_R1_001.fastq.gz
+F4,none,128,2,/shared/ngs/illumina/bloom_lab/250812_VH00699_579_AAH35MGM5/Unaligned/Project_bloom_lab/PlateA_30_S30_R1_001.fastq.gz
+G4,none,256,2,/shared/ngs/illumina/bloom_lab/250812_VH00699_579_AAH35MGM5/Unaligned/Project_bloom_lab/PlateA_31_S31_R1_001.fastq.gz
+H4,none,512,2,/shared/ngs/illumina/bloom_lab/250812_VH00699_579_AAH35MGM5/Unaligned/Project_bloom_lab/PlateA_32_S32_R1_001.fastq.gz
