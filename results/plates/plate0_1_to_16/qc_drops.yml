@@ -18,7 +18,6 @@ barcodes:
   CGAAGCTAGCCAAATA: min_neut_standard_frac_per_well
   CGTATTAACGTAACAC: min_neut_standard_frac_per_well
   CTAGTCACACGCACAC: min_neut_standard_frac_per_well
-  GACACAGAACCCATGC: min_neut_standard_frac_per_well
   GCCTAAGCGTGGGCGG: min_neut_standard_frac_per_well
   GCTTGTCGCAAACAGC: min_neut_standard_frac_per_well
   GTCTCCTGACTAAAAA: min_neut_standard_frac_per_well
@@ -35,22 +34,20 @@ barcode_wells:
   AGGTGGACGGGCATGG G7: max_frac_infectivity_per_viral_barcode_well
   AGTCCTATCCTCAAAT G7: max_frac_infectivity_per_viral_barcode_well
   TGGAATCGTCACCGAT H7: max_frac_infectivity_per_viral_barcode_well
-  AACCACCCCAGAGATG H7: max_frac_infectivity_per_viral_barcode_well
 barcode_serum_replicates:
   AAAGTAGCAGAGGATT PENN23_y1999_s048_d0: goodness_of_fit
+  AACTTCCGTCGCCTGA PENN23_y1999_s048_d0: goodness_of_fit
   AAGAAGCTATAGAAGT PENN23_y1999_s048_d0: goodness_of_fit
   AAGATTGATTGAAGTT PENN23_y1999_s048_d0: goodness_of_fit
   AAGGGGCCTCATAATG PENN23_y1999_s048_d0: goodness_of_fit
   AAGTTAGTAGACCCAC PENN23_y1999_s048_d0: goodness_of_fit
   ACCGAATGAATCATCC PENN23_y1999_s048_d0: goodness_of_fit
-  AGACCGCCAGTTTCGT PENN23_y1999_s048_d0: goodness_of_fit
   AGTTGGGGTCTCCCTT PENN23_y1999_s048_d0: goodness_of_fit
   ATACACGCATGTGCCA PENN23_y1999_s048_d0: goodness_of_fit
   ATTAGATTATAACGTA PENN23_y1999_s048_d0: goodness_of_fit
   CAATTCGCCGTTCCCC PENN23_y1999_s048_d0: goodness_of_fit
   CACCGCGCCGAGCACC PENN23_y1999_s048_d0: goodness_of_fit
   CCCTTTACGGATCTCT PENN23_y1999_s048_d0: goodness_of_fit
-  CCTGGGTTAAGTTGTG PENN23_y1999_s048_d0: goodness_of_fit
   CCTTGATGCATTCCCG PENN23_y1999_s048_d0: goodness_of_fit
   CTATAAACCGTTTGTA PENN23_y1999_s048_d0: goodness_of_fit
   CTCAATGTCGTAGGAT PENN23_y1999_s048_d0: goodness_of_fit
@@ -59,13 +56,11 @@ barcode_serum_replicates:
   GAGAGCTGCAGAAGCG PENN23_y1999_s048_d0: goodness_of_fit
   GATCGCCACTGATAAG PENN23_y1999_s048_d0: goodness_of_fit
   GCCAGCTCGTATCCCT PENN23_y1999_s048_d0: goodness_of_fit
-  GCCGCTGCGGCGTGTG PENN23_y1999_s048_d0: goodness_of_fit
   GCCTAAAGGATCATGA PENN23_y1999_s048_d0: goodness_of_fit
   GCCTTTGCGCGCAGTC PENN23_y1999_s048_d0: goodness_of_fit
   GTAAGCAAAGTTGACC PENN23_y1999_s048_d0: goodness_of_fit
   GTCGCATCCTGGAATG PENN23_y1999_s048_d0: goodness_of_fit
   GTTATTATGACTTCAT PENN23_y1999_s048_d0: goodness_of_fit
   TCACGACTCGACTAAC PENN23_y1999_s048_d0: goodness_of_fit
-  TCTTAGAGTGAACGAT PENN23_y1999_s048_d0: goodness_of_fit
   TTCTGTCCAGACTCGT PENN23_y1999_s048_d0: goodness_of_fit
 serum_replicates: {}

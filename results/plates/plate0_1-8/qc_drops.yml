@@ -11,6 +11,7 @@ barcodes:
   ATACGAGATACAAATG: min_neut_standard_frac_per_well
   CACAACGCACAATTAT: min_neut_standard_frac_per_well
   CAGTAGTTGTCATGGG: min_neut_standard_frac_per_well
+  CATGTGAATTCGCCCA: min_neut_standard_frac_per_well
   CCAATCCCAGCCTTTA: min_neut_standard_frac_per_well
   CCCGGGACCAAAACTG: min_neut_standard_frac_per_well
   CGAAGCTAGCCAAATA: min_neut_standard_frac_per_well
@@ -41,14 +42,11 @@ barcode_serum_replicates:
   AGGAGTATGAAGAGCG PENN23_y1999_s048_d0: goodness_of_fit
   AGGCCCGTAAGGACTA PENN23_y1999_s048_d0: goodness_of_fit
   AGTATTTGCGCTTCAA PENN23_y1999_s048_d0: goodness_of_fit
-  ATTATCATATCTAATA PENN23_y1999_s048_d0: goodness_of_fit
   CAGAACCTCGTTGTCT PENN23_y1999_s048_d0: goodness_of_fit
-  CAGGCTCTAGAGCTCT PENN23_y1999_s048_d0: goodness_of_fit
   CCCCTCCTCTAAAGTT PENN23_y1999_s048_d0: goodness_of_fit
   CCCTATGAAATAAGCT PENN23_y1999_s048_d0: goodness_of_fit
   CCCTTTACGGATCTCT PENN23_y1999_s048_d0: goodness_of_fit
   CCGCATTAGCGGGAGG PENN23_y1999_s048_d0: goodness_of_fit
-  CTATTTAACAGACGTA PENN23_y1999_s048_d0: goodness_of_fit
   CTCAATGTCGTAGGAT PENN23_y1999_s048_d0: goodness_of_fit
   CTGAGGGATTCAACTC PENN23_y1999_s048_d0: goodness_of_fit
   CTTAGGTATTATATGC PENN23_y1999_s048_d0: goodness_of_fit
