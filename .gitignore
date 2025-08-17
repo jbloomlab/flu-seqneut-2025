@@ -46,3 +46,5 @@ results/qc_drops/*
 results/miscellaneous_plates/*/*
 !results/miscellaneous_plates/*/*counts.csv
 !results/miscellaneous_plates/*/*fates.csv
+
+docs
