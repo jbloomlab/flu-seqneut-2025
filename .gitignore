@@ -6,16 +6,15 @@ _*
 docs/*
 !docs/*.html
 
-**/.ipynb_checkpoints/
-**/.ipynb_checkpoints/**
-**/.DS_Store
-**/._*
-**/.*
+results/*
 
-results/logs
-
+!results/barcode_counts
 results/barcode_counts/*
 !results/barcode_counts/*.csv
+
+!results/barcode_fates
+results/barcode_fates/*
+!results/barcode_fates/*.csv
 
 !results/plates
 results/plates/*/*
@@ -24,26 +23,28 @@ results/plates/*/*
 !results/plates/*/qc_drops.yml
 
 !results/miscellaneous_plates
-!results/miscellaneous/*/*
+results/miscellaneous_plates/*/*
+!results/miscellaneous_plates/*/*counts.csv
+!results/miscellaneous_plates/*/*fates.csv
 
 !results/sera
 results/sera/*/*
-!results/sera/sera_by_plate.csv
+!results/sera/groups_sera_by_plate.csv
 !results/sera/*/titers.csv
 !results/sera/*/titers_per_replicate.csv
 !results/sera/*/qc_drops.yml
 
 !results/aggregated_titers
 results/aggregated_titers/*
-!results/aggregated_titers/*.csv
+!results/aggregated_titers/titers*.csv
 
 !results/qc_drops
 results/qc_drops/*
-!results/qc_drops/plate_qc_drops.yml
-!results/qc_drops/sera_qc_drops.yml
+!results/qc_drops/*.yml
 
+!results/miscellaneous_plates
+results/miscellaneous_plates/*/*
+!results/miscellaneous_plates/*/*counts.csv
+!results/miscellaneous_plates/*/*fates.csv
 
-non-pipeline_analyses/nextstrain_tree_build/data/download/*
-non-pipeline_analyses/nextstrain_tree_build/data/concatenated_files/*
-
-non-pipeline_analyses/flu_circulating_frequencies/data/*
+docs
