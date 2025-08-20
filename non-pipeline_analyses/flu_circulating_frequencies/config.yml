@@ -1,16 +1,18 @@
 ###### Input ##########################################
 
 # Library strains
-# strain_prots: data/h3_strains.fasta
 strain_prots:
   h1: data/h1_strains.fasta
   h3: data/h3_strains.fasta
 
-# GISAID sequences
-# gisaid_prots: data/gisaid_circulating_h3.fasta
+# Circulating sequences
+# Per John, these are filtered records to keep those with Nextclade QC annotations of “good”, 
+# complete collection date (no missing day, month, or year), non-egg-passaged status,  
+# and minimum collection date of 16 months ago. 
+# They are NOT filtered for completeness or quality (ie, some may contain an 'X', etc.)
 gisaid_prots: 
-  h1: data/gisaid_circulating_h1.fasta
-  h3: data/gisaid_circulating_h3.fasta
+  h1: data/h1n1pdm_HA_with_metadata.fasta
+  h3: data/h3n2_HA_with_metadata.fasta
 
 # Specify protein sequences to search for matches to `strain_prots` to get the
 # counts of each strain (variant) at each time.
@@ -30,36 +32,35 @@ gisaid_prots:
 # each protein, and if it matches multiple strains they are each
 # assigned a fractional count. A differences is any of a single amino-acid
 # substitution, insertion, or deletion.
-protsets:
 
 protsets:
   h1-gisaid-ha1-within1:
-    protset: data/gisaid_circulating_h1.fasta
+    protset: data/h1n1pdm_HA_with_metadata.fasta
     trim: [18, 327]
     maxdiff: 1
     group: h1
   h1-gisaid-ha1-exact:
-    protset: data/gisaid_circulating_h1.fasta
+    protset: data/h1n1pdm_HA_with_metadata.fasta
     trim: [18, 327]
     maxdiff: 0
     group: h1
   h1-gisaid-ectodomain-within1:
-    protset: data/gisaid_circulating_h1.fasta
+    protset: data/h1n1pdm_HA_with_metadata.fasta
     trim: [18, 327]
     maxdiff: 1
     group: h1
   h3-gisaid-ha1-within1:
-    protset: data/gisaid_circulating_h3.fasta
+    protset: data/h3n2_HA_with_metadata.fasta
     trim: [20, 348]
     maxdiff: 1
     group: h3
   h3-gisaid-ha1-exact:
-    protset: data/gisaid_circulating_h3.fasta
+    protset: data/h3n2_HA_with_metadata.fasta
     trim: [20, 348]
     maxdiff: 0
     group: h3
   h3-gisaid-ectodomain-within1:
-    protset: data/gisaid_circulating_h3.fasta
+    protset: data/h3n2_HA_with_metadata.fasta
     trim: [20, 533]
     maxdiff: 1
     group: h3
