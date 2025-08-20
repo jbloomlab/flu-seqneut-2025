@@ -48,3 +48,5 @@ results/miscellaneous_plates/*/*
 !results/miscellaneous_plates/*/*fates.csv
 
 docs
+
+non-pipeline_analyses/flu_circulating_frequencies/data/
