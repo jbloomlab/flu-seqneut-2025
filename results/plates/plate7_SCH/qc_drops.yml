@@ -1,0 +1,83 @@
+wells: {}
+barcodes:
+  AAGGACCAAGCCTTCA: min_neut_standard_frac_per_well
+  AAGTAAACATAGACGA: min_neut_standard_frac_per_well
+  AATACACAGGATTGCA: min_neut_standard_frac_per_well
+  AATCAAAAAAATCACC: min_neut_standard_frac_per_well
+  AATCCGAAATTTATTC: min_neut_standard_frac_per_well
+  AATTGAACGTCATACC: min_neut_standard_frac_per_well
+  AATTTATCCGAGAGCG: min_neut_standard_frac_per_well
+  AGAAGAAGTAATTGGC: min_neut_standard_frac_per_well
+  AGACTAGGAAAGCGAA: min_neut_standard_frac_per_well
+  ATACGAGATACAAATG: min_neut_standard_frac_per_well
+  CACAACGCACAATTAT: min_neut_standard_frac_per_well
+  CATGTGAATTCGCCCA: min_neut_standard_frac_per_well
+  CCCGGGACCAAAACTG: min_neut_standard_frac_per_well
+  CGAAGCTAGCCAAATA: min_neut_standard_frac_per_well
+  CGTATTAACGTAACAC: min_neut_standard_frac_per_well
+  CTAGTCACACGCACAC: min_neut_standard_frac_per_well
+  GCCTAAGCGTGGGCGG: min_neut_standard_frac_per_well
+  GCTTGTCGCAAACAGC: min_neut_standard_frac_per_well
+  GTCTCCTGACTAAAAA: min_neut_standard_frac_per_well
+  TAGGCATCGCTGTGTC: min_neut_standard_frac_per_well
+  TATATAAGCCTGTGAG: min_neut_standard_frac_per_well
+  TATTAATACCTGGGAA: min_neut_standard_frac_per_well
+  TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
+  TCGGAGCGTAAAGAAT: min_neut_standard_frac_per_well
+  TTACTACACTTTGCAA: min_neut_standard_frac_per_well
+  TTGCAAAAAGTTTTAG: min_neut_standard_frac_per_well
+  TTGCATAGATGTAATC: min_neut_standard_frac_per_well
+barcode_wells:
+  GACACAGAACCCATGC D12: min_no_serum_count_per_viral_barcode_well
+  CCCTCCTCAAGGGTAA D12: min_no_serum_count_per_viral_barcode_well
+  CAATTCGCCGTTCCCC D8: max_frac_infectivity_per_viral_barcode_well
+  ACGTGTCTCCGAGCAA F8: max_frac_infectivity_per_viral_barcode_well
+  AGCGACATCGCCCTTT F9: max_frac_infectivity_per_viral_barcode_well
+  GACACAGAACCCATGC F9: max_frac_infectivity_per_viral_barcode_well
+  CCCTCCTCAAGGGTAA F9: max_frac_infectivity_per_viral_barcode_well
+  AACCACCCCAGAGATG G9: max_frac_infectivity_per_viral_barcode_well
+  CCCTCCTCAAGGGTAA H9: max_frac_infectivity_per_viral_barcode_well
+  CCCTCCTCAAGGGTAA D10: max_frac_infectivity_per_viral_barcode_well
+  TGTTGTAATCTGAATA E10: max_frac_infectivity_per_viral_barcode_well
+  CGTACGTATGTCCCAG E10: max_frac_infectivity_per_viral_barcode_well
+  AAGGGGCCTCATAATG F10: max_frac_infectivity_per_viral_barcode_well
+  TATACTCACGGAGGAT G10: max_frac_infectivity_per_viral_barcode_well
+  CCCTCCTCAAGGGTAA H10: max_frac_infectivity_per_viral_barcode_well
+  CCAATCCCAGCCTTTA E11: max_frac_infectivity_per_viral_barcode_well
+  CCCTCCTCAAGGGTAA F11: max_frac_infectivity_per_viral_barcode_well
+  TATACTCACGGAGGAT G11: max_frac_infectivity_per_viral_barcode_well
+barcode_serum_replicates:
+  AAGGGGCCTCATAATG SCH_1: goodness_of_fit
+  ACTCTGGCTCGCTAAT SCH_1: goodness_of_fit
+  AGCGACATCGCCCTTT SCH_1: goodness_of_fit
+  CCCCTCCTCTAAAGTT SCH_1: goodness_of_fit
+  CGCACTTTACGAGACA SCH_1: goodness_of_fit
+  GTAAGCTTCATGGAGT SCH_1: goodness_of_fit
+  TCTCAGCTCTTAGCCG SCH_1: goodness_of_fit
+  AACCACCCCAGAGATG SCH_3: goodness_of_fit
+  AACTTCCGTCGCCTGA SCH_3: goodness_of_fit
+  ACTCTGGCTCGCTAAT SCH_3: goodness_of_fit
+  ATAACGTTTGTGCAAA SCH_3: goodness_of_fit
+  ATTTACTCATTATACG SCH_3: goodness_of_fit
+  CAATTCGCCGTTCCCC SCH_3: goodness_of_fit
+  CCAATCCCAGCCTTTA SCH_3: goodness_of_fit
+  CGAACCGCAGACACGT SCH_3: goodness_of_fit
+  CGGGAATCTCCCATAC SCH_3: goodness_of_fit
+  CGTTCAGCGATAACGG SCH_3: goodness_of_fit
+  CTGTACCTGCAGTTGA SCH_3: goodness_of_fit
+  GAAGTGCGTATTGAGT SCH_3: goodness_of_fit
+  GGTTAACTTTGGAAGC SCH_3: goodness_of_fit
+  GTAATTCGCATGCGGA SCH_3: goodness_of_fit
+  GTTGCTCCGACACGCC SCH_3: goodness_of_fit
+  TACCAATGTCATTTGA SCH_3: goodness_of_fit
+  TACTAGCAATAAAATC SCH_3: goodness_of_fit
+  TGATCTGTGACATTGC SCH_3: goodness_of_fit
+  TTGACTCACCGAATAA SCH_3: goodness_of_fit
+  TTTATATCCAACACCA SCH_3: goodness_of_fit
+  AGACCATCGCACCCAA SCH_4: goodness_of_fit
+  AGGCCCGTAAGGACTA SCH_4: goodness_of_fit
+  AGTGTTGGCTTGGTTA SCH_4: goodness_of_fit
+  CACCGCGCCGAGCACC SCH_4: goodness_of_fit
+  TCTCAGCTCTTAGCCG SCH_4: goodness_of_fit
+  TGATCTGTGACATTGC SCH_4: goodness_of_fit
+serum_replicates: {}

@@ -1,0 +1,350 @@
+wells:
+  F2: avg_barcode_counts_per_well
+barcodes:
+  AAGGACCAAGCCTTCA: min_neut_standard_frac_per_well
+  AAGTAAACATAGACGA: min_neut_standard_frac_per_well
+  AATACACAGGATTGCA: min_neut_standard_frac_per_well
+  AATCAAAAAAATCACC: min_neut_standard_frac_per_well
+  AATCCGAAATTTATTC: min_neut_standard_frac_per_well
+  AATTGAACGTCATACC: min_neut_standard_frac_per_well
+  AATTTATCCGAGAGCG: min_neut_standard_frac_per_well
+  AGAAGAAGTAATTGGC: min_neut_standard_frac_per_well
+  AGACTAGGAAAGCGAA: min_neut_standard_frac_per_well
+  ATACGAGATACAAATG: min_neut_standard_frac_per_well
+  CACAACGCACAATTAT: min_neut_standard_frac_per_well
+  CATGTGAATTCGCCCA: min_neut_standard_frac_per_well
+  CCAATCCCAGCCTTTA: min_neut_standard_frac_per_well
+  CCCGGGACCAAAACTG: min_neut_standard_frac_per_well
+  CCCTCCTCAAGGGTAA: min_neut_standard_frac_per_well
+  CGAAGCTAGCCAAATA: min_neut_standard_frac_per_well
+  CGTATTAACGTAACAC: min_neut_standard_frac_per_well
+  CTAGTCACACGCACAC: min_neut_standard_frac_per_well
+  GCCTAAGCGTGGGCGG: min_neut_standard_frac_per_well
+  GCTTGTCGCAAACAGC: min_neut_standard_frac_per_well
+  GTCTCCTGACTAAAAA: min_neut_standard_frac_per_well
+  TAGGCATCGCTGTGTC: min_neut_standard_frac_per_well
+  TATATAAGCCTGTGAG: min_neut_standard_frac_per_well
+  TATTAATACCTGGGAA: min_neut_standard_frac_per_well
+  TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
+  TCGGAGCGTAAAGAAT: min_neut_standard_frac_per_well
+  TTACTACACTTTGCAA: min_neut_standard_frac_per_well
+  TTGCAAAAAGTTTTAG: min_neut_standard_frac_per_well
+  TTGCATAGATGTAATC: min_neut_standard_frac_per_well
+barcode_wells:
+  GACACAGAACCCATGC D12: min_no_serum_count_per_viral_barcode_well
+  AACCACCCCAGAGATG C1: max_frac_infectivity_per_viral_barcode_well
+  TATACTCACGGAGGAT F1: max_frac_infectivity_per_viral_barcode_well
+  CAATTCGCCGTTCCCC F1: max_frac_infectivity_per_viral_barcode_well
+  CCTTTCTCAAAACATA H1: max_frac_infectivity_per_viral_barcode_well
+  CTTACTGCGCGAGAGT E2: max_frac_infectivity_per_viral_barcode_well
+  AGGTGGACGGGCATGG E2: max_frac_infectivity_per_viral_barcode_well
+  TATACTCACGGAGGAT G2: max_frac_infectivity_per_viral_barcode_well
+  AAATGTTTAATAGACG G2: max_frac_infectivity_per_viral_barcode_well
+  AGAGCTAAAAAGAGGA A3: max_frac_infectivity_per_viral_barcode_well
+  CCTTTCTCAAAACATA A3: max_frac_infectivity_per_viral_barcode_well
+  AACCACCCCAGAGATG B3: max_frac_infectivity_per_viral_barcode_well
+  TTAATGTAGCCGCTCC C3: max_frac_infectivity_per_viral_barcode_well
+  AACCGTACCGCGTTTA D3: max_frac_infectivity_per_viral_barcode_well
+  CCTTTCTCAAAACATA D3: max_frac_infectivity_per_viral_barcode_well
+  CGGGAATCTCCCATAC E3: max_frac_infectivity_per_viral_barcode_well
+  ATTTACTCATTATACG E3: max_frac_infectivity_per_viral_barcode_well
+  TGTTGTAATCTGAATA F3: max_frac_infectivity_per_viral_barcode_well
+  ATGGCCCACGGGCATA G3: max_frac_infectivity_per_viral_barcode_well
+  GACGGGATGGGCACGT G3: max_frac_infectivity_per_viral_barcode_well
+  GCAACAGTCCTAGCAA G3: max_frac_infectivity_per_viral_barcode_well
+  TCGAGTTAATATGCGC H3: max_frac_infectivity_per_viral_barcode_well
+  CGATCTTTACGAAAAA H3: max_frac_infectivity_per_viral_barcode_well
+  CATAAAAGACTGTATA A4: max_frac_infectivity_per_viral_barcode_well
+  CACAGACAATAAAAAA A4: max_frac_infectivity_per_viral_barcode_well
+  CCTTTCTCAAAACATA A4: max_frac_infectivity_per_viral_barcode_well
+  GCCTTTGCGCGCAGTC B4: max_frac_infectivity_per_viral_barcode_well
+  GATTCAGATGCCCACC B4: max_frac_infectivity_per_viral_barcode_well
+  AAGGGGCCTCATAATG C4: max_frac_infectivity_per_viral_barcode_well
+  TGGTCCGCTTCATGCT C4: max_frac_infectivity_per_viral_barcode_well
+  TACTAGCAATAAAATC C4: max_frac_infectivity_per_viral_barcode_well
+  TCCCCGTGGTTTGACA C4: max_frac_infectivity_per_viral_barcode_well
+  GATCGCCACTGATAAG D4: max_frac_infectivity_per_viral_barcode_well
+  GACACAGAACCCATGC D4: max_frac_infectivity_per_viral_barcode_well
+  TATACTCACGGAGGAT E4: max_frac_infectivity_per_viral_barcode_well
+  CACAGACAATAAAAAA E4: max_frac_infectivity_per_viral_barcode_well
+  ATAACGTTTGTGCAAA F4: max_frac_infectivity_per_viral_barcode_well
+  AAATGTTTAATAGACG F4: max_frac_infectivity_per_viral_barcode_well
+  TATACTCACGGAGGAT G4: max_frac_infectivity_per_viral_barcode_well
+  TTGAAAAAATCATAAA G4: max_frac_infectivity_per_viral_barcode_well
+  AAATGTTTAATAGACG G4: max_frac_infectivity_per_viral_barcode_well
+  TATCCAAGGGACGGAC H4: max_frac_infectivity_per_viral_barcode_well
+  AGGTGGACGGGCATGG H4: max_frac_infectivity_per_viral_barcode_well
+  GACACAGAACCCATGC H4: max_frac_infectivity_per_viral_barcode_well
+  CGTTAACGGCCTATCC A5: max_frac_infectivity_per_viral_barcode_well
+  AGGTGGACGGGCATGG B5: max_frac_infectivity_per_viral_barcode_well
+  CAGATAGTGATGAACA E5: max_frac_infectivity_per_viral_barcode_well
+  CCGCATTAGCGGGAGG E5: max_frac_infectivity_per_viral_barcode_well
+  AGGTGGACGGGCATGG E5: max_frac_infectivity_per_viral_barcode_well
+  GCCTTTGCGCGCAGTC F5: max_frac_infectivity_per_viral_barcode_well
+  CGATCTTTACGAAAAA F5: max_frac_infectivity_per_viral_barcode_well
+  CGTTAACGGCCTATCC F5: max_frac_infectivity_per_viral_barcode_well
+  AACCACCCCAGAGATG G5: max_frac_infectivity_per_viral_barcode_well
+  CCTTTCTCAAAACATA G5: max_frac_infectivity_per_viral_barcode_well
+  GCCGCTGCGGCGTGTG G5: max_frac_infectivity_per_viral_barcode_well
+  CAGATAGTGATGAACA H5: max_frac_infectivity_per_viral_barcode_well
+  ACAGTACGATCTACGC A6: max_frac_infectivity_per_viral_barcode_well
+  AGCGACATCGCCCTTT D6: max_frac_infectivity_per_viral_barcode_well
+  TATACTCACGGAGGAT E6: max_frac_infectivity_per_viral_barcode_well
+  AACCACCCCAGAGATG E6: max_frac_infectivity_per_viral_barcode_well
+  TTAATGTAGCCGCTCC E6: max_frac_infectivity_per_viral_barcode_well
+  GGTTAACTTTGGAAGC F6: max_frac_infectivity_per_viral_barcode_well
+  TATACTCACGGAGGAT F6: max_frac_infectivity_per_viral_barcode_well
+  AACCGTACCGCGTTTA F6: max_frac_infectivity_per_viral_barcode_well
+  TTAATGTAGCCGCTCC G6: max_frac_infectivity_per_viral_barcode_well
+  AGTCCTATCCTCAAAT G6: max_frac_infectivity_per_viral_barcode_well
+  AACCACCCCAGAGATG A7: max_frac_infectivity_per_viral_barcode_well
+  AAATTCACAATATCCA D7: max_frac_infectivity_per_viral_barcode_well
+  AACCACCCCAGAGATG E7: max_frac_infectivity_per_viral_barcode_well
+  CATAAAAGACTGTATA F7: max_frac_infectivity_per_viral_barcode_well
+  TGTTGTAATCTGAATA F7: max_frac_infectivity_per_viral_barcode_well
+  GACACAGAACCCATGC F7: max_frac_infectivity_per_viral_barcode_well
+  TATACTCACGGAGGAT G7: max_frac_infectivity_per_viral_barcode_well
+  AGTCCTATCCTCAAAT G7: max_frac_infectivity_per_viral_barcode_well
+  AAATGTTTAATAGACG G7: max_frac_infectivity_per_viral_barcode_well
+  CATGGGAATTGCCACT H7: max_frac_infectivity_per_viral_barcode_well
+  TAAAAAGCCTCCATGA H7: max_frac_infectivity_per_viral_barcode_well
+  CGGCCAGGGAATCAAA H7: max_frac_infectivity_per_viral_barcode_well
+  ACTCTGGCTCGCTAAT H7: max_frac_infectivity_per_viral_barcode_well
+  CAGATAGTGATGAACA H7: max_frac_infectivity_per_viral_barcode_well
+  GTGCATCCTAGTGACG H7: max_frac_infectivity_per_viral_barcode_well
+  CCGCATTAGCGGGAGG H7: max_frac_infectivity_per_viral_barcode_well
+  AGGTGGACGGGCATGG H7: max_frac_infectivity_per_viral_barcode_well
+  CAGTAGTTGTCATGGG H7: max_frac_infectivity_per_viral_barcode_well
+  CCTTTCTCAAAACATA H7: max_frac_infectivity_per_viral_barcode_well
+  AGGTGGACGGGCATGG B8: max_frac_infectivity_per_viral_barcode_well
+  AACCACCCCAGAGATG D8: max_frac_infectivity_per_viral_barcode_well
+  GATCGCCACTGATAAG E8: max_frac_infectivity_per_viral_barcode_well
+  ACGCAAATAGACCGAA F8: max_frac_infectivity_per_viral_barcode_well
+  AAATTCACAATATCCA F8: max_frac_infectivity_per_viral_barcode_well
+  CACCAATCTTCGAACT G8: max_frac_infectivity_per_viral_barcode_well
+  CAAAATCTACGGCGAC H8: max_frac_infectivity_per_viral_barcode_well
+  CGTTTTTGGTTCGAGG H8: max_frac_infectivity_per_viral_barcode_well
+  AGTCCTATCCTCAAAT H8: max_frac_infectivity_per_viral_barcode_well
+  AAATGTTTAATAGACG H8: max_frac_infectivity_per_viral_barcode_well
+  AAAGTAGCAGAGGATT E9: max_frac_infectivity_per_viral_barcode_well
+  AACTTCCCTGACTGCT H9: max_frac_infectivity_per_viral_barcode_well
+  CAAAATCTACGGCGAC H9: max_frac_infectivity_per_viral_barcode_well
+  TCACGACTCGACTAAC H9: max_frac_infectivity_per_viral_barcode_well
+  GACACAGAACCCATGC H9: max_frac_infectivity_per_viral_barcode_well
+  GACGGGATGGGCACGT D10: max_frac_infectivity_per_viral_barcode_well
+  AGACCATCGCACCCAA D10: max_frac_infectivity_per_viral_barcode_well
+  CCTTTCTCAAAACATA F10: max_frac_infectivity_per_viral_barcode_well
+  AACCGTACCGCGTTTA G10: max_frac_infectivity_per_viral_barcode_well
+  AAATGTTTAATAGACG G10: max_frac_infectivity_per_viral_barcode_well
+  CGGCCAGGGAATCAAA H10: max_frac_infectivity_per_viral_barcode_well
+  AGGTGGACGGGCATGG D11: max_frac_infectivity_per_viral_barcode_well
+  GCCGCTGCGGCGTGTG G11: max_frac_infectivity_per_viral_barcode_well
+  AACCGTACCGCGTTTA H11: max_frac_infectivity_per_viral_barcode_well
+  GATCGCCACTGATAAG H11: max_frac_infectivity_per_viral_barcode_well
+barcode_serum_replicates:
+  AAAGACCTTTAACTCT FCI_1: goodness_of_fit
+  AAAGGCGCGCCTTCAA FCI_1: goodness_of_fit
+  AACCACCCCAGAGATG FCI_1: goodness_of_fit
+  ATTAGATTATAACGTA FCI_1: goodness_of_fit
+  CAATTCGCCGTTCCCC FCI_1: goodness_of_fit
+  CACCGCGCCGAGCACC FCI_1: goodness_of_fit
+  CATAAAAGACTGTATA FCI_1: goodness_of_fit
+  CCGCATTAGCGGGAGG FCI_1: goodness_of_fit
+  CGTTCAGCGATAACGG FCI_1: goodness_of_fit
+  CTGTACCTGCAGTTGA FCI_1: goodness_of_fit
+  TATCCAAGGGACGGAC FCI_1: goodness_of_fit
+  TCTCAGCTCTTAGCCG FCI_1: goodness_of_fit
+  TGATCTGTGACATTGC FCI_1: goodness_of_fit
+  AAAGTAGCAGAGGATT FCI_10: goodness_of_fit
+  AAATGTTTAATAGACG FCI_10: goodness_of_fit
+  AAATTCACAATATCCA FCI_10: goodness_of_fit
+  AAGTTAGTAGACCCAC FCI_10: goodness_of_fit
+  CAATTCGCCGTTCCCC FCI_10: goodness_of_fit
+  CGGGAATCTCCCATAC FCI_10: goodness_of_fit
+  CTCTTACGCTCCTACG FCI_10: goodness_of_fit
+  GAAATCCCCAAATAAC FCI_10: goodness_of_fit
+  GAAGTACGCTGAATGA FCI_10: goodness_of_fit
+  GAAGTGCGTATTGAGT FCI_10: goodness_of_fit
+  GACACAGAACCCATGC FCI_10: goodness_of_fit
+  GAGCTTGCTATGGATC FCI_10: goodness_of_fit
+  GCAAACAGTGTAGTTG FCI_10: goodness_of_fit
+  GCAACGAGGTGTAACC FCI_10: goodness_of_fit
+  GCATGGAACTAACTCC FCI_10: goodness_of_fit
+  GTCGCCGCTAATCCGA FCI_10: goodness_of_fit
+  GTTGCTCCGACACGCC FCI_10: goodness_of_fit
+  TATACTCACGGAGGAT FCI_10: goodness_of_fit
+  TCTCAGCTCTTAGCCG FCI_10: goodness_of_fit
+  TCTTAGAGTGAACGAT FCI_10: goodness_of_fit
+  TGTAATAGGCGTCACA FCI_10: goodness_of_fit
+  AACCGTACCGCGTTTA FCI_11: goodness_of_fit
+  ACGGGGATTGGCTGTT FCI_11: goodness_of_fit
+  ATTTACTCATTATACG FCI_11: goodness_of_fit
+  CACCTAGGATCGCACT FCI_11: goodness_of_fit
+  CAGTAGTTGTCATGGG FCI_11: goodness_of_fit
+  CCGCATTAGCGGGAGG FCI_11: goodness_of_fit
+  CCGCGCACGTTTAGAG FCI_11: goodness_of_fit
+  CCTTTCTCAAAACATA FCI_11: goodness_of_fit
+  CGATCTTTACGAAAAA FCI_11: goodness_of_fit
+  CGCACTTTACGAGACA FCI_11: goodness_of_fit
+  CGGGGACAAGATTGTA FCI_11: goodness_of_fit
+  CGTACAGTGTAATCGA FCI_11: goodness_of_fit
+  GACACAGAACCCATGC FCI_11: goodness_of_fit
+  GCAACGAGGTGTAACC FCI_11: goodness_of_fit
+  GTAAGCTTCATGGAGT FCI_11: goodness_of_fit
+  GTAATTCGCATGCGGA FCI_11: goodness_of_fit
+  TACATACCGACGCAGT FCI_11: goodness_of_fit
+  TATACTCACGGAGGAT FCI_11: goodness_of_fit
+  TATTCCTAACTAGCGA FCI_11: goodness_of_fit
+  TGAGTTCATAGCTCCA FCI_11: goodness_of_fit
+  TGGAATCGTCACCGAT FCI_11: goodness_of_fit
+  AAAGACCTTTAACTCT FCI_2: goodness_of_fit
+  AACCACCCCAGAGATG FCI_2: goodness_of_fit
+  AACTTCCGTCGCCTGA FCI_2: goodness_of_fit
+  AGACCATCGCACCCAA FCI_2: goodness_of_fit
+  AGACCGCCAGTTTCGT FCI_2: goodness_of_fit
+  AGGTGGACGGGCATGG FCI_2: goodness_of_fit
+  AGTGTTGGCTTGGTTA FCI_2: goodness_of_fit
+  ATTTTTCTATGGCTAC FCI_2: goodness_of_fit
+  CACCTAGGATCGCACT FCI_2: goodness_of_fit
+  CGTACGTATGTCCCAG FCI_2: goodness_of_fit
+  CGTTCAGCGATAACGG FCI_2: goodness_of_fit
+  GAGCTTGCTATGGATC FCI_2: goodness_of_fit
+  TATCCAAGGGACGGAC FCI_2: goodness_of_fit
+  AACCGTACCGCGTTTA FCI_3: goodness_of_fit
+  CATGGGAATTGCCACT FCI_3: goodness_of_fit
+  CCTTTCTCAAAACATA FCI_3: goodness_of_fit
+  CGATCTTTACGAAAAA FCI_3: goodness_of_fit
+  CGGGAATCTCCCATAC FCI_3: goodness_of_fit
+  GTAAGCTTCATGGAGT FCI_3: goodness_of_fit
+  TATTCCTAACTAGCGA FCI_3: goodness_of_fit
+  TTTATATCCAACACCA FCI_3: goodness_of_fit
+  AACCACCCCAGAGATG FCI_4: goodness_of_fit
+  AGTCCTATCCTCAAAT FCI_4: goodness_of_fit
+  CACCGCGCCGAGCACC FCI_4: goodness_of_fit
+  CCTTTCTCAAAACATA FCI_4: goodness_of_fit
+  CGGGAATCTCCCATAC FCI_4: goodness_of_fit
+  GAAAGCCCCGTGCAAT FCI_4: goodness_of_fit
+  GTAATTCGCATGCGGA FCI_4: goodness_of_fit
+  TATACTCACGGAGGAT FCI_4: goodness_of_fit
+  TATCCAAGGGACGGAC FCI_4: goodness_of_fit
+  TCGATTACTAGCCGGA FCI_4: goodness_of_fit
+  TGATCTTTTACATTTA FCI_4: goodness_of_fit
+  AACCACCCCAGAGATG FCI_5: goodness_of_fit
+  ACGGGGATTGGCTGTT FCI_5: goodness_of_fit
+  AGACCATCGCACCCAA FCI_5: goodness_of_fit
+  AGCTGAATTAAGTATG FCI_5: goodness_of_fit
+  AGTCCTATCCTCAAAT FCI_5: goodness_of_fit
+  ATAGAATCGCAAATTA FCI_5: goodness_of_fit
+  ATTAGATTATAACGTA FCI_5: goodness_of_fit
+  CATAAAAGACTGTATA FCI_5: goodness_of_fit
+  CCGCATTAGCGGGAGG FCI_5: goodness_of_fit
+  CCTTTCTCAAAACATA FCI_5: goodness_of_fit
+  CGGGAATCTCCCATAC FCI_5: goodness_of_fit
+  CGTTCAGCGATAACGG FCI_5: goodness_of_fit
+  CTCAATGTCGTAGGAT FCI_5: goodness_of_fit
+  GCATCCTCAACTCCTA FCI_5: goodness_of_fit
+  GTCCGTCAGCATAAAC FCI_5: goodness_of_fit
+  GTTGCTCCGACACGCC FCI_5: goodness_of_fit
+  TACATACCGACGCAGT FCI_5: goodness_of_fit
+  TATACTCACGGAGGAT FCI_5: goodness_of_fit
+  TATCCAAGGGACGGAC FCI_5: goodness_of_fit
+  TCGATTACTAGCCGGA FCI_5: goodness_of_fit
+  TGTAATAGGCGTCACA FCI_5: goodness_of_fit
+  TTTATATCCAACACCA FCI_5: goodness_of_fit
+  AAAGACCTTTAACTCT FCI_6: goodness_of_fit
+  AAATTCACAATATCCA FCI_6: goodness_of_fit
+  AACCACCCCAGAGATG FCI_6: goodness_of_fit
+  AACCGTACCGCGTTTA FCI_6: goodness_of_fit
+  AACTTCCGTCGCCTGA FCI_6: goodness_of_fit
+  ACAATCTGAACCATAC FCI_6: goodness_of_fit
+  ACTCTGGCTCGCTAAT FCI_6: goodness_of_fit
+  ATTTACTCATTATACG FCI_6: goodness_of_fit
+  CACCAATCTTCGAACT FCI_6: goodness_of_fit
+  CACCGCGCCGAGCACC FCI_6: goodness_of_fit
+  CCCCCGCTGTTTAAAA FCI_6: goodness_of_fit
+  CGGGGACAAGATTGTA FCI_6: goodness_of_fit
+  CGTTAACGGCCTATCC FCI_6: goodness_of_fit
+  CTTTTCTAGTACGCTT FCI_6: goodness_of_fit
+  GACACAGAACCCATGC FCI_6: goodness_of_fit
+  GCAGCGTGCCGGTCAT FCI_6: goodness_of_fit
+  GTGAGCGAGAAAAGCA FCI_6: goodness_of_fit
+  TATACTCACGGAGGAT FCI_6: goodness_of_fit
+  TCTGGAAACGATCCCC FCI_6: goodness_of_fit
+  TGTAATAGGCGTCACA FCI_6: goodness_of_fit
+  TTGACTCACCGAATAA FCI_6: goodness_of_fit
+  TTGGGCACTAAATTAA FCI_6: goodness_of_fit
+  AAAGACCTTTAACTCT FCI_7: goodness_of_fit
+  AAAGTAGCAGAGGATT FCI_7: goodness_of_fit
+  AACCACCCCAGAGATG FCI_7: goodness_of_fit
+  AACTTCCCTGACTGCT FCI_7: goodness_of_fit
+  AAGATTGATTGAAGTT FCI_7: goodness_of_fit
+  ACAAGATTCGGGGGAC FCI_7: goodness_of_fit
+  ACTCTGGCTCGCTAAT FCI_7: goodness_of_fit
+  AGACCGCCAGTTTCGT FCI_7: goodness_of_fit
+  AGATCCACCCTATAGT FCI_7: goodness_of_fit
+  AGGAGTATGAAGAGCG FCI_7: goodness_of_fit
+  AGTTTTTATAACTTGC FCI_7: goodness_of_fit
+  ATTAGATTATAACGTA FCI_7: goodness_of_fit
+  ATTAGGGCTACGTGAG FCI_7: goodness_of_fit
+  ATTATCATATCTAATA FCI_7: goodness_of_fit
+  CAAATGCTGCATTAGG FCI_7: goodness_of_fit
+  CATGGGAATTGCCACT FCI_7: goodness_of_fit
+  CATGTGGAGCCCAACA FCI_7: goodness_of_fit
+  CCCCTCCTCTAAAGTT FCI_7: goodness_of_fit
+  CCTTTCTCAAAACATA FCI_7: goodness_of_fit
+  CGATCTTTACGAAAAA FCI_7: goodness_of_fit
+  CGTTCAGCGATAACGG FCI_7: goodness_of_fit
+  GCAACGAGGTGTAACC FCI_7: goodness_of_fit
+  TACCTGCTGCGGAACG FCI_7: goodness_of_fit
+  TACTAGCAATAAAATC FCI_7: goodness_of_fit
+  TATCCAAGGGACGGAC FCI_7: goodness_of_fit
+  TCTGGAAACGATCCCC FCI_7: goodness_of_fit
+  TGAGTTCATAGCTCCA FCI_7: goodness_of_fit
+  TTCTGTCCAGACTCGT FCI_7: goodness_of_fit
+  AAAGACCTTTAACTCT FCI_8: goodness_of_fit
+  AAAGGCGCGCCTTCAA FCI_8: goodness_of_fit
+  AAAGTAGCAGAGGATT FCI_8: goodness_of_fit
+  AAATTCACAATATCCA FCI_8: goodness_of_fit
+  AAGATTGATTGAAGTT FCI_8: goodness_of_fit
+  AAGCCCAGCGGGTGAT FCI_8: goodness_of_fit
+  AAGTATTGCTACACAT FCI_8: goodness_of_fit
+  AATGAAACAATCGAAC FCI_8: goodness_of_fit
+  ACTCTGGCTCGCTAAT FCI_8: goodness_of_fit
+  AGACCATCGCACCCAA FCI_8: goodness_of_fit
+  AGCTCCTGGGGTATCA FCI_8: goodness_of_fit
+  AGCTGAATTAAGTATG FCI_8: goodness_of_fit
+  AGTATTTGCGCTTCAA FCI_8: goodness_of_fit
+  AGTCCTATCCTCAAAT FCI_8: goodness_of_fit
+  AGTGTTGGCTTGGTTA FCI_8: goodness_of_fit
+  ATTTACTCATTATACG FCI_8: goodness_of_fit
+  CATGTGGAGCCCAACA FCI_8: goodness_of_fit
+  CCGCATTAGCGGGAGG FCI_8: goodness_of_fit
+  GAAAGCCCCGTGCAAT FCI_8: goodness_of_fit
+  GAAGTGCGTATTGAGT FCI_8: goodness_of_fit
+  GCCGCTGCGGCGTGTG FCI_8: goodness_of_fit
+  GTAATTCGCATGCGGA FCI_8: goodness_of_fit
+  TGACAACAATACAAAT FCI_8: goodness_of_fit
+  TGGTCCGCTTCATGCT FCI_8: goodness_of_fit
+  TTCATCAAGTTGGTGC FCI_8: goodness_of_fit
+  TTGCTCCTGAGTAGTA FCI_8: goodness_of_fit
+  TTTCACAGAACCTATC FCI_8: goodness_of_fit
+  AGACCATCGCACCCAA FCI_9: goodness_of_fit
+  AGCGACATCGCCCTTT FCI_9: goodness_of_fit
+  AGGTGGACGGGCATGG FCI_9: goodness_of_fit
+  AGTCCTATCCTCAAAT FCI_9: goodness_of_fit
+  AGTTTTTATAACTTGC FCI_9: goodness_of_fit
+  ATAACGTTTGTGCAAA FCI_9: goodness_of_fit
+  ATAGAAAATTATCCGC FCI_9: goodness_of_fit
+  CATAAAAGACTGTATA FCI_9: goodness_of_fit
+  CCGCATTAGCGGGAGG FCI_9: goodness_of_fit
+  CCTTTCTCAAAACATA FCI_9: goodness_of_fit
+  CGGGAATCTCCCATAC FCI_9: goodness_of_fit
+  CGTACGTATGTCCCAG FCI_9: goodness_of_fit
+  CTATAAACCGTTTGTA FCI_9: goodness_of_fit
+  CTTAGGTATTATATGC FCI_9: goodness_of_fit
+  GATCGCCACTGATAAG FCI_9: goodness_of_fit
+  GTAATTCGCATGCGGA FCI_9: goodness_of_fit
+  GTCGCCGCTAATCCGA FCI_9: goodness_of_fit
+  TATACTCACGGAGGAT FCI_9: goodness_of_fit
+  TCTCAGCTCTTAGCCG FCI_9: goodness_of_fit
+serum_replicates: {}
