@@ -47,6 +47,11 @@ results/miscellaneous_plates/*/*
 !results/miscellaneous_plates/*/*counts.csv
 !results/miscellaneous_plates/*/*fates.csv
 
+!results/viral_strain_seqs
+results/viral_strain_seqs/*
+!results/viral_strain_seqs/circulating_2025_HA_ectodomain_nts.fa
+!results/viral_strain_seqs/circulating_2025_HA_ectodomain_prots.fa
+
 docs
 
 non-pipeline_analyses/flu_circulating_frequencies/data/
