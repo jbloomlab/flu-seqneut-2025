@@ -1,12 +1,28 @@
 # Sequencing based neutralization assays using a library of pdmH1N1 and H3N2 human influenza strains
 Experiments and analysis performed by Caroline Kikawa, using method and analysis developed by the [Bloom lab](https://jbloomlab.github.io/) and described in [Loes et al (2024)](https://journals.asm.org/doi/10.1128/jvi.00689-24) and [Kikawa et al (2025)](https://www.biorxiv.org/content/10.1101/2025.03.04.641544v1).
 
-## Quick summary
-* The viruses included in the library are outlined here:
-    * Nucleotide and protein **HA ectodomain only** sequences in CSV format in [data/ha_sequences/actual/flu-seqneut-2025-library.csv](data/ha_sequences/acutal/flu-seqneut-2025-library.csv)
-    * Protein **HA ctodomain only** sequences FASTA format are placed in [data/ha_sequences/actual/library_2025_HA_ectodomain_protein_sequences.fasta](data/ha_sequences/actual/library_2025_HA_ectodomain_protein_sequences.fasta)
-* The library design is outlined in detail in [non-pipeline_analyses/library_design/](non-pipeline_analyses/library_design/)
-    * The initial designed libraries, which were pared down in the above files, are listed in CSV format in [data/ha_sequences/designed/flu-seqneut-2025-library.csv](data/ha_sequences/designed/flu-seqneut-2025-library.csv) and FASTA format  in [data/ha_sequences/designed/library_2025_HA_ectodomain_protein_sequences.fasta](data/ha_sequences/designed/library_2025_HA_ectodomain_protein_sequences.fasta)
+## Summary of key data
+
+### Viral strains
+
+Details about the viruses included in the library are in [data/viral_libraries/flu-seqneut-2025-barcode-to-strain_actual.csv](data/viral_libraries/flu-seqneut-2025-barcode-to-strain_actual.csv).
+That file contains an entry for each barcoded variant (note most strains have multiple barcodes) giving:
+  - strain name
+  - subtype
+  - strain_type: either a *circulating_2025* strain designed for this study, or a historical vaccine strain
+  - barcode
+  - nucleotide sequence for the HA **ectodomain only**
+  - protein sequence for the HA **ectodomain only**
+  - Genbank accession
+
+Because the above file lists each barcode, strains are included more than once. If you want just FASTA files of the unique HA ectodomain sequences for the circulating 2025 strain, see:
+ - [results/viral_strain_seqs/circulating_2025_HA_ectodomain_prots.fa](results/viral_strain_seqs/circulating_2025_HA_ectodomain_prots.fa)
+ - [results/viral_strain_seqs/circulating_2025_HA_ectodomain_nts.fa](results/viral_strain_seqs/circulating_2025_HA_ectodomain_nts.fa)
+
+The above files contain the barcoded variants that actually ended up in the library at adequate representation to get high-quality data.
+A small fraction of the strains that we attempted to design into the library did not actually end up at sufficient representation are so are not in the actual library; the full set of designed strains are in [data/viral_libraries/flu-seqneut-2025-barcode-to-strain_designed.csv](data/viral_libraries/flu-seqneut-2025-barcode-to-strain_designed.csv)
+
+#### Sera
 * The sera we will assay and their associated metadata are placed in [data/sera_metadata/](data/sera_metadata/)
     * The Seattle Children's Hospital (`SCH`) cohort in Seattle, Washington, United States of America [data/sera_metadata/SCH_metadata.csv](data/sera_metadata/SCH_metadata.csv)
     * The University of Washington Medical Center (`UWMC`) cohort in Seattle, Washington, United States of America [data/sera_metadata/UWMC_metadata.csv](data/sera_metadata/UWMC_metadata.csv)
