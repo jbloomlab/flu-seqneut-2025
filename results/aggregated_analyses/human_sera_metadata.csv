@@ -1,0 +1,115 @@
+group,serum,collection_date_numerical,age_years,sex,collection_date_string,age_string,exposure_info
+EPIHK,EPIHK_1,2025-04-01,14.5,F,April-2025,10to19,"Received 2024/25 NH vaccine: Yes, Received 2023/24 NH vaccine: No, Self-reported flu infection within 0-182 days before collection: No, PCR-confirmed flu infection within 0-182 days before collection: No, Self-reported flu infection within 183-365 days before collection: No, PCR-confirmed flu infection within 183-365 days before collection: No"
+EPIHK,EPIHK_2,2025-04-01,14.5,F,April-2025,10to19,"Received 2024/25 NH vaccine: Yes, Received 2023/24 NH vaccine: No, Self-reported flu infection within 0-182 days before collection: No, PCR-confirmed flu infection within 0-182 days before collection: No, Self-reported flu infection within 183-365 days before collection: No, PCR-confirmed flu infection within 183-365 days before collection: No"
+EPIHK,EPIHK_3,2025-03-01,14.5,M,March-2025,10to19,"Received 2024/25 NH vaccine: No, Received 2023/24 NH vaccine: No, Self-reported flu infection within 0-182 days before collection: No, PCR-confirmed flu infection within 0-182 days before collection: No, Self-reported flu infection within 183-365 days before collection: No, PCR-confirmed flu infection within 183-365 days before collection: No"
+EPIHK,EPIHK_4,2025-04-01,14.5,F,April-2025,10to19,"Received 2024/25 NH vaccine: Yes, Received 2023/24 NH vaccine: Yes, Self-reported flu infection within 0-182 days before collection: No, PCR-confirmed flu infection within 0-182 days before collection: No, Self-reported flu infection within 183-365 days before collection: No, PCR-confirmed flu infection within 183-365 days before collection: No"
+EPIHK,EPIHK_5,2025-03-01,14.5,F,March-2025,10to19,"Received 2024/25 NH vaccine: No, Received 2023/24 NH vaccine: No, Self-reported flu infection within 0-182 days before collection: No, PCR-confirmed flu infection within 0-182 days before collection: No, Self-reported flu infection within 183-365 days before collection: No, PCR-confirmed flu infection within 183-365 days before collection: No"
+EPIHK,EPIHK_6,2025-04-01,14.5,F,April-2025,10to19,"Received 2024/25 NH vaccine: No, Received 2023/24 NH vaccine: No, Self-reported flu infection within 0-182 days before collection: No, PCR-confirmed flu infection within 0-182 days before collection: No, Self-reported flu infection within 183-365 days before collection: No, PCR-confirmed flu infection within 183-365 days before collection: No"
+EPIHK,EPIHK_7,2025-03-01,24.5,M,March-2025,20to29,"Received 2024/25 NH vaccine: No, Received 2023/24 NH vaccine: No, Self-reported flu infection within 0-182 days before collection: No, PCR-confirmed flu infection within 0-182 days before collection: No, Self-reported flu infection within 183-365 days before collection: No, PCR-confirmed flu infection within 183-365 days before collection: No"
+EPIHK,EPIHK_8,2025-03-01,24.5,M,March-2025,20to29,"Received 2024/25 NH vaccine: No, Received 2023/24 NH vaccine: No, Self-reported flu infection within 0-182 days before collection: No, PCR-confirmed flu infection within 0-182 days before collection: No, Self-reported flu infection within 183-365 days before collection: No, PCR-confirmed flu infection within 183-365 days before collection: No"
+EPIHK,EPIHK_9,2025-04-01,24.5,F,April-2025,20to29,"Received 2024/25 NH vaccine: Yes, Received 2023/24 NH vaccine: No, Self-reported flu infection within 0-182 days before collection: No, PCR-confirmed flu infection within 0-182 days before collection: No, Self-reported flu infection within 183-365 days before collection: No, PCR-confirmed flu infection within 183-365 days before collection: No"
+SCH,SCH_1,2025-04-01,13.0,F,April-2025,11-15 y,na
+SCH,SCH_10,2025-04-01,8.0,F,April-2025,6-10 y,na
+SCH,SCH_11,2025-04-01,13.0,F,April-2025,11-15 y,na
+SCH,SCH_12,2025-04-01,1.25,M,April-2025,6 m-2 y,na
+SCH,SCH_13,2025-04-01,1.25,M,April-2025,6 m-2 y,na
+SCH,SCH_14,2025-04-01,1.25,M,April-2025,6 m-2 y,na
+SCH,SCH_15,2025-04-01,8.0,F,April-2025,6-10 y,na
+SCH,SCH_16,2025-04-01,5.0,F,April-2025,4-6 y,na
+SCH,SCH_17,2025-04-01,0.25,M,April-2025,<6 m,na
+SCH,SCH_18,2025-04-01,1.25,M,April-2025,6 m-2 y,na
+SCH,SCH_19,2025-04-01,0.25,F,April-2025,<6 m,na
+SCH,SCH_2,2025-04-01,0.25,M,April-2025,<6 m,na
+SCH,SCH_20,2025-04-01,8.0,M,April-2025,6-10 y,na
+SCH,SCH_21,2025-04-01,13.0,F,April-2025,11-15 y,na
+SCH,SCH_22,2025-04-01,4.0,M,April-2025,3-5 y,na
+SCH,SCH_23,2025-04-01,13.0,F,April-2025,11-15 y,na
+SCH,SCH_24,2025-04-01,5.0,M,April-2025,4-6 y,na
+SCH,SCH_25,2025-04-01,0.25,M,April-2025,<6 m,na
+SCH,SCH_26,2025-04-01,1.25,M,April-2025,6 m-2 y,na
+SCH,SCH_27,2025-04-01,8.0,M,April-2025,6-10 y,na
+SCH,SCH_28,2025-04-01,13.0,M,April-2025,11-15 y,na
+SCH,SCH_29,2025-04-01,13.0,F,April-2025,11-15 y,na
+SCH,SCH_3,2025-04-01,1.25,F,April-2025,6 m-2 y,na
+SCH,SCH_30,2025-04-01,0.25,M,April-2025,<6 m,na
+SCH,SCH_31,2025-04-01,8.0,M,April-2025,6-10 y,na
+SCH,SCH_32,2025-04-01,0.25,M,April-2025,<6 m,na
+SCH,SCH_33,2025-04-01,8.0,M,April-2025,6-10 y,na
+SCH,SCH_34,2025-04-01,4.0,F,April-2025,3-5 y,na
+SCH,SCH_35,2025-04-01,8.0,M,April-2025,6-10 y,na
+SCH,SCH_36,2025-04-01,13.0,F,April-2025,11-15 y,na
+SCH,SCH_37,2025-04-01,13.0,M,April-2025,11-15 y,na
+SCH,SCH_38,2025-04-01,13.0,M,April-2025,11-15 y,na
+SCH,SCH_39,2025-04-01,13.0,M,April-2025,11-15 y,na
+SCH,SCH_4,2025-04-01,13.0,F,April-2025,11-15 y,na
+SCH,SCH_40,2025-04-01,13.0,M,April-2025,11-15 y,na
+SCH,SCH_41,2025-04-01,0.25,M,April-2025,<6 m,na
+SCH,SCH_42,2025-04-01,4.0,F,April-2025,3-5 y,na
+SCH,SCH_43,2025-04-01,13.0,F,April-2025,11-15 y,na
+SCH,SCH_44,2025-04-01,13.0,F,April-2025,11-15 y,na
+SCH,SCH_45,2025-04-01,5.0,F,April-2025,4-6 y,na
+SCH,SCH_46,2025-04-01,0.25,F,April-2025,<6 m,na
+SCH,SCH_47,2025-04-01,8.0,M,April-2025,6-10 y,na
+SCH,SCH_48,2025-04-01,8.0,F,April-2025,6-10 y,na
+SCH,SCH_49,2025-04-01,8.0,M,April-2025,6-10 y,na
+SCH,SCH_5,2025-04-01,8.0,M,April-2025,6-10 y,na
+SCH,SCH_50,2025-04-01,8.0,F,April-2025,6-10 y,na
+SCH,SCH_6,2025-04-01,13.0,F,April-2025,11-15 y,na
+SCH,SCH_7,2025-04-01,13.0,F,April-2025,11-15 y,na
+SCH,SCH_8,2025-04-01,8.0,F,April-2025,6-10 y,na
+SCH,SCH_9,2025-04-01,13.0,F,April-2025,11-15 y,na
+UWMC,UWMC-1,2025-03-01,29.0,F,March-2025,29,na
+UWMC,UWMC-10,2025-03-01,38.0,F,March-2025,38,na
+UWMC,UWMC-11,2025-03-01,52.0,F,March-2025,52,na
+UWMC,UWMC-12,2025-03-01,31.0,F,March-2025,31,na
+UWMC,UWMC-13,2025-03-01,37.0,M,March-2025,37,na
+UWMC,UWMC-14,2025-03-01,62.0,F,March-2025,62,na
+UWMC,UWMC-15,2025-03-01,51.0,F,March-2025,51,na
+UWMC,UWMC-16,2025-03-01,51.0,M,March-2025,51,na
+UWMC,UWMC-17,2025-03-01,30.0,F,March-2025,30,na
+UWMC,UWMC-18,2025-03-01,65.0,F,March-2025,65,na
+UWMC,UWMC-19,2025-03-01,38.0,F,March-2025,38,na
+UWMC,UWMC-2,2025-03-01,63.0,F,March-2025,63,na
+UWMC,UWMC-20,2025-03-01,44.0,F,March-2025,44,na
+UWMC,UWMC-21,2025-03-01,40.0,M,March-2025,40,na
+UWMC,UWMC-22,2025-03-01,61.0,M,March-2025,61,na
+UWMC,UWMC-23,2025-03-01,62.0,M,March-2025,62,na
+UWMC,UWMC-24,2025-03-01,32.0,F,March-2025,32,na
+UWMC,UWMC-25,2025-03-01,40.0,F,March-2025,40,na
+UWMC,UWMC-26,2025-03-01,34.0,M,March-2025,34,na
+UWMC,UWMC-27,2025-03-01,53.0,F,March-2025,53,na
+UWMC,UWMC-28,2025-03-01,26.0,M,March-2025,26,na
+UWMC,UWMC-29,2025-03-01,58.0,M,March-2025,58,na
+UWMC,UWMC-3,2025-03-01,35.0,F,March-2025,35,na
+UWMC,UWMC-30,2025-03-01,27.0,F,March-2025,27,na
+UWMC,UWMC-31,2025-03-01,41.0,F,March-2025,41,na
+UWMC,UWMC-32,2025-03-01,44.0,M,March-2025,44,na
+UWMC,UWMC-33,2025-03-01,51.0,F,March-2025,51,na
+UWMC,UWMC-34,2025-03-01,24.0,F,March-2025,24,na
+UWMC,UWMC-35,2025-03-01,65.0,M,March-2025,65,na
+UWMC,UWMC-36,2025-03-01,45.0,F,March-2025,45,na
+UWMC,UWMC-37,2025-03-01,28.0,F,March-2025,28,na
+UWMC,UWMC-38,2025-03-01,66.0,F,March-2025,66,na
+UWMC,UWMC-39,2025-03-01,30.0,F,March-2025,30,na
+UWMC,UWMC-4,2025-03-01,34.0,F,March-2025,34,na
+UWMC,UWMC-40,2025-03-01,52.0,F,March-2025,52,na
+UWMC,UWMC-41,2025-03-01,21.0,F,March-2025,21,na
+UWMC,UWMC-42,2025-03-01,38.0,M,March-2025,38,na
+UWMC,UWMC-43,2025-03-01,35.0,M,March-2025,35,na
+UWMC,UWMC-44,2025-03-01,30.0,M,March-2025,30,na
+UWMC,UWMC-45,2025-03-01,34.0,M,March-2025,34,na
+UWMC,UWMC-46,2025-04-01,23.0,F,April-2025,23,na
+UWMC,UWMC-47,2025-04-01,24.0,M,April-2025,24,na
+UWMC,UWMC-48,2025-04-01,22.0,F,April-2025,22,na
+UWMC,UWMC-49,2025-04-01,22.0,F,April-2025,22,na
+UWMC,UWMC-5,2025-03-01,42.0,F,March-2025,42,na
+UWMC,UWMC-50,2025-04-01,7.0,M,April-2025,7,na
+UWMC,UWMC-51,2025-04-01,21.0,F,April-2025,21,na
+UWMC,UWMC-52,2025-04-01,25.0,M,April-2025,25,na
+UWMC,UWMC-53,2025-04-01,23.0,M,April-2025,23,na
+UWMC,UWMC-54,2025-04-01,19.0,F,April-2025,19,na
+UWMC,UWMC-55,2025-05-01,21.0,F,May-2025,21,na
+UWMC,UWMC-6,2025-03-01,43.0,M,March-2025,43,na
+UWMC,UWMC-7,2025-03-01,49.0,M,March-2025,49,na
+UWMC,UWMC-8,2025-03-01,27.0,M,March-2025,27,na
+UWMC,UWMC-9,2025-03-01,42.0,M,March-2025,42,na
