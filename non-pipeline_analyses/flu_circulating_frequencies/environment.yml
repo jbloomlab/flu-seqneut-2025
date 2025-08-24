@@ -4,13 +4,12 @@ channels:
   - bioconda
 
 dependencies:
-  - altair
+  - altair=5.5
   - biopython
-  - cd-hit
   - jupyterlab
-  - mafft
-  - pandas
+  - pandas=2.3
   - papermill
+  - python=3.13
   - regex
-  - seaborn
-  - snakemake
+  - snakemake=9
+  - vl-convert-python

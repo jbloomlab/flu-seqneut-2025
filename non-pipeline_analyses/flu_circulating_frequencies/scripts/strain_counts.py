@@ -1,9 +1,4 @@
-"""
-Get counts of sequences for each strain.
-
-Author: Jesse Bloom, edited by Caroline Kikawa
-
-"""
+"""Get counts of sequences for each strain."""
 
 
 import collections
@@ -22,10 +17,12 @@ aas = "ACDEFGHIKLMNPQRSTVWY"
 trim_start, trim_end = snakemake.params.trim
 assert 1 <= trim_start < trim_end
 
+print(f"Analysis for {snakemake.wildcards.protset=}")
+
 print(f"Reading strain_prots from {snakemake.input.strain_prots}")
 print(f"Trimming to {trim_start} to {trim_end}")
 strain_prots = {}
-n_skipped_invalid = 0
+prot_names = collections.defaultdict(list)
 for seq in Bio.SeqIO.parse(snakemake.input.strain_prots, "fasta"):
     name = seq.id
     if name in strain_prots:
@@ -33,17 +30,15 @@ for seq in Bio.SeqIO.parse(snakemake.input.strain_prots, "fasta"):
     s = str(seq.seq).upper()
     while s.endswith("*"):  # remove trailing stop codons
         s = s[: -1]
-    if not regex.fullmatch(f"[{aas}]+", s):
-        print(f"Skipping {name=} due to invalid residues:\n{s}\n", file=log)
-        n_skipped_invalid += 1
-        continue
-    if len(s) < trim_end:
-        print(f"Skipping {name=} because length {len(s)} < {trim_end=}", file=log)
-        continue
-    strain_prots[name] = s[trim_start - 1: trim_end]
-print(f"Read {len(strain_prots)=} strain proteins after skipping {n_skipped_invalid} with invalid residues\n")
-
-# assert len(strain_prots) == len(set(strain_prots.values()))
+    assert regex.fullmatch(f"[{aas}]+", s), f"{name=} has invalid residues:\n{s}\n{seq}"
+    assert len(s) >= trim_end, f"{trim_end=}, {len(s)=}"
+    trimmed_s = s[trim_start - 1: trim_end]
+    if trimmed_s in prot_names:
+        print(f"{name} has same trimmed sequence as {prot_names[trimmed_s]}")
+    prot_names[trimmed_s].append(name)
+    strain_prots[name] = trimmed_s
+print(f"Read {len(strain_prots)=} strain proteins\n")
+assert len(strain_prots) >= len(set(strain_prots.values()))
 
 # define regexes allowing fuzzy matching but getting best match
 maxdiff = int(snakemake.params.maxdiff)
@@ -54,8 +49,11 @@ strain_regexes = {
 
 print(f"Reading proteins from {snakemake.input.protset}, matching with {maxdiff=}")
 strain_match_records = []
-unmatched_seq_counts = collections.defaultdict(int) # Get counts of each unique sequence that doesn't appear in library
-unmatched_recent_seq_counts = collections.defaultdict(int) # Get counts of each unique sequence that doesn't appear in library AND that is recent
+unmatched_seq_counts = collections.defaultdict(int)
+unmatched_recent_seq_counts = collections.defaultdict(int)
+
+recent_date = snakemake.params.recent_date
+print(f"Defining a recent sequence as one after {recent_date=}")
 
 assert "other" not in strain_prots
 accessions = set()
@@ -99,7 +97,7 @@ for prot in Bio.SeqIO.parse(snakemake.input.protset, "fasta"):
         unmatched_seq_counts[p] += 1 # Get counts of each unique sequence that doesn't appear in library
 
         # Get counts of each unique sequence that doesn't appear in library AND that is recent
-        if date >= "2025-03-01":  # string comparison works for YYYY-MM-DD format?
+        if date >= recent_date:  # string comparison works for YYYY-MM-DD format?
             unmatched_recent_seq_counts[p] += 1
         
 
