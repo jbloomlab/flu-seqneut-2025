@@ -1,18 +1,22 @@
 ###### Input ##########################################
 
-# Library strains
-strain_prots:
-  h1: data/h1_strains.fasta
-  h3: data/h3_strains.fasta
+# FASTA files giving HA strains in the library, note that these
+# files give just the HA ectodomain. They currently list both H3
+# and H1 in the same file, and are trimmed by pipeline
+actual_lib_seqs: ../../results/viral_strain_seqs/circulating_2025_HA_ectodomain_prots.fa
 
-# Circulating sequences
-# Per John, these are filtered records to keep those with Nextclade QC annotations of “good”, 
-# complete collection date (no missing day, month, or year), non-egg-passaged status,  
-# and minimum collection date of 16 months ago. 
+strain_prots:
+  H1N1: results/strain_prots/lib_H1N1_prots.fa
+  H3N2: results/strain_prots/lib_H3N2_prots.fa
+
+# The files below contain sequences from John Huddleston of all sequences with Nextclade
+# QC annotations of “good”, complete collection date, non-egg-passaged status,
+# and minimum collection date of 16 months ago, and were generated as of
+# August-14-2025.
 # They are NOT filtered for completeness or quality (ie, some may contain an 'X', etc.)
 gisaid_prots: 
-  h1: data/h1n1pdm_HA_with_metadata.fasta
-  h3: data/h3n2_HA_with_metadata.fasta
+  H1N1: data/h1n1pdm_HA_with_metadata.fasta
+  H3N2: data/h3n2_HA_with_metadata.fasta
 
 # Specify protein sequences to search for matches to `strain_prots` to get the
 # counts of each strain (variant) at each time.
@@ -22,9 +26,9 @@ gisaid_prots:
 # The `trim` entry below specifies to trim the `strain_prots` to that range, and
 # then look for matches that contain that trimmed strain protein in `protset`.
 # This can be done to just look at a specific region (eg, ectodomain or HA1).
-# Also keep in mind the strains in the libraries are engineered to have a chimeric
-# signal peptide and endodomain so you probably do not want to require a match to
-# that. The trimming is done to indicated range (1, 2, ... numbering, inclusive).
+# Keep in mind the strains defined above are the ectodomains, so the trimming
+# is done relative to that region.
+# The trimming is done to indicated range (1, 2, ... numbering, inclusive).
 # 
 # The `maxdiff` parameter specifies how many differences a protein in `protset`
 # can have from the strain. A protein in a `protset` is a match if it
@@ -34,36 +38,39 @@ gisaid_prots:
 # substitution, insertion, or deletion.
 
 protsets:
-  h1-gisaid-ha1-within1:
+  h1n1-gisaid-ha1-within1:
     protset: data/h1n1pdm_HA_with_metadata.fasta
-    trim: [18, 327]
+    trim: [1, 324]
     maxdiff: 1
-    group: h1
-  h1-gisaid-ha1-exact:
+    group: H1N1
+    plot_title: H1N1 strains within one HA1 mutation of library strain
+  h1n1-gisaid-ha1-exact:
     protset: data/h1n1pdm_HA_with_metadata.fasta
-    trim: [18, 327]
+    trim: [1, 324]
     maxdiff: 0
-    group: h1
-  h1-gisaid-ectodomain-within1:
+    group: H1N1
+    plot_title: H1N1 strains with HA1 exactly matching library strain
+  h1n1-gisaid-ectodomain-within1:
     protset: data/h1n1pdm_HA_with_metadata.fasta
-    trim: [18, 327]
+    trim: [1, 500]
     maxdiff: 1
-    group: h1
-  h3-gisaid-ha1-within1:
+    group: H1N1
+    plot_title: H1N1 strains with HA ectodomain exactly matching library strain
+  h3n2-gisaid-ha1-within1:
     protset: data/h3n2_HA_with_metadata.fasta
-    trim: [20, 348]
+    trim: [1, 328]
     maxdiff: 1
-    group: h3
-  h3-gisaid-ha1-exact:
+    group: H3N2
+    plot_title: H3N2 strains within one HA1 mutation of library strain
+  h3n2-gisaid-ha1-exact:
     protset: data/h3n2_HA_with_metadata.fasta
-    trim: [20, 348]
+    trim: [1, 328]
     maxdiff: 0
-    group: h3
-  h3-gisaid-ectodomain-within1:
+    group: H3N2
+    plot_title: H3N2 strains with HA1 exactly matching library strain
+  h3n2-gisaid-ectodomain-within1:
     protset: data/h3n2_HA_with_metadata.fasta
-    trim: [20, 533]
+    trim: [1, 501]
     maxdiff: 1
-    group: h3
-    
-
-
+    group: H3N2
+    plot_title: H3N2 strains with HA ectodomain exactly matching library strain

@@ -4,3 +4,15 @@ _*
 *.out
 
 data/*.fasta
+
+results/*
+
+!results/plots
+results/plots/logs
+
+!results/strain_prots
+
+!results/strain_counts
+results/strain_counts/*
+!results/strain_counts/*_counts_by_date.csv
+!results/strain_counts/*_counts_overall.csv
