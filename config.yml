@@ -1,6 +1,15 @@
 # === Analysis configuration file ======================================================
 
-# --- Configuration for `seqneut-pipeline` ---------------------------------------------
+# --- Configuration for custom analyses in Snakefile outside of seqneut-pipeline --------
+
+# Configuration relevant to aggregated analyses of human sera titeres
+human_sera_groups_to_exclude:  # sera groups excluded from aggregated human sera analysis
+  - FCI  # these are ferret sera
+  - pilot  # this is just a pilot serum
+human_sera_to_exclude: []  # individual sera excluded from aggregated human sera analysis
+
+
+# --- Configuration for `seqneut-pipeline` ----------------------------------------------
 
 seqneut-pipeline: seqneut-pipeline
 
