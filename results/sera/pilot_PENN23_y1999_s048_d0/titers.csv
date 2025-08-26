@@ -14,7 +14,7 @@ pilot,PENN23_y1999_s048_d0,A/Colombia/7681/2024_H3N2,120.3,interpolated,64.99,5,
 pilot,PENN23_y1999_s048_d0,A/Colorado/218/2024_H1N1,560.4,interpolated,144.1,7,midpoint
 pilot,PENN23_y1999_s048_d0,A/Colorado/ISC-1416/2024_H3N2,285.8,interpolated,180.1,6,midpoint
 pilot,PENN23_y1999_s048_d0,A/CoteD'Ivoire/4448/2024_H3N2,166.7,interpolated,55.9,2,midpoint
-pilot,PENN23_y1999_s048_d0,A/Croatia/10136RV/2023_H3N2,356.4,interpolated,83.79,5,midpoint
+pilot,PENN23_y1999_s048_d0,A/Croatia/10136RV/2023-egg_H3N2,356.4,interpolated,83.79,5,midpoint
 pilot,PENN23_y1999_s048_d0,A/DE/DE-DHSS-901/2025_(H3N2)_H3N2,529.6,interpolated,159.1,8,midpoint
 pilot,PENN23_y1999_s048_d0,A/Darwin/6/2021_H3N2,448.7,interpolated,136.3,8,midpoint
 pilot,PENN23_y1999_s048_d0,A/Darwin/9/2021_H3N2,746.6,interpolated,279.2,8,midpoint

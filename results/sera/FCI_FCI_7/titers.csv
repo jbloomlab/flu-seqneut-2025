@@ -15,7 +15,7 @@ FCI,FCI_7,A/Colombia/7681/2024_H3N2,44.38,upper,4.375,2,midpoint
 FCI,FCI_7,A/Colorado/218/2024_H1N1,56.13,interpolated,5.77,2,midpoint
 FCI,FCI_7,A/Colorado/ISC-1416/2024_H3N2,48.01,interpolated,,1,midpoint
 FCI,FCI_7,A/CoteD'Ivoire/4448/2024_H3N2,49.81,upper,9.807,2,midpoint
-FCI,FCI_7,A/Croatia/10136RV/2023_H3N2,161.2,interpolated,33.98,2,midpoint
+FCI,FCI_7,A/Croatia/10136RV/2023-egg_H3N2,161.2,interpolated,33.98,2,midpoint
 FCI,FCI_7,A/DE/DE-DHSS-901/2025_(H3N2)_H3N2,428.4,interpolated,23.74,2,midpoint
 FCI,FCI_7,A/Darwin/6/2021_H3N2,63.01,interpolated,28.03,3,midpoint
 FCI,FCI_7,A/Darwin/9/2021_H3N2,43.12,upper,3.123,2,midpoint
@@ -24,7 +24,7 @@ FCI,FCI_7,A/Ecuador/1385/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_7,A/Florida/ISC-1241/2025_H3N2,40,upper,,1,midpoint
 FCI,FCI_7,A/France/ARA-RELAB-HCL025017178801/2025_H3N2,93.64,interpolated,40.65,2,midpoint
 FCI,FCI_7,A/France/BRE-IPP01880/2025_H3N2,40,upper,0,2,midpoint
-FCI,FCI_7,A/France/IDF-IPP29542/2023_H3N2,132.1,interpolated,44.56,2,midpoint
+FCI,FCI_7,A/France/IDF-IPP29542/2023-egg_H3N2,132.1,interpolated,44.56,2,midpoint
 FCI,FCI_7,A/France/PAC-RELAB-HCL024172122101/2024_H3N2,40,upper,,1,midpoint
 FCI,FCI_7,A/Ghana/FS-25-0256/2025_H3N2,40.71,interpolated,,1,midpoint
 FCI,FCI_7,A/Hawaii/70/2019_H1N1,40,upper,7.141,3,midpoint

@@ -4,9 +4,9 @@ UWMC,UWMC-45,A/Brisbane/02/2018_H1N1,167.4,interpolated,8.601,2,midpoint
 UWMC,UWMC-45,A/Busan/277/2025_H1N1,93.24,interpolated,2.466,2,midpoint
 UWMC,UWMC-45,A/California/07/2009_H1N1,264.4,interpolated,,1,midpoint
 UWMC,UWMC-45,A/Colorado/218/2024_H1N1,157,interpolated,,1,midpoint
-UWMC,UWMC-45,A/Croatia/10136RV/2023_H3N2,334.5,interpolated,142.1,2,midpoint
+UWMC,UWMC-45,A/Croatia/10136RV/2023-egg_H3N2,334.5,interpolated,142.1,2,midpoint
 UWMC,UWMC-45,A/Darwin/9/2021_H3N2,150.7,interpolated,3.386,2,midpoint
-UWMC,UWMC-45,A/France/IDF-IPP29542/2023_H3N2,72.49,interpolated,22.52,2,midpoint
+UWMC,UWMC-45,A/France/IDF-IPP29542/2023-egg_H3N2,72.49,interpolated,22.52,2,midpoint
 UWMC,UWMC-45,A/Hawaii/70/2019_H1N1,191,interpolated,18.3,3,midpoint
 UWMC,UWMC-45,A/Hawaii/ISC-1140/2025_H1N1,152,interpolated,10.05,2,midpoint
 UWMC,UWMC-45,A/HongKong/2671/2019_H3N2,1.362e+04,lower,879,3,midpoint

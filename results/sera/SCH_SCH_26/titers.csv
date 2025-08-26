@@ -9,13 +9,13 @@ SCH,SCH_26,A/Canberra/613/2024_H3N2,104.7,interpolated,,1,midpoint
 SCH,SCH_26,A/Colombia/1851/2024_H3N2,69.1,interpolated,3.883,2,midpoint
 SCH,SCH_26,A/Colorado/218/2024_H1N1,2139,interpolated,758.7,2,midpoint
 SCH,SCH_26,A/Colorado/ISC-1416/2024_H3N2,70.22,interpolated,1.821,2,midpoint
-SCH,SCH_26,A/Croatia/10136RV/2023_H3N2,40,upper,,1,midpoint
+SCH,SCH_26,A/Croatia/10136RV/2023-egg_H3N2,40,upper,,1,midpoint
 SCH,SCH_26,A/Darwin/6/2021_H3N2,101.7,interpolated,1.307,3,midpoint
 SCH,SCH_26,A/Darwin/9/2021_H3N2,40,upper,0,3,midpoint
 SCH,SCH_26,A/DistrictOfColumbia/27/2023_H3N2,56.94,interpolated,,1,midpoint
 SCH,SCH_26,A/Florida/ISC-1241/2025_H3N2,78.08,interpolated,,1,midpoint
 SCH,SCH_26,A/France/ARA-RELAB-HCL025017178801/2025_H3N2,92.62,interpolated,1.928,2,midpoint
-SCH,SCH_26,A/France/IDF-IPP29542/2023_H3N2,57.37,interpolated,3.239,2,midpoint
+SCH,SCH_26,A/France/IDF-IPP29542/2023-egg_H3N2,57.37,interpolated,3.239,2,midpoint
 SCH,SCH_26,A/Ghana/FS-25-0256/2025_H3N2,102.2,interpolated,,1,midpoint
 SCH,SCH_26,A/Hawaii/70/2019_H1N1,175.7,interpolated,41.23,3,midpoint
 SCH,SCH_26,A/Hawaii/ISC-1140/2025_H1N1,2595,interpolated,49.52,2,midpoint
