@@ -1,6 +1,6 @@
 group,serum,virus,replicate,titer,titer_bound,titer_as,nt50,midpoint,top,bottom,slope
 FCI,FCI_9,A/Florida/ISC-1241/2025_H3N2,plate6-TTGGGGAACGGGAAGC,40,upper,midpoint,40,40,1,0,0.9045
-FCI,FCI_9,A/Croatia/10136RV/2023_H3N2,plate6-GAAGTGCTGCTGAAGT,40,upper,midpoint,40,40,0.9132,0,9.996
+FCI,FCI_9,A/Croatia/10136RV/2023-egg_H3N2,plate6-GAAGTGCTGCTGAAGT,40,upper,midpoint,40,40,0.9132,0,9.996
 FCI,FCI_9,A/Minnesota/133/2024_H3N2,plate6-GTAAGCAAAGTTGACC,40,upper,midpoint,40,40,0.8762,0,9.993
 FCI,FCI_9,A/Minnesota/133/2024_H3N2,plate6-CTGAGGGATTCAACTC,40,upper,midpoint,40,40,1,0,0.8079
 FCI,FCI_9,A/Texas/15550/2024_H3N2,plate6-CTATATTGCCCGGAAG,40,upper,midpoint,40,40,0.995,0,0.8
@@ -190,8 +190,8 @@ FCI,FCI_9,A/Victoria/3599/2024_H1N1,plate6-ACAGTACGATCTACGC,51.23,interpolated,m
 FCI,FCI_9,A/Massachusetts/18/2022_H3N2,plate6-CATTTCTGATGAATTG,89.09,interpolated,midpoint,89.09,89.09,1,0,0.8
 FCI,FCI_9,A/Massachusetts/18/2022_H3N2,plate6-TCCACACCCCTAGCTA,40,upper,midpoint,40,40,0.9501,0,0.8
 FCI,FCI_9,A/Massachusetts/18/2022_H3N2,plate6-CGATCTTTACGAAAAA,40,upper,midpoint,40,40,1,0,0.8
-FCI,FCI_9,A/France/IDF-IPP29542/2023_H3N2,plate6-GAAAGCCCCGTGCAAT,53.05,interpolated,midpoint,68.34,53.05,0.9083,0,0.8
-FCI,FCI_9,A/France/IDF-IPP29542/2023_H3N2,plate6-ACGGGGATTGGCTGTT,60.49,interpolated,midpoint,101.1,60.49,0.7743,0,1.168
+FCI,FCI_9,A/France/IDF-IPP29542/2023-egg_H3N2,plate6-GAAAGCCCCGTGCAAT,53.05,interpolated,midpoint,68.34,53.05,0.9083,0,0.8
+FCI,FCI_9,A/France/IDF-IPP29542/2023-egg_H3N2,plate6-ACGGGGATTGGCTGTT,60.49,interpolated,midpoint,101.1,60.49,0.7743,0,1.168
 FCI,FCI_9,A/Brisbane/02/2018_H1N1,plate6-TAATAAGCCAGCAAGA,41.75,interpolated,midpoint,41.75,41.75,1,0,0.9543
 FCI,FCI_9,A/Brisbane/02/2018_H1N1,plate6-ATCCGATTTAAAGGCA,40,upper,midpoint,40,40,0.9844,0,0.8
 FCI,FCI_9,A/Brisbane/02/2018_H1N1,plate6-TTGGGCACTAAATTAA,41.73,interpolated,midpoint,42.8,41.73,0.8887,0,10

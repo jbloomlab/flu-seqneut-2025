@@ -15,7 +15,7 @@ UWMC,UWMC-24,A/Colombia/7681/2024_H3N2,370.9,interpolated,35.84,2,midpoint
 UWMC,UWMC-24,A/Colorado/218/2024_H1N1,576,interpolated,,1,midpoint
 UWMC,UWMC-24,A/Colorado/ISC-1416/2024_H3N2,1289,interpolated,971.1,2,midpoint
 UWMC,UWMC-24,A/CoteD'Ivoire/4448/2024_H3N2,342,interpolated,142.7,2,midpoint
-UWMC,UWMC-24,A/Croatia/10136RV/2023_H3N2,369.4,interpolated,108.7,2,midpoint
+UWMC,UWMC-24,A/Croatia/10136RV/2023-egg_H3N2,369.4,interpolated,108.7,2,midpoint
 UWMC,UWMC-24,A/DE/DE-DHSS-901/2025_(H3N2)_H3N2,302.6,interpolated,54.33,2,midpoint
 UWMC,UWMC-24,A/Darwin/6/2021_H3N2,684.6,interpolated,243.5,3,midpoint
 UWMC,UWMC-24,A/Darwin/9/2021_H3N2,442.1,interpolated,36.04,3,midpoint
@@ -24,7 +24,7 @@ UWMC,UWMC-24,A/Ecuador/1385/2024_H3N2,298.8,interpolated,25.61,2,midpoint
 UWMC,UWMC-24,A/Florida/ISC-1241/2025_H3N2,560.5,interpolated,,1,midpoint
 UWMC,UWMC-24,A/France/ARA-RELAB-HCL025017178801/2025_H3N2,1002,interpolated,585.4,2,midpoint
 UWMC,UWMC-24,A/France/BRE-IPP01880/2025_H3N2,306.9,interpolated,65.16,2,midpoint
-UWMC,UWMC-24,A/France/IDF-IPP29542/2023_H3N2,975.9,interpolated,350.3,2,midpoint
+UWMC,UWMC-24,A/France/IDF-IPP29542/2023-egg_H3N2,975.9,interpolated,350.3,2,midpoint
 UWMC,UWMC-24,A/France/PAC-RELAB-HCL024172122101/2024_H3N2,639.8,interpolated,,1,midpoint
 UWMC,UWMC-24,A/Ghana/FS-25-0256/2025_H3N2,331.4,interpolated,,1,midpoint
 UWMC,UWMC-24,A/Hawaii/70/2019_H1N1,1374,interpolated,472.1,3,midpoint

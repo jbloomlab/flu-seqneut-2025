@@ -27,6 +27,8 @@ rule recent_strains_fasta:
     output:
         nt_fasta="results/viral_strain_seqs/circulating_2025_HA_ectodomain_nts.fa",
         prot_fasta="results/viral_strain_seqs/circulating_2025_HA_ectodomain_prots.fa",
+    params:
+        recent_vaccine_strains=config["recent_vaccine_strains"],  # also include these
     conda:
         "seqneut-pipeline/environment.yml"
     log:
