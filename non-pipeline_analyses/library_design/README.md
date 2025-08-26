@@ -119,3 +119,8 @@ Then run [notebooks/design_HA_inserts.ipynb](notebooks/design_HA_inserts.ipynb).
 The final output of the above notebook summarized here:
 * A spreadsheet [results/ordersheets/ordersheet.csv](results/ordersheets/ordersheet.csv) containing tables including columns `name` and `sequence` required for ordering constructs from Twist
 * Spreadsheets of [results/ordersheets/h1_inserts.csv](results/ordersheets/h1_inserts.csv) and [results/ordersheets/h3_inserts.csv](results/ordersheets/h3_inserts.csv) which include the abbreviated `name` for Twist ordering, the `strain_name` and the `sequence` for each construct
+
+## 4. Manual renaming of a few strains
+In the virus-to-barcode files used in the main repository, a few strains were renamed to indicate their egg-passaging history to align with `Nextstrain` annotations, namely:
+ - `A/Croatia/10136RV/2023_H3N2` to `A/Croatia/10136RV/2023-egg_H3N2`
+ - `A/France/IDF-IPP29542/2023_H3N2` to `A/France/IDF-IPP29542/2023-egg_H3N2`
