@@ -2,6 +2,16 @@
 
 # --- Configuration for custom analyses in Snakefile outside of seqneut-pipeline --------
 
+# For the most part our analyses separate recent and historical vaccine strains, but
+# consider these vaccine strains to be "recent" and include them alongside the recent strains.
+recent_vaccine_strains:
+  A/Croatia/10136RV/2023-egg_H3N2: 2025-2026 egg-based vaccine
+  A/DistrictOfColumbia/27/2023_H3N2: 2025-2026 cell-based vaccine
+  A/Victoria/4897/2022_IVR-238_H1N1: 2025-2026 egg-based vaccine
+  A/Wisconsin/67/2022_H1N1: 2025-2026 cell-based vaccine
+  A/Thailand/8/2022_H3N2: 2024-2025 egg-based vaccine
+  A/Massachusetts/18/2022_H3N2: 2024-2025 cell-based vaccine
+
 # Configuration relevant to aggregated analyses of human sera titeres
 human_sera_groups_to_exclude:  # sera groups excluded from aggregated human sera analysis
   - FCI  # these are ferret sera
