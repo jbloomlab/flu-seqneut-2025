@@ -17,6 +17,13 @@ human_sera_groups_to_exclude:  # sera groups excluded from aggregated human sera
   - FCI  # these are ferret sera
 human_sera_to_exclude: []  # individual sera excluded from aggregated human sera analysis
 
+# Configuration for plots of titers against human sera
+human_sera_plots_params:
+  titer_cutoff: 140  # similar to that in https://elifesciences.org/reviewed-preprints/106811
+  min_frac_strains: 0.8  # only include sera w titers against this fraction of strains
+  min_frac_sera: 0.8  # only include strains w titers against this fraction of ssera
+  min_frac_action: drop  # "drop" sera/strains below min_frac, or "raise" error
+
 
 # --- Configuration for `seqneut-pipeline` ----------------------------------------------
 

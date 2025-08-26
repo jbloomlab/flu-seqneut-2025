@@ -15,7 +15,9 @@ rule all:
         # outputs from custom analyses
         "results/viral_strain_seqs/circulating_2025_HA_ectodomain_nts.fa",
         "results/viral_strain_seqs/circulating_2025_HA_ectodomain_prots.fa",
-        "results/aggregated_analyses/human_sera_metadata.csv",    
+        "results/aggregated_analyses/human_sera_metadata.csv",
+        "results/aggregated_analyses/human_sera_titers.csv",
+        "results/aggregated_analyses/human_sera_titers_H3N2_median.html",
 
 # --- Everything below here is a custom analysis not part of seqneut-pipeline -----------
 
@@ -64,3 +66,22 @@ rule aggregate_human_sera_metadata_and_titers:
         notebook="results/aggregated_analyses/aggregate_human_sera_metadata_and_titers.ipynb",
     notebook:
         "notebooks/aggregate_human_sera_metadata_and_titers.py.ipynb"
+
+
+rule plot_human_sera_titers:
+    input:
+        metadata_csv="results/aggregated_analyses/human_sera_metadata.csv",
+        titers_csv="results/aggregated_analyses/human_sera_titers.csv",
+        virus_csv=config["viral_libraries"]["flu-seqneut-2025_library_actual"],
+        viral_strain_plot_order=config["viral_strain_plot_order"],
+    output:
+        median_titer_plot="results/aggregated_analyses/human_sera_titers_H3N2_median.html",
+    params:
+        recent_vaccine_strains=config["recent_vaccine_strains"],
+        human_sera_plots_params=config["human_sera_plots_params"],
+    conda:
+        "seqneut-pipeline/environment.yml"
+    log:
+        notebook="results/aggregated_analyses/plot_human_sera_titers.ipynb",
+    notebook:
+        "notebooks/plot_human_sera_titers.py.ipynb"
