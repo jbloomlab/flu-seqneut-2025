@@ -6,15 +6,15 @@ SCH,SCH_11,A/Brisbane/02/2018_H1N1,338,interpolated,59.89,3,midpoint
 SCH,SCH_11,A/BurkinaFaso/3131/2023_H3N2,2465,interpolated,235.5,2,midpoint
 SCH,SCH_11,A/Busan/277/2025_H1N1,1618,interpolated,311,2,midpoint
 SCH,SCH_11,A/Busan/461/2025_H3N2,2562,interpolated,,1,midpoint
-SCH,SCH_11,A/California/07/2009_H1N1,349.4,interpolated,280.2,3,midpoint
+SCH,SCH_11,A/California/07/2009_H1N1,1160,interpolated,,1,midpoint
 SCH,SCH_11,A/Cambodia/e0826360/2020_H3N2,571.9,interpolated,367.5,3,midpoint
 SCH,SCH_11,A/Cambodia/e0826360/2020egg_H3N2,5550,interpolated,351.2,3,midpoint
 SCH,SCH_11,A/Canberra/613/2024_H3N2,4560,interpolated,242.8,2,midpoint
 SCH,SCH_11,A/Colombia/1851/2024_H3N2,3352,interpolated,852.3,2,midpoint
 SCH,SCH_11,A/Colombia/7681/2024_H3N2,5325,interpolated,2147,2,midpoint
-SCH,SCH_11,A/Colorado/218/2024_H1N1,1593,interpolated,419.6,2,midpoint
+SCH,SCH_11,A/Colorado/218/2024_H1N1,2013,interpolated,,1,midpoint
 SCH,SCH_11,A/Colorado/ISC-1416/2024_H3N2,1.026e+04,interpolated,3194,2,midpoint
-SCH,SCH_11,A/CoteD'Ivoire/4448/2024_H3N2,9380,lower,4239,2,midpoint
+SCH,SCH_11,A/CoteD'Ivoire/4448/2024_H3N2,1.362e+04,lower,,1,midpoint
 SCH,SCH_11,A/Croatia/10136RV/2023-egg_H3N2,1.347e+04,lower,146.2,2,midpoint
 SCH,SCH_11,A/DE/DE-DHSS-901/2025_(H3N2)_H3N2,5289,interpolated,1679,2,midpoint
 SCH,SCH_11,A/Darwin/6/2021_H3N2,3396,interpolated,335.6,3,midpoint
@@ -38,7 +38,7 @@ SCH,SCH_11,A/India/Pune-NIV24_3439/2024_H3N2,4771,interpolated,745.4,2,midpoint
 SCH,SCH_11,A/Indiana/46/2024_H3N2,4883,interpolated,435.9,2,midpoint
 SCH,SCH_11,A/Iowa/123/2024_H1N1,1269,interpolated,44.94,2,midpoint
 SCH,SCH_11,A/KANAGAWA/AC2408/2025_H1N1,682.8,interpolated,30.28,2,midpoint
-SCH,SCH_11,A/Kansas/14/2017_H3N2,1254,interpolated,395.3,3,midpoint
+SCH,SCH_11,A/Kansas/14/2017_H3N2,1722,interpolated,468.3,2,midpoint
 SCH,SCH_11,A/Kentucky/57/2024_H3N2,3112,interpolated,276.4,2,midpoint
 SCH,SCH_11,A/Lisboa/188/2023_H1N1,1625,interpolated,257.9,2,midpoint
 SCH,SCH_11,A/Lisboa/216/2023_H3N2,9472,lower,4147,2,midpoint
@@ -47,7 +47,7 @@ SCH,SCH_11,A/Maldives/2132/2024_H1N1,1351,interpolated,60.6,2,midpoint
 SCH,SCH_11,A/Maldives/2147/2024_H3N2,2723,interpolated,317.2,2,midpoint
 SCH,SCH_11,A/Maldives/2186/2024_H3N2,9960,interpolated,3469,2,midpoint
 SCH,SCH_11,A/Manitoba/RV04865/2024_H3N2,1.112e+04,lower,2499,2,midpoint
-SCH,SCH_11,A/Maryland/64/2024_H1N1,1731,interpolated,366,2,midpoint
+SCH,SCH_11,A/Maryland/64/2024_H1N1,1365,interpolated,,1,midpoint
 SCH,SCH_11,A/Massachusetts/18/2022_H3N2,4629,interpolated,1416,3,midpoint
 SCH,SCH_11,A/Massachusetts/93/2024_H3N2,5915,interpolated,990.2,2,midpoint
 SCH,SCH_11,A/Massachusetts/BI_MGH-23147/2025_H3N2,7073,interpolated,219.6,2,midpoint
@@ -79,7 +79,7 @@ SCH,SCH_11,A/Pennsylvania/288/2024_H3N2,4098,interpolated,2812,2,midpoint
 SCH,SCH_11,A/Punta_Arenas/83659/2024_H3N2,5122,interpolated,763.2,2,midpoint
 SCH,SCH_11,A/Qatar/83328/2024_H1N1,1293,interpolated,25.57,2,midpoint
 SCH,SCH_11,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,1187,interpolated,,1,midpoint
-SCH,SCH_11,A/Queensland/IN000684/2024_H1N1,1435,interpolated,152.5,2,midpoint
+SCH,SCH_11,A/Queensland/IN000684/2024_H1N1,1587,interpolated,,1,midpoint
 SCH,SCH_11,A/Queensland/IN000692/2024_H3N2,5876,interpolated,501.5,2,midpoint
 SCH,SCH_11,A/Queensland/IN000803/2024_H3N2,5383,interpolated,342.9,2,midpoint
 SCH,SCH_11,A/Rhode_Island/15446/2025_H3N2,4510,interpolated,1746,2,midpoint
@@ -96,7 +96,7 @@ SCH,SCH_11,A/Singapore/MOH0547/2024_H1N1,1553,interpolated,380.4,2,midpoint
 SCH,SCH_11,A/Slovenia/49/2024_H3N2,8402,interpolated,1392,2,midpoint
 SCH,SCH_11,A/Switzerland/47775/2024_H3N2,3595,interpolated,978.2,2,midpoint
 SCH,SCH_11,A/Switzerland/860423897313/2023_H3N2,6496,interpolated,835.9,2,midpoint
-SCH,SCH_11,A/Switzerland/9715293/2013NIB-88_H3N2,1601,interpolated,1068,3,midpoint
+SCH,SCH_11,A/Switzerland/9715293/2013NIB-88_H3N2,1504,interpolated,97.21,2,midpoint
 SCH,SCH_11,A/Switzerland/9715293/2013_H3N2,436.2,interpolated,97.81,2,midpoint
 SCH,SCH_11,A/Sydney/43/2025_H3N2,4776,interpolated,612.4,2,midpoint
 SCH,SCH_11,A/TOKYO/EIS11-277/2024_H1N1,1457,interpolated,162.2,2,midpoint

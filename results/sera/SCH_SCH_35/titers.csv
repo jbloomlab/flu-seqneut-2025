@@ -6,7 +6,7 @@ SCH,SCH_35,A/Brisbane/02/2018_H1N1,1139,interpolated,205.2,3,midpoint
 SCH,SCH_35,A/BurkinaFaso/3131/2023_H3N2,2005,interpolated,437.8,2,midpoint
 SCH,SCH_35,A/Busan/277/2025_H1N1,724.3,interpolated,62.24,2,midpoint
 SCH,SCH_35,A/Busan/461/2025_H3N2,953.8,interpolated,,1,midpoint
-SCH,SCH_35,A/California/07/2009_H1N1,6987,interpolated,2009,3,midpoint
+SCH,SCH_35,A/California/07/2009_H1N1,6987,interpolated,,1,midpoint
 SCH,SCH_35,A/Cambodia/e0826360/2020_H3N2,671.2,interpolated,85.6,3,midpoint
 SCH,SCH_35,A/Cambodia/e0826360/2020egg_H3N2,3185,interpolated,984.5,3,midpoint
 SCH,SCH_35,A/Canberra/613/2024_H3N2,1608,interpolated,425.5,2,midpoint
@@ -14,7 +14,7 @@ SCH,SCH_35,A/Colombia/1851/2024_H3N2,1004,interpolated,106.4,2,midpoint
 SCH,SCH_35,A/Colombia/7681/2024_H3N2,1181,interpolated,62.83,2,midpoint
 SCH,SCH_35,A/Colorado/218/2024_H1N1,279.2,interpolated,,1,midpoint
 SCH,SCH_35,A/Colorado/ISC-1416/2024_H3N2,1369,interpolated,361.9,2,midpoint
-SCH,SCH_35,A/CoteD'Ivoire/4448/2024_H3N2,2147,interpolated,628.1,2,midpoint
+SCH,SCH_35,A/CoteD'Ivoire/4448/2024_H3N2,1519,interpolated,,1,midpoint
 SCH,SCH_35,A/Croatia/10136RV/2023-egg_H3N2,5354,interpolated,637,2,midpoint
 SCH,SCH_35,A/DE/DE-DHSS-901/2025_(H3N2)_H3N2,559,interpolated,43.09,2,midpoint
 SCH,SCH_35,A/Darwin/6/2021_H3N2,1230,interpolated,158,3,midpoint
@@ -38,7 +38,7 @@ SCH,SCH_35,A/India/Pune-NIV24_3439/2024_H3N2,1134,interpolated,30.15,2,midpoint
 SCH,SCH_35,A/Indiana/46/2024_H3N2,518.2,interpolated,146.7,2,midpoint
 SCH,SCH_35,A/Iowa/123/2024_H1N1,876.7,interpolated,270.1,2,midpoint
 SCH,SCH_35,A/KANAGAWA/AC2408/2025_H1N1,546.2,interpolated,21.71,2,midpoint
-SCH,SCH_35,A/Kansas/14/2017_H3N2,402.6,interpolated,267.6,3,midpoint
+SCH,SCH_35,A/Kansas/14/2017_H3N2,310.3,interpolated,92.37,2,midpoint
 SCH,SCH_35,A/Kentucky/57/2024_H3N2,548.9,interpolated,2.91,2,midpoint
 SCH,SCH_35,A/Lisboa/188/2023_H1N1,653.3,interpolated,76.61,2,midpoint
 SCH,SCH_35,A/Lisboa/216/2023_H3N2,975.6,interpolated,219.1,2,midpoint
@@ -79,7 +79,7 @@ SCH,SCH_35,A/Pennsylvania/288/2024_H3N2,465.1,interpolated,124.2,2,midpoint
 SCH,SCH_35,A/Punta_Arenas/83659/2024_H3N2,2205,interpolated,1233,2,midpoint
 SCH,SCH_35,A/Qatar/83328/2024_H1N1,818.3,interpolated,73.78,2,midpoint
 SCH,SCH_35,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,570.4,interpolated,,1,midpoint
-SCH,SCH_35,A/Queensland/IN000684/2024_H1N1,689.4,interpolated,146.6,2,midpoint
+SCH,SCH_35,A/Queensland/IN000684/2024_H1N1,836.1,interpolated,,1,midpoint
 SCH,SCH_35,A/Queensland/IN000692/2024_H3N2,1906,interpolated,475.8,2,midpoint
 SCH,SCH_35,A/Queensland/IN000803/2024_H3N2,617.6,interpolated,94.95,2,midpoint
 SCH,SCH_35,A/Rhode_Island/15446/2025_H3N2,978.9,interpolated,24.79,2,midpoint
@@ -96,8 +96,8 @@ SCH,SCH_35,A/Singapore/MOH0547/2024_H1N1,518.7,interpolated,28.99,2,midpoint
 SCH,SCH_35,A/Slovenia/49/2024_H3N2,840.3,interpolated,54.07,2,midpoint
 SCH,SCH_35,A/Switzerland/47775/2024_H3N2,1183,interpolated,58.18,2,midpoint
 SCH,SCH_35,A/Switzerland/860423897313/2023_H3N2,1976,interpolated,821.6,2,midpoint
-SCH,SCH_35,A/Switzerland/9715293/2013NIB-88_H3N2,1152,interpolated,29.36,3,midpoint
-SCH,SCH_35,A/Switzerland/9715293/2013_H3N2,484.3,interpolated,30.93,3,midpoint
+SCH,SCH_35,A/Switzerland/9715293/2013NIB-88_H3N2,1117,interpolated,35.73,2,midpoint
+SCH,SCH_35,A/Switzerland/9715293/2013_H3N2,493.4,interpolated,9.132,2,midpoint
 SCH,SCH_35,A/Sydney/43/2025_H3N2,875.8,interpolated,44.55,2,midpoint
 SCH,SCH_35,A/TOKYO/EIS11-277/2024_H1N1,412.9,interpolated,119.9,2,midpoint
 SCH,SCH_35,A/Tambov/160-1V/2024_H1N1,962.6,interpolated,147.9,2,midpoint

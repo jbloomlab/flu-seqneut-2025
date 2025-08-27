@@ -1,7 +1,7 @@
 fate,count
 invalid outer flank,3460378
-valid barcode,1277436
-invalid barcode,93829
+valid barcode,1277047
+invalid barcode,94218
 low quality barcode,89834
 unparseable barcode,64837
 read too short,0

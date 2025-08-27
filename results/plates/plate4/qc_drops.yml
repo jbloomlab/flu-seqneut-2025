@@ -1,48 +1,12 @@
 wells:
   B11: avg_barcode_counts_per_well
   F2: avg_barcode_counts_per_well
-barcodes:
-  AAGGACCAAGCCTTCA: min_neut_standard_frac_per_well
-  AAGTAAACATAGACGA: min_neut_standard_frac_per_well
-  AATACACAGGATTGCA: min_neut_standard_frac_per_well
-  AATCAAAAAAATCACC: min_neut_standard_frac_per_well
-  AATCCGAAATTTATTC: min_neut_standard_frac_per_well
-  AATTGAACGTCATACC: min_neut_standard_frac_per_well
-  AATTTATCCGAGAGCG: min_neut_standard_frac_per_well
-  AGAAGAAGTAATTGGC: min_neut_standard_frac_per_well
-  AGACTAGGAAAGCGAA: min_neut_standard_frac_per_well
-  ATACGAGATACAAATG: min_neut_standard_frac_per_well
-  CACAACGCACAATTAT: min_neut_standard_frac_per_well
-  CAGTAGTTGTCATGGG: min_neut_standard_frac_per_well
-  CCAATCCCAGCCTTTA: min_neut_standard_frac_per_well
-  CCCGGGACCAAAACTG: min_neut_standard_frac_per_well
-  CCCTCCTCAAGGGTAA: min_neut_standard_frac_per_well
-  CGAAGCTAGCCAAATA: min_neut_standard_frac_per_well
-  CGTATTAACGTAACAC: min_neut_standard_frac_per_well
-  CTAGTCACACGCACAC: min_neut_standard_frac_per_well
-  GCCTAAGCGTGGGCGG: min_neut_standard_frac_per_well
-  GCTTGTCGCAAACAGC: min_neut_standard_frac_per_well
-  GTCTCCTGACTAAAAA: min_neut_standard_frac_per_well
-  TAGGCATCGCTGTGTC: min_neut_standard_frac_per_well
-  TATATAAGCCTGTGAG: min_neut_standard_frac_per_well
-  TATTAATACCTGGGAA: min_neut_standard_frac_per_well
-  TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-  TCGGAGCGTAAAGAAT: min_neut_standard_frac_per_well
-  TTACTACACTTTGCAA: min_neut_standard_frac_per_well
-  TTGCAAAAAGTTTTAG: min_neut_standard_frac_per_well
-  TTGCATAGATGTAATC: min_neut_standard_frac_per_well
+barcodes: {}
 barcode_wells:
-  GACACAGAACCCATGC B12: min_no_serum_count_per_viral_barcode_well
-  GACACAGAACCCATGC D12: min_no_serum_count_per_viral_barcode_well
-  AGGTGGACGGGCATGG G2: max_frac_infectivity_per_viral_barcode_well
-  GACACAGAACCCATGC F3: max_frac_infectivity_per_viral_barcode_well
   TATCCAAGGGACGGAC G4: max_frac_infectivity_per_viral_barcode_well
-  GACACAGAACCCATGC B7: max_frac_infectivity_per_viral_barcode_well
-  GACACAGAACCCATGC C7: max_frac_infectivity_per_viral_barcode_well
   AACCACCCCAGAGATG G7: max_frac_infectivity_per_viral_barcode_well
   AACCACCCCAGAGATG G9: max_frac_infectivity_per_viral_barcode_well
   CCTTTCTCAAAACATA E11: max_frac_infectivity_per_viral_barcode_well
-  AGGTGGACGGGCATGG F11: max_frac_infectivity_per_viral_barcode_well
 barcode_serum_replicates:
   AGTATTTGCGCTTCAA UWMC-35: goodness_of_fit
   CATGGGAATTGCCACT UWMC-35: goodness_of_fit
@@ -52,12 +16,9 @@ barcode_serum_replicates:
   GAAGTACGCTGAATGA UWMC-35: goodness_of_fit
   GATCGCCACTGATAAG UWMC-35: goodness_of_fit
   GCCGCTGCGGCGTGTG UWMC-35: goodness_of_fit
-  GCCTAAAGGATCATGA UWMC-35: goodness_of_fit
   GTGAGCGAGAAAAGCA UWMC-35: goodness_of_fit
   TACTAATGCCGTTGTC UWMC-35: goodness_of_fit
-  TATACTCACGGAGGAT UWMC-35: goodness_of_fit
   TGATCTGTGACATTGC UWMC-35: goodness_of_fit
-  AGGTGGACGGGCATGG UWMC-36: goodness_of_fit
   CACCAATCTTCGAACT UWMC-36: goodness_of_fit
   AACTGCGTTCATCGAT UWMC-37: goodness_of_fit
   TCTCAGCTCTTAGCCG UWMC-37: goodness_of_fit
@@ -77,22 +38,18 @@ barcode_serum_replicates:
   ATTAGATTATAACGTA UWMC-40: goodness_of_fit
   CAATTCGCCGTTCCCC UWMC-40: goodness_of_fit
   CACCTAGGATCGCACT UWMC-40: goodness_of_fit
-  CATGTGAATTCGCCCA UWMC-40: goodness_of_fit
   CCCCCGCTGTTTAAAA UWMC-40: goodness_of_fit
   CCTTTCTCAAAACATA UWMC-40: goodness_of_fit
   CTATCTTAATCTACAG UWMC-40: goodness_of_fit
   GCAACGAGGTGTAACC UWMC-40: goodness_of_fit
   GCCGCTGCGGCGTGTG UWMC-40: goodness_of_fit
-  TATACTCACGGAGGAT UWMC-40: goodness_of_fit
   TCTCAGCTCTTAGCCG UWMC-40: goodness_of_fit
   GCCTTTGCGCGCAGTC UWMC-41: goodness_of_fit
   AGCTGAATTAAGTATG UWMC-42: goodness_of_fit
-  GACACAGAACCCATGC UWMC-42: goodness_of_fit
   TATCCAAGGGACGGAC UWMC-43: goodness_of_fit
   ATTAGGGCTACGTGAG UWMC-44: goodness_of_fit
   CCGCGCACGTTTAGAG UWMC-44: goodness_of_fit
   CGCACTTTACGAGACA UWMC-44: goodness_of_fit
-  GCCTAAAGGATCATGA UWMC-44: goodness_of_fit
   GCCTTTGCGCGCAGTC UWMC-44: goodness_of_fit
   GTCCGTCAGCATAAAC UWMC-44: goodness_of_fit
   TGATCTGTGACATTGC UWMC-44: goodness_of_fit

@@ -12,9 +12,9 @@ FCI,FCI_10,A/Cambodia/e0826360/2020egg_H3N2,104.6,interpolated,38.61,2,midpoint
 FCI,FCI_10,A/Canberra/613/2024_H3N2,146.1,interpolated,9.543,2,midpoint
 FCI,FCI_10,A/Colombia/1851/2024_H3N2,231.4,interpolated,24.7,2,midpoint
 FCI,FCI_10,A/Colombia/7681/2024_H3N2,62.07,interpolated,3.239,2,midpoint
-FCI,FCI_10,A/Colorado/218/2024_H1N1,121.6,interpolated,55.88,2,midpoint
+FCI,FCI_10,A/Colorado/218/2024_H1N1,65.74,interpolated,,1,midpoint
 FCI,FCI_10,A/Colorado/ISC-1416/2024_H3N2,127.9,interpolated,23.13,2,midpoint
-FCI,FCI_10,A/CoteD'Ivoire/4448/2024_H3N2,84.52,interpolated,18.06,2,midpoint
+FCI,FCI_10,A/CoteD'Ivoire/4448/2024_H3N2,102.6,interpolated,,1,midpoint
 FCI,FCI_10,A/Croatia/10136RV/2023-egg_H3N2,42.39,interpolated,,1,midpoint
 FCI,FCI_10,A/DE/DE-DHSS-901/2025_(H3N2)_H3N2,84.47,interpolated,37.38,2,midpoint
 FCI,FCI_10,A/Darwin/6/2021_H3N2,227.8,interpolated,69.72,2,midpoint
@@ -47,7 +47,7 @@ FCI,FCI_10,A/Maldives/2132/2024_H1N1,130,interpolated,,1,midpoint
 FCI,FCI_10,A/Maldives/2147/2024_H3N2,40,upper,,1,midpoint
 FCI,FCI_10,A/Maldives/2186/2024_H3N2,54.9,interpolated,2.527,2,midpoint
 FCI,FCI_10,A/Manitoba/RV04865/2024_H3N2,243,interpolated,13.31,2,midpoint
-FCI,FCI_10,A/Maryland/64/2024_H1N1,67.53,upper,27.53,2,midpoint
+FCI,FCI_10,A/Maryland/64/2024_H1N1,95.07,interpolated,,1,midpoint
 FCI,FCI_10,A/Massachusetts/18/2022_H3N2,169.7,interpolated,56.53,3,midpoint
 FCI,FCI_10,A/Massachusetts/93/2024_H3N2,46.38,upper,6.379,2,midpoint
 FCI,FCI_10,A/Massachusetts/BI_MGH-23147/2025_H3N2,334.4,interpolated,148.3,2,midpoint
@@ -78,7 +78,6 @@ FCI,FCI_10,A/Pakistan/306/2024_H1N1,40,upper,0,2,midpoint
 FCI,FCI_10,A/Pennsylvania/288/2024_H3N2,97.62,interpolated,40.43,2,midpoint
 FCI,FCI_10,A/Punta_Arenas/83659/2024_H3N2,80.77,interpolated,12.96,2,midpoint
 FCI,FCI_10,A/Qatar/83328/2024_H1N1,66.6,interpolated,0.6242,2,midpoint
-FCI,FCI_10,A/Queensland/IN000684/2024_H1N1,68.29,interpolated,,1,midpoint
 FCI,FCI_10,A/Queensland/IN000692/2024_H3N2,324.6,interpolated,33.42,2,midpoint
 FCI,FCI_10,A/Queensland/IN000803/2024_H3N2,199.3,interpolated,24.5,2,midpoint
 FCI,FCI_10,A/Rhode_Island/15446/2025_H3N2,292.1,interpolated,63.71,2,midpoint

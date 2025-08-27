@@ -1,60 +1,25 @@
 wells:
   F2: avg_barcode_counts_per_well
-barcodes:
-  AAGGACCAAGCCTTCA: min_neut_standard_frac_per_well
-  AAGTAAACATAGACGA: min_neut_standard_frac_per_well
-  AATACACAGGATTGCA: min_neut_standard_frac_per_well
-  AATCAAAAAAATCACC: min_neut_standard_frac_per_well
-  AATCCGAAATTTATTC: min_neut_standard_frac_per_well
-  AATTGAACGTCATACC: min_neut_standard_frac_per_well
-  AATTTATCCGAGAGCG: min_neut_standard_frac_per_well
-  AGAAGAAGTAATTGGC: min_neut_standard_frac_per_well
-  AGACTAGGAAAGCGAA: min_neut_standard_frac_per_well
-  AGGTGGACGGGCATGG: min_neut_standard_frac_per_well
-  ATACGAGATACAAATG: min_neut_standard_frac_per_well
-  CACAACGCACAATTAT: min_neut_standard_frac_per_well
-  CCAATCCCAGCCTTTA: min_neut_standard_frac_per_well
-  CCCGGGACCAAAACTG: min_neut_standard_frac_per_well
-  CGAAGCTAGCCAAATA: min_neut_standard_frac_per_well
-  CGTATTAACGTAACAC: min_neut_standard_frac_per_well
-  CTAGTCACACGCACAC: min_neut_standard_frac_per_well
-  GACACAGAACCCATGC: min_neut_standard_frac_per_well
-  GCCTAAGCGTGGGCGG: min_neut_standard_frac_per_well
-  GCTTGTCGCAAACAGC: min_neut_standard_frac_per_well
-  GTCTCCTGACTAAAAA: min_neut_standard_frac_per_well
-  TAGGCATCGCTGTGTC: min_neut_standard_frac_per_well
-  TATATAAGCCTGTGAG: min_neut_standard_frac_per_well
-  TATTAATACCTGGGAA: min_neut_standard_frac_per_well
-  TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-  TCGGAGCGTAAAGAAT: min_neut_standard_frac_per_well
-  TTACTACACTTTGCAA: min_neut_standard_frac_per_well
-  TTGCAAAAAGTTTTAG: min_neut_standard_frac_per_well
-  TTGCATAGATGTAATC: min_neut_standard_frac_per_well
+barcodes: {}
 barcode_wells:
-  CATGTGAATTCGCCCA C12: min_no_serum_count_per_viral_barcode_well
   GATTCAGATGCCCACC D12: min_no_serum_count_per_viral_barcode_well
-  CAGTAGTTGTCATGGG D12: min_no_serum_count_per_viral_barcode_well
   AAATGTTTAATAGACG D12: min_no_serum_count_per_viral_barcode_well
   CACCAATCTTCGAACT D12: min_no_serum_count_per_viral_barcode_well
-  CCCTCCTCAAGGGTAA F12: min_no_serum_count_per_viral_barcode_well
   CTCTTACGCTCCTACG F12: min_no_serum_count_per_viral_barcode_well
   AAATGTTTAATAGACG F12: min_no_serum_count_per_viral_barcode_well
   TTAATGTAGCCGCTCC H12: min_no_serum_count_per_viral_barcode_well
-  CAGTAGTTGTCATGGG H12: min_no_serum_count_per_viral_barcode_well
   GCCGGCGTTAGTGTCA D1: max_frac_infectivity_per_viral_barcode_well
   GATCGCCACTGATAAG F1: max_frac_infectivity_per_viral_barcode_well
   CACCAATCTTCGAACT F1: max_frac_infectivity_per_viral_barcode_well
   CACCAATCTTCGAACT D2: max_frac_infectivity_per_viral_barcode_well
   AACCACCCCAGAGATG E2: max_frac_infectivity_per_viral_barcode_well
   CACCAATCTTCGAACT E2: max_frac_infectivity_per_viral_barcode_well
-  CAGTAGTTGTCATGGG E2: max_frac_infectivity_per_viral_barcode_well
   AAGTATTGCTACACAT G2: max_frac_infectivity_per_viral_barcode_well
   CACTAGATGTACAGTC G2: max_frac_infectivity_per_viral_barcode_well
   GTGCATCCTAGTGACG G2: max_frac_infectivity_per_viral_barcode_well
   AGTCCTATCCTCAAAT G2: max_frac_infectivity_per_viral_barcode_well
   TCGAACGAAGTAGGAG C3: max_frac_infectivity_per_viral_barcode_well
   TTGGGCACTAAATTAA C3: max_frac_infectivity_per_viral_barcode_well
-  CAGTAGTTGTCATGGG C3: max_frac_infectivity_per_viral_barcode_well
   ACGTCCATTAAGATCA D3: max_frac_infectivity_per_viral_barcode_well
   CGTGACCCCCTCCAAC D3: max_frac_infectivity_per_viral_barcode_well
   ACAAAGTCTCGAGAAG E3: max_frac_infectivity_per_viral_barcode_well
@@ -97,7 +62,6 @@ barcode_wells:
   TCGAGTTAATATGCGC F4: max_frac_infectivity_per_viral_barcode_well
   GCCGGCGTTAGTGTCA F4: max_frac_infectivity_per_viral_barcode_well
   AAATGTTTAATAGACG F4: max_frac_infectivity_per_viral_barcode_well
-  CCCTCCTCAAGGGTAA B5: max_frac_infectivity_per_viral_barcode_well
   ACGCAAATAGACCGAA H5: max_frac_infectivity_per_viral_barcode_well
   AAATGTTTAATAGACG H5: max_frac_infectivity_per_viral_barcode_well
   CAAAAGCAGCACGATA C7: max_frac_infectivity_per_viral_barcode_well
@@ -180,7 +144,6 @@ barcode_serum_replicates:
   GCAAACAGTGTAGTTG SCH_19: goodness_of_fit
   GCAGCGTGCCGGTCAT SCH_19: goodness_of_fit
   GCCGCTGCGGCGTGTG SCH_19: goodness_of_fit
-  GCCTAAAGGATCATGA SCH_19: goodness_of_fit
   GTAAGCAAAGTTGACC SCH_19: goodness_of_fit
   GTAAGCTTCATGGAGT SCH_19: goodness_of_fit
   GTCAAGTTACGGATGG SCH_19: goodness_of_fit
@@ -288,7 +251,6 @@ barcode_serum_replicates:
   CAGAACCTCGTTGTCT SCH_22: goodness_of_fit
   CCAACACAAAAAATTA SCH_22: goodness_of_fit
   CCCTATGAAATAAGCT SCH_22: goodness_of_fit
-  CCCTCCTCAAGGGTAA SCH_22: goodness_of_fit
   CCGCGCACGTTTAGAG SCH_22: goodness_of_fit
   CCTGGGTTAAGTTGTG SCH_22: goodness_of_fit
   CCTTGATGCATTCCCG SCH_22: goodness_of_fit
@@ -306,7 +268,6 @@ barcode_serum_replicates:
   GATCGCCACTGATAAG SCH_22: goodness_of_fit
   GCAACGAGGTGTAACC SCH_22: goodness_of_fit
   GCCGCTGCGGCGTGTG SCH_22: goodness_of_fit
-  GCCTAAAGGATCATGA SCH_22: goodness_of_fit
   GGTTAACTTTGGAAGC SCH_22: goodness_of_fit
   GTAAGCAAAGTTGACC SCH_22: goodness_of_fit
   GTAAGCTTCATGGAGT SCH_22: goodness_of_fit
@@ -361,7 +322,6 @@ barcode_serum_replicates:
   CAGATAGTGATGAACA SCH_25: goodness_of_fit
   CATGTGGAGCCCAACA SCH_25: goodness_of_fit
   CCCTATGAAATAAGCT SCH_25: goodness_of_fit
-  CCCTCCTCAAGGGTAA SCH_25: goodness_of_fit
   CCCTTTACGGATCTCT SCH_25: goodness_of_fit
   CCGCGCACGTTTAGAG SCH_25: goodness_of_fit
   CCTTGATGCATTCCCG SCH_25: goodness_of_fit
@@ -378,7 +338,6 @@ barcode_serum_replicates:
   GAAGTACGCTGAATGA SCH_25: goodness_of_fit
   GAGAGCTGCAGAAGCG SCH_25: goodness_of_fit
   GCAAACAGTGTAGTTG SCH_25: goodness_of_fit
-  GCCTAAAGGATCATGA SCH_25: goodness_of_fit
   GTAATTCGCATGCGGA SCH_25: goodness_of_fit
   GTTGCTCCGACACGCC SCH_25: goodness_of_fit
   TAAAAAGCCTCCATGA SCH_25: goodness_of_fit
@@ -427,7 +386,6 @@ barcode_serum_replicates:
   CACCATCAGCACCTAG SCH_26: goodness_of_fit
   CAGATAGTGATGAACA SCH_26: goodness_of_fit
   CAGGCTCTAGAGCTCT SCH_26: goodness_of_fit
-  CATGTGAATTCGCCCA SCH_26: goodness_of_fit
   CCAACACAAAAAATTA SCH_26: goodness_of_fit
   CCCCCGCTGTTTAAAA SCH_26: goodness_of_fit
   CCCCTCCTCTAAAGTT SCH_26: goodness_of_fit
@@ -457,7 +415,6 @@ barcode_serum_replicates:
   GATCGCCACTGATAAG SCH_26: goodness_of_fit
   GCAACGAGGTGTAACC SCH_26: goodness_of_fit
   GCCATTTACTGAAGGG SCH_26: goodness_of_fit
-  GCCTAAAGGATCATGA SCH_26: goodness_of_fit
   GCCTTTGCGCGCAGTC SCH_26: goodness_of_fit
   GGTTAACTTTGGAAGC SCH_26: goodness_of_fit
   GTAAGCAAAGTTGACC SCH_26: goodness_of_fit

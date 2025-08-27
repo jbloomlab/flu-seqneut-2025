@@ -6,7 +6,7 @@ UWMC,UWMC-35,A/Brisbane/02/2018_H1N1,221.6,interpolated,44.48,3,midpoint
 UWMC,UWMC-35,A/BurkinaFaso/3131/2023_H3N2,176.7,interpolated,,1,midpoint
 UWMC,UWMC-35,A/Busan/277/2025_H1N1,491.4,interpolated,12.14,2,midpoint
 UWMC,UWMC-35,A/Busan/461/2025_H3N2,340.9,interpolated,,1,midpoint
-UWMC,UWMC-35,A/California/07/2009_H1N1,570.5,interpolated,542.7,3,midpoint
+UWMC,UWMC-35,A/California/07/2009_H1N1,269.5,interpolated,,1,midpoint
 UWMC,UWMC-35,A/Cambodia/e0826360/2020_H3N2,174.9,interpolated,58.59,3,midpoint
 UWMC,UWMC-35,A/Cambodia/e0826360/2020egg_H3N2,113.4,interpolated,84.28,3,midpoint
 UWMC,UWMC-35,A/Canberra/613/2024_H3N2,316.4,interpolated,,1,midpoint
@@ -46,7 +46,7 @@ UWMC,UWMC-35,A/Maldives/2132/2024_H1N1,294.7,interpolated,45.86,2,midpoint
 UWMC,UWMC-35,A/Maldives/2147/2024_H3N2,40,upper,,1,midpoint
 UWMC,UWMC-35,A/Maldives/2186/2024_H3N2,121.9,interpolated,38.14,2,midpoint
 UWMC,UWMC-35,A/Manitoba/RV04865/2024_H3N2,248.8,interpolated,67.3,2,midpoint
-UWMC,UWMC-35,A/Maryland/64/2024_H1N1,360.7,interpolated,153.1,2,midpoint
+UWMC,UWMC-35,A/Maryland/64/2024_H1N1,513.9,interpolated,,1,midpoint
 UWMC,UWMC-35,A/Massachusetts/18/2022_H3N2,210,interpolated,28.54,3,midpoint
 UWMC,UWMC-35,A/Massachusetts/93/2024_H3N2,126.8,interpolated,24.3,2,midpoint
 UWMC,UWMC-35,A/Massachusetts/BI_MGH-23147/2025_H3N2,433.3,interpolated,41.98,2,midpoint
@@ -78,7 +78,7 @@ UWMC,UWMC-35,A/Pennsylvania/288/2024_H3N2,136.5,interpolated,19.65,2,midpoint
 UWMC,UWMC-35,A/Punta_Arenas/83659/2024_H3N2,212,interpolated,99.13,2,midpoint
 UWMC,UWMC-35,A/Qatar/83328/2024_H1N1,310.8,interpolated,110.4,2,midpoint
 UWMC,UWMC-35,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,168.6,interpolated,,1,midpoint
-UWMC,UWMC-35,A/Queensland/IN000684/2024_H1N1,562,interpolated,150.6,2,midpoint
+UWMC,UWMC-35,A/Queensland/IN000684/2024_H1N1,712.6,interpolated,,1,midpoint
 UWMC,UWMC-35,A/Queensland/IN000692/2024_H3N2,423.4,interpolated,210.2,2,midpoint
 UWMC,UWMC-35,A/Queensland/IN000803/2024_H3N2,252.2,interpolated,105.7,2,midpoint
 UWMC,UWMC-35,A/Rhode_Island/15446/2025_H3N2,506.4,interpolated,183.8,2,midpoint

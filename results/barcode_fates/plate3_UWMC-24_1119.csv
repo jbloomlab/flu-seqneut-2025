@@ -1,8 +1,8 @@
 fate,count
 invalid outer flank,3024818
-valid barcode,643467
+valid barcode,638314
 unparseable barcode,48210
 low quality barcode,46150
-invalid barcode,8439
+invalid barcode,13592
 read too short,0
 failed chastity filter,0
