@@ -15,7 +15,6 @@ recent_vaccine_strains:
 # Configuration relevant to aggregated analyses of human sera titeres
 human_sera_groups_to_exclude:  # sera groups excluded from aggregated human sera analysis
   - FCI  # these are ferret sera
-  - pilot  # this is just a pilot serum
 human_sera_to_exclude: []  # individual sera excluded from aggregated human sera analysis
 
 
@@ -88,107 +87,40 @@ sera_override_defaults: {}
 
 plates:
 
-  plate0_1-8:
-    group: pilot
-    date: 2025-07-23
-    viral_library: flu-seqneut-2025_library_actual
-    neut_standard_set: loes2023
-    samples_csv: data/plates/2025-07-23_plate0_1-8.csv
-    manual_drops: {}
-    qc_thresholds:
-      <<: *default_process_plate_qc_thresholds
-    curvefit_params:
-      <<: *default_process_plate_curvefit_params
-    curvefit_qc:
-      <<: *default_process_plate_curvefit_qc
-    illumina_barcode_parser_params:
-      upstream2: GCTACA # Fwd1
-      upstream2_mismatch: 1
+# plate1 and plate2 are dropped from the analysis due to unbalanced sequencing
+  # plate1:
+  #   group: UWMC
+  #   date: 2025-07-23
+  #   viral_library: flu-seqneut-2025_library_actual
+  #   neut_standard_set: loes2023
+  #   samples_csv: data/plates/2024-07-23_plate1.csv
+  #   manual_drops: {}
+  #   qc_thresholds:
+  #     <<: *default_process_plate_qc_thresholds
+  #   curvefit_params:
+  #     <<: *default_process_plate_curvefit_params
+  #   curvefit_qc:
+  #     <<: *default_process_plate_curvefit_qc
+  #   illumina_barcode_parser_params:
+  #     upstream2: ATCGAT # Fwd2
+  #     upstream2_mismatch: 1
 
-  plate0_1_to_16:
-    group: pilot
-    date: 2025-07-23
-    viral_library: flu-seqneut-2025_library_actual
-    neut_standard_set: loes2023
-    samples_csv: data/plates/2025-07-23_plate0_1-16.csv
-    manual_drops: {}
-    qc_thresholds:
-      <<: *default_process_plate_qc_thresholds
-    curvefit_params:
-      <<: *default_process_plate_curvefit_params
-    curvefit_qc:
-      <<: *default_process_plate_curvefit_qc
-    illumina_barcode_parser_params:
-      upstream2: GCTACA # Fwd1
-      upstream2_mismatch: 1
-
-  plate0_1_to_24:
-    group: pilot
-    date: 2025-07-23
-    viral_library: flu-seqneut-2025_library_actual
-    neut_standard_set: loes2023
-    samples_csv: data/plates/2025-07-23_plate0_1-24.csv
-    manual_drops: {}
-    qc_thresholds:
-      <<: *default_process_plate_qc_thresholds
-    curvefit_params:
-      <<: *default_process_plate_curvefit_params
-    curvefit_qc:
-      <<: *default_process_plate_curvefit_qc
-    illumina_barcode_parser_params:
-      upstream2: GCTACA # Fwd1
-      upstream2_mismatch: 1
-
-  plate0_1_to_32:
-    group: pilot
-    date: 2025-07-23
-    viral_library: flu-seqneut-2025_library_actual
-    neut_standard_set: loes2023
-    samples_csv: data/plates/2025-07-23_plate0_1-32.csv
-    manual_drops: {}
-    qc_thresholds:
-      <<: *default_process_plate_qc_thresholds
-    curvefit_params:
-      <<: *default_process_plate_curvefit_params
-    curvefit_qc:
-      <<: *default_process_plate_curvefit_qc
-    illumina_barcode_parser_params:
-      upstream2: GCTACA # Fwd1
-      upstream2_mismatch: 1
-
-  plate1:
-    group: UWMC
-    date: 2025-07-23
-    viral_library: flu-seqneut-2025_library_actual
-    neut_standard_set: loes2023
-    samples_csv: data/plates/2024-07-23_plate1.csv
-    manual_drops: {}
-    qc_thresholds:
-      <<: *default_process_plate_qc_thresholds
-    curvefit_params:
-      <<: *default_process_plate_curvefit_params
-    curvefit_qc:
-      <<: *default_process_plate_curvefit_qc
-    illumina_barcode_parser_params:
-      upstream2: ATCGAT # Fwd2
-      upstream2_mismatch: 1
-
-  plate2:
-    group: UWMC
-    date: 2025-07-23
-    viral_library: flu-seqneut-2025_library_actual
-    neut_standard_set: loes2023
-    samples_csv: data/plates/2024-07-23_plate2.csv
-    manual_drops: {}
-    qc_thresholds:
-      <<: *default_process_plate_qc_thresholds
-    curvefit_params:
-      <<: *default_process_plate_curvefit_params
-    curvefit_qc:
-      <<: *default_process_plate_curvefit_qc
-    illumina_barcode_parser_params:
-      upstream2: TGACGC # Fwd3
-      upstream2_mismatch: 1
+  # plate2:
+  #   group: UWMC
+  #   date: 2025-07-23
+  #   viral_library: flu-seqneut-2025_library_actual
+  #   neut_standard_set: loes2023
+  #   samples_csv: data/plates/2024-07-23_plate2.csv
+  #   manual_drops: {}
+  #   qc_thresholds:
+  #     <<: *default_process_plate_qc_thresholds
+  #   curvefit_params:
+  #     <<: *default_process_plate_curvefit_params
+  #   curvefit_qc:
+  #     <<: *default_process_plate_curvefit_qc
+  #   illumina_barcode_parser_params:
+  #     upstream2: TGACGC # Fwd3
+  #     upstream2_mismatch: 1
 
   plate1-2:
     group: UWMC
@@ -258,22 +190,23 @@ plates:
       upstream2: GTCTAA # Fwd5
       upstream2_mismatch: 1
 
-  plate5:
-    group: UWMC
-    date: 2025-08-12
-    viral_library: flu-seqneut-2025_library_actual
-    neut_standard_set: loes2023
-    samples_csv: data/plates/2025-08-12_plate5.csv
-    manual_drops: {}
-    qc_thresholds:
-      <<: *default_process_plate_qc_thresholds
-    curvefit_params:
-      <<: *default_process_plate_curvefit_params
-    curvefit_qc:
-      <<: *default_process_plate_curvefit_qc
-    illumina_barcode_parser_params:
-      upstream2: GCTACA # Fwd1
-      upstream2_mismatch: 1
+# plate5 is dropped from the analysis due to experimental error
+  # plate5:
+  #   group: UWMC
+  #   date: 2025-08-12
+  #   viral_library: flu-seqneut-2025_library_actual
+  #   neut_standard_set: loes2023
+  #   samples_csv: data/plates/2025-08-12_plate5.csv
+  #   manual_drops: {}
+  #   qc_thresholds:
+  #     <<: *default_process_plate_qc_thresholds
+  #   curvefit_params:
+  #     <<: *default_process_plate_curvefit_params
+  #   curvefit_qc:
+  #     <<: *default_process_plate_curvefit_qc
+  #   illumina_barcode_parser_params:
+  #     upstream2: GCTACA # Fwd1
+  #     upstream2_mismatch: 1
   
   plate6:
     group: FCI
