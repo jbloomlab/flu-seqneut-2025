@@ -1,53 +1,15 @@
 wells:
   B11: avg_barcode_counts_per_well
   F2: avg_barcode_counts_per_well
-barcodes:
-  AAGGACCAAGCCTTCA: min_neut_standard_frac_per_well
-  AAGTAAACATAGACGA: min_neut_standard_frac_per_well
-  AATACACAGGATTGCA: min_neut_standard_frac_per_well
-  AATCAAAAAAATCACC: min_neut_standard_frac_per_well
-  AATCCGAAATTTATTC: min_neut_standard_frac_per_well
-  AATTTATCCGAGAGCG: min_neut_standard_frac_per_well
-  AGAAGAAGTAATTGGC: min_neut_standard_frac_per_well
-  AGACTAGGAAAGCGAA: min_neut_standard_frac_per_well
-  ATACGAGATACAAATG: min_neut_standard_frac_per_well
-  CACAACGCACAATTAT: min_neut_standard_frac_per_well
-  CCAATCCCAGCCTTTA: min_neut_standard_frac_per_well
-  CCCGGGACCAAAACTG: min_neut_standard_frac_per_well
-  CCCTCCTCAAGGGTAA: min_neut_standard_frac_per_well
-  CGAAGCTAGCCAAATA: min_neut_standard_frac_per_well
-  CGTATTAACGTAACAC: min_neut_standard_frac_per_well
-  CTAGTCACACGCACAC: min_neut_standard_frac_per_well
-  GCCTAAGCGTGGGCGG: min_neut_standard_frac_per_well
-  GCTTGTCGCAAACAGC: min_neut_standard_frac_per_well
-  GTCTCCTGACTAAAAA: min_neut_standard_frac_per_well
-  TAGGCATCGCTGTGTC: min_neut_standard_frac_per_well
-  TATATAAGCCTGTGAG: min_neut_standard_frac_per_well
-  TATTAATACCTGGGAA: min_neut_standard_frac_per_well
-  TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-  TCGGAGCGTAAAGAAT: min_neut_standard_frac_per_well
-  TTACTACACTTTGCAA: min_neut_standard_frac_per_well
-  TTGCAAAAAGTTTTAG: min_neut_standard_frac_per_well
-  TTGCATAGATGTAATC: min_neut_standard_frac_per_well
+barcodes: {}
 barcode_wells:
-  CAGTAGTTGTCATGGG A12: min_no_serum_count_per_viral_barcode_well
-  CATGTGAATTCGCCCA A12: min_no_serum_count_per_viral_barcode_well
-  AATTGAACGTCATACC B12: min_no_serum_count_per_viral_barcode_well
-  AGGTGGACGGGCATGG B12: min_no_serum_count_per_viral_barcode_well
-  CAGTAGTTGTCATGGG B12: min_no_serum_count_per_viral_barcode_well
-  CAGTAGTTGTCATGGG C12: min_no_serum_count_per_viral_barcode_well
-  AATTGAACGTCATACC E12: min_no_serum_count_per_viral_barcode_well
-  CATGTGAATTCGCCCA H12: min_no_serum_count_per_viral_barcode_well
   AGACCATCGCACCCAA G2: max_frac_infectivity_per_viral_barcode_well
   CTCTTACGCTCCTACG G3: max_frac_infectivity_per_viral_barcode_well
   CCGCATTAGCGGGAGG G3: max_frac_infectivity_per_viral_barcode_well
   AGACCATCGCACCCAA G4: max_frac_infectivity_per_viral_barcode_well
-  AATTGAACGTCATACC D5: max_frac_infectivity_per_viral_barcode_well
   TTAATGTAGCCGCTCC C9: max_frac_infectivity_per_viral_barcode_well
   TCGAGTTAATATGCGC F9: max_frac_infectivity_per_viral_barcode_well
-  AATTGAACGTCATACC D10: max_frac_infectivity_per_viral_barcode_well
   GTAATTCGCATGCGGA D11: max_frac_infectivity_per_viral_barcode_well
-  AATTGAACGTCATACC F11: max_frac_infectivity_per_viral_barcode_well
 barcode_serum_replicates:
   AACCTACGAGACGTAA UWMC-1: goodness_of_fit
   AAGCGGTGATGTGATT UWMC-1: goodness_of_fit
@@ -152,10 +114,8 @@ barcode_serum_replicates:
   CAGAACCTCGTTGTCT UWMC-10: goodness_of_fit
   CAGATAGTGATGAACA UWMC-10: goodness_of_fit
   CAGGCTCTAGAGCTCT UWMC-10: goodness_of_fit
-  CAGTAGTTGTCATGGG UWMC-10: goodness_of_fit
   CATAAAAGACTGTATA UWMC-10: goodness_of_fit
   CATGGGAATTGCCACT UWMC-10: goodness_of_fit
-  CATGTGAATTCGCCCA UWMC-10: goodness_of_fit
   CATGTGGAGCCCAACA UWMC-10: goodness_of_fit
   CATTTCTGATGAATTG UWMC-10: goodness_of_fit
   CCAACACAAAAAATTA UWMC-10: goodness_of_fit
@@ -221,7 +181,6 @@ barcode_serum_replicates:
   GCCAGCTCGTATCCCT UWMC-10: goodness_of_fit
   GCCATTTACTGAAGGG UWMC-10: goodness_of_fit
   GCCGCTGCGGCGTGTG UWMC-10: goodness_of_fit
-  GCCTAAAGGATCATGA UWMC-10: goodness_of_fit
   GTAAGCAAAGTTGACC UWMC-10: goodness_of_fit
   GTAAGCTTCATGGAGT UWMC-10: goodness_of_fit
   GTAATTCGCATGCGGA UWMC-10: goodness_of_fit
@@ -241,7 +200,6 @@ barcode_serum_replicates:
   TACTAGCAATAAAATC UWMC-10: goodness_of_fit
   TACTGATAACCCTGCG UWMC-10: goodness_of_fit
   TAGCATTGTCGGAAAG UWMC-10: goodness_of_fit
-  TATACTCACGGAGGAT UWMC-10: goodness_of_fit
   TATCCAAGGGACGGAC UWMC-10: goodness_of_fit
   TATGTCGTATCCACAG UWMC-10: goodness_of_fit
   TATTCCTAACTAGCGA UWMC-10: goodness_of_fit
@@ -403,7 +361,6 @@ barcode_serum_replicates:
   GAAGTACGCTGAATGA UWMC-11: goodness_of_fit
   GAAGTGCGTATTGAGT UWMC-11: goodness_of_fit
   GAATAATAGAACAGAG UWMC-11: goodness_of_fit
-  GACACAGAACCCATGC UWMC-11: goodness_of_fit
   GACGGGATGGGCACGT UWMC-11: goodness_of_fit
   GAGAGCTGCAGAAGCG UWMC-11: goodness_of_fit
   GAGGGGTAGAGATACG UWMC-11: goodness_of_fit
@@ -418,7 +375,6 @@ barcode_serum_replicates:
   GCCATTTACTGAAGGG UWMC-11: goodness_of_fit
   GCCGCTGCGGCGTGTG UWMC-11: goodness_of_fit
   GCCGGCGTTAGTGTCA UWMC-11: goodness_of_fit
-  GCCTAAAGGATCATGA UWMC-11: goodness_of_fit
   GGTTAACTTTGGAAGC UWMC-11: goodness_of_fit
   GTAAGCAAAGTTGACC UWMC-11: goodness_of_fit
   GTAAGCTTCATGGAGT UWMC-11: goodness_of_fit
@@ -440,7 +396,6 @@ barcode_serum_replicates:
   TACTAGCAATAAAATC UWMC-11: goodness_of_fit
   TACTGATAACCCTGCG UWMC-11: goodness_of_fit
   TAGCATTGTCGGAAAG UWMC-11: goodness_of_fit
-  TATACTCACGGAGGAT UWMC-11: goodness_of_fit
   TATCCAAGGGACGGAC UWMC-11: goodness_of_fit
   TATGTCGTATCCACAG UWMC-11: goodness_of_fit
   TATTCCTAACTAGCGA UWMC-11: goodness_of_fit
@@ -577,7 +532,6 @@ barcode_serum_replicates:
   AAGTTAGTAGACCCAC UWMC-3: goodness_of_fit
   AATCGCTGGCACCCGT UWMC-3: goodness_of_fit
   AATGAAACAATCGAAC UWMC-3: goodness_of_fit
-  AATTGAACGTCATACC UWMC-3: goodness_of_fit
   ACAAGATTCGGGGGAC UWMC-3: goodness_of_fit
   ACAATCTGAACCATAC UWMC-3: goodness_of_fit
   ACATTTTCCAATAGGT UWMC-3: goodness_of_fit
@@ -681,7 +635,6 @@ barcode_serum_replicates:
   GCCAGCTCGTATCCCT UWMC-3: goodness_of_fit
   GCCATTTACTGAAGGG UWMC-3: goodness_of_fit
   GCCGCTGCGGCGTGTG UWMC-3: goodness_of_fit
-  GCCTAAAGGATCATGA UWMC-3: goodness_of_fit
   GCCTTTGCGCGCAGTC UWMC-3: goodness_of_fit
   GTAAGCAAAGTTGACC UWMC-3: goodness_of_fit
   GTAAGCTTCATGGAGT UWMC-3: goodness_of_fit
@@ -700,7 +653,6 @@ barcode_serum_replicates:
   TACTAATGCCGTTGTC UWMC-3: goodness_of_fit
   TACTGATAACCCTGCG UWMC-3: goodness_of_fit
   TAGCATTGTCGGAAAG UWMC-3: goodness_of_fit
-  TATACTCACGGAGGAT UWMC-3: goodness_of_fit
   TATGTCGTATCCACAG UWMC-3: goodness_of_fit
   TATTCCTAACTAGCGA UWMC-3: goodness_of_fit
   TCAATCGGGGGCTAAA UWMC-3: goodness_of_fit
@@ -777,7 +729,6 @@ barcode_serum_replicates:
   TACATACCGACGCAGT UWMC-4: goodness_of_fit
   TACCAATGTCATTTGA UWMC-4: goodness_of_fit
   TACTAGCAATAAAATC UWMC-4: goodness_of_fit
-  TATACTCACGGAGGAT UWMC-4: goodness_of_fit
   TCAATCGGGGGCTAAA UWMC-4: goodness_of_fit
   TCATGGGTGTACGAGA UWMC-4: goodness_of_fit
   TCGTCCGTTGGGAACT UWMC-4: goodness_of_fit
@@ -803,7 +754,6 @@ barcode_serum_replicates:
   AAGTTAGTAGACCCAC UWMC-5: goodness_of_fit
   AATCGCTGGCACCCGT UWMC-5: goodness_of_fit
   AATGAAACAATCGAAC UWMC-5: goodness_of_fit
-  AATTGAACGTCATACC UWMC-5: goodness_of_fit
   ACAAGATTCGGGGGAC UWMC-5: goodness_of_fit
   ACACGGGTTGGCTGTA UWMC-5: goodness_of_fit
   ACATTTTCCAATAGGT UWMC-5: goodness_of_fit
@@ -986,7 +936,6 @@ barcode_serum_replicates:
   AGGAAAGAAACTGGAG UWMC-6: goodness_of_fit
   AGGAGTATGAAGAGCG UWMC-6: goodness_of_fit
   AGGCCCGTAAGGACTA UWMC-6: goodness_of_fit
-  AGGTGGACGGGCATGG UWMC-6: goodness_of_fit
   AGTAAACATGCATTGG UWMC-6: goodness_of_fit
   AGTATTTGCGCTTCAA UWMC-6: goodness_of_fit
   AGTCGTTTAGATAGTT UWMC-6: goodness_of_fit
@@ -1019,10 +968,8 @@ barcode_serum_replicates:
   CAGAACCTCGTTGTCT UWMC-6: goodness_of_fit
   CAGATAGTGATGAACA UWMC-6: goodness_of_fit
   CAGGCTCTAGAGCTCT UWMC-6: goodness_of_fit
-  CAGTAGTTGTCATGGG UWMC-6: goodness_of_fit
   CATAAAAGACTGTATA UWMC-6: goodness_of_fit
   CATGGGAATTGCCACT UWMC-6: goodness_of_fit
-  CATGTGAATTCGCCCA UWMC-6: goodness_of_fit
   CATGTGGAGCCCAACA UWMC-6: goodness_of_fit
   CATTTCTGATGAATTG UWMC-6: goodness_of_fit
   CCAACACAAAAAATTA UWMC-6: goodness_of_fit
@@ -1076,7 +1023,6 @@ barcode_serum_replicates:
   GAAGTACGCTGAATGA UWMC-6: goodness_of_fit
   GAAGTGCGTATTGAGT UWMC-6: goodness_of_fit
   GAATAATAGAACAGAG UWMC-6: goodness_of_fit
-  GACACAGAACCCATGC UWMC-6: goodness_of_fit
   GACGGGATGGGCACGT UWMC-6: goodness_of_fit
   GAGAGCTGCAGAAGCG UWMC-6: goodness_of_fit
   GAGCTTGCTATGGATC UWMC-6: goodness_of_fit
@@ -1093,7 +1039,6 @@ barcode_serum_replicates:
   GCCAGCTCGTATCCCT UWMC-6: goodness_of_fit
   GCCATTTACTGAAGGG UWMC-6: goodness_of_fit
   GCCGCTGCGGCGTGTG UWMC-6: goodness_of_fit
-  GCCTAAAGGATCATGA UWMC-6: goodness_of_fit
   GGTTAACTTTGGAAGC UWMC-6: goodness_of_fit
   GTAAGCAAAGTTGACC UWMC-6: goodness_of_fit
   GTAAGCTTCATGGAGT UWMC-6: goodness_of_fit
@@ -1171,7 +1116,6 @@ barcode_serum_replicates:
   AAGTATTGCTACACAT UWMC-7: goodness_of_fit
   AAGTTAAGAGAAAGTT UWMC-7: goodness_of_fit
   AATCGCTGGCACCCGT UWMC-7: goodness_of_fit
-  AATTGAACGTCATACC UWMC-7: goodness_of_fit
   ACAAGATTCGGGGGAC UWMC-7: goodness_of_fit
   ACATTTTCCAATAGGT UWMC-7: goodness_of_fit
   ACCAGCAATGAGTTGT UWMC-7: goodness_of_fit
@@ -1259,7 +1203,6 @@ barcode_serum_replicates:
   GCCAGCTCGTATCCCT UWMC-7: goodness_of_fit
   GCCATTTACTGAAGGG UWMC-7: goodness_of_fit
   GCCGCTGCGGCGTGTG UWMC-7: goodness_of_fit
-  GCCTAAAGGATCATGA UWMC-7: goodness_of_fit
   GGTTAACTTTGGAAGC UWMC-7: goodness_of_fit
   GTAAGCAAAGTTGACC UWMC-7: goodness_of_fit
   GTAGATACTAGGACCA UWMC-7: goodness_of_fit
@@ -1274,7 +1217,6 @@ barcode_serum_replicates:
   TACTAATGCCGTTGTC UWMC-7: goodness_of_fit
   TACTAGCAATAAAATC UWMC-7: goodness_of_fit
   TACTGATAACCCTGCG UWMC-7: goodness_of_fit
-  TATACTCACGGAGGAT UWMC-7: goodness_of_fit
   TATCCAAGGGACGGAC UWMC-7: goodness_of_fit
   TATGTCGTATCCACAG UWMC-7: goodness_of_fit
   TATTCCTAACTAGCGA UWMC-7: goodness_of_fit
@@ -1465,7 +1407,6 @@ barcode_serum_replicates:
   AAGTTAAGAGAAAGTT UWMC-9: goodness_of_fit
   AATCGCTGGCACCCGT UWMC-9: goodness_of_fit
   AATGAAACAATCGAAC UWMC-9: goodness_of_fit
-  AATTGAACGTCATACC UWMC-9: goodness_of_fit
   ACAAGATTCGGGGGAC UWMC-9: goodness_of_fit
   ACAATCTGAACCATAC UWMC-9: goodness_of_fit
   ACATTTTCCAATAGGT UWMC-9: goodness_of_fit
@@ -1588,7 +1529,6 @@ barcode_serum_replicates:
   TACTAGCAATAAAATC UWMC-9: goodness_of_fit
   TACTGATAACCCTGCG UWMC-9: goodness_of_fit
   TAGCATTGTCGGAAAG UWMC-9: goodness_of_fit
-  TATACTCACGGAGGAT UWMC-9: goodness_of_fit
   TATCCAAGGGACGGAC UWMC-9: goodness_of_fit
   TATGTCGTATCCACAG UWMC-9: goodness_of_fit
   TATTCCTAACTAGCGA UWMC-9: goodness_of_fit

@@ -6,14 +6,13 @@ EPIHK,EPIHK_1,A/Brisbane/02/2018_H1N1,7105,interpolated,1297,3,midpoint
 EPIHK,EPIHK_1,A/BurkinaFaso/3131/2023_H3N2,2051,interpolated,990.2,2,midpoint
 EPIHK,EPIHK_1,A/Busan/277/2025_H1N1,1108,interpolated,400.9,2,midpoint
 EPIHK,EPIHK_1,A/Busan/461/2025_H3N2,1599,interpolated,,1,midpoint
-EPIHK,EPIHK_1,A/California/07/2009_H1N1,1.126e+04,lower,2359,2,midpoint
+EPIHK,EPIHK_1,A/California/07/2009_H1N1,8901,interpolated,,1,midpoint
 EPIHK,EPIHK_1,A/Cambodia/e0826360/2020egg_H3N2,5146,interpolated,1043,3,midpoint
 EPIHK,EPIHK_1,A/Canberra/613/2024_H3N2,4596,interpolated,26.97,2,midpoint
 EPIHK,EPIHK_1,A/Colombia/1851/2024_H3N2,1720,interpolated,702.2,2,midpoint
 EPIHK,EPIHK_1,A/Colombia/7681/2024_H3N2,1952,interpolated,236.1,2,midpoint
 EPIHK,EPIHK_1,A/Colorado/218/2024_H1N1,2302,interpolated,,1,midpoint
 EPIHK,EPIHK_1,A/Colorado/ISC-1416/2024_H3N2,1968,interpolated,815.8,2,midpoint
-EPIHK,EPIHK_1,A/CoteD'Ivoire/4448/2024_H3N2,2733,interpolated,,1,midpoint
 EPIHK,EPIHK_1,A/Croatia/10136RV/2023-egg_H3N2,9104,interpolated,3518,2,midpoint
 EPIHK,EPIHK_1,A/DE/DE-DHSS-901/2025_(H3N2)_H3N2,1557,interpolated,259.3,2,midpoint
 EPIHK,EPIHK_1,A/Darwin/6/2021_H3N2,1645,interpolated,303.5,3,midpoint
@@ -37,7 +36,7 @@ EPIHK,EPIHK_1,A/India/Pune-NIV24_3439/2024_H3N2,2157,interpolated,788.4,2,midpoi
 EPIHK,EPIHK_1,A/Indiana/46/2024_H3N2,619.2,interpolated,269.4,2,midpoint
 EPIHK,EPIHK_1,A/Iowa/123/2024_H1N1,4662,interpolated,674.7,2,midpoint
 EPIHK,EPIHK_1,A/KANAGAWA/AC2408/2025_H1N1,989.1,interpolated,420.9,2,midpoint
-EPIHK,EPIHK_1,A/Kansas/14/2017_H3N2,1619,interpolated,385,3,midpoint
+EPIHK,EPIHK_1,A/Kansas/14/2017_H3N2,1275,interpolated,343.8,2,midpoint
 EPIHK,EPIHK_1,A/Kentucky/57/2024_H3N2,1016,interpolated,369,2,midpoint
 EPIHK,EPIHK_1,A/Lisboa/188/2023_H1N1,3372,interpolated,831.2,2,midpoint
 EPIHK,EPIHK_1,A/Lisboa/216/2023_H3N2,2603,interpolated,206.9,2,midpoint
@@ -94,7 +93,7 @@ EPIHK,EPIHK_1,A/Singapore/MOH0547/2024_H1N1,2609,interpolated,104.4,2,midpoint
 EPIHK,EPIHK_1,A/Slovenia/49/2024_H3N2,7112,interpolated,320,2,midpoint
 EPIHK,EPIHK_1,A/Switzerland/47775/2024_H3N2,1084,interpolated,85.58,2,midpoint
 EPIHK,EPIHK_1,A/Switzerland/860423897313/2023_H3N2,1908,interpolated,723.1,2,midpoint
-EPIHK,EPIHK_1,A/Switzerland/9715293/2013NIB-88_H3N2,5274,interpolated,1360,3,midpoint
+EPIHK,EPIHK_1,A/Switzerland/9715293/2013NIB-88_H3N2,5566,interpolated,292,2,midpoint
 EPIHK,EPIHK_1,A/Switzerland/9715293/2013_H3N2,1933,interpolated,104.6,2,midpoint
 EPIHK,EPIHK_1,A/Sydney/43/2025_H3N2,2262,interpolated,1347,2,midpoint
 EPIHK,EPIHK_1,A/TOKYO/EIS11-277/2024_H1N1,2361,interpolated,341,2,midpoint

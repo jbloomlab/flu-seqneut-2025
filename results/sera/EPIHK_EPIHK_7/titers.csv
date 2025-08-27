@@ -6,7 +6,6 @@ EPIHK,EPIHK_7,A/Brisbane/02/2018_H1N1,1.189e+04,interpolated,1529,3,midpoint
 EPIHK,EPIHK_7,A/BurkinaFaso/3131/2023_H3N2,86.34,interpolated,1.26,2,midpoint
 EPIHK,EPIHK_7,A/Busan/277/2025_H1N1,458.6,interpolated,45.69,2,midpoint
 EPIHK,EPIHK_7,A/Busan/461/2025_H3N2,130.2,interpolated,,1,midpoint
-EPIHK,EPIHK_7,A/California/07/2009_H1N1,9954,interpolated,,1,midpoint
 EPIHK,EPIHK_7,A/Cambodia/e0826360/2020_H3N2,147,interpolated,43.1,3,midpoint
 EPIHK,EPIHK_7,A/Cambodia/e0826360/2020egg_H3N2,2114,interpolated,606.3,3,midpoint
 EPIHK,EPIHK_7,A/Canberra/613/2024_H3N2,81.9,upper,41.9,2,midpoint
@@ -38,7 +37,7 @@ EPIHK,EPIHK_7,A/India/Pune-NIV24_3439/2024_H3N2,43.01,interpolated,,1,midpoint
 EPIHK,EPIHK_7,A/Indiana/46/2024_H3N2,51.52,interpolated,4.237,2,midpoint
 EPIHK,EPIHK_7,A/Iowa/123/2024_H1N1,1663,interpolated,91.61,2,midpoint
 EPIHK,EPIHK_7,A/KANAGAWA/AC2408/2025_H1N1,279.9,interpolated,17.05,2,midpoint
-EPIHK,EPIHK_7,A/Kansas/14/2017_H3N2,327.5,interpolated,66.76,3,midpoint
+EPIHK,EPIHK_7,A/Kansas/14/2017_H3N2,392.1,interpolated,64.56,2,midpoint
 EPIHK,EPIHK_7,A/Kentucky/57/2024_H3N2,240.5,interpolated,43.68,2,midpoint
 EPIHK,EPIHK_7,A/Lisboa/188/2023_H1N1,1403,interpolated,154.1,2,midpoint
 EPIHK,EPIHK_7,A/Lisboa/216/2023_H3N2,185.7,interpolated,10.85,2,midpoint
@@ -95,7 +94,7 @@ EPIHK,EPIHK_7,A/Singapore/MOH0547/2024_H1N1,1225,interpolated,0.4238,2,midpoint
 EPIHK,EPIHK_7,A/Slovenia/49/2024_H3N2,120.7,interpolated,17.37,2,midpoint
 EPIHK,EPIHK_7,A/Switzerland/47775/2024_H3N2,87.29,interpolated,7.674,2,midpoint
 EPIHK,EPIHK_7,A/Switzerland/860423897313/2023_H3N2,94.84,interpolated,11.98,2,midpoint
-EPIHK,EPIHK_7,A/Switzerland/9715293/2013NIB-88_H3N2,3266,interpolated,667.6,3,midpoint
+EPIHK,EPIHK_7,A/Switzerland/9715293/2013NIB-88_H3N2,3401,interpolated,135.3,2,midpoint
 EPIHK,EPIHK_7,A/Switzerland/9715293/2013_H3N2,661.3,interpolated,95.12,2,midpoint
 EPIHK,EPIHK_7,A/Sydney/43/2025_H3N2,83.27,interpolated,11.38,2,midpoint
 EPIHK,EPIHK_7,A/TOKYO/EIS11-277/2024_H1N1,1493,interpolated,363,2,midpoint

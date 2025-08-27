@@ -6,12 +6,12 @@ SCH,SCH_22,A/Brisbane/02/2018_H1N1,346.4,interpolated,48.2,3,midpoint
 SCH,SCH_22,A/BurkinaFaso/3131/2023_H3N2,81.68,interpolated,8.517,2,midpoint
 SCH,SCH_22,A/Busan/277/2025_H1N1,1412,interpolated,456.4,2,midpoint
 SCH,SCH_22,A/Busan/461/2025_H3N2,118.9,interpolated,,1,midpoint
-SCH,SCH_22,A/California/07/2009_H1N1,474.1,interpolated,57.27,2,midpoint
+SCH,SCH_22,A/California/07/2009_H1N1,416.9,interpolated,,1,midpoint
 SCH,SCH_22,A/Cambodia/e0826360/2020_H3N2,129.8,interpolated,,1,midpoint
 SCH,SCH_22,A/Cambodia/e0826360/2020egg_H3N2,43.16,interpolated,,1,midpoint
 SCH,SCH_22,A/Canberra/613/2024_H3N2,119,interpolated,,1,midpoint
 SCH,SCH_22,A/Colombia/1851/2024_H3N2,57.91,interpolated,,1,midpoint
-SCH,SCH_22,A/Colorado/218/2024_H1N1,6557,interpolated,3492,2,midpoint
+SCH,SCH_22,A/Colorado/218/2024_H1N1,3065,interpolated,,1,midpoint
 SCH,SCH_22,A/Colorado/ISC-1416/2024_H3N2,144.9,interpolated,8.159,2,midpoint
 SCH,SCH_22,A/CoteD'Ivoire/4448/2024_H3N2,57.04,interpolated,,1,midpoint
 SCH,SCH_22,A/Croatia/10136RV/2023-egg_H3N2,40,upper,0,2,midpoint
@@ -33,7 +33,6 @@ SCH,SCH_22,A/India/Pune-NIV24_3439/2024_H3N2,88.62,interpolated,,1,midpoint
 SCH,SCH_22,A/Indiana/46/2024_H3N2,50.14,interpolated,,1,midpoint
 SCH,SCH_22,A/Iowa/123/2024_H1N1,1629,interpolated,290.9,2,midpoint
 SCH,SCH_22,A/KANAGAWA/AC2408/2025_H1N1,963.6,interpolated,115.9,2,midpoint
-SCH,SCH_22,A/Kansas/14/2017_H3N2,96.95,interpolated,,1,midpoint
 SCH,SCH_22,A/Kentucky/57/2024_H3N2,54.53,interpolated,,1,midpoint
 SCH,SCH_22,A/Lisboa/188/2023_H1N1,2130,interpolated,454.8,2,midpoint
 SCH,SCH_22,A/Lisboa/216/2023_H3N2,189.3,interpolated,88.07,2,midpoint
@@ -70,7 +69,7 @@ SCH,SCH_22,A/Oregon/261/2024_H1N1,1285,interpolated,111.6,2,midpoint
 SCH,SCH_22,A/Pakistan/306/2024_H1N1,1452,interpolated,216.1,2,midpoint
 SCH,SCH_22,A/Qatar/83328/2024_H1N1,1896,interpolated,556,2,midpoint
 SCH,SCH_22,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,1224,interpolated,,1,midpoint
-SCH,SCH_22,A/Queensland/IN000684/2024_H1N1,1202,interpolated,76.58,2,midpoint
+SCH,SCH_22,A/Queensland/IN000684/2024_H1N1,1125,interpolated,,1,midpoint
 SCH,SCH_22,A/Queensland/IN000692/2024_H3N2,319.6,interpolated,46.22,2,midpoint
 SCH,SCH_22,A/Queensland/IN000803/2024_H3N2,110.3,interpolated,29.76,2,midpoint
 SCH,SCH_22,A/Rhode_Island/15446/2025_H3N2,150.9,interpolated,48.42,2,midpoint

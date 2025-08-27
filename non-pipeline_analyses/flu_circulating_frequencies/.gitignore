@@ -4,6 +4,7 @@ _*
 *.out
 
 data/*.fasta
+data/*.xls
 
 results/*
 

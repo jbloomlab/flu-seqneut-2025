@@ -6,15 +6,15 @@ SCH,SCH_12,A/Brisbane/02/2018_H1N1,44.84,interpolated,4.027,2,midpoint
 SCH,SCH_12,A/BurkinaFaso/3131/2023_H3N2,88.05,interpolated,7.882,2,midpoint
 SCH,SCH_12,A/Busan/277/2025_H1N1,91.76,interpolated,6.76,2,midpoint
 SCH,SCH_12,A/Busan/461/2025_H3N2,80.63,interpolated,,1,midpoint
-SCH,SCH_12,A/California/07/2009_H1N1,63.26,interpolated,15.08,2,midpoint
+SCH,SCH_12,A/California/07/2009_H1N1,48.19,interpolated,,1,midpoint
 SCH,SCH_12,A/Cambodia/e0826360/2020_H3N2,52.95,interpolated,9.69,3,midpoint
 SCH,SCH_12,A/Cambodia/e0826360/2020egg_H3N2,49.89,interpolated,5.815,3,midpoint
 SCH,SCH_12,A/Canberra/613/2024_H3N2,113.7,interpolated,3.622,2,midpoint
 SCH,SCH_12,A/Colombia/1851/2024_H3N2,58.35,interpolated,17.41,2,midpoint
 SCH,SCH_12,A/Colombia/7681/2024_H3N2,81.01,interpolated,4.282,2,midpoint
-SCH,SCH_12,A/Colorado/218/2024_H1N1,76.79,interpolated,3.669,2,midpoint
+SCH,SCH_12,A/Colorado/218/2024_H1N1,80.46,interpolated,,1,midpoint
 SCH,SCH_12,A/Colorado/ISC-1416/2024_H3N2,84.91,interpolated,41.3,2,midpoint
-SCH,SCH_12,A/CoteD'Ivoire/4448/2024_H3N2,139.7,interpolated,29.76,2,midpoint
+SCH,SCH_12,A/CoteD'Ivoire/4448/2024_H3N2,169.5,interpolated,,1,midpoint
 SCH,SCH_12,A/Croatia/10136RV/2023-egg_H3N2,120.2,interpolated,40.99,2,midpoint
 SCH,SCH_12,A/DE/DE-DHSS-901/2025_(H3N2)_H3N2,112.3,interpolated,11.75,2,midpoint
 SCH,SCH_12,A/Darwin/6/2021_H3N2,86.08,interpolated,6.936,3,midpoint
@@ -47,7 +47,7 @@ SCH,SCH_12,A/Maldives/2132/2024_H1N1,84.22,interpolated,12.05,2,midpoint
 SCH,SCH_12,A/Maldives/2147/2024_H3N2,45.81,upper,5.809,2,midpoint
 SCH,SCH_12,A/Maldives/2186/2024_H3N2,108.4,interpolated,27.58,2,midpoint
 SCH,SCH_12,A/Manitoba/RV04865/2024_H3N2,143.6,interpolated,4.354,2,midpoint
-SCH,SCH_12,A/Maryland/64/2024_H1N1,89.16,interpolated,2.418,2,midpoint
+SCH,SCH_12,A/Maryland/64/2024_H1N1,91.58,interpolated,,1,midpoint
 SCH,SCH_12,A/Massachusetts/18/2022_H3N2,100.8,interpolated,40.98,3,midpoint
 SCH,SCH_12,A/Massachusetts/93/2024_H3N2,78.39,interpolated,11,2,midpoint
 SCH,SCH_12,A/Massachusetts/BI_MGH-23147/2025_H3N2,93.88,interpolated,7.55,2,midpoint
@@ -79,7 +79,6 @@ SCH,SCH_12,A/Pennsylvania/288/2024_H3N2,82.76,interpolated,8.675,2,midpoint
 SCH,SCH_12,A/Punta_Arenas/83659/2024_H3N2,112.1,interpolated,1.644,2,midpoint
 SCH,SCH_12,A/Qatar/83328/2024_H1N1,89.28,interpolated,2.633,2,midpoint
 SCH,SCH_12,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,74.91,interpolated,,1,midpoint
-SCH,SCH_12,A/Queensland/IN000684/2024_H1N1,91.52,interpolated,,1,midpoint
 SCH,SCH_12,A/Queensland/IN000692/2024_H3N2,127.8,interpolated,36.88,2,midpoint
 SCH,SCH_12,A/Queensland/IN000803/2024_H3N2,94.92,interpolated,17.54,2,midpoint
 SCH,SCH_12,A/Rhode_Island/15446/2025_H3N2,105.1,interpolated,35.06,2,midpoint

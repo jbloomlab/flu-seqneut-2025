@@ -6,15 +6,14 @@ SCH,SCH_14,A/Brisbane/02/2018_H1N1,40,upper,0,2,midpoint
 SCH,SCH_14,A/BurkinaFaso/3131/2023_H3N2,84.74,upper,44.74,2,midpoint
 SCH,SCH_14,A/Busan/277/2025_H1N1,46.66,interpolated,4.179,2,midpoint
 SCH,SCH_14,A/Busan/461/2025_H3N2,46.2,interpolated,,1,midpoint
-SCH,SCH_14,A/California/07/2009_H1N1,56.23,upper,16.23,2,midpoint
 SCH,SCH_14,A/Cambodia/e0826360/2020_H3N2,66.54,upper,26.54,2,midpoint
 SCH,SCH_14,A/Cambodia/e0826360/2020egg_H3N2,40.18,interpolated,16.11,3,midpoint
 SCH,SCH_14,A/Canberra/613/2024_H3N2,59.76,upper,19.76,2,midpoint
 SCH,SCH_14,A/Colombia/1851/2024_H3N2,80.1,interpolated,,1,midpoint
 SCH,SCH_14,A/Colombia/7681/2024_H3N2,40,upper,0,2,midpoint
-SCH,SCH_14,A/Colorado/218/2024_H1N1,48.45,upper,8.452,2,midpoint
+SCH,SCH_14,A/Colorado/218/2024_H1N1,56.9,interpolated,,1,midpoint
 SCH,SCH_14,A/Colorado/ISC-1416/2024_H3N2,87.64,interpolated,8.803,2,midpoint
-SCH,SCH_14,A/CoteD'Ivoire/4448/2024_H3N2,40.49,upper,0.4946,2,midpoint
+SCH,SCH_14,A/CoteD'Ivoire/4448/2024_H3N2,40.99,interpolated,,1,midpoint
 SCH,SCH_14,A/Croatia/10136RV/2023-egg_H3N2,40,upper,,1,midpoint
 SCH,SCH_14,A/DE/DE-DHSS-901/2025_(H3N2)_H3N2,40,upper,,1,midpoint
 SCH,SCH_14,A/Darwin/6/2021_H3N2,61.02,upper,21.02,2,midpoint
@@ -47,7 +46,7 @@ SCH,SCH_14,A/Maldives/2132/2024_H1N1,40,upper,0,2,midpoint
 SCH,SCH_14,A/Maldives/2147/2024_H3N2,40,upper,0,2,midpoint
 SCH,SCH_14,A/Maldives/2186/2024_H3N2,40,upper,,1,midpoint
 SCH,SCH_14,A/Manitoba/RV04865/2024_H3N2,60.16,interpolated,,1,midpoint
-SCH,SCH_14,A/Maryland/64/2024_H1N1,40.69,upper,0.6914,2,midpoint
+SCH,SCH_14,A/Maryland/64/2024_H1N1,40,upper,,1,midpoint
 SCH,SCH_14,A/Massachusetts/18/2022_H3N2,64.4,interpolated,12.64,3,midpoint
 SCH,SCH_14,A/Massachusetts/93/2024_H3N2,45.25,upper,5.249,2,midpoint
 SCH,SCH_14,A/Massachusetts/BI_MGH-23147/2025_H3N2,77.53,interpolated,0.5366,2,midpoint
@@ -78,7 +77,6 @@ SCH,SCH_14,A/Pennsylvania/288/2024_H3N2,40,upper,,1,midpoint
 SCH,SCH_14,A/Punta_Arenas/83659/2024_H3N2,40,upper,0,2,midpoint
 SCH,SCH_14,A/Qatar/83328/2024_H1N1,45.99,interpolated,5.483,2,midpoint
 SCH,SCH_14,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,40,upper,,1,midpoint
-SCH,SCH_14,A/Queensland/IN000684/2024_H1N1,45.89,interpolated,,1,midpoint
 SCH,SCH_14,A/Queensland/IN000692/2024_H3N2,82.43,interpolated,,1,midpoint
 SCH,SCH_14,A/Queensland/IN000803/2024_H3N2,58.86,interpolated,8.738,2,midpoint
 SCH,SCH_14,A/Rhode_Island/15446/2025_H3N2,71.7,interpolated,24.4,2,midpoint

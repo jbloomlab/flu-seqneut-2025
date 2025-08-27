@@ -6,6 +6,7 @@ UWMC,UWMC-34,A/Brisbane/02/2018_H1N1,233.1,interpolated,21.53,3,midpoint
 UWMC,UWMC-34,A/BurkinaFaso/3131/2023_H3N2,728.9,interpolated,367.8,2,midpoint
 UWMC,UWMC-34,A/Busan/277/2025_H1N1,647.6,interpolated,164.2,2,midpoint
 UWMC,UWMC-34,A/Busan/461/2025_H3N2,477.5,interpolated,,1,midpoint
+UWMC,UWMC-34,A/California/07/2009_H1N1,901.4,interpolated,,1,midpoint
 UWMC,UWMC-34,A/Cambodia/e0826360/2020_H3N2,1550,interpolated,1741,3,midpoint
 UWMC,UWMC-34,A/Cambodia/e0826360/2020egg_H3N2,6705,interpolated,407.1,3,midpoint
 UWMC,UWMC-34,A/Canberra/613/2024_H3N2,2459,interpolated,1874,2,midpoint
@@ -13,7 +14,7 @@ UWMC,UWMC-34,A/Colombia/1851/2024_H3N2,513.9,interpolated,210.8,2,midpoint
 UWMC,UWMC-34,A/Colombia/7681/2024_H3N2,984.1,interpolated,184.9,2,midpoint
 UWMC,UWMC-34,A/Colorado/218/2024_H1N1,760.1,interpolated,,1,midpoint
 UWMC,UWMC-34,A/Colorado/ISC-1416/2024_H3N2,1312,interpolated,825.2,2,midpoint
-UWMC,UWMC-34,A/CoteD'Ivoire/4448/2024_H3N2,323,interpolated,14.54,2,midpoint
+UWMC,UWMC-34,A/CoteD'Ivoire/4448/2024_H3N2,337.5,interpolated,,1,midpoint
 UWMC,UWMC-34,A/Croatia/10136RV/2023-egg_H3N2,794.2,interpolated,515.2,2,midpoint
 UWMC,UWMC-34,A/DE/DE-DHSS-901/2025_(H3N2)_H3N2,290.3,interpolated,83.54,2,midpoint
 UWMC,UWMC-34,A/Darwin/6/2021_H3N2,2991,interpolated,274.8,3,midpoint
@@ -37,7 +38,7 @@ UWMC,UWMC-34,A/India/Pune-NIV24_3439/2024_H3N2,732.4,interpolated,100.6,2,midpoi
 UWMC,UWMC-34,A/Indiana/46/2024_H3N2,265.5,interpolated,17.99,2,midpoint
 UWMC,UWMC-34,A/Iowa/123/2024_H1N1,665.5,interpolated,164.7,2,midpoint
 UWMC,UWMC-34,A/KANAGAWA/AC2408/2025_H1N1,274.8,interpolated,53.53,2,midpoint
-UWMC,UWMC-34,A/Kansas/14/2017_H3N2,4975,interpolated,570.4,3,midpoint
+UWMC,UWMC-34,A/Kansas/14/2017_H3N2,4526,interpolated,953.4,2,midpoint
 UWMC,UWMC-34,A/Kentucky/57/2024_H3N2,277.3,interpolated,4.555,2,midpoint
 UWMC,UWMC-34,A/Lisboa/188/2023_H1N1,486.4,interpolated,8.323,2,midpoint
 UWMC,UWMC-34,A/Lisboa/216/2023_H3N2,2478,interpolated,522,2,midpoint
@@ -46,7 +47,7 @@ UWMC,UWMC-34,A/Maldives/2132/2024_H1N1,552.1,interpolated,55.43,2,midpoint
 UWMC,UWMC-34,A/Maldives/2147/2024_H3N2,40,upper,0,2,midpoint
 UWMC,UWMC-34,A/Maldives/2186/2024_H3N2,992,interpolated,235.6,2,midpoint
 UWMC,UWMC-34,A/Manitoba/RV04865/2024_H3N2,2890,interpolated,1412,2,midpoint
-UWMC,UWMC-34,A/Maryland/64/2024_H1N1,902.5,interpolated,346,2,midpoint
+UWMC,UWMC-34,A/Maryland/64/2024_H1N1,556.4,interpolated,,1,midpoint
 UWMC,UWMC-34,A/Massachusetts/18/2022_H3N2,2492,interpolated,158.4,3,midpoint
 UWMC,UWMC-34,A/Massachusetts/93/2024_H3N2,1326,interpolated,279.5,2,midpoint
 UWMC,UWMC-34,A/Massachusetts/BI_MGH-23147/2025_H3N2,712.5,interpolated,86.35,2,midpoint
@@ -78,7 +79,7 @@ UWMC,UWMC-34,A/Pennsylvania/288/2024_H3N2,611.7,interpolated,46.28,2,midpoint
 UWMC,UWMC-34,A/Punta_Arenas/83659/2024_H3N2,960.4,interpolated,200.2,2,midpoint
 UWMC,UWMC-34,A/Qatar/83328/2024_H1N1,577.7,interpolated,69.28,2,midpoint
 UWMC,UWMC-34,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,535.3,interpolated,,1,midpoint
-UWMC,UWMC-34,A/Queensland/IN000684/2024_H1N1,489.7,interpolated,42.03,2,midpoint
+UWMC,UWMC-34,A/Queensland/IN000684/2024_H1N1,531.7,interpolated,,1,midpoint
 UWMC,UWMC-34,A/Queensland/IN000692/2024_H3N2,2222,interpolated,269.6,2,midpoint
 UWMC,UWMC-34,A/Queensland/IN000803/2024_H3N2,436.8,interpolated,47.56,2,midpoint
 UWMC,UWMC-34,A/Rhode_Island/15446/2025_H3N2,929.5,interpolated,117.6,2,midpoint

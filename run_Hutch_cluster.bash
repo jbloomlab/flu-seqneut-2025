@@ -1,10 +1,10 @@
 #!/bin/bash
 #
-#SBATCH -c 32
+#SBATCH -c 16
 
 snakemake \
     --use-conda \
-    -j 32 \
+    -j 16 \
     --rerun-incomplete \
     --software-deployment-method conda \
     --keep-going

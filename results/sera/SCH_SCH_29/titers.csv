@@ -6,7 +6,7 @@ SCH,SCH_29,A/Brisbane/02/2018_H1N1,501.2,interpolated,103,3,midpoint
 SCH,SCH_29,A/BurkinaFaso/3131/2023_H3N2,47.55,interpolated,,1,midpoint
 SCH,SCH_29,A/Busan/277/2025_H1N1,109.7,interpolated,12.91,2,midpoint
 SCH,SCH_29,A/Busan/461/2025_H3N2,267.8,interpolated,,1,midpoint
-SCH,SCH_29,A/California/07/2009_H1N1,635.9,interpolated,33.03,3,midpoint
+SCH,SCH_29,A/California/07/2009_H1N1,635.9,interpolated,,1,midpoint
 SCH,SCH_29,A/Cambodia/e0826360/2020_H3N2,42.02,interpolated,,1,midpoint
 SCH,SCH_29,A/Cambodia/e0826360/2020egg_H3N2,40.94,upper,0.9425,2,midpoint
 SCH,SCH_29,A/Canberra/613/2024_H3N2,91.01,interpolated,44.28,2,midpoint
@@ -75,7 +75,7 @@ SCH,SCH_29,A/Pennsylvania/288/2024_H3N2,57.57,interpolated,,1,midpoint
 SCH,SCH_29,A/Punta_Arenas/83659/2024_H3N2,111.9,interpolated,35.24,2,midpoint
 SCH,SCH_29,A/Qatar/83328/2024_H1N1,159,interpolated,31.58,2,midpoint
 SCH,SCH_29,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,227.1,interpolated,,1,midpoint
-SCH,SCH_29,A/Queensland/IN000684/2024_H1N1,80.43,interpolated,30.9,2,midpoint
+SCH,SCH_29,A/Queensland/IN000684/2024_H1N1,49.53,interpolated,,1,midpoint
 SCH,SCH_29,A/Queensland/IN000692/2024_H3N2,624.3,interpolated,96.96,2,midpoint
 SCH,SCH_29,A/Queensland/IN000803/2024_H3N2,298.5,interpolated,129.9,2,midpoint
 SCH,SCH_29,A/Rhode_Island/15446/2025_H3N2,290.3,interpolated,28.35,2,midpoint
@@ -92,8 +92,8 @@ SCH,SCH_29,A/Singapore/MOH0547/2024_H1N1,95.81,interpolated,13.56,2,midpoint
 SCH,SCH_29,A/Slovenia/49/2024_H3N2,88.93,interpolated,,1,midpoint
 SCH,SCH_29,A/Switzerland/47775/2024_H3N2,111.4,interpolated,,1,midpoint
 SCH,SCH_29,A/Switzerland/860423897313/2023_H3N2,66.07,upper,26.07,2,midpoint
-SCH,SCH_29,A/Switzerland/9715293/2013NIB-88_H3N2,376.4,interpolated,393,3,midpoint
-SCH,SCH_29,A/Switzerland/9715293/2013_H3N2,50.44,interpolated,20.48,3,midpoint
+SCH,SCH_29,A/Switzerland/9715293/2013NIB-88_H3N2,300.8,interpolated,75.61,2,midpoint
+SCH,SCH_29,A/Switzerland/9715293/2013_H3N2,49.02,interpolated,1.415,2,midpoint
 SCH,SCH_29,A/Sydney/43/2025_H3N2,71.22,interpolated,27.65,2,midpoint
 SCH,SCH_29,A/TOKYO/EIS11-277/2024_H1N1,145.8,interpolated,37.48,2,midpoint
 SCH,SCH_29,A/Tambov/160-1V/2024_H1N1,232,interpolated,28.91,2,midpoint

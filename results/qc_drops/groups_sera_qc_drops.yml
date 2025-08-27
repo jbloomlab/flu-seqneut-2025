@@ -39,13 +39,11 @@ SCH:
   SCH_15: {}
   SCH_16: {}
   SCH_17: {}
-  SCH_18:
-    A/Switzerland/9715293/2013NIB-88_H3N2: max_fold_change_from_median
+  SCH_18: {}
   SCH_19:
     A/HongKong/45/2019_H3N2: max_fold_change_from_median
   SCH_2: {}
-  SCH_20:
-    A/Switzerland/9715293/2013NIB-88_H3N2: max_fold_change_from_median
+  SCH_20: {}
   SCH_21: {}
   SCH_22: {}
   SCH_23:
@@ -62,8 +60,7 @@ SCH:
   SCH_32:
     A/Texas/50/2012_H3N2: max_fold_change_from_median
   SCH_33: {}
-  SCH_34:
-    A/California/07/2009_H1N1: max_fold_change_from_median
+  SCH_34: {}
   SCH_35: {}
   SCH_36: {}
   SCH_37: {}
@@ -72,8 +69,7 @@ SCH:
   SCH_39: {}
   SCH_4: {}
   SCH_40: {}
-  SCH_41:
-    A/Switzerland/9715293/2013NIB-88_H3N2: max_fold_change_from_median
+  SCH_41: {}
   SCH_42: {}
   SCH_43: {}
   SCH_44: {}
@@ -89,75 +85,39 @@ SCH:
   SCH_8: {}
   SCH_9: {}
 UWMC:
-  UWMC-1:
-    A/Victoria/3482/2024_H3N2: max_fold_change_from_median
-  UWMC-10:
-    A/California/07/2009_H1N1: max_fold_change_from_median
-    A/Washington/284/2024_H3N2: max_fold_change_from_median
+  UWMC-1: {}
+  UWMC-10: {}
   UWMC-11: {}
-  UWMC-12:
-    A/Kansas/14/2017_H3N2: max_fold_change_from_median
-    A/Thailand/8/2022_H3N2: max_fold_change_from_median
-    A/Ghana/FS-25-0256/2025_H3N2: max_fold_change_from_median
-  UWMC-13:
-    A/Wisconsin/588/2019_H1N1: max_fold_change_from_median
-  UWMC-14:
-    A/Switzerland/9715293/2013_H3N2: max_fold_change_from_median
-    A/Kansas/14/2017_H3N2: max_fold_change_from_median
-    A/Washington/284/2024_H3N2: max_fold_change_from_median
-    A/Ghana/FS-25-0256/2025_H3N2: max_fold_change_from_median
-  UWMC-15:
-    A/Switzerland/9715293/2013_H3N2: max_fold_change_from_median
-    A/HongKong/2671/2019_H3N2: max_fold_change_from_median
-    A/Minnesota/97/2024_H3N2: max_fold_change_from_median
-  UWMC-16:
-    A/Thailand/8/2022_H3N2: max_fold_change_from_median
-    A/Queensland/IN000692/2024_H3N2: max_fold_change_from_median
-    A/Victoria/46/2024_H3N2: max_fold_change_from_median
+  UWMC-12: {}
+  UWMC-13: {}
+  UWMC-14: {}
+  UWMC-15: {}
+  UWMC-16: {}
   UWMC-17: {}
-  UWMC-18: {}
+  UWMC-18:
+    A/Hawaii/70/2019_H1N1: max_fold_change_from_median
   UWMC-19:
     A/Kansas/14/2017_H3N2: max_fold_change_from_median
-    A/Cambodia/e0826360/2020_H3N2: max_fold_change_from_median
-    A/Queensland/IN000692/2024_H3N2: max_fold_change_from_median
-    A/Slovenia/49/2024_H3N2: max_fold_change_from_median
-    A/Washington/284/2024_H3N2: max_fold_change_from_median
-    A/Wisconsin/172/2024_H3N2: max_fold_change_from_median
-    A/Ghana/FS-25-0256/2025_H3N2: max_fold_change_from_median
-    A/Mato_Grosso_do_Sul/518/2025_H3N2: max_fold_change_from_median
   UWMC-2:
-    A/Michigan/45/2015_H1N1: max_fold_change_from_median
-    A/Maldives/2147/2024_H3N2: max_fold_change_from_median
+    A/HongKong/45/2019_H3N2: max_fold_change_from_median
     A/France/BRE-IPP01880/2025_H3N2: max_fold_change_from_median
-  UWMC-20:
-    A/Switzerland/9715293/2013_H3N2: max_fold_change_from_median
-    A/Singapore/INFIMH-16-0019/2016_H3N2: max_fold_change_from_median
-    A/Cambodia/e0826360/2020egg_H3N2: max_fold_change_from_median
-    A/Ghana/FS-25-0256/2025_H3N2: max_fold_change_from_median
-  UWMC-21:
-    A/Maldives/2132/2024_H1N1: max_fold_change_from_median
-    A/HongKong/4801/2014egg_H3N2: max_fold_change_from_median
-    A/Canberra/613/2024_H3N2: max_fold_change_from_median
-  UWMC-22:
-    A/Ghana/FS-25-0256/2025_H3N2: max_fold_change_from_median
-  UWMC-23:
-    A/California/07/2009_H1N1: max_fold_change_from_median
+  UWMC-20: {}
+  UWMC-21: {}
+  UWMC-22: {}
+  UWMC-23: {}
   UWMC-24: {}
   UWMC-25: {}
   UWMC-26: {}
   UWMC-27: {}
   UWMC-28: {}
   UWMC-29:
-    A/California/07/2009_H1N1: max_fold_change_from_median
     A/Texas/50/2012_H3N2: max_fold_change_from_median
-    A/Kansas/14/2017_H3N2: max_fold_change_from_median
   UWMC-3: {}
   UWMC-30: {}
   UWMC-31: {}
   UWMC-32: {}
   UWMC-33: {}
-  UWMC-34:
-    A/California/07/2009_H1N1: max_fold_change_from_median
+  UWMC-34: {}
   UWMC-35: {}
   UWMC-36: {}
   UWMC-37:
@@ -166,7 +126,6 @@ UWMC:
     A/Darwin/9/2021_H3N2: max_fold_change_from_median
     A/Minnesota/97/2024_H3N2: max_fold_change_from_median
   UWMC-39:
-    A/California/07/2009_H1N1: max_fold_change_from_median
     A/Netherlands/10563/2023_H3N2: max_fold_change_from_median
     A/Rhode_Island/15446/2025_H3N2: max_fold_change_from_median
   UWMC-4: {}
@@ -177,67 +136,8 @@ UWMC:
   UWMC-43:
     A/Singapore/INFIMH-16-0019/2016X-307A_H3N2: max_fold_change_from_median
   UWMC-44: {}
-  UWMC-45: {}
-  UWMC-46: {}
-  UWMC-47:
-    A/Brisbane/02/2018_H1N1: max_fold_change_from_median
-  UWMC-48:
-    A/Texas/50/2012_H3N2: max_fold_change_from_median
-  UWMC-49: {}
-  UWMC-5:
-    A/Singapore/INFIMH-16-0019/2016X-307A_H3N2: max_fold_change_from_median
-    A/Maldives/2186/2024_H3N2: max_fold_change_from_median
-  UWMC-50: {}
-  UWMC-51:
-    A/Wisconsin/30/2025_H1N1: max_fold_change_from_median
-  UWMC-52:
-    A/Cambodia/e0826360/2020egg_H3N2: max_fold_change_from_median
-  UWMC-53:
-    A/Switzerland/9715293/2013NIB-88_H3N2: max_fold_change_from_median
-    A/Singapore/INFIMH-16-0019/2016X-307A_H3N2: max_fold_change_from_median
-  UWMC-54:
-    A/Texas/50/2012X-223A_H3N2: max_fold_change_from_median
-  UWMC-55:
-    A/Wisconsin/67/2022_H1N1: max_fold_change_from_median
+  UWMC-5: {}
   UWMC-6: {}
-  UWMC-7:
-    A/Croatia/10136RV/2023-egg_H3N2: max_fold_change_from_median
-    A/Manitoba/RV04865/2024_H3N2: max_fold_change_from_median
-    A/Victoria/96/2025_H3N2: max_fold_change_from_median
-  UWMC-8:
-    A/Massachusetts/18/2022_H3N2: max_fold_change_from_median
-    A/France/BRE-IPP01880/2025_H3N2: max_fold_change_from_median
-  UWMC-9:
-    A/California/07/2009_H1N1: max_fold_change_from_median
-    A/Vermont/10/2025_H1N1: max_fold_change_from_median
-    A/HongKong/4801/2014egg_H3N2: max_fold_change_from_median
-    A/Darwin/6/2021_H3N2: max_fold_change_from_median
-pilot:
-  PENN23_y1999_s048_d0:
-    A/Kansas/14/2017_H3N2: max_fold_change_from_median
-    A/France/IDF-IPP29542/2023-egg_H3N2: max_fold_change_from_median
-    A/Lisboa/216/2023_H3N2: max_fold_change_from_median
-    A/DistrictOfColumbia/27/2023_H3N2: max_fold_change_from_median
-    A/India/Pune-NIV24_3439/2024_H3N2: max_fold_change_from_median
-    A/Maldives/2186/2024_H3N2: max_fold_change_from_median
-    A/Manitoba/RV04865/2024_H3N2: max_fold_change_from_median
-    A/Michigan/120/2024_H3N2: max_fold_change_from_median
-    A/Minnesota/126/2024_H3N2: max_fold_change_from_median
-    A/Minnesota/133/2024_H3N2: max_fold_change_from_median
-    A/Nevada/216/2024_H3N2: max_fold_change_from_median
-    A/Oregon/265/2024_H3N2: max_fold_change_from_median
-    A/Pennsylvania/288/2024_H3N2: max_fold_change_from_median
-    A/Sao_Paulo/358026766-IAL/2024_H3N2: max_fold_change_from_median
-    A/Saskatchewan/RV04835/2024_H3N2: max_fold_change_from_median
-    A/Slovenia/49/2024_H3N2: max_fold_change_from_median
-    A/Victoria/3480/2024_H3N2: max_fold_change_from_median
-    A/Victoria/46/2024_H3N2: max_fold_change_from_median
-    A/Washington/284/2024_H3N2: max_fold_change_from_median
-    A/Wisconsin/172/2024_H3N2: max_fold_change_from_median
-    A/Badajoz/18680568/2025_H3N2: max_fold_change_from_median
-    A/Massachusetts/ISC-1684/2025_H3N2: max_fold_change_from_median
-    A/Netherlands/01502/2025_H3N2: max_fold_change_from_median
-    A/Santa_Catarina/333/2025_H3N2: max_fold_change_from_median
-    A/Sydney/43/2025_H3N2: max_fold_change_from_median
-    A/Texas/ISC-1148/2025_H3N2: max_fold_change_from_median
-    A/Washington/15245/2025_H3N2: max_fold_change_from_median
+  UWMC-7: {}
+  UWMC-8: {}
+  UWMC-9: {}

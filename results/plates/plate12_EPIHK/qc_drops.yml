@@ -1,39 +1,7 @@
 wells: {}
 barcodes:
   AAATGTTTAATAGACG: min_neut_standard_frac_per_well
-  AAGGACCAAGCCTTCA: min_neut_standard_frac_per_well
-  AAGTAAACATAGACGA: min_neut_standard_frac_per_well
-  AATACACAGGATTGCA: min_neut_standard_frac_per_well
-  AATCAAAAAAATCACC: min_neut_standard_frac_per_well
-  AATCCGAAATTTATTC: min_neut_standard_frac_per_well
-  AATTGAACGTCATACC: min_neut_standard_frac_per_well
-  AATTTATCCGAGAGCG: min_neut_standard_frac_per_well
-  AGAAGAAGTAATTGGC: min_neut_standard_frac_per_well
-  AGACTAGGAAAGCGAA: min_neut_standard_frac_per_well
-  AGGTGGACGGGCATGG: min_neut_standard_frac_per_well
-  ATACGAGATACAAATG: min_neut_standard_frac_per_well
-  CACAACGCACAATTAT: min_neut_standard_frac_per_well
-  CAGTAGTTGTCATGGG: min_neut_standard_frac_per_well
-  CATGTGAATTCGCCCA: min_neut_standard_frac_per_well
-  CCAATCCCAGCCTTTA: min_neut_standard_frac_per_well
-  CCCGGGACCAAAACTG: min_neut_standard_frac_per_well
-  CGAAGCTAGCCAAATA: min_neut_standard_frac_per_well
-  CGTATTAACGTAACAC: min_neut_standard_frac_per_well
-  CTAGTCACACGCACAC: min_neut_standard_frac_per_well
-  GCAACAGTCCTAGCAA: min_neut_standard_frac_per_well
-  GCCTAAGCGTGGGCGG: min_neut_standard_frac_per_well
-  GCTTGTCGCAAACAGC: min_neut_standard_frac_per_well
-  GTCTCCTGACTAAAAA: min_neut_standard_frac_per_well
-  TAGGCATCGCTGTGTC: min_neut_standard_frac_per_well
-  TATATAAGCCTGTGAG: min_neut_standard_frac_per_well
-  TATTAATACCTGGGAA: min_neut_standard_frac_per_well
-  TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-  TCGGAGCGTAAAGAAT: min_neut_standard_frac_per_well
-  TTACTACACTTTGCAA: min_neut_standard_frac_per_well
-  TTGCAAAAAGTTTTAG: min_neut_standard_frac_per_well
-  TTGCATAGATGTAATC: min_neut_standard_frac_per_well
 barcode_wells:
-  GACACAGAACCCATGC D12: min_no_serum_count_per_viral_barcode_well
   CTCTTACGCTCCTACG D12: min_no_serum_count_per_viral_barcode_well
   ATGGTTTTACGTCCAT H4: max_frac_infectivity_per_viral_barcode_well
   CGTTAACGGCCTATCC B7: max_frac_infectivity_per_viral_barcode_well
@@ -89,7 +57,6 @@ barcode_serum_replicates:
   GTTGCTCCGACACGCC EPIHK_3: goodness_of_fit
   TACCTGCTGCGGAACG EPIHK_3: goodness_of_fit
   TACTAGCAATAAAATC EPIHK_3: goodness_of_fit
-  TATACTCACGGAGGAT EPIHK_3: goodness_of_fit
   TATTCCTAACTAGCGA EPIHK_3: goodness_of_fit
   TCACGACTCGACTAAC EPIHK_3: goodness_of_fit
   TCTCAGCTCTTAGCCG EPIHK_3: goodness_of_fit
@@ -135,7 +102,6 @@ barcode_serum_replicates:
   GTAGAACTGCGGCCCC EPIHK_5: goodness_of_fit
   GTTATTATGACTTCAT EPIHK_5: goodness_of_fit
   TACAAGAGAGGGGTCC EPIHK_5: goodness_of_fit
-  TATACTCACGGAGGAT EPIHK_5: goodness_of_fit
   TATTCCTAACTAGCGA EPIHK_5: goodness_of_fit
   TCGAGTTAATATGCGC EPIHK_5: goodness_of_fit
   TCGCTTCAACTAAAAA EPIHK_5: goodness_of_fit
@@ -159,7 +125,6 @@ barcode_serum_replicates:
   GATCGCCACTGATAAG EPIHK_6: goodness_of_fit
   GCAGCGTGCCGGTCAT EPIHK_6: goodness_of_fit
   GCCGCTGCGGCGTGTG EPIHK_6: goodness_of_fit
-  GCCTAAAGGATCATGA EPIHK_6: goodness_of_fit
   GTAAGCTTCATGGAGT EPIHK_6: goodness_of_fit
   GTCCGTCAGCATAAAC EPIHK_6: goodness_of_fit
   TCTCAGCTCTTAGCCG EPIHK_6: goodness_of_fit
@@ -173,14 +138,12 @@ barcode_serum_replicates:
   CGCACTTTACGAGACA EPIHK_7: goodness_of_fit
   CTCCTAGGGGACGATT EPIHK_7: goodness_of_fit
   GCCGCTGCGGCGTGTG EPIHK_7: goodness_of_fit
-  GCCTAAAGGATCATGA EPIHK_7: goodness_of_fit
   TCTGGAAACGATCCCC EPIHK_7: goodness_of_fit
   AAGCGGTGATGTGATT EPIHK_8: goodness_of_fit
   AGCCCATGCTGGGGAT EPIHK_8: goodness_of_fit
   ATACACGCATGTGCCA EPIHK_8: goodness_of_fit
   ATGGCCCACGGGCATA EPIHK_8: goodness_of_fit
   CATAAAAGACTGTATA EPIHK_8: goodness_of_fit
-  CCCTCCTCAAGGGTAA EPIHK_8: goodness_of_fit
   CCCTTTACGGATCTCT EPIHK_8: goodness_of_fit
   CCGCATTAGCGGGAGG EPIHK_8: goodness_of_fit
   CGATCTTTACGAAAAA EPIHK_8: goodness_of_fit

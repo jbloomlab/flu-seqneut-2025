@@ -6,15 +6,14 @@ FCI,FCI_4,A/Brisbane/02/2018_H1N1,40,upper,0,3,midpoint
 FCI,FCI_4,A/BurkinaFaso/3131/2023_H3N2,40,upper,0,2,midpoint
 FCI,FCI_4,A/Busan/277/2025_H1N1,47.26,upper,7.256,2,midpoint
 FCI,FCI_4,A/Busan/461/2025_H3N2,40,upper,,1,midpoint
-FCI,FCI_4,A/California/07/2009_H1N1,40,upper,,1,midpoint
 FCI,FCI_4,A/Cambodia/e0826360/2020_H3N2,40,upper,0,3,midpoint
 FCI,FCI_4,A/Cambodia/e0826360/2020egg_H3N2,40,upper,0,3,midpoint
 FCI,FCI_4,A/Canberra/613/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_4,A/Colombia/1851/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_4,A/Colombia/7681/2024_H3N2,40,upper,0,2,midpoint
-FCI,FCI_4,A/Colorado/218/2024_H1N1,46.11,upper,6.112,2,midpoint
+FCI,FCI_4,A/Colorado/218/2024_H1N1,40,upper,,1,midpoint
 FCI,FCI_4,A/Colorado/ISC-1416/2024_H3N2,40.17,upper,0.1706,2,midpoint
-FCI,FCI_4,A/CoteD'Ivoire/4448/2024_H3N2,40,upper,0,2,midpoint
+FCI,FCI_4,A/CoteD'Ivoire/4448/2024_H3N2,40,upper,,1,midpoint
 FCI,FCI_4,A/Croatia/10136RV/2023-egg_H3N2,40,upper,0,2,midpoint
 FCI,FCI_4,A/DE/DE-DHSS-901/2025_(H3N2)_H3N2,40,upper,0,2,midpoint
 FCI,FCI_4,A/Darwin/6/2021_H3N2,40,upper,0,3,midpoint
@@ -47,7 +46,7 @@ FCI,FCI_4,A/Maldives/2132/2024_H1N1,57.25,upper,17.25,2,midpoint
 FCI,FCI_4,A/Maldives/2147/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_4,A/Maldives/2186/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_4,A/Manitoba/RV04865/2024_H3N2,40,upper,0,2,midpoint
-FCI,FCI_4,A/Maryland/64/2024_H1N1,40.9,upper,0.8965,2,midpoint
+FCI,FCI_4,A/Maryland/64/2024_H1N1,41.79,interpolated,,1,midpoint
 FCI,FCI_4,A/Massachusetts/18/2022_H3N2,40,upper,0,3,midpoint
 FCI,FCI_4,A/Massachusetts/93/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_4,A/Massachusetts/BI_MGH-23147/2025_H3N2,40,upper,0,2,midpoint
@@ -79,7 +78,7 @@ FCI,FCI_4,A/Pennsylvania/288/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_4,A/Punta_Arenas/83659/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_4,A/Qatar/83328/2024_H1N1,46.05,upper,6.051,2,midpoint
 FCI,FCI_4,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,40,upper,,1,midpoint
-FCI,FCI_4,A/Queensland/IN000684/2024_H1N1,40,upper,0,2,midpoint
+FCI,FCI_4,A/Queensland/IN000684/2024_H1N1,40,upper,,1,midpoint
 FCI,FCI_4,A/Queensland/IN000692/2024_H3N2,62.66,interpolated,17.21,2,midpoint
 FCI,FCI_4,A/Queensland/IN000803/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_4,A/Rhode_Island/15446/2025_H3N2,40,upper,0,2,midpoint
