@@ -1,9 +1,45 @@
 EPIHK:
   EPIHK_1:
     A/Cambodia/e0826360/2020_H3N2: max_fold_change_from_median
+  EPIHK_10: {}
+  EPIHK_11: {}
+  EPIHK_12: {}
+  EPIHK_13: {}
+  EPIHK_14: {}
+  EPIHK_15: {}
+  EPIHK_16: {}
+  EPIHK_17: {}
+  EPIHK_18: {}
+  EPIHK_19: {}
   EPIHK_2: {}
+  EPIHK_20: {}
+  EPIHK_21: {}
+  EPIHK_22: {}
+  EPIHK_23: {}
+  EPIHK_24: {}
+  EPIHK_25:
+    A/Darwin/6/2021_H3N2: max_fold_change_from_median
+  EPIHK_26: {}
+  EPIHK_27: {}
+  EPIHK_28: {}
+  EPIHK_29: {}
   EPIHK_3: {}
+  EPIHK_30:
+    A/Texas/50/2012X-223A_H3N2: max_fold_change_from_median
+  EPIHK_31: {}
+  EPIHK_32: {}
+  EPIHK_33: {}
+  EPIHK_34:
+    A/Singapore/INFIMH-16-0019/2016_H3N2: max_fold_change_from_median
+  EPIHK_35: {}
+  EPIHK_36: {}
+  EPIHK_37: {}
+  EPIHK_38: {}
+  EPIHK_39: {}
   EPIHK_4: {}
+  EPIHK_40: {}
+  EPIHK_41: {}
+  EPIHK_42: {}
   EPIHK_5: {}
   EPIHK_6: {}
   EPIHK_7: {}
@@ -29,6 +65,58 @@ FCI:
   FCI_7: {}
   FCI_8: {}
   FCI_9: {}
+NIID:
+  NIID_1: {}
+  NIID_10: {}
+  NIID_11: {}
+  NIID_12: {}
+  NIID_13: {}
+  NIID_14: {}
+  NIID_15: {}
+  NIID_16: {}
+  NIID_17: {}
+  NIID_18: {}
+  NIID_19: {}
+  NIID_2: {}
+  NIID_20: {}
+  NIID_21: {}
+  NIID_22: {}
+  NIID_23: {}
+  NIID_24: {}
+  NIID_25: {}
+  NIID_26: {}
+  NIID_27: {}
+  NIID_28: {}
+  NIID_29:
+    A/Hawaii/70/2019_H1N1: max_fold_change_from_median
+  NIID_3: {}
+  NIID_30:
+    A/HongKong/45/2019_H3N2: max_fold_change_from_median
+  NIID_31: {}
+  NIID_32: {}
+  NIID_33: {}
+  NIID_34: {}
+  NIID_35: {}
+  NIID_36: {}
+  NIID_37: {}
+  NIID_38: {}
+  NIID_39: {}
+  NIID_4: {}
+  NIID_40: {}
+  NIID_41: {}
+  NIID_42: {}
+  NIID_43: {}
+  NIID_44: {}
+  NIID_45: {}
+  NIID_46: {}
+  NIID_47: {}
+  NIID_48:
+    A/Massachusetts/18/2022_H3N2: max_fold_change_from_median
+  NIID_5: {}
+  NIID_6: {}
+  NIID_7: {}
+  NIID_8: {}
+  NIID_9: {}
 SCH:
   SCH_1: {}
   SCH_10: {}
