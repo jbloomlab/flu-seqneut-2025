@@ -14,6 +14,9 @@ AAAGACCTTTAACTCT:
     plate1-2 UWMC-10: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
+    plate16 NIID_10: goodness_of_fit
+    plate18 NIID_29: goodness_of_fit
+    plate19 NIID_37: goodness_of_fit
     plate6 FCI_1: goodness_of_fit
     plate6 FCI_2: goodness_of_fit
     plate6 FCI_6: goodness_of_fit
@@ -33,7 +36,15 @@ AAAGCTCTTTTCGTTC:
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate10 SCH_32: goodness_of_fit
+    plate13 EPIHK_16: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
+    plate17 NIID_14: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
+    plate19 NIID_36: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
   barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate16 H9: max_frac_infectivity_per_viral_barcode_well
     plate9 F4: max_frac_infectivity_per_viral_barcode_well
 AAAGGCGCGCCTTCAA:
   barcode_serum_replicates:
@@ -47,6 +58,10 @@ AAAGGCGCGCCTTCAA:
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
     plate12_EPIHK EPIHK_6: goodness_of_fit
+    plate13 EPIHK_10: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
+    plate18 NIID_29: goodness_of_fit
+    plate19 NIID_41: goodness_of_fit
     plate6 FCI_1: goodness_of_fit
     plate6 FCI_8: goodness_of_fit
     plate9 SCH_19: goodness_of_fit
@@ -60,11 +75,17 @@ AAAGTAGCAGAGGATT:
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-8: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
+    plate14 EPIHK_25: goodness_of_fit
+    plate19 NIID_36: goodness_of_fit
+    plate19 NIID_39: goodness_of_fit
     plate6 FCI_10: goodness_of_fit
     plate6 FCI_7: goodness_of_fit
     plate6 FCI_8: goodness_of_fit
     plate7_FCI FCI_16: goodness_of_fit
   barcode_wells:
+    plate13 H7: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H8: max_frac_infectivity_per_viral_barcode_well
     plate6 E9: max_frac_infectivity_per_viral_barcode_well
     plate9 D11: max_frac_infectivity_per_viral_barcode_well
 AAATGTTTAATAGACG:
@@ -97,6 +118,14 @@ AAATGTTTAATAGACG:
   barcodes:
     plate12_EPIHK: min_neut_standard_frac_per_well
     plate12_SCH: min_neut_standard_frac_per_well
+    plate13: min_neut_standard_frac_per_well
+    plate14: min_neut_standard_frac_per_well
+    plate15: min_neut_standard_frac_per_well
+    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
 AAATTCACAATATCCA:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -107,6 +136,8 @@ AAATTCACAATATCCA:
     plate1-2 UWMC-9: goodness_of_fit
     plate10 SCH_29: goodness_of_fit
     plate11 SCH_47: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
+    plate19 NIID_41: goodness_of_fit
     plate6 FCI_10: goodness_of_fit
     plate6 FCI_6: goodness_of_fit
     plate6 FCI_8: goodness_of_fit
@@ -117,12 +148,22 @@ AAATTCACAATATCCA:
     plate9 SCH_22: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
   barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
     plate6 D7: max_frac_infectivity_per_viral_barcode_well
     plate6 F8: max_frac_infectivity_per_viral_barcode_well
 AACACGTAGAACCGCC:
   barcode_serum_replicates:
     plate1-2 UWMC-6: goodness_of_fit
   barcode_wells:
+    plate14 H3: max_frac_infectivity_per_viral_barcode_well
+    plate17 G10: max_frac_infectivity_per_viral_barcode_well
+    plate17 G2: max_frac_infectivity_per_viral_barcode_well
+    plate17 H3: max_frac_infectivity_per_viral_barcode_well
+    plate17 H9: max_frac_infectivity_per_viral_barcode_well
+    plate18 D9: max_frac_infectivity_per_viral_barcode_well
+    plate18 E10: max_frac_infectivity_per_viral_barcode_well
+    plate18 H3: max_frac_infectivity_per_viral_barcode_well
+    plate20 F3: max_frac_infectivity_per_viral_barcode_well
     plate9 F11: max_frac_infectivity_per_viral_barcode_well
 AACAGAAGTCCATGTA:
   barcode_serum_replicates:
@@ -148,7 +189,17 @@ AACCACCCCAGAGATG:
     plate1-2 UWMC-8: goodness_of_fit
     plate11 SCH_47: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
+    plate13 EPIHK_10: goodness_of_fit
+    plate14 EPIHK_24: goodness_of_fit
+    plate14 EPIHK_30: min_dilutions_per_barcode_serum_replicate
+    plate15 EPIHK_40: goodness_of_fit
+    plate16 NIID_10: goodness_of_fit
+    plate18 NIID_29: goodness_of_fit
+    plate18 NIID_32: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
+    plate19 NIID_42: goodness_of_fit
     plate2-2 UWMC-20: goodness_of_fit
+    plate20 NIID_46: goodness_of_fit
     plate3 UWMC-23: goodness_of_fit
     plate4 UWMC-40: goodness_of_fit
     plate6 FCI_1: goodness_of_fit
@@ -168,7 +219,24 @@ AACCACCCCAGAGATG:
     plate9 SCH_22: goodness_of_fit
   barcode_wells:
     plate11 G5: max_frac_infectivity_per_viral_barcode_well
+    plate13 G7: max_frac_infectivity_per_viral_barcode_well
+    plate13 H10: max_frac_infectivity_per_viral_barcode_well
+    plate13 H7: max_frac_infectivity_per_viral_barcode_well
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 D8: max_frac_infectivity_per_viral_barcode_well
+    plate14 F10: max_frac_infectivity_per_viral_barcode_well
+    plate14 H10: max_frac_infectivity_per_viral_barcode_well
+    plate14 H4: max_frac_infectivity_per_viral_barcode_well
+    plate15 E5: max_frac_infectivity_per_viral_barcode_well
+    plate15 H4: max_frac_infectivity_per_viral_barcode_well
+    plate17 D2: max_frac_infectivity_per_viral_barcode_well
+    plate17 E3: max_frac_infectivity_per_viral_barcode_well
+    plate17 F11: max_frac_infectivity_per_viral_barcode_well
+    plate17 F3: max_frac_infectivity_per_viral_barcode_well
+    plate17 F9: max_frac_infectivity_per_viral_barcode_well
     plate2-2 D12: min_no_serum_count_per_viral_barcode_well
+    plate20 H2: max_frac_infectivity_per_viral_barcode_well
+    plate20 H3: max_frac_infectivity_per_viral_barcode_well
     plate3 E12: min_no_serum_count_per_viral_barcode_well
     plate3 F12: min_no_serum_count_per_viral_barcode_well
     plate4 G7: max_frac_infectivity_per_viral_barcode_well
@@ -191,6 +259,7 @@ AACCGTACCGCGTTTA:
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-7: goodness_of_fit
     plate11 SCH_47: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
     plate6 FCI_11: goodness_of_fit
     plate6 FCI_3: goodness_of_fit
     plate6 FCI_6: goodness_of_fit
@@ -204,6 +273,10 @@ AACCGTACCGCGTTTA:
     plate8 SCH_14: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
   barcode_wells:
+    plate13 H6: max_frac_infectivity_per_viral_barcode_well
+    plate15 H6: max_frac_infectivity_per_viral_barcode_well
+    plate16 G8: max_frac_infectivity_per_viral_barcode_well
+    plate19 G5: max_frac_infectivity_per_viral_barcode_well
     plate6 D3: max_frac_infectivity_per_viral_barcode_well
     plate6 F6: max_frac_infectivity_per_viral_barcode_well
     plate6 G10: max_frac_infectivity_per_viral_barcode_well
@@ -233,6 +306,7 @@ AACGGTTCCGACTAAG:
     plate1-2 UWMC-7: goodness_of_fit
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
+    plate17 NIID_12: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
 AACTGCGTTCATCGAT:
   barcode_serum_replicates:
@@ -263,6 +337,7 @@ AACTTCCCTGACTGCT:
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-7: goodness_of_fit
     plate1-2 UWMC-8: goodness_of_fit
+    plate19 NIID_39: goodness_of_fit
     plate6 FCI_7: goodness_of_fit
     plate7_FCI FCI_12: goodness_of_fit
     plate7_FCI FCI_18: goodness_of_fit
@@ -285,6 +360,8 @@ AACTTCCGTCGCCTGA:
     plate1-2 UWMC-9: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
+    plate18 NIID_29: goodness_of_fit
+    plate19 NIID_34: goodness_of_fit
     plate6 FCI_2: goodness_of_fit
     plate6 FCI_6: goodness_of_fit
     plate7_FCI FCI_17: goodness_of_fit
@@ -293,6 +370,8 @@ AACTTCCGTCGCCTGA:
     plate9 SCH_22: goodness_of_fit
     plate9 SCH_25: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 AAGAAGACTTTGTGAT:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -308,6 +387,7 @@ AAGAAGACTTTGTGAT:
     plate10 SCH_32: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
     plate2-2 UWMC-19: goodness_of_fit
     plate3 UWMC-29: goodness_of_fit
     plate7_FCI FCI_17: goodness_of_fit
@@ -329,6 +409,8 @@ AAGAAGCTATAGAAGT:
     plate1-2 UWMC-9: goodness_of_fit
     plate10 SCH_29: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
+    plate19 NIID_39: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
     plate3 UWMC-29: goodness_of_fit
     plate7_FCI FCI_13: goodness_of_fit
     plate7_FCI FCI_14: goodness_of_fit
@@ -366,6 +448,7 @@ AAGCCCAGCGGGTGAT:
     plate10 SCH_34: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate12_EPIHK EPIHK_6: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
     plate2-2 UWMC-18: goodness_of_fit
     plate4 UWMC-40: goodness_of_fit
     plate6 FCI_8: goodness_of_fit
@@ -403,12 +486,17 @@ AAGGGGCCTCATAATG:
     plate1-2 UWMC-9: goodness_of_fit
     plate10 SCH_29: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
+    plate18 NIID_29: goodness_of_fit
     plate3 UWMC-25: goodness_of_fit
     plate7_SCH SCH_1: goodness_of_fit
     plate9 SCH_25: goodness_of_fit
   barcode_wells:
     plate6 C4: max_frac_infectivity_per_viral_barcode_well
     plate7_SCH F10: max_frac_infectivity_per_viral_barcode_well
+AAGGTCCCTATGTAAT:
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate18 D3: max_frac_infectivity_per_viral_barcode_well
 AAGTATTGCTACACAT:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -423,6 +511,8 @@ AAGTATTGCTACACAT:
     plate7_FCI FCI_18: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
   barcode_wells:
+    plate13 G7: max_frac_infectivity_per_viral_barcode_well
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
     plate9 G2: max_frac_infectivity_per_viral_barcode_well
 AAGTTAAGAGAAAGTT:
   barcode_serum_replicates:
@@ -433,6 +523,8 @@ AAGTTAAGAGAAAGTT:
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-7: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 AAGTTAGTAGACCCAC:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -441,6 +533,7 @@ AAGTTAGTAGACCCAC:
     plate1-2 UWMC-5: goodness_of_fit
     plate1-2 UWMC-6: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
+    plate18 NIID_27: goodness_of_fit
     plate6 FCI_10: goodness_of_fit
     plate7_FCI FCI_12: goodness_of_fit
 AATCGCTGGCACCCGT:
@@ -468,17 +561,44 @@ AATGAAACAATCGAAC:
     plate1-2 UWMC-9: goodness_of_fit
     plate10 SCH_29: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
     plate6 FCI_8: goodness_of_fit
     plate7_FCI FCI_13: goodness_of_fit
     plate9 SCH_19: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
     plate9 SCH_25: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+AATGCGAGCATGTCAA:
+  barcode_wells:
+    plate13 F3: max_frac_infectivity_per_viral_barcode_well
+    plate13 H6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H2: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate15 G3: max_frac_infectivity_per_viral_barcode_well
+    plate16 E10: max_frac_infectivity_per_viral_barcode_well
+    plate16 E9: max_frac_infectivity_per_viral_barcode_well
+    plate16 G9: max_frac_infectivity_per_viral_barcode_well
+    plate17 D2: max_frac_infectivity_per_viral_barcode_well
+    plate17 D3: max_frac_infectivity_per_viral_barcode_well
+    plate17 F5: max_frac_infectivity_per_viral_barcode_well
+    plate17 G5: max_frac_infectivity_per_viral_barcode_well
+    plate17 G8: max_frac_infectivity_per_viral_barcode_well
+    plate18 H3: max_frac_infectivity_per_viral_barcode_well
+    plate20 H3: max_frac_infectivity_per_viral_barcode_well
 AATTCGTGAGTACTAG:
   barcode_wells:
     plate11 F6: max_frac_infectivity_per_viral_barcode_well
+    plate13 G7: max_frac_infectivity_per_viral_barcode_well
+    plate14 F9: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate17 F3: max_frac_infectivity_per_viral_barcode_well
 ACAAAGTCTCGAGAAG:
   barcode_wells:
+    plate14 G1: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H8: max_frac_infectivity_per_viral_barcode_well
     plate8 F9: max_frac_infectivity_per_viral_barcode_well
     plate9 E3: max_frac_infectivity_per_viral_barcode_well
 ACAAGATTCGGGGGAC:
@@ -493,6 +613,8 @@ ACAAGATTCGGGGGAC:
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
+    plate13 EPIHK_16: goodness_of_fit
+    plate18 NIID_25: goodness_of_fit
     plate6 FCI_7: goodness_of_fit
     plate7_FCI FCI_15: goodness_of_fit
     plate8 SCH_14: goodness_of_fit
@@ -500,6 +622,8 @@ ACAAGATTCGGGGGAC:
     plate9 SCH_20: goodness_of_fit
     plate9 SCH_25: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 ACAATCTGAACCATAC:
   barcode_serum_replicates:
     plate1-2 UWMC-11: goodness_of_fit
@@ -510,14 +634,34 @@ ACAATCTGAACCATAC:
 ACACGGGTTGGCTGTA:
   barcode_serum_replicates:
     plate1-2 UWMC-5: goodness_of_fit
+    plate16 NIID_1: goodness_of_fit
+    plate17 NIID_18: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate17 D2: max_frac_infectivity_per_viral_barcode_well
+    plate20 G4: max_frac_infectivity_per_viral_barcode_well
 ACAGTACGATCTACGC:
   barcode_serum_replicates:
+    plate15 EPIHK_36: goodness_of_fit
+    plate19 NIID_39: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
     plate3 UWMC-29: goodness_of_fit
     plate7_FCI FCI_18: goodness_of_fit
   barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate15 F11: max_frac_infectivity_per_viral_barcode_well
+    plate16 G10: max_frac_infectivity_per_viral_barcode_well
+    plate17 F11: max_frac_infectivity_per_viral_barcode_well
+    plate17 G4: max_frac_infectivity_per_viral_barcode_well
+    plate17 G8: max_frac_infectivity_per_viral_barcode_well
     plate6 A6: max_frac_infectivity_per_viral_barcode_well
 ACAGTCCACCATTGAG:
   barcode_wells:
+    plate13 H6: max_frac_infectivity_per_viral_barcode_well
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 F7: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate17 G8: max_frac_infectivity_per_viral_barcode_well
     plate9 F3: max_frac_infectivity_per_viral_barcode_well
 ACATTTTCCAATAGGT:
   barcode_serum_replicates:
@@ -549,6 +693,15 @@ ACCAGCAATGAGTTGT:
 ACCCCCGGAGCTTGGC:
   barcode_serum_replicates:
     plate1-2 UWMC-9: goodness_of_fit
+    plate16 NIID_4: goodness_of_fit
+    plate19 NIID_41: goodness_of_fit
+  barcode_wells:
+    plate13 A7: max_frac_infectivity_per_viral_barcode_well
+    plate13 G7: max_frac_infectivity_per_viral_barcode_well
+    plate13 H6: max_frac_infectivity_per_viral_barcode_well
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate17 D3: max_frac_infectivity_per_viral_barcode_well
+    plate19 G3: max_frac_infectivity_per_viral_barcode_well
 ACCGAATGAATCATCC:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -566,6 +719,12 @@ ACCGATTCACGAATAA:
     plate1-2 UWMC-5: goodness_of_fit
     plate1-2 UWMC-7: goodness_of_fit
   barcode_wells:
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate15 F6: max_frac_infectivity_per_viral_barcode_well
+    plate17 C9: max_frac_infectivity_per_viral_barcode_well
+    plate17 D3: max_frac_infectivity_per_viral_barcode_well
+    plate17 F1: max_frac_infectivity_per_viral_barcode_well
+    plate17 G11: max_frac_infectivity_per_viral_barcode_well
     plate9 H3: max_frac_infectivity_per_viral_barcode_well
 ACCGTTGTACACACCA:
   barcode_serum_replicates:
@@ -581,6 +740,8 @@ ACCGTTGTACACACCA:
     plate10 SCH_32: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
     plate12_EPIHK EPIHK_7: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
+    plate17 NIID_21: goodness_of_fit
     plate8 SCH_14: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
     plate9 SCH_25: goodness_of_fit
@@ -598,6 +759,8 @@ ACGGGGATTGGCTGTT:
     plate1-2 UWMC-10: goodness_of_fit
     plate1-2 UWMC-3: goodness_of_fit
     plate1-2 UWMC-6: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
+    plate19 NIID_38: goodness_of_fit
     plate6 FCI_11: goodness_of_fit
     plate6 FCI_5: goodness_of_fit
 ACGTATGATTTTCGAG:
@@ -616,6 +779,12 @@ ACGTATGATTTTCGAG:
     plate9 SCH_26: goodness_of_fit
 ACGTCCATTAAGATCA:
   barcode_wells:
+    plate13 H1: max_frac_infectivity_per_viral_barcode_well
+    plate13 H6: max_frac_infectivity_per_viral_barcode_well
+    plate14 E6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate15 H5: max_frac_infectivity_per_viral_barcode_well
+    plate20 H3: max_frac_infectivity_per_viral_barcode_well
     plate9 D3: max_frac_infectivity_per_viral_barcode_well
 ACGTGTCTCCGAGCAA:
   barcode_serum_replicates:
@@ -642,6 +811,7 @@ ACTACGAGGCTACGTA:
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
     plate8 SCH_14: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
     plate9 SCH_25: goodness_of_fit
@@ -660,6 +830,9 @@ ACTCTGGCTCGCTAAT:
     plate11 SCH_47: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate12_EPIHK EPIHK_6: goodness_of_fit
+    plate13 EPIHK_16: goodness_of_fit
+    plate19 NIID_38: goodness_of_fit
+    plate19 NIID_39: goodness_of_fit
     plate2-2 UWMC-16: goodness_of_fit
     plate4 UWMC-39: goodness_of_fit
     plate6 FCI_6: goodness_of_fit
@@ -672,6 +845,8 @@ ACTCTGGCTCGCTAAT:
     plate9 SCH_19: goodness_of_fit
     plate9 SCH_25: goodness_of_fit
   barcode_wells:
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
     plate6 H7: max_frac_infectivity_per_viral_barcode_well
     plate8 G3: max_frac_infectivity_per_viral_barcode_well
 ACTGTCTAGAAATTTT:
@@ -713,7 +888,16 @@ AGACCATCGCACCCAA:
     plate11 SCH_47: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
+    plate13 EPIHK_16: goodness_of_fit
+    plate14 EPIHK_24: goodness_of_fit
+    plate14 EPIHK_30: goodness_of_fit
+    plate14 EPIHK_31: goodness_of_fit
+    plate16 NIID_11: goodness_of_fit
+    plate18 NIID_26: goodness_of_fit
+    plate18 NIID_29: goodness_of_fit
+    plate19 NIID_39: goodness_of_fit
     plate2-2 UWMC-19: goodness_of_fit
+    plate20 NIID_47: goodness_of_fit
     plate6 FCI_2: goodness_of_fit
     plate6 FCI_5: goodness_of_fit
     plate6 FCI_8: goodness_of_fit
@@ -728,6 +912,8 @@ AGACCATCGCACCCAA:
   barcode_wells:
     plate1-2 G2: max_frac_infectivity_per_viral_barcode_well
     plate1-2 G4: max_frac_infectivity_per_viral_barcode_well
+    plate13 G6: max_frac_infectivity_per_viral_barcode_well
+    plate14 C4: max_frac_infectivity_per_viral_barcode_well
     plate6 D10: max_frac_infectivity_per_viral_barcode_well
 AGACCGCCAGTTTCGT:
   barcode_serum_replicates:
@@ -742,12 +928,15 @@ AGACCGCCAGTTTCGT:
     plate10 SCH_29: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
     plate6 FCI_2: goodness_of_fit
     plate6 FCI_7: goodness_of_fit
     plate7_FCI FCI_12: goodness_of_fit
     plate7_FCI FCI_14: goodness_of_fit
     plate9 SCH_20: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 AGAGCTAAAAAGAGGA:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -756,20 +945,45 @@ AGAGCTAAAAAGAGGA:
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-7: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
   barcode_wells:
     plate10 G6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
     plate6 A3: max_frac_infectivity_per_viral_barcode_well
 AGATCCACCCTATAGT:
   barcode_serum_replicates:
     plate1-2 UWMC-7: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
+    plate16 NIID_4: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
+    plate19 NIID_41: goodness_of_fit
     plate6 FCI_7: goodness_of_fit
   barcode_wells:
     plate11 G9: max_frac_infectivity_per_viral_barcode_well
+    plate13 H11: max_frac_infectivity_per_viral_barcode_well
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 F11: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate16 D4: max_frac_infectivity_per_viral_barcode_well
+    plate16 F1: max_frac_infectivity_per_viral_barcode_well
+    plate16 F6: max_frac_infectivity_per_viral_barcode_well
+    plate16 G9: max_frac_infectivity_per_viral_barcode_well
+    plate16 H8: max_frac_infectivity_per_viral_barcode_well
+    plate17 D1: max_frac_infectivity_per_viral_barcode_well
+    plate17 F4: max_frac_infectivity_per_viral_barcode_well
+    plate17 G6: max_frac_infectivity_per_viral_barcode_well
+    plate17 H2: max_frac_infectivity_per_viral_barcode_well
+    plate18 C11: max_frac_infectivity_per_viral_barcode_well
+    plate18 E11: max_frac_infectivity_per_viral_barcode_well
+    plate18 H3: max_frac_infectivity_per_viral_barcode_well
+    plate18 H4: max_frac_infectivity_per_viral_barcode_well
+    plate19 C10: max_frac_infectivity_per_viral_barcode_well
 AGATCCCAGGTCCTTT:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
     plate1-2 UWMC-6: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 AGCATAGGGATATGTG:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -821,6 +1035,7 @@ AGCGACATCGCCCTTT:
     plate1-2 UWMC-9: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
     plate12_SCH SCH_50: goodness_of_fit
+    plate13 EPIHK_19: goodness_of_fit
     plate2-2 UWMC-22: goodness_of_fit
     plate3 UWMC-30: goodness_of_fit
     plate3 UWMC-33: goodness_of_fit
@@ -834,6 +1049,10 @@ AGCGACATCGCCCTTT:
     plate9 SCH_21: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
   barcode_wells:
+    plate13 G3: max_frac_infectivity_per_viral_barcode_well
+    plate19 B10: max_frac_infectivity_per_viral_barcode_well
+    plate19 F5: max_frac_infectivity_per_viral_barcode_well
+    plate19 G2: max_frac_infectivity_per_viral_barcode_well
     plate2-2 H6: max_frac_infectivity_per_viral_barcode_well
     plate6 D6: max_frac_infectivity_per_viral_barcode_well
     plate7_SCH F9: max_frac_infectivity_per_viral_barcode_well
@@ -842,6 +1061,10 @@ AGCTCCTGGGGTATCA:
   barcode_serum_replicates:
     plate6 FCI_8: goodness_of_fit
   barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate17 F2: max_frac_infectivity_per_viral_barcode_well
+    plate17 G9: max_frac_infectivity_per_viral_barcode_well
+    plate18 F1: max_frac_infectivity_per_viral_barcode_well
     plate9 H3: max_frac_infectivity_per_viral_barcode_well
 AGCTGAATTAAGTATG:
   barcode_serum_replicates:
@@ -865,8 +1088,16 @@ AGGAAAGAAACTGGAG:
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate12_SCH SCH_50: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
+    plate19 NIID_36: goodness_of_fit
   barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
     plate9 F4: max_frac_infectivity_per_viral_barcode_well
+AGGACTATAGTTGGCA:
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate16 F3: max_frac_infectivity_per_viral_barcode_well
 AGGAGTATGAAGAGCG:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -895,10 +1126,22 @@ AGGCCCGTAAGGACTA:
 AGGTTCAGACTCTTGC:
   barcode_serum_replicates:
     plate1-2 UWMC-11: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
+    plate19 NIID_38: goodness_of_fit
+  barcode_wells:
+    plate13 F2: max_frac_infectivity_per_viral_barcode_well
+    plate14 F6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate16 G7: max_frac_infectivity_per_viral_barcode_well
+    plate17 F10: max_frac_infectivity_per_viral_barcode_well
+    plate20 D1: max_frac_infectivity_per_viral_barcode_well
 AGTAAACATGCATTGG:
   barcode_serum_replicates:
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-8: goodness_of_fit
+    plate19 NIID_39: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 AGTATTTGCGCTTCAA:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -913,11 +1156,16 @@ AGTATTTGCGCTTCAA:
     plate4 UWMC-35: goodness_of_fit
     plate4 UWMC-40: goodness_of_fit
     plate6 FCI_8: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 AGTCCTATCCTCAAAT:
   barcode_serum_replicates:
     plate10 SCH_31: goodness_of_fit
     plate10 SCH_32: goodness_of_fit
     plate11 SCH_39: min_dilutions_per_barcode_serum_replicate
+    plate18 NIID_27: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
+    plate20 NIID_47: goodness_of_fit
     plate6 FCI_4: goodness_of_fit
     plate6 FCI_5: goodness_of_fit
     plate6 FCI_8: goodness_of_fit
@@ -932,6 +1180,24 @@ AGTCCTATCCTCAAAT:
     plate12_EPIHK D8: max_frac_infectivity_per_viral_barcode_well
     plate12_EPIHK E11: max_frac_infectivity_per_viral_barcode_well
     plate12_EPIHK H10: max_frac_infectivity_per_viral_barcode_well
+    plate14 D11: max_frac_infectivity_per_viral_barcode_well
+    plate14 D12: min_no_serum_count_per_viral_barcode_well
+    plate14 F1: max_frac_infectivity_per_viral_barcode_well
+    plate14 F10: max_frac_infectivity_per_viral_barcode_well
+    plate14 F11: max_frac_infectivity_per_viral_barcode_well
+    plate14 H2: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate15 D7: max_frac_infectivity_per_viral_barcode_well
+    plate15 F7: max_frac_infectivity_per_viral_barcode_well
+    plate15 G10: max_frac_infectivity_per_viral_barcode_well
+    plate15 H11: max_frac_infectivity_per_viral_barcode_well
+    plate18 H8: max_frac_infectivity_per_viral_barcode_well
+    plate19 A12: min_no_serum_count_per_viral_barcode_well
+    plate19 F10: max_frac_infectivity_per_viral_barcode_well
+    plate19 F3: max_frac_infectivity_per_viral_barcode_well
+    plate19 G5: max_frac_infectivity_per_viral_barcode_well
+    plate19 H11: max_frac_infectivity_per_viral_barcode_well
+    plate20 B12: min_no_serum_count_per_viral_barcode_well
     plate3 E12: min_no_serum_count_per_viral_barcode_well
     plate6 G6: max_frac_infectivity_per_viral_barcode_well
     plate6 G7: max_frac_infectivity_per_viral_barcode_well
@@ -941,6 +1207,10 @@ AGTCCTATCCTCAAAT:
     plate9 E3: max_frac_infectivity_per_viral_barcode_well
     plate9 G11: max_frac_infectivity_per_viral_barcode_well
     plate9 G2: max_frac_infectivity_per_viral_barcode_well
+  barcodes:
+    plate13: min_neut_standard_frac_per_well
+    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
 AGTCGTTTAGATAGTT:
   barcode_serum_replicates:
     plate1-2 UWMC-1: goodness_of_fit
@@ -967,6 +1237,7 @@ AGTGTTGAATAGGCGA:
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
     plate7_FCI FCI_15: goodness_of_fit
     plate9 SCH_19: goodness_of_fit
     plate9 SCH_25: goodness_of_fit
@@ -983,6 +1254,9 @@ AGTGTTGGCTTGGTTA:
     plate1-2 UWMC-9: goodness_of_fit
     plate10 SCH_29: goodness_of_fit
     plate10 SCH_32: goodness_of_fit
+    plate16 NIID_11: goodness_of_fit
+    plate17 NIID_12: goodness_of_fit
+    plate18 NIID_25: goodness_of_fit
     plate2-2 UWMC-13: goodness_of_fit
     plate2-2 UWMC-17: goodness_of_fit
     plate4 UWMC-40: goodness_of_fit
@@ -1015,18 +1289,34 @@ AGTTGGGGTCTCCCTT:
     plate1-2 UWMC-7: goodness_of_fit
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
+    plate16 NIID_11: goodness_of_fit
     plate4 UWMC-38: goodness_of_fit
 AGTTTTTATAACTTGC:
   barcode_serum_replicates:
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-8: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
+    plate14 EPIHK_30: min_dilutions_per_barcode_serum_replicate
+    plate17 NIID_13: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
     plate2-2 UWMC-22: goodness_of_fit
     plate6 FCI_7: goodness_of_fit
     plate6 FCI_9: goodness_of_fit
   barcode_wells:
     plate11 F8: max_frac_infectivity_per_viral_barcode_well
     plate11 G6: max_frac_infectivity_per_viral_barcode_well
+    plate13 G1: max_frac_infectivity_per_viral_barcode_well
+    plate13 H6: max_frac_infectivity_per_viral_barcode_well
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 D8: max_frac_infectivity_per_viral_barcode_well
+    plate14 E9: max_frac_infectivity_per_viral_barcode_well
+    plate14 G7: max_frac_infectivity_per_viral_barcode_well
+    plate14 H1: max_frac_infectivity_per_viral_barcode_well
+    plate14 H10: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H9: max_frac_infectivity_per_viral_barcode_well
+    plate15 F6: max_frac_infectivity_per_viral_barcode_well
+    plate18 E9: max_frac_infectivity_per_viral_barcode_well
 ATAACGTTTGTGCAAA:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -1034,6 +1324,7 @@ ATAACGTTTGTGCAAA:
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
     plate6 FCI_9: goodness_of_fit
     plate7_FCI FCI_12: goodness_of_fit
     plate7_FCI FCI_14: goodness_of_fit
@@ -1048,11 +1339,18 @@ ATAACTGAGGGCATTG:
     plate1-2 UWMC-6: goodness_of_fit
   barcode_wells:
     plate12_EPIHK F7: max_frac_infectivity_per_viral_barcode_well
+    plate13 H2: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate15 C7: max_frac_infectivity_per_viral_barcode_well
+    plate16 E9: max_frac_infectivity_per_viral_barcode_well
+    plate18 H1: max_frac_infectivity_per_viral_barcode_well
     plate9 F4: max_frac_infectivity_per_viral_barcode_well
 ATACACGAGGTTGTGA:
   barcode_serum_replicates:
     plate1-2 UWMC-5: goodness_of_fit
     plate1-2 UWMC-6: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 ATACACGCATGTGCCA:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -1070,6 +1368,8 @@ ATACACGCATGTGCCA:
     plate12_EPIHK EPIHK_6: goodness_of_fit
     plate12_EPIHK EPIHK_7: goodness_of_fit
     plate12_EPIHK EPIHK_8: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
+    plate18 NIID_29: goodness_of_fit
     plate2-2 UWMC-17: goodness_of_fit
     plate2-2 UWMC-19: goodness_of_fit
     plate8 SCH_13: goodness_of_fit
@@ -1088,10 +1388,23 @@ ATAGAAAATTATCCGC:
     plate7_FCI FCI_13: goodness_of_fit
     plate7_FCI FCI_18: goodness_of_fit
   barcode_wells:
+    plate14 F5: max_frac_infectivity_per_viral_barcode_well
+    plate15 E9: max_frac_infectivity_per_viral_barcode_well
+    plate17 H3: max_frac_infectivity_per_viral_barcode_well
     plate8 F10: max_frac_infectivity_per_viral_barcode_well
 ATAGAATCGCAAATTA:
   barcode_serum_replicates:
+    plate15 EPIHK_32: goodness_of_fit
     plate6 FCI_5: goodness_of_fit
+  barcode_wells:
+    plate13 H6: max_frac_infectivity_per_viral_barcode_well
+    plate14 F4: max_frac_infectivity_per_viral_barcode_well
+    plate17 D4: max_frac_infectivity_per_viral_barcode_well
+    plate17 F7: max_frac_infectivity_per_viral_barcode_well
+    plate17 G3: max_frac_infectivity_per_viral_barcode_well
+    plate17 H11: max_frac_infectivity_per_viral_barcode_well
+    plate19 H6: max_frac_infectivity_per_viral_barcode_well
+    plate20 F3: max_frac_infectivity_per_viral_barcode_well
 ATAGGATATATGGCTG:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -1121,11 +1434,21 @@ ATATAAAAAACTTAGT:
 ATCAGGATAATCGCGC:
   barcode_serum_replicates:
     plate1-2 UWMC-6: goodness_of_fit
+  barcode_wells:
+    plate13 H4: max_frac_infectivity_per_viral_barcode_well
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 E9: max_frac_infectivity_per_viral_barcode_well
+    plate14 F4: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate17 G4: max_frac_infectivity_per_viral_barcode_well
+    plate17 G6: max_frac_infectivity_per_viral_barcode_well
 ATCCGATTTAAAGGCA:
   barcode_serum_replicates:
     plate1-2 UWMC-11: goodness_of_fit
     plate8 SCH_12: goodness_of_fit
     plate8 SCH_14: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 ATGGCCCACGGGCATA:
   barcode_serum_replicates:
     plate1-2 UWMC-1: goodness_of_fit
@@ -1140,6 +1463,7 @@ ATGGCCCACGGGCATA:
     plate1-2 UWMC-9: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate12_EPIHK EPIHK_8: goodness_of_fit
+    plate18 NIID_29: goodness_of_fit
     plate3 UWMC-29: goodness_of_fit
     plate4 UWMC-40: goodness_of_fit
     plate7_FCI FCI_17: goodness_of_fit
@@ -1149,13 +1473,30 @@ ATGGCCCACGGGCATA:
     plate9 SCH_25: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
   barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
     plate6 G3: max_frac_infectivity_per_viral_barcode_well
+ATGGGATTGGAGAAAC:
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 ATGGTTTTACGTCCAT:
   barcode_serum_replicates:
     plate1-2 UWMC-9: goodness_of_fit
+    plate13 EPIHK_16: goodness_of_fit
+    plate19 NIID_42: goodness_of_fit
   barcode_wells:
     plate11 G2: max_frac_infectivity_per_viral_barcode_well
     plate12_EPIHK H4: max_frac_infectivity_per_viral_barcode_well
+    plate13 F2: max_frac_infectivity_per_viral_barcode_well
+    plate14 D8: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H7: max_frac_infectivity_per_viral_barcode_well
+    plate15 F6: max_frac_infectivity_per_viral_barcode_well
+    plate16 D10: max_frac_infectivity_per_viral_barcode_well
+    plate16 E5: max_frac_infectivity_per_viral_barcode_well
+    plate16 G4: max_frac_infectivity_per_viral_barcode_well
+    plate16 H3: max_frac_infectivity_per_viral_barcode_well
+    plate17 D9: max_frac_infectivity_per_viral_barcode_well
+    plate18 F10: max_frac_infectivity_per_viral_barcode_well
     plate8 F1: max_frac_infectivity_per_viral_barcode_well
 ATTAGATTATAACGTA:
   barcode_serum_replicates:
@@ -1172,6 +1513,14 @@ ATTAGATTATAACGTA:
     plate11 SCH_47: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
+    plate13 EPIHK_10: goodness_of_fit
+    plate13 EPIHK_15: goodness_of_fit
+    plate14 EPIHK_21: goodness_of_fit
+    plate15 EPIHK_39: goodness_of_fit
+    plate16 NIID_6: goodness_of_fit
+    plate17 NIID_12: goodness_of_fit
+    plate18 NIID_29: goodness_of_fit
+    plate19 NIID_38: goodness_of_fit
     plate2-2 UWMC-19: goodness_of_fit
     plate3 UWMC-29: goodness_of_fit
     plate4 UWMC-40: goodness_of_fit
@@ -1184,6 +1533,7 @@ ATTAGATTATAACGTA:
     plate9 SCH_22: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
   barcode_wells:
+    plate19 G4: max_frac_infectivity_per_viral_barcode_well
     plate9 E10: max_frac_infectivity_per_viral_barcode_well
 ATTAGGGCTACGTGAG:
   barcode_serum_replicates:
@@ -1195,6 +1545,8 @@ ATTAGGGCTACGTGAG:
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
+    plate17 NIID_12: goodness_of_fit
+    plate17 NIID_19: goodness_of_fit
     plate4 UWMC-44: goodness_of_fit
     plate6 FCI_7: goodness_of_fit
     plate8 SCH_13: goodness_of_fit
@@ -1211,6 +1563,7 @@ ATTATCATATCTAATA:
     plate1-2 UWMC-9: goodness_of_fit
     plate10 SCH_29: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
     plate6 FCI_7: goodness_of_fit
     plate9 SCH_25: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
@@ -1226,6 +1579,10 @@ ATTCCGAATGGGGTAG:
     plate1-2 UWMC-9: goodness_of_fit
     plate9 SCH_19: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
+ATTTAAATTCGAGGAC:
+  barcode_wells:
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 ATTTACTCATTATACG:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -1235,6 +1592,9 @@ ATTTACTCATTATACG:
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
+    plate16 NIID_10: goodness_of_fit
+    plate18 NIID_29: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
     plate6 FCI_11: goodness_of_fit
     plate6 FCI_6: goodness_of_fit
     plate6 FCI_8: goodness_of_fit
@@ -1257,14 +1617,23 @@ ATTTTTCTATGGCTAC:
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-7: goodness_of_fit
     plate1-2 UWMC-8: goodness_of_fit
+    plate19 NIID_39: goodness_of_fit
     plate6 FCI_2: goodness_of_fit
+  barcode_wells:
+    plate15 F9: max_frac_infectivity_per_viral_barcode_well
+    plate17 F10: max_frac_infectivity_per_viral_barcode_well
 CAAAAGCAGCACGATA:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
     plate1-2 UWMC-3: goodness_of_fit
     plate1-2 UWMC-5: goodness_of_fit
     plate1-2 UWMC-6: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
   barcode_wells:
+    plate13 G3: max_frac_infectivity_per_viral_barcode_well
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate18 D7: max_frac_infectivity_per_viral_barcode_well
     plate9 C7: max_frac_infectivity_per_viral_barcode_well
 CAAAATCTACGGCGAC:
   barcode_serum_replicates:
@@ -1278,7 +1647,12 @@ CAAAATCTACGGCGAC:
     plate1-2 UWMC-9: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
+    plate14 EPIHK_30: goodness_of_fit
+    plate17 NIID_12: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
     plate2-2 UWMC-21: goodness_of_fit
+    plate20 NIID_47: goodness_of_fit
     plate8 SCH_13: goodness_of_fit
     plate8 SCH_14: goodness_of_fit
     plate9 SCH_19: goodness_of_fit
@@ -1316,6 +1690,14 @@ CAATTCGCCGTTCCCC:
     plate10 SCH_34: goodness_of_fit
     plate11 SCH_47: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
+    plate15 EPIHK_39: goodness_of_fit
+    plate16 NIID_9: goodness_of_fit
+    plate18 NIID_31: goodness_of_fit
+    plate18 NIID_32: goodness_of_fit
+    plate18 NIID_33: goodness_of_fit
+    plate19 NIID_41: goodness_of_fit
+    plate19 NIID_42: goodness_of_fit
+    plate19 NIID_43: goodness_of_fit
     plate2-2 UWMC-16: goodness_of_fit
     plate3 UWMC-26: goodness_of_fit
     plate4 UWMC-40: goodness_of_fit
@@ -1328,6 +1710,14 @@ CAATTCGCCGTTCCCC:
     plate9 SCH_21: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
   barcode_wells:
+    plate14 C5: max_frac_infectivity_per_viral_barcode_well
+    plate17 D11: max_frac_infectivity_per_viral_barcode_well
+    plate17 E3: max_frac_infectivity_per_viral_barcode_well
+    plate17 F8: max_frac_infectivity_per_viral_barcode_well
+    plate17 G9: max_frac_infectivity_per_viral_barcode_well
+    plate17 H5: max_frac_infectivity_per_viral_barcode_well
+    plate17 H6: max_frac_infectivity_per_viral_barcode_well
+    plate20 H3: max_frac_infectivity_per_viral_barcode_well
     plate6 F1: max_frac_infectivity_per_viral_barcode_well
     plate7_SCH D8: max_frac_infectivity_per_viral_barcode_well
     plate8 G1: max_frac_infectivity_per_viral_barcode_well
@@ -1348,6 +1738,12 @@ CACCAATCTTCGAACT:
   barcode_serum_replicates:
     plate11 SCH_39: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
+    plate14 EPIHK_22: goodness_of_fit
+    plate17 NIID_15: goodness_of_fit
+    plate17 NIID_16: min_dilutions_per_barcode_serum_replicate
+    plate19 NIID_40: goodness_of_fit
+    plate19 NIID_41: goodness_of_fit
+    plate20 NIID_45: goodness_of_fit
     plate4 UWMC-36: goodness_of_fit
     plate6 FCI_6: goodness_of_fit
     plate7_FCI FCI_17: goodness_of_fit
@@ -1359,12 +1755,51 @@ CACCAATCTTCGAACT:
     plate10 F9: max_frac_infectivity_per_viral_barcode_well
     plate12_EPIHK E11: max_frac_infectivity_per_viral_barcode_well
     plate12_EPIHK H8: max_frac_infectivity_per_viral_barcode_well
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 D4: max_frac_infectivity_per_viral_barcode_well
+    plate14 E9: max_frac_infectivity_per_viral_barcode_well
+    plate14 G6: max_frac_infectivity_per_viral_barcode_well
+    plate15 B12: min_no_serum_count_per_viral_barcode_well
+    plate15 C11: max_frac_infectivity_per_viral_barcode_well
+    plate15 E3: max_frac_infectivity_per_viral_barcode_well
+    plate15 E7: max_frac_infectivity_per_viral_barcode_well
+    plate15 F6: max_frac_infectivity_per_viral_barcode_well
+    plate15 G1: max_frac_infectivity_per_viral_barcode_well
+    plate15 G7: max_frac_infectivity_per_viral_barcode_well
+    plate15 G9: max_frac_infectivity_per_viral_barcode_well
+    plate15 H10: max_frac_infectivity_per_viral_barcode_well
+    plate15 H12: min_no_serum_count_per_viral_barcode_well
+    plate15 H8: max_frac_infectivity_per_viral_barcode_well
+    plate16 B5: max_frac_infectivity_per_viral_barcode_well
+    plate16 F2: max_frac_infectivity_per_viral_barcode_well
+    plate16 F3: max_frac_infectivity_per_viral_barcode_well
+    plate16 G6: max_frac_infectivity_per_viral_barcode_well
+    plate16 G9: max_frac_infectivity_per_viral_barcode_well
+    plate17 C12: min_no_serum_count_per_viral_barcode_well
+    plate17 C5: max_frac_infectivity_per_viral_barcode_well
+    plate17 D4: max_frac_infectivity_per_viral_barcode_well
+    plate17 E5: max_frac_infectivity_per_viral_barcode_well
+    plate17 E7: max_frac_infectivity_per_viral_barcode_well
+    plate17 G5: max_frac_infectivity_per_viral_barcode_well
+    plate18 C4: max_frac_infectivity_per_viral_barcode_well
+    plate18 H12: min_no_serum_count_per_viral_barcode_well
+    plate18 H9: max_frac_infectivity_per_viral_barcode_well
+    plate19 C12: min_no_serum_count_per_viral_barcode_well
+    plate19 C8: max_frac_infectivity_per_viral_barcode_well
+    plate19 D1: max_frac_infectivity_per_viral_barcode_well
+    plate19 E5: max_frac_infectivity_per_viral_barcode_well
+    plate19 E6: max_frac_infectivity_per_viral_barcode_well
+    plate19 F12: min_no_serum_count_per_viral_barcode_well
+    plate19 H11: max_frac_infectivity_per_viral_barcode_well
+    plate19 H12: min_no_serum_count_per_viral_barcode_well
     plate6 G8: max_frac_infectivity_per_viral_barcode_well
     plate9 D12: min_no_serum_count_per_viral_barcode_well
     plate9 D2: max_frac_infectivity_per_viral_barcode_well
     plate9 E2: max_frac_infectivity_per_viral_barcode_well
     plate9 F1: max_frac_infectivity_per_viral_barcode_well
     plate9 H3: max_frac_infectivity_per_viral_barcode_well
+  barcodes:
+    plate13: min_neut_standard_frac_per_well
 CACCATCAGCACCTAG:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -1389,6 +1824,14 @@ CACCGCGCCGAGCACC:
     plate10 SCH_32: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
     plate12_SCH SCH_50: goodness_of_fit
+    plate13 EPIHK_10: goodness_of_fit
+    plate18 NIID_25: goodness_of_fit
+    plate18 NIID_29: goodness_of_fit
+    plate18 NIID_33: goodness_of_fit
+    plate19 NIID_36: goodness_of_fit
+    plate19 NIID_38: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
+    plate20 NIID_47: goodness_of_fit
     plate6 FCI_1: goodness_of_fit
     plate6 FCI_4: goodness_of_fit
     plate6 FCI_6: goodness_of_fit
@@ -1396,6 +1839,8 @@ CACCGCGCCGAGCACC:
     plate8 SCH_14: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
     plate9 SCH_25: goodness_of_fit
+  barcode_wells:
+    plate17 G11: max_frac_infectivity_per_viral_barcode_well
 CACCTAGGATCGCACT:
   barcode_serum_replicates:
     plate1-2 UWMC-6: goodness_of_fit
@@ -1404,14 +1849,43 @@ CACCTAGGATCGCACT:
     plate6 FCI_2: goodness_of_fit
     plate7_FCI FCI_15: goodness_of_fit
     plate7_FCI FCI_18: goodness_of_fit
+  barcode_wells:
+    plate16 G5: max_frac_infectivity_per_viral_barcode_well
+CACGGCCGGCGAACTC:
+  barcode_serum_replicates:
+    plate15 EPIHK_37: min_dilutions_per_barcode_serum_replicate
+  barcode_wells:
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 F5: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate15 C6: max_frac_infectivity_per_viral_barcode_well
+    plate15 D6: max_frac_infectivity_per_viral_barcode_well
+    plate15 E6: max_frac_infectivity_per_viral_barcode_well
+    plate18 F11: max_frac_infectivity_per_viral_barcode_well
+    plate18 H3: max_frac_infectivity_per_viral_barcode_well
 CACGGGCTAATGTCTC:
   barcode_serum_replicates:
     plate8 SCH_15: goodness_of_fit
   barcode_wells:
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 D8: max_frac_infectivity_per_viral_barcode_well
+    plate14 H5: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate15 E8: max_frac_infectivity_per_viral_barcode_well
+    plate15 F8: max_frac_infectivity_per_viral_barcode_well
+    plate15 G7: max_frac_infectivity_per_viral_barcode_well
+    plate17 E6: max_frac_infectivity_per_viral_barcode_well
+    plate18 G2: max_frac_infectivity_per_viral_barcode_well
     plate9 H3: max_frac_infectivity_per_viral_barcode_well
 CACTAGATGTACAGTC:
   barcode_wells:
     plate11 H5: max_frac_infectivity_per_viral_barcode_well
+    plate13 H3: max_frac_infectivity_per_viral_barcode_well
+    plate13 H6: max_frac_infectivity_per_viral_barcode_well
+    plate16 G9: max_frac_infectivity_per_viral_barcode_well
+    plate17 E9: max_frac_infectivity_per_viral_barcode_well
+    plate17 H9: max_frac_infectivity_per_viral_barcode_well
+    plate18 H3: max_frac_infectivity_per_viral_barcode_well
     plate9 F4: max_frac_infectivity_per_viral_barcode_well
     plate9 G2: max_frac_infectivity_per_viral_barcode_well
     plate9 H3: max_frac_infectivity_per_viral_barcode_well
@@ -1429,6 +1903,8 @@ CAGAACCTCGTTGTCT:
     plate10 SCH_33: goodness_of_fit
     plate7_FCI FCI_17: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 CAGATAGTGATGAACA:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -1444,6 +1920,9 @@ CAGATAGTGATGAACA:
     plate9 SCH_26: goodness_of_fit
   barcode_wells:
     plate10 H2: max_frac_infectivity_per_viral_barcode_well
+    plate14 H10: max_frac_infectivity_per_viral_barcode_well
+    plate17 D11: max_frac_infectivity_per_viral_barcode_well
+    plate17 H8: max_frac_infectivity_per_viral_barcode_well
     plate6 E5: max_frac_infectivity_per_viral_barcode_well
     plate6 H5: max_frac_infectivity_per_viral_barcode_well
     plate6 H7: max_frac_infectivity_per_viral_barcode_well
@@ -1474,6 +1953,8 @@ CATAAAAGACTGTATA:
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
     plate12_EPIHK EPIHK_8: goodness_of_fit
+    plate17 NIID_22: goodness_of_fit
+    plate20 NIID_48: goodness_of_fit
     plate6 FCI_1: goodness_of_fit
     plate6 FCI_5: goodness_of_fit
     plate6 FCI_9: goodness_of_fit
@@ -1483,6 +1964,8 @@ CATAAAAGACTGTATA:
     plate8 SCH_13: goodness_of_fit
     plate8 SCH_14: goodness_of_fit
   barcode_wells:
+    plate17 H2: max_frac_infectivity_per_viral_barcode_well
+    plate18 G3: max_frac_infectivity_per_viral_barcode_well
     plate6 A4: max_frac_infectivity_per_viral_barcode_well
     plate6 F7: max_frac_infectivity_per_viral_barcode_well
     plate9 H3: max_frac_infectivity_per_viral_barcode_well
@@ -1502,6 +1985,7 @@ CATGGGAATTGCCACT:
     plate10 SCH_34: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
+    plate19 NIID_38: goodness_of_fit
     plate2-2 UWMC-17: goodness_of_fit
     plate4 UWMC-35: goodness_of_fit
     plate4 UWMC-38: goodness_of_fit
@@ -1512,6 +1996,7 @@ CATGGGAATTGCCACT:
     plate7_FCI FCI_15: goodness_of_fit
     plate9 SCH_19: goodness_of_fit
   barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
     plate6 H7: max_frac_infectivity_per_viral_barcode_well
 CATGTGGAGCCCAACA:
   barcode_serum_replicates:
@@ -1525,6 +2010,9 @@ CATGTGGAGCCCAACA:
     plate6 FCI_7: goodness_of_fit
     plate6 FCI_8: goodness_of_fit
     plate9 SCH_25: goodness_of_fit
+CATTGAGACGCGCAAG:
+  barcode_wells:
+    plate17 F8: max_frac_infectivity_per_viral_barcode_well
 CATTTCTGATGAATTG:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -1534,6 +2022,7 @@ CATTTCTGATGAATTG:
     plate1-2 UWMC-5: goodness_of_fit
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
+    plate13 EPIHK_16: goodness_of_fit
     plate9 SCH_19: goodness_of_fit
 CCAACACAAAAAATTA:
   barcode_serum_replicates:
@@ -1547,6 +2036,14 @@ CCAACACAAAAAATTA:
     plate9 SCH_20: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
+CCAAGCTTGGCGCATC:
+  barcode_serum_replicates:
+    plate17 NIID_19: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate17 E4: max_frac_infectivity_per_viral_barcode_well
+    plate17 G4: max_frac_infectivity_per_viral_barcode_well
+    plate17 H5: max_frac_infectivity_per_viral_barcode_well
 CCCCCGCTGTTTAAAA:
   barcode_serum_replicates:
     plate1-2 UWMC-1: goodness_of_fit
@@ -1562,6 +2059,7 @@ CCCCCGCTGTTTAAAA:
     plate11 SCH_47: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
+    plate16 NIID_7: goodness_of_fit
     plate4 UWMC-40: goodness_of_fit
     plate6 FCI_6: goodness_of_fit
     plate8 SCH_14: goodness_of_fit
@@ -1571,6 +2069,7 @@ CCCCCGCTGTTTAAAA:
     plate9 SCH_26: goodness_of_fit
   barcode_wells:
     plate10 H2: max_frac_infectivity_per_viral_barcode_well
+    plate18 H3: max_frac_infectivity_per_viral_barcode_well
 CCCCTCCTCTAAAGTT:
   barcode_serum_replicates:
     plate1-2 UWMC-1: goodness_of_fit
@@ -1593,6 +2092,8 @@ CCCCTCCTCTAAAGTT:
     plate9 SCH_19: goodness_of_fit
     plate9 SCH_20: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
+  barcode_wells:
+    plate14 G2: max_frac_infectivity_per_viral_barcode_well
 CCCTATGAAATAAGCT:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -1634,6 +2135,10 @@ CCCTTTACGGATCTCT:
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
     plate12_EPIHK EPIHK_8: goodness_of_fit
+    plate15 EPIHK_36: goodness_of_fit
+    plate16 NIID_11: goodness_of_fit
+    plate17 NIID_12: goodness_of_fit
+    plate18 NIID_26: goodness_of_fit
     plate2-2 UWMC-16: goodness_of_fit
     plate4 UWMC-35: goodness_of_fit
     plate8 SCH_13: goodness_of_fit
@@ -1653,6 +2158,13 @@ CCGCATTAGCGGGAGG:
     plate12_EPIHK EPIHK_7: goodness_of_fit
     plate12_EPIHK EPIHK_8: goodness_of_fit
     plate12_SCH SCH_50: goodness_of_fit
+    plate14 EPIHK_24: goodness_of_fit
+    plate16 NIID_11: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
+    plate18 NIID_29: goodness_of_fit
+    plate19 NIID_38: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
     plate2-2 UWMC-17: goodness_of_fit
     plate2-2 UWMC-21: goodness_of_fit
     plate3 UWMC-31: goodness_of_fit
@@ -1670,6 +2182,8 @@ CCGCATTAGCGGGAGG:
     plate9 SCH_20: goodness_of_fit
   barcode_wells:
     plate1-2 G3: max_frac_infectivity_per_viral_barcode_well
+    plate13 H5: max_frac_infectivity_per_viral_barcode_well
+    plate18 H7: max_frac_infectivity_per_viral_barcode_well
     plate2-2 D12: min_no_serum_count_per_viral_barcode_well
     plate2-2 E12: min_no_serum_count_per_viral_barcode_well
     plate3 D12: min_no_serum_count_per_viral_barcode_well
@@ -1691,7 +2205,12 @@ CCGCGCACGTTTAGAG:
     plate11 SCH_48: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate12_SCH SCH_49: goodness_of_fit
+    plate17 NIID_19: goodness_of_fit
+    plate19 NIID_34: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
+    plate19 NIID_41: goodness_of_fit
     plate2-2 UWMC-17: goodness_of_fit
+    plate20 NIID_46: goodness_of_fit
     plate3 UWMC-25: goodness_of_fit
     plate3 UWMC-29: goodness_of_fit
     plate4 UWMC-44: goodness_of_fit
@@ -1707,8 +2226,15 @@ CCGCGCACGTTTAGAG:
     plate9 SCH_25: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
   barcode_wells:
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate18 H3: max_frac_infectivity_per_viral_barcode_well
     plate3 E12: min_no_serum_count_per_viral_barcode_well
     plate8 G3: max_frac_infectivity_per_viral_barcode_well
+CCGGATAAATCAGAAC:
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate16 G4: max_frac_infectivity_per_viral_barcode_well
 CCTGGGTTAAGTTGTG:
   barcode_serum_replicates:
     plate1-2 UWMC-1: goodness_of_fit
@@ -1734,6 +2260,7 @@ CCTTGATGCATTCCCG:
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
+    plate17 NIID_12: goodness_of_fit
     plate7_FCI FCI_13: goodness_of_fit
     plate9 SCH_19: goodness_of_fit
     plate9 SCH_20: goodness_of_fit
@@ -1745,6 +2272,9 @@ CCTTTCTCAAAACATA:
     plate1-2 UWMC-2: goodness_of_fit
     plate12_EPIHK EPIHK_7: goodness_of_fit
     plate12_SCH SCH_49: goodness_of_fit
+    plate14 EPIHK_31: goodness_of_fit
+    plate19 NIID_36: goodness_of_fit
+    plate19 NIID_37: goodness_of_fit
     plate2-2 UWMC-16: goodness_of_fit
     plate3 UWMC-33: goodness_of_fit
     plate4 UWMC-40: goodness_of_fit
@@ -1762,6 +2292,21 @@ CCTTTCTCAAAACATA:
     plate11 C8: max_frac_infectivity_per_viral_barcode_well
     plate11 G12: min_no_serum_count_per_viral_barcode_well
     plate11 G4: max_frac_infectivity_per_viral_barcode_well
+    plate13 E12: min_no_serum_count_per_viral_barcode_well
+    plate13 E7: max_frac_infectivity_per_viral_barcode_well
+    plate13 F8: max_frac_infectivity_per_viral_barcode_well
+    plate14 D12: min_no_serum_count_per_viral_barcode_well
+    plate14 D6: max_frac_infectivity_per_viral_barcode_well
+    plate14 F6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H10: max_frac_infectivity_per_viral_barcode_well
+    plate14 H8: max_frac_infectivity_per_viral_barcode_well
+    plate16 E7: max_frac_infectivity_per_viral_barcode_well
+    plate16 F10: max_frac_infectivity_per_viral_barcode_well
+    plate16 G12: min_no_serum_count_per_viral_barcode_well
+    plate16 G8: max_frac_infectivity_per_viral_barcode_well
+    plate16 G9: max_frac_infectivity_per_viral_barcode_well
+    plate17 B12: min_no_serum_count_per_viral_barcode_well
+    plate19 H2: max_frac_infectivity_per_viral_barcode_well
     plate2-2 E12: min_no_serum_count_per_viral_barcode_well
     plate2-2 F10: max_frac_infectivity_per_viral_barcode_well
     plate4 E11: max_frac_infectivity_per_viral_barcode_well
@@ -1786,6 +2331,10 @@ CCTTTCTCAAAACATA:
     plate8 H11: max_frac_infectivity_per_viral_barcode_well
     plate9 F10: max_frac_infectivity_per_viral_barcode_well
     plate9 G3: max_frac_infectivity_per_viral_barcode_well
+  barcodes:
+    plate15: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
 CGAAAACATTACAAAT:
   barcode_serum_replicates:
     plate1-2 UWMC-11: goodness_of_fit
@@ -1799,9 +2348,18 @@ CGAAAACATTACAAAT:
 CGAAACACGTCCCAGT:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
+    plate17 NIID_19: goodness_of_fit
   barcode_wells:
     plate11 E2: max_frac_infectivity_per_viral_barcode_well
     plate11 F8: max_frac_infectivity_per_viral_barcode_well
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 F11: max_frac_infectivity_per_viral_barcode_well
+    plate14 F7: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate16 G8: max_frac_infectivity_per_viral_barcode_well
+    plate17 F7: max_frac_infectivity_per_viral_barcode_well
+    plate17 H5: max_frac_infectivity_per_viral_barcode_well
+    plate19 D9: max_frac_infectivity_per_viral_barcode_well
 CGAACCGCAGACACGT:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -1812,7 +2370,16 @@ CGAACCGCAGACACGT:
     plate1-2 UWMC-7: goodness_of_fit
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
+    plate17 NIID_20: goodness_of_fit
     plate7_SCH SCH_3: goodness_of_fit
+CGACTCCACGGACGCC:
+  barcode_wells:
+    plate13 H4: max_frac_infectivity_per_viral_barcode_well
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate15 G10: max_frac_infectivity_per_viral_barcode_well
+    plate16 H9: max_frac_infectivity_per_viral_barcode_well
+    plate17 G4: max_frac_infectivity_per_viral_barcode_well
 CGATCTTTACGAAAAA:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -1826,12 +2393,19 @@ CGATCTTTACGAAAAA:
     plate10 SCH_29: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate12_EPIHK EPIHK_8: goodness_of_fit
+    plate15 EPIHK_38: goodness_of_fit
     plate2-2 UWMC-19: goodness_of_fit
     plate6 FCI_11: goodness_of_fit
     plate6 FCI_3: goodness_of_fit
     plate6 FCI_7: goodness_of_fit
     plate7_FCI FCI_18: goodness_of_fit
   barcode_wells:
+    plate13 F4: max_frac_infectivity_per_viral_barcode_well
+    plate13 G7: max_frac_infectivity_per_viral_barcode_well
+    plate14 G5: max_frac_infectivity_per_viral_barcode_well
+    plate15 E7: max_frac_infectivity_per_viral_barcode_well
+    plate20 E4: max_frac_infectivity_per_viral_barcode_well
+    plate20 G2: max_frac_infectivity_per_viral_barcode_well
     plate6 F5: max_frac_infectivity_per_viral_barcode_well
     plate6 H3: max_frac_infectivity_per_viral_barcode_well
     plate7_FCI E3: max_frac_infectivity_per_viral_barcode_well
@@ -1849,8 +2423,12 @@ CGCACTTTACGAGACA:
     plate12_EPIHK EPIHK_6: goodness_of_fit
     plate12_EPIHK EPIHK_7: goodness_of_fit
     plate12_SCH SCH_50: goodness_of_fit
+    plate17 NIID_12: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
+    plate19 NIID_41: goodness_of_fit
     plate2-2 UWMC-16: goodness_of_fit
     plate2-2 UWMC-21: goodness_of_fit
+    plate20 NIID_47: goodness_of_fit
     plate4 UWMC-39: goodness_of_fit
     plate4 UWMC-44: goodness_of_fit
     plate6 FCI_11: goodness_of_fit
@@ -1873,10 +2451,21 @@ CGCAGCATTGGTCGCC:
     plate1-2 UWMC-9: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 CGCGACACCCTTCCGG:
   barcode_serum_replicates:
     plate1-2 UWMC-5: goodness_of_fit
     plate1-2 UWMC-6: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
+  barcode_wells:
+    plate13 H5: max_frac_infectivity_per_viral_barcode_well
+    plate16 E4: max_frac_infectivity_per_viral_barcode_well
+    plate16 E5: max_frac_infectivity_per_viral_barcode_well
+    plate17 F4: max_frac_infectivity_per_viral_barcode_well
+    plate17 G7: max_frac_infectivity_per_viral_barcode_well
+    plate18 D10: max_frac_infectivity_per_viral_barcode_well
+    plate18 E10: max_frac_infectivity_per_viral_barcode_well
 CGGACCCTAGATGGTA:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -1888,6 +2477,7 @@ CGGACCCTAGATGGTA:
     plate1-2 UWMC-7: goodness_of_fit
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
     plate7_FCI FCI_17: goodness_of_fit
     plate9 SCH_19: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
@@ -1927,6 +2517,8 @@ CGGGAACATACATAAC:
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate2-2 UWMC-21: goodness_of_fit
+  barcode_wells:
+    plate18 H3: max_frac_infectivity_per_viral_barcode_well
 CGGGAATCTCCCATAC:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -1934,6 +2526,7 @@ CGGGAATCTCCCATAC:
     plate1-2 UWMC-8: goodness_of_fit
     plate10 SCH_29: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
+    plate13 EPIHK_19: goodness_of_fit
     plate3 UWMC-29: goodness_of_fit
     plate6 FCI_10: goodness_of_fit
     plate6 FCI_3: goodness_of_fit
@@ -1950,6 +2543,9 @@ CGGGAATCTCCCATAC:
     plate8 SCH_13: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
   barcode_wells:
+    plate17 F10: max_frac_infectivity_per_viral_barcode_well
+    plate17 G11: max_frac_infectivity_per_viral_barcode_well
+    plate17 H1: max_frac_infectivity_per_viral_barcode_well
     plate6 E3: max_frac_infectivity_per_viral_barcode_well
     plate9 H3: max_frac_infectivity_per_viral_barcode_well
 CGGGGACAAGATTGTA:
@@ -1962,6 +2558,11 @@ CGGGGACAAGATTGTA:
     plate1-2 UWMC-8: goodness_of_fit
     plate10 SCH_29: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
+    plate17 NIID_21: goodness_of_fit
+    plate19 NIID_36: goodness_of_fit
+    plate19 NIID_38: goodness_of_fit
+    plate19 NIID_39: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
     plate3 UWMC-29: goodness_of_fit
     plate6 FCI_11: goodness_of_fit
     plate6 FCI_6: goodness_of_fit
@@ -1987,6 +2588,7 @@ CGGTCGGGACTCATCT:
     plate1-2 UWMC-7: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate11 SCH_47: goodness_of_fit
+    plate16 NIID_11: goodness_of_fit
     plate3 UWMC-28: goodness_of_fit
     plate4 UWMC-38: goodness_of_fit
     plate7_FCI FCI_12: goodness_of_fit
@@ -2001,6 +2603,8 @@ CGTACAGTGTAATCGA:
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-8: goodness_of_fit
     plate10 SCH_29: goodness_of_fit
+    plate13 EPIHK_15: goodness_of_fit
+    plate18 NIID_33: goodness_of_fit
     plate6 FCI_11: goodness_of_fit
     plate7_FCI FCI_12: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
@@ -2015,6 +2619,15 @@ CGTACGTATGTCCCAG:
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate10 SCH_28: goodness_of_fit
+    plate14 EPIHK_24: goodness_of_fit
+    plate16 NIID_11: goodness_of_fit
+    plate17 NIID_12: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
+    plate19 NIID_36: goodness_of_fit
+    plate19 NIID_38: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
+    plate19 NIID_41: goodness_of_fit
+    plate20 NIID_47: goodness_of_fit
     plate3 UWMC-29: goodness_of_fit
     plate6 FCI_2: goodness_of_fit
     plate6 FCI_9: goodness_of_fit
@@ -2026,6 +2639,9 @@ CGTACGTATGTCCCAG:
     plate9 SCH_22: goodness_of_fit
   barcode_wells:
     plate10 B3: max_frac_infectivity_per_viral_barcode_well
+    plate14 E11: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate17 H11: max_frac_infectivity_per_viral_barcode_well
     plate7_SCH E10: max_frac_infectivity_per_viral_barcode_well
     plate9 G10: max_frac_infectivity_per_viral_barcode_well
 CGTGACCCCCTCCAAC:
@@ -2033,6 +2649,14 @@ CGTGACCCCCTCCAAC:
     plate10 E1: max_frac_infectivity_per_viral_barcode_well
     plate11 F9: max_frac_infectivity_per_viral_barcode_well
     plate11 G4: max_frac_infectivity_per_viral_barcode_well
+    plate13 G1: max_frac_infectivity_per_viral_barcode_well
+    plate15 F6: max_frac_infectivity_per_viral_barcode_well
+    plate15 F8: max_frac_infectivity_per_viral_barcode_well
+    plate16 E5: max_frac_infectivity_per_viral_barcode_well
+    plate17 D2: max_frac_infectivity_per_viral_barcode_well
+    plate17 E3: max_frac_infectivity_per_viral_barcode_well
+    plate17 E8: max_frac_infectivity_per_viral_barcode_well
+    plate18 E5: max_frac_infectivity_per_viral_barcode_well
     plate9 D3: max_frac_infectivity_per_viral_barcode_well
     plate9 F4: max_frac_infectivity_per_viral_barcode_well
     plate9 H3: max_frac_infectivity_per_viral_barcode_well
@@ -2054,7 +2678,12 @@ CGTTAACGGCCTATCC:
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
+    plate14 EPIHK_31: goodness_of_fit
+    plate17 NIID_12: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
     plate2-2 UWMC-12: goodness_of_fit
+    plate20 NIID_46: goodness_of_fit
     plate6 FCI_6: goodness_of_fit
     plate7_FCI FCI_16: goodness_of_fit
     plate7_FCI FCI_17: goodness_of_fit
@@ -2062,6 +2691,10 @@ CGTTAACGGCCTATCC:
   barcode_wells:
     plate11 G10: max_frac_infectivity_per_viral_barcode_well
     plate12_EPIHK B7: max_frac_infectivity_per_viral_barcode_well
+    plate13 G7: max_frac_infectivity_per_viral_barcode_well
+    plate15 B5: max_frac_infectivity_per_viral_barcode_well
+    plate15 H5: max_frac_infectivity_per_viral_barcode_well
+    plate17 H4: max_frac_infectivity_per_viral_barcode_well
     plate6 A5: max_frac_infectivity_per_viral_barcode_well
     plate6 F5: max_frac_infectivity_per_viral_barcode_well
     plate9 E11: max_frac_infectivity_per_viral_barcode_well
@@ -2074,6 +2707,7 @@ CGTTCAGCGATAACGG:
     plate10 SCH_34: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
+    plate14 EPIHK_25: goodness_of_fit
     plate6 FCI_1: goodness_of_fit
     plate6 FCI_2: goodness_of_fit
     plate6 FCI_5: goodness_of_fit
@@ -2082,6 +2716,8 @@ CGTTCAGCGATAACGG:
     plate7_SCH SCH_3: goodness_of_fit
     plate8 SCH_13: goodness_of_fit
     plate9 SCH_21: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 CGTTTTTGGTTCGAGG:
   barcode_serum_replicates:
     plate1-2 UWMC-1: goodness_of_fit
@@ -2096,6 +2732,7 @@ CGTTTTTGGTTCGAGG:
     plate1-2 UWMC-9: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
     plate7_FCI FCI_16: goodness_of_fit
     plate7_FCI FCI_18: goodness_of_fit
     plate9 SCH_16: goodness_of_fit
@@ -2106,6 +2743,7 @@ CGTTTTTGGTTCGAGG:
     plate9 SCH_25: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
   barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
     plate6 H8: max_frac_infectivity_per_viral_barcode_well
 CTAATTTAAGTATCAA:
   barcode_serum_replicates:
@@ -2120,6 +2758,7 @@ CTAATTTAAGTATCAA:
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
+    plate18 NIID_26: goodness_of_fit
     plate9 SCH_19: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
 CTAGCACAGCGTAGGC:
@@ -2134,6 +2773,7 @@ CTAGCACAGCGTAGGC:
     plate1-2 UWMC-9: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate12_EPIHK EPIHK_8: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
     plate7_FCI FCI_13: goodness_of_fit
     plate8 SCH_13: goodness_of_fit
     plate9 SCH_20: goodness_of_fit
@@ -2154,6 +2794,8 @@ CTATAAACCGTTTGTA:
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
     plate12_EPIHK EPIHK_8: goodness_of_fit
+    plate17 NIID_12: goodness_of_fit
+    plate19 NIID_41: goodness_of_fit
     plate2-2 UWMC-16: goodness_of_fit
     plate6 FCI_9: goodness_of_fit
     plate9 SCH_16: goodness_of_fit
@@ -2171,6 +2813,8 @@ CTATATTGCCCGGAAG:
     plate1-2 UWMC-7: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate12_SCH SCH_50: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
     plate8 SCH_13: goodness_of_fit
     plate9 SCH_19: goodness_of_fit
     plate9 SCH_25: goodness_of_fit
@@ -2186,6 +2830,9 @@ CTATCTTAATCTACAG:
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate4 UWMC-40: goodness_of_fit
     plate8 SCH_13: goodness_of_fit
+  barcode_wells:
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 CTATTTAACAGACGTA:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -2196,6 +2843,8 @@ CTATTTAACAGACGTA:
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-7: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
+    plate13 EPIHK_16: goodness_of_fit
+    plate18 NIID_29: goodness_of_fit
     plate9 SCH_19: goodness_of_fit
     plate9 SCH_20: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
@@ -2207,6 +2856,11 @@ CTCAAATAATTGGCGC:
   barcode_wells:
     plate11 F8: max_frac_infectivity_per_viral_barcode_well
     plate11 H8: max_frac_infectivity_per_viral_barcode_well
+    plate13 G7: max_frac_infectivity_per_viral_barcode_well
+    plate13 H6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate15 E8: max_frac_infectivity_per_viral_barcode_well
+    plate18 H3: max_frac_infectivity_per_viral_barcode_well
     plate9 F4: max_frac_infectivity_per_viral_barcode_well
 CTCAATGTCGTAGGAT:
   barcode_serum_replicates:
@@ -2220,6 +2874,9 @@ CTCAATGTCGTAGGAT:
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
+    plate18 NIID_25: goodness_of_fit
+    plate18 NIID_29: goodness_of_fit
+    plate19 NIID_39: goodness_of_fit
     plate3 UWMC-26: goodness_of_fit
     plate6 FCI_5: goodness_of_fit
     plate7_FCI FCI_15: goodness_of_fit
@@ -2238,6 +2895,7 @@ CTCCTAGGGGACGATT:
     plate1-2 UWMC-9: goodness_of_fit
     plate10 SCH_29: goodness_of_fit
     plate12_EPIHK EPIHK_7: goodness_of_fit
+    plate17 NIID_21: goodness_of_fit
     plate7_FCI FCI_12: goodness_of_fit
     plate7_FCI FCI_15: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
@@ -2257,6 +2915,15 @@ CTCTTACGCTCCTACG:
     plate2-2 E12: min_no_serum_count_per_viral_barcode_well
     plate7_FCI G6: max_frac_infectivity_per_viral_barcode_well
     plate9 F12: min_no_serum_count_per_viral_barcode_well
+  barcodes:
+    plate13: min_neut_standard_frac_per_well
+    plate14: min_neut_standard_frac_per_well
+    plate15: min_neut_standard_frac_per_well
+    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
 CTGAACTTATCTGTGG:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -2279,6 +2946,10 @@ CTGAACTTGTCGATAT:
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
+    plate16 NIID_5: goodness_of_fit
+    plate19 NIID_41: goodness_of_fit
+    plate19 NIID_42: goodness_of_fit
+    plate20 NIID_45: goodness_of_fit
     plate4 UWMC-35: goodness_of_fit
   barcode_wells:
     plate10 F10: max_frac_infectivity_per_viral_barcode_well
@@ -2306,6 +2977,8 @@ CTGAGGGATTCAACTC:
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-7: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
+    plate13 EPIHK_10: goodness_of_fit
+    plate19 NIID_36: goodness_of_fit
     plate7_FCI FCI_17: goodness_of_fit
     plate8 SCH_13: goodness_of_fit
     plate8 SCH_14: goodness_of_fit
@@ -2315,6 +2988,8 @@ CTGGAGGCCTGGCCCC:
   barcode_serum_replicates:
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-8: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 CTGTACCTGCAGTTGA:
   barcode_serum_replicates:
     plate1-2 UWMC-11: goodness_of_fit
@@ -2326,15 +3001,42 @@ CTGTACCTGCAGTTGA:
     plate6 FCI_1: goodness_of_fit
     plate7_SCH SCH_3: goodness_of_fit
     plate8 SCH_13: goodness_of_fit
+  barcode_wells:
+    plate13 G7: max_frac_infectivity_per_viral_barcode_well
 CTTACAGAATACTAGA:
   barcode_serum_replicates:
     plate1-2 UWMC-9: goodness_of_fit
+  barcode_wells:
+    plate13 F1: max_frac_infectivity_per_viral_barcode_well
+    plate16 H9: max_frac_infectivity_per_viral_barcode_well
+    plate17 F11: max_frac_infectivity_per_viral_barcode_well
+    plate17 F8: max_frac_infectivity_per_viral_barcode_well
+    plate17 H5: max_frac_infectivity_per_viral_barcode_well
+    plate18 E5: max_frac_infectivity_per_viral_barcode_well
+    plate18 H3: max_frac_infectivity_per_viral_barcode_well
+    plate20 G3: max_frac_infectivity_per_viral_barcode_well
 CTTACTGCGCGAGAGT:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
     plate1-2 UWMC-11: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
+    plate19 NIID_42: goodness_of_fit
   barcode_wells:
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate15 H3: max_frac_infectivity_per_viral_barcode_well
+    plate17 B12: min_no_serum_count_per_viral_barcode_well
+    plate17 C4: max_frac_infectivity_per_viral_barcode_well
+    plate17 D3: max_frac_infectivity_per_viral_barcode_well
+    plate17 E8: max_frac_infectivity_per_viral_barcode_well
+    plate17 E9: max_frac_infectivity_per_viral_barcode_well
+    plate17 F10: max_frac_infectivity_per_viral_barcode_well
+    plate17 F4: max_frac_infectivity_per_viral_barcode_well
+    plate17 F9: max_frac_infectivity_per_viral_barcode_well
+    plate17 G7: max_frac_infectivity_per_viral_barcode_well
+    plate19 E8: max_frac_infectivity_per_viral_barcode_well
+    plate20 E3: max_frac_infectivity_per_viral_barcode_well
+    plate20 H12: min_no_serum_count_per_viral_barcode_well
     plate6 E2: max_frac_infectivity_per_viral_barcode_well
 CTTAGGTATTATATGC:
   barcode_serum_replicates:
@@ -2372,6 +3074,8 @@ CTTTTCTAGTACGCTT:
     plate1-2 UWMC-9: goodness_of_fit
     plate10 SCH_34: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
+    plate16 NIID_11: goodness_of_fit
+    plate17 NIID_12: goodness_of_fit
     plate2-2 UWMC-15: goodness_of_fit
     plate6 FCI_6: goodness_of_fit
     plate9 SCH_19: goodness_of_fit
@@ -2383,6 +3087,8 @@ GAAAGCCCCGTGCAAT:
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
+    plate17 NIID_14: goodness_of_fit
+    plate18 NIID_33: goodness_of_fit
     plate3 UWMC-23: goodness_of_fit
     plate6 FCI_4: goodness_of_fit
     plate6 FCI_8: goodness_of_fit
@@ -2391,6 +3097,11 @@ GAAAGCCCCGTGCAAT:
 GAAAGTCCCTATGATG:
   barcode_serum_replicates:
     plate1-2 UWMC-6: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
+  barcode_wells:
+    plate13 H6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate16 G4: max_frac_infectivity_per_viral_barcode_well
 GAAATCCCCAAATAAC:
   barcode_serum_replicates:
     plate1-2 UWMC-5: goodness_of_fit
@@ -2401,11 +3112,30 @@ GAAATCCCCAAATAAC:
     plate11 F8: max_frac_infectivity_per_viral_barcode_well
     plate11 G7: max_frac_infectivity_per_viral_barcode_well
     plate11 H6: max_frac_infectivity_per_viral_barcode_well
+    plate13 H7: max_frac_infectivity_per_viral_barcode_well
+    plate14 D7: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate15 E7: max_frac_infectivity_per_viral_barcode_well
+    plate15 F6: max_frac_infectivity_per_viral_barcode_well
+    plate15 G10: max_frac_infectivity_per_viral_barcode_well
+    plate16 G9: max_frac_infectivity_per_viral_barcode_well
+    plate17 B11: max_frac_infectivity_per_viral_barcode_well
+    plate17 F7: max_frac_infectivity_per_viral_barcode_well
+    plate17 G10: max_frac_infectivity_per_viral_barcode_well
+    plate17 G3: max_frac_infectivity_per_viral_barcode_well
+    plate18 G2: max_frac_infectivity_per_viral_barcode_well
+    plate18 G6: max_frac_infectivity_per_viral_barcode_well
+    plate19 A6: max_frac_infectivity_per_viral_barcode_well
+    plate19 E9: max_frac_infectivity_per_viral_barcode_well
+    plate20 F4: max_frac_infectivity_per_viral_barcode_well
     plate9 E8: max_frac_infectivity_per_viral_barcode_well
 GAAGAAACTATAACCA:
   barcode_serum_replicates:
     plate1-2 UWMC-11: goodness_of_fit
     plate1-2 UWMC-6: goodness_of_fit
+  barcode_wells:
+    plate13 G7: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 GAAGTACGCTGAATGA:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -2457,6 +3187,8 @@ GAAGTGCTGCTGAAGT:
     plate1-2 UWMC-10: goodness_of_fit
     plate1-2 UWMC-3: goodness_of_fit
     plate1-2 UWMC-7: goodness_of_fit
+    plate16 NIID_11: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
     plate8 SCH_14: goodness_of_fit
     plate9 SCH_19: goodness_of_fit
   barcode_wells:
@@ -2472,11 +3204,45 @@ GAATAATAGAACAGAG:
     plate1-2 UWMC-7: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate12_EPIHK EPIHK_6: goodness_of_fit
+    plate20 NIID_47: goodness_of_fit
     plate9 SCH_20: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
-GACCCCTTGTAAGATG:
+GACAAAAGGGACATAT:
   barcode_wells:
+    plate13 H6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H7: max_frac_infectivity_per_viral_barcode_well
+GACCCCTTGTAAGATG:
+  barcode_serum_replicates:
+    plate14 EPIHK_28: min_dilutions_per_barcode_serum_replicate
+  barcode_wells:
+    plate13 H3: max_frac_infectivity_per_viral_barcode_well
+    plate14 C6: max_frac_infectivity_per_viral_barcode_well
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 D8: max_frac_infectivity_per_viral_barcode_well
+    plate14 E8: max_frac_infectivity_per_viral_barcode_well
+    plate14 F8: max_frac_infectivity_per_viral_barcode_well
+    plate14 G4: max_frac_infectivity_per_viral_barcode_well
+    plate14 H2: max_frac_infectivity_per_viral_barcode_well
+    plate14 H3: max_frac_infectivity_per_viral_barcode_well
+    plate14 H5: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H7: max_frac_infectivity_per_viral_barcode_well
+    plate14 H9: max_frac_infectivity_per_viral_barcode_well
+    plate15 F6: max_frac_infectivity_per_viral_barcode_well
+    plate15 G10: max_frac_infectivity_per_viral_barcode_well
+    plate15 H3: max_frac_infectivity_per_viral_barcode_well
+    plate15 H7: max_frac_infectivity_per_viral_barcode_well
+    plate16 E8: max_frac_infectivity_per_viral_barcode_well
+    plate16 F7: max_frac_infectivity_per_viral_barcode_well
+    plate16 G7: max_frac_infectivity_per_viral_barcode_well
+    plate16 H9: max_frac_infectivity_per_viral_barcode_well
+    plate17 D11: max_frac_infectivity_per_viral_barcode_well
+    plate17 H11: max_frac_infectivity_per_viral_barcode_well
+    plate17 H3: max_frac_infectivity_per_viral_barcode_well
+    plate18 C5: max_frac_infectivity_per_viral_barcode_well
+    plate18 G11: max_frac_infectivity_per_viral_barcode_well
     plate9 E3: max_frac_infectivity_per_viral_barcode_well
     plate9 F3: max_frac_infectivity_per_viral_barcode_well
 GACGGGATGGGCACGT:
@@ -2493,6 +3259,7 @@ GACGGGATGGGCACGT:
     plate1-2 UWMC-9: goodness_of_fit
     plate10 SCH_29: goodness_of_fit
     plate12_SCH SCH_49: goodness_of_fit
+    plate20 NIID_46: goodness_of_fit
     plate3 UWMC-29: goodness_of_fit
     plate7_FCI FCI_13: goodness_of_fit
     plate8 SCH_14: goodness_of_fit
@@ -2525,12 +3292,26 @@ GAGCTTGCTATGGATC:
     plate6 FCI_10: goodness_of_fit
     plate6 FCI_2: goodness_of_fit
   barcode_wells:
+    plate13 F4: max_frac_infectivity_per_viral_barcode_well
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 H7: max_frac_infectivity_per_viral_barcode_well
+    plate17 E2: max_frac_infectivity_per_viral_barcode_well
+    plate17 F10: max_frac_infectivity_per_viral_barcode_well
     plate9 H3: max_frac_infectivity_per_viral_barcode_well
 GAGGGGATACGTCACC:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-8: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
+  barcode_wells:
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 H1: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H7: max_frac_infectivity_per_viral_barcode_well
+    plate15 F6: max_frac_infectivity_per_viral_barcode_well
+    plate16 G2: max_frac_infectivity_per_viral_barcode_well
+    plate17 H9: max_frac_infectivity_per_viral_barcode_well
 GAGGGGTAGAGATACG:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -2545,7 +3326,23 @@ GAGGGGTAGAGATACG:
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
 GATCACGCAGAAAAAG:
+  barcode_serum_replicates:
+    plate17 NIID_15: goodness_of_fit
   barcode_wells:
+    plate13 G7: max_frac_infectivity_per_viral_barcode_well
+    plate14 F4: max_frac_infectivity_per_viral_barcode_well
+    plate14 F6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate15 F6: max_frac_infectivity_per_viral_barcode_well
+    plate15 G11: max_frac_infectivity_per_viral_barcode_well
+    plate16 E3: max_frac_infectivity_per_viral_barcode_well
+    plate17 C2: max_frac_infectivity_per_viral_barcode_well
+    plate17 E2: max_frac_infectivity_per_viral_barcode_well
+    plate17 E8: max_frac_infectivity_per_viral_barcode_well
+    plate17 F8: max_frac_infectivity_per_viral_barcode_well
+    plate17 G1: max_frac_infectivity_per_viral_barcode_well
+    plate18 G5: max_frac_infectivity_per_viral_barcode_well
+    plate18 H5: max_frac_infectivity_per_viral_barcode_well
     plate9 F8: max_frac_infectivity_per_viral_barcode_well
 GATCGCCACTGATAAG:
   barcode_serum_replicates:
@@ -2562,6 +3359,11 @@ GATCGCCACTGATAAG:
     plate11 SCH_41: goodness_of_fit
     plate11 SCH_47: goodness_of_fit
     plate12_EPIHK EPIHK_6: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
+    plate18 NIID_25: goodness_of_fit
+    plate19 NIID_36: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
+    plate20 NIID_47: goodness_of_fit
     plate3 UWMC-29: goodness_of_fit
     plate4 UWMC-35: goodness_of_fit
     plate6 FCI_9: goodness_of_fit
@@ -2571,6 +3373,9 @@ GATCGCCACTGATAAG:
     plate9 SCH_26: goodness_of_fit
   barcode_wells:
     plate11 H3: max_frac_infectivity_per_viral_barcode_well
+    plate14 D3: max_frac_infectivity_per_viral_barcode_well
+    plate18 H7: max_frac_infectivity_per_viral_barcode_well
+    plate19 G5: max_frac_infectivity_per_viral_barcode_well
     plate6 D4: max_frac_infectivity_per_viral_barcode_well
     plate6 E8: max_frac_infectivity_per_viral_barcode_well
     plate6 H11: max_frac_infectivity_per_viral_barcode_well
@@ -2596,6 +3401,7 @@ GATCTTGGGGAGAGTC:
     plate1-2 UWMC-7: goodness_of_fit
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
 GATTCAGATGCCCACC:
   barcode_serum_replicates:
     plate11 SCH_41: goodness_of_fit
@@ -2604,11 +3410,29 @@ GATTCAGATGCCCACC:
     plate11 G6: max_frac_infectivity_per_viral_barcode_well
     plate11 G9: max_frac_infectivity_per_viral_barcode_well
     plate12_SCH C2: max_frac_infectivity_per_viral_barcode_well
+    plate14 A12: min_no_serum_count_per_viral_barcode_well
+    plate14 E9: max_frac_infectivity_per_viral_barcode_well
+    plate14 F6: max_frac_infectivity_per_viral_barcode_well
+    plate14 F8: max_frac_infectivity_per_viral_barcode_well
+    plate14 F9: max_frac_infectivity_per_viral_barcode_well
+    plate14 H12: min_no_serum_count_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate15 C12: min_no_serum_count_per_viral_barcode_well
+    plate15 E11: max_frac_infectivity_per_viral_barcode_well
+    plate15 F6: max_frac_infectivity_per_viral_barcode_well
+    plate18 G5: max_frac_infectivity_per_viral_barcode_well
+    plate18 G7: max_frac_infectivity_per_viral_barcode_well
     plate6 B4: max_frac_infectivity_per_viral_barcode_well
     plate7_FCI D3: max_frac_infectivity_per_viral_barcode_well
     plate7_FCI E5: max_frac_infectivity_per_viral_barcode_well
     plate8 G1: max_frac_infectivity_per_viral_barcode_well
     plate9 D12: min_no_serum_count_per_viral_barcode_well
+  barcodes:
+    plate13: min_neut_standard_frac_per_well
+    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
 GCAAACAGTGTAGTTG:
   barcode_serum_replicates:
     plate1-2 UWMC-1: goodness_of_fit
@@ -2620,6 +3444,7 @@ GCAAACAGTGTAGTTG:
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
     plate6 FCI_10: goodness_of_fit
     plate8 SCH_13: goodness_of_fit
     plate9 SCH_19: goodness_of_fit
@@ -2647,6 +3472,8 @@ GCAACGAGGTGTAACC:
     plate9 SCH_20: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 GCAGCGTGCCGGTCAT:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -2660,11 +3487,19 @@ GCAGCGTGCCGGTCAT:
     plate12_EPIHK EPIHK_5: goodness_of_fit
     plate12_EPIHK EPIHK_6: goodness_of_fit
     plate12_SCH SCH_50: goodness_of_fit
+    plate17 NIID_12: goodness_of_fit
+    plate18 NIID_25: goodness_of_fit
+    plate18 NIID_27: goodness_of_fit
+    plate18 NIID_33: goodness_of_fit
+    plate19 NIID_41: goodness_of_fit
     plate6 FCI_6: goodness_of_fit
     plate7_FCI FCI_17: goodness_of_fit
     plate8 SCH_13: goodness_of_fit
     plate8 SCH_14: goodness_of_fit
     plate9 SCH_19: goodness_of_fit
+  barcode_wells:
+    plate16 H4: max_frac_infectivity_per_viral_barcode_well
+    plate20 H3: max_frac_infectivity_per_viral_barcode_well
 GCATCCTCAACTCCTA:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -2685,6 +3520,12 @@ GCATGGAACTAACTCC:
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate6 FCI_10: goodness_of_fit
+  barcode_wells:
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate16 D3: max_frac_infectivity_per_viral_barcode_well
+    plate16 H9: max_frac_infectivity_per_viral_barcode_well
+    plate17 H5: max_frac_infectivity_per_viral_barcode_well
 GCCAGCTCGTATCCCT:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -2713,6 +3554,9 @@ GCCATTTACTGAAGGG:
     plate11 SCH_41: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
     plate12_SCH SCH_50: goodness_of_fit
+    plate13 EPIHK_16: goodness_of_fit
+    plate16 NIID_5: goodness_of_fit
+    plate17 NIID_16: goodness_of_fit
     plate2-2 UWMC-19: goodness_of_fit
     plate9 SCH_21: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
@@ -2736,6 +3580,12 @@ GCCGCTGCGGCGTGTG:
     plate12_EPIHK EPIHK_5: goodness_of_fit
     plate12_EPIHK EPIHK_6: goodness_of_fit
     plate12_EPIHK EPIHK_7: goodness_of_fit
+    plate13 EPIHK_10: goodness_of_fit
+    plate16 NIID_11: goodness_of_fit
+    plate18 NIID_26: goodness_of_fit
+    plate18 NIID_29: goodness_of_fit
+    plate19 NIID_36: goodness_of_fit
+    plate20 NIID_46: goodness_of_fit
     plate3 UWMC-29: goodness_of_fit
     plate4 UWMC-35: goodness_of_fit
     plate4 UWMC-40: goodness_of_fit
@@ -2747,6 +3597,9 @@ GCCGCTGCGGCGTGTG:
     plate9 SCH_20: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
   barcode_wells:
+    plate13 H2: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate16 H6: max_frac_infectivity_per_viral_barcode_well
     plate3 G11: max_frac_infectivity_per_viral_barcode_well
     plate6 G11: max_frac_infectivity_per_viral_barcode_well
     plate6 G5: max_frac_infectivity_per_viral_barcode_well
@@ -2757,9 +3610,27 @@ GCCGGCGTTAGTGTCA:
   barcode_serum_replicates:
     plate1-2 UWMC-11: goodness_of_fit
     plate12_SCH SCH_49: goodness_of_fit
+    plate14 EPIHK_30: min_dilutions_per_barcode_serum_replicate
+    plate15 EPIHK_36: goodness_of_fit
+    plate20 NIID_45: goodness_of_fit
   barcode_wells:
     plate10 G3: max_frac_infectivity_per_viral_barcode_well
     plate11 F6: max_frac_infectivity_per_viral_barcode_well
+    plate13 E10: max_frac_infectivity_per_viral_barcode_well
+    plate13 F3: max_frac_infectivity_per_viral_barcode_well
+    plate13 G3: max_frac_infectivity_per_viral_barcode_well
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 E11: max_frac_infectivity_per_viral_barcode_well
+    plate14 H10: max_frac_infectivity_per_viral_barcode_well
+    plate15 H5: max_frac_infectivity_per_viral_barcode_well
+    plate16 F10: max_frac_infectivity_per_viral_barcode_well
+    plate17 D12: min_no_serum_count_per_viral_barcode_well
+    plate17 H10: max_frac_infectivity_per_viral_barcode_well
+    plate18 D10: max_frac_infectivity_per_viral_barcode_well
+    plate18 H10: max_frac_infectivity_per_viral_barcode_well
+    plate18 H3: max_frac_infectivity_per_viral_barcode_well
+    plate18 H5: max_frac_infectivity_per_viral_barcode_well
+    plate19 D6: max_frac_infectivity_per_viral_barcode_well
     plate8 D1: max_frac_infectivity_per_viral_barcode_well
     plate9 D1: max_frac_infectivity_per_viral_barcode_well
     plate9 F4: max_frac_infectivity_per_viral_barcode_well
@@ -2773,6 +3644,15 @@ GCCTTTGCGCGCAGTC:
     plate10 SCH_34: goodness_of_fit
     plate11 SCH_47: goodness_of_fit
     plate12_EPIHK EPIHK_8: goodness_of_fit
+    plate14 EPIHK_22: goodness_of_fit
+    plate16 NIID_7: goodness_of_fit
+    plate18 NIID_24: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
+    plate18 NIID_32: goodness_of_fit
+    plate18 NIID_33: goodness_of_fit
+    plate19 NIID_41: goodness_of_fit
+    plate20 NIID_46: goodness_of_fit
+    plate20 NIID_48: goodness_of_fit
     plate3 UWMC-33: goodness_of_fit
     plate4 UWMC-41: goodness_of_fit
     plate4 UWMC-44: goodness_of_fit
@@ -2782,6 +3662,12 @@ GCCTTTGCGCGCAGTC:
     plate6 B4: max_frac_infectivity_per_viral_barcode_well
     plate6 F5: max_frac_infectivity_per_viral_barcode_well
     plate9 F4: max_frac_infectivity_per_viral_barcode_well
+GCGAAGTTTCATAGCG:
+  barcode_wells:
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 F6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H9: max_frac_infectivity_per_viral_barcode_well
 GGTTAACTTTGGAAGC:
   barcode_serum_replicates:
     plate1-2 UWMC-11: goodness_of_fit
@@ -2789,6 +3675,7 @@ GGTTAACTTTGGAAGC:
     plate1-2 UWMC-5: goodness_of_fit
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-7: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
     plate7_FCI FCI_18: goodness_of_fit
     plate7_SCH SCH_3: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
@@ -2826,6 +3713,9 @@ GTAAGCTTCATGGAGT:
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate12_EPIHK EPIHK_6: goodness_of_fit
     plate12_EPIHK EPIHK_8: goodness_of_fit
+    plate16 NIID_10: goodness_of_fit
+    plate16 NIID_11: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
     plate3 UWMC-29: goodness_of_fit
     plate4 UWMC-39: goodness_of_fit
     plate6 FCI_11: goodness_of_fit
@@ -2835,12 +3725,17 @@ GTAAGCTTCATGGAGT:
     plate9 SCH_19: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
+  barcode_wells:
+    plate13 G7: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 GTAATTCGCATGCGGA:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
     plate1-2 UWMC-11: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate11 SCH_47: goodness_of_fit
+    plate17 NIID_17: goodness_of_fit
+    plate19 NIID_39: goodness_of_fit
     plate3 UWMC-29: goodness_of_fit
     plate6 FCI_11: goodness_of_fit
     plate6 FCI_4: goodness_of_fit
@@ -2860,6 +3755,12 @@ GTAATTCGCATGCGGA:
     plate1-2 D11: max_frac_infectivity_per_viral_barcode_well
     plate11 F1: max_frac_infectivity_per_viral_barcode_well
     plate11 H4: max_frac_infectivity_per_viral_barcode_well
+    plate13 D6: max_frac_infectivity_per_viral_barcode_well
+    plate13 G7: max_frac_infectivity_per_viral_barcode_well
+    plate13 H6: max_frac_infectivity_per_viral_barcode_well
+    plate17 G1: max_frac_infectivity_per_viral_barcode_well
+    plate17 G3: max_frac_infectivity_per_viral_barcode_well
+    plate17 H4: max_frac_infectivity_per_viral_barcode_well
     plate3 F11: max_frac_infectivity_per_viral_barcode_well
     plate3 G5: max_frac_infectivity_per_viral_barcode_well
     plate7_FCI D5: max_frac_infectivity_per_viral_barcode_well
@@ -2868,12 +3769,19 @@ GTAATTCGCATGCGGA:
 GTACCCAGTTCCTGCG:
   barcode_serum_replicates:
     plate1-2 UWMC-8: goodness_of_fit
+  barcode_wells:
+    plate13 G7: max_frac_infectivity_per_viral_barcode_well
+    plate13 H6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate18 D11: max_frac_infectivity_per_viral_barcode_well
 GTAGAACTGCGGCCCC:
   barcode_serum_replicates:
     plate1-2 UWMC-11: goodness_of_fit
     plate1-2 UWMC-6: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
   barcode_wells:
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
     plate9 F4: max_frac_infectivity_per_viral_barcode_well
 GTAGATACTAGGACCA:
   barcode_serum_replicates:
@@ -2888,10 +3796,14 @@ GTAGATACTAGGACCA:
     plate1-2 UWMC-9: goodness_of_fit
     plate10 SCH_32: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
     plate2-2 UWMC-16: goodness_of_fit
     plate8 SCH_13: goodness_of_fit
     plate8 SCH_14: goodness_of_fit
     plate9 SCH_21: goodness_of_fit
+  barcode_wells:
+    plate17 G11: max_frac_infectivity_per_viral_barcode_well
+    plate18 D9: max_frac_infectivity_per_viral_barcode_well
 GTCAAGTTACGGATGG:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -2916,6 +3828,7 @@ GTCCGTCAGCATAAAC:
     plate1-2 UWMC-9: goodness_of_fit
     plate10 SCH_29: goodness_of_fit
     plate12_EPIHK EPIHK_6: goodness_of_fit
+    plate18 NIID_32: goodness_of_fit
     plate2-2 UWMC-17: goodness_of_fit
     plate3 UWMC-26: goodness_of_fit
     plate4 UWMC-44: goodness_of_fit
@@ -2924,6 +3837,10 @@ GTCCGTCAGCATAAAC:
     plate8 SCH_13: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
+  barcode_wells:
+    plate15 H9: max_frac_infectivity_per_viral_barcode_well
+    plate18 H3: max_frac_infectivity_per_viral_barcode_well
+    plate19 B5: max_frac_infectivity_per_viral_barcode_well
 GTCGCATCCTGGAATG:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -2935,6 +3852,9 @@ GTCGCATCCTGGAATG:
     plate1-2 UWMC-7: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
+    plate13 EPIHK_10: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
+    plate19 NIID_36: goodness_of_fit
     plate8 SCH_14: goodness_of_fit
 GTCGCCGCTAATCCGA:
   barcode_serum_replicates:
@@ -2942,6 +3862,8 @@ GTCGCCGCTAATCCGA:
     plate1-2 UWMC-3: goodness_of_fit
     plate1-2 UWMC-6: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
+    plate17 NIID_12: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
     plate2-2 UWMC-21: goodness_of_fit
     plate6 FCI_10: goodness_of_fit
     plate6 FCI_9: goodness_of_fit
@@ -2949,6 +3871,7 @@ GTCGCCGCTAATCCGA:
     plate9 SCH_26: goodness_of_fit
   barcode_wells:
     plate11 G1: max_frac_infectivity_per_viral_barcode_well
+    plate18 D9: max_frac_infectivity_per_viral_barcode_well
 GTGAGCGAGAAAAGCA:
   barcode_serum_replicates:
     plate1-2 UWMC-1: goodness_of_fit
@@ -2962,6 +3885,7 @@ GTGAGCGAGAAAAGCA:
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate10 SCH_34: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
     plate4 UWMC-35: goodness_of_fit
     plate6 FCI_6: goodness_of_fit
     plate9 SCH_21: goodness_of_fit
@@ -2969,7 +3893,19 @@ GTGAGCGAGAAAAGCA:
 GTGCATCCTAGTGACG:
   barcode_serum_replicates:
     plate12_SCH SCH_50: goodness_of_fit
+    plate13 EPIHK_15: goodness_of_fit
+    plate16 NIID_8: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
   barcode_wells:
+    plate13 G7: max_frac_infectivity_per_viral_barcode_well
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate15 D5: max_frac_infectivity_per_viral_barcode_well
+    plate16 E9: max_frac_infectivity_per_viral_barcode_well
+    plate16 G8: max_frac_infectivity_per_viral_barcode_well
+    plate17 H4: max_frac_infectivity_per_viral_barcode_well
+    plate18 G4: max_frac_infectivity_per_viral_barcode_well
+    plate18 H11: max_frac_infectivity_per_viral_barcode_well
+    plate19 H10: max_frac_infectivity_per_viral_barcode_well
     plate6 H7: max_frac_infectivity_per_viral_barcode_well
     plate9 G2: max_frac_infectivity_per_viral_barcode_well
     plate9 H3: max_frac_infectivity_per_viral_barcode_well
@@ -2980,6 +3916,19 @@ GTGCGATTGTCCGGAA:
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-7: goodness_of_fit
     plate1-2 UWMC-8: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate18 H3: max_frac_infectivity_per_viral_barcode_well
+    plate20 H3: max_frac_infectivity_per_viral_barcode_well
+GTGGTATCAAGCCGGG:
+  barcode_serum_replicates:
+    plate19 NIID_40: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate16 G4: max_frac_infectivity_per_viral_barcode_well
+    plate17 E8: max_frac_infectivity_per_viral_barcode_well
+    plate18 H3: max_frac_infectivity_per_viral_barcode_well
+    plate19 F11: max_frac_infectivity_per_viral_barcode_well
 GTTATTATGACTTCAT:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -2992,6 +3941,8 @@ GTTATTATGACTTCAT:
     plate12_EPIHK EPIHK_5: goodness_of_fit
     plate12_EPIHK EPIHK_8: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 GTTGCTCCGACACGCC:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -3004,6 +3955,8 @@ GTTGCTCCGACACGCC:
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
+    plate19 NIID_36: goodness_of_fit
+    plate20 NIID_47: goodness_of_fit
     plate6 FCI_10: goodness_of_fit
     plate6 FCI_5: goodness_of_fit
     plate7_FCI FCI_13: goodness_of_fit
@@ -3023,6 +3976,11 @@ TAAAAAGCCTCCATGA:
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
+    plate13 EPIHK_19: goodness_of_fit
+    plate16 NIID_6: goodness_of_fit
+    plate17 NIID_21: goodness_of_fit
+    plate19 NIID_41: goodness_of_fit
+    plate19 NIID_42: goodness_of_fit
     plate7_FCI FCI_12: goodness_of_fit
     plate8 SCH_12: goodness_of_fit
     plate8 SCH_13: goodness_of_fit
@@ -3032,22 +3990,40 @@ TAAAAAGCCTCCATGA:
   barcode_wells:
     plate6 H7: max_frac_infectivity_per_viral_barcode_well
 TAACGTGATTTCTCGA:
+  barcode_serum_replicates:
+    plate14 EPIHK_30: min_dilutions_per_barcode_serum_replicate
   barcode_wells:
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 E10: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate15 F9: max_frac_infectivity_per_viral_barcode_well
+    plate17 D7: max_frac_infectivity_per_viral_barcode_well
     plate9 F4: max_frac_infectivity_per_viral_barcode_well
 TAATAAGCCAGCAAGA:
   barcode_serum_replicates:
     plate11 SCH_41: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
   barcode_wells:
+    plate16 H9: max_frac_infectivity_per_viral_barcode_well
+    plate17 H7: max_frac_infectivity_per_viral_barcode_well
     plate9 E3: max_frac_infectivity_per_viral_barcode_well
     plate9 F3: max_frac_infectivity_per_viral_barcode_well
 TACAAGAGAGGGGTCC:
   barcode_serum_replicates:
     plate1-2 UWMC-8: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
+    plate17 NIID_15: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
   barcode_wells:
     plate11 D12: min_no_serum_count_per_viral_barcode_well
     plate11 F12: min_no_serum_count_per_viral_barcode_well
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate16 A12: min_no_serum_count_per_viral_barcode_well
+    plate16 H12: min_no_serum_count_per_viral_barcode_well
+    plate17 A12: min_no_serum_count_per_viral_barcode_well
+    plate20 A12: min_no_serum_count_per_viral_barcode_well
+    plate20 G12: min_no_serum_count_per_viral_barcode_well
 TACATACCGACGCAGT:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -3059,12 +4035,16 @@ TACATACCGACGCAGT:
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate10 SCH_34: goodness_of_fit
+    plate18 NIID_29: goodness_of_fit
+    plate20 NIID_48: goodness_of_fit
     plate6 FCI_11: goodness_of_fit
     plate6 FCI_5: goodness_of_fit
     plate7_FCI FCI_15: goodness_of_fit
     plate7_FCI FCI_17: goodness_of_fit
     plate9 SCH_19: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
+  barcode_wells:
+    plate14 H8: max_frac_infectivity_per_viral_barcode_well
 TACCAATGTCATTTGA:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -3093,6 +4073,7 @@ TACCTGCTGCGGAACG:
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
+    plate19 NIID_38: goodness_of_fit
     plate6 FCI_7: goodness_of_fit
     plate9 SCH_16: goodness_of_fit
     plate9 SCH_19: goodness_of_fit
@@ -3110,6 +4091,7 @@ TACTAATGCCGTTGTC:
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate10 SCH_36: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
     plate3 UWMC-30: goodness_of_fit
     plate4 UWMC-35: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
@@ -3126,6 +4108,7 @@ TACTAGCAATAAAATC:
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
+    plate17 NIID_22: goodness_of_fit
     plate6 FCI_7: goodness_of_fit
     plate7_SCH SCH_3: goodness_of_fit
     plate8 SCH_13: goodness_of_fit
@@ -3156,9 +4139,22 @@ TAGCATTGTCGGAAAG:
     plate7_FCI FCI_12: goodness_of_fit
     plate9 SCH_19: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
+TAGCTGATAGTAACTC:
+  barcode_wells:
+    plate13 F4: max_frac_infectivity_per_viral_barcode_well
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 F6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H2: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate17 G3: max_frac_infectivity_per_viral_barcode_well
+    plate17 H5: max_frac_infectivity_per_viral_barcode_well
 TATATTAGTAACATAA:
   barcode_serum_replicates:
     plate1-2 UWMC-6: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
+  barcode_wells:
+    plate13 H6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 TATCCAAGGGACGGAC:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -3169,6 +4165,10 @@ TATCCAAGGGACGGAC:
     plate1-2 UWMC-9: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
     plate11 SCH_47: goodness_of_fit
+    plate14 EPIHK_25: goodness_of_fit
+    plate19 NIID_38: goodness_of_fit
+    plate19 NIID_39: goodness_of_fit
+    plate20 NIID_47: goodness_of_fit
     plate4 UWMC-43: goodness_of_fit
     plate6 FCI_1: goodness_of_fit
     plate6 FCI_2: goodness_of_fit
@@ -3181,7 +4181,13 @@ TATCCAAGGGACGGAC:
     plate9 SCH_26: goodness_of_fit
   barcode_wells:
     plate12_SCH B2: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate17 D11: max_frac_infectivity_per_viral_barcode_well
+    plate17 E4: max_frac_infectivity_per_viral_barcode_well
+    plate17 F7: max_frac_infectivity_per_viral_barcode_well
+    plate17 H10: max_frac_infectivity_per_viral_barcode_well
     plate2-2 G11: max_frac_infectivity_per_viral_barcode_well
+    plate20 H3: max_frac_infectivity_per_viral_barcode_well
     plate4 G4: max_frac_infectivity_per_viral_barcode_well
     plate6 H4: max_frac_infectivity_per_viral_barcode_well
     plate7_FCI E3: max_frac_infectivity_per_viral_barcode_well
@@ -3196,7 +4202,13 @@ TATGTCGTATCCACAG:
     plate1-2 UWMC-7: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
 TATTAAGAGAAGTGCG:
+  barcode_serum_replicates:
+    plate14 EPIHK_30: min_dilutions_per_barcode_serum_replicate
   barcode_wells:
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 F10: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate16 E4: max_frac_infectivity_per_viral_barcode_well
     plate9 F4: max_frac_infectivity_per_viral_barcode_well
 TATTCCTAACTAGCGA:
   barcode_serum_replicates:
@@ -3212,6 +4224,10 @@ TATTCCTAACTAGCGA:
     plate11 SCH_41: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
+    plate14 EPIHK_23: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
+    plate17 NIID_14: goodness_of_fit
+    plate18 NIID_33: goodness_of_fit
     plate2-2 UWMC-17: goodness_of_fit
     plate2-2 UWMC-19: goodness_of_fit
     plate2-2 UWMC-21: goodness_of_fit
@@ -3243,6 +4259,8 @@ TCAATCGGGGGCTAAA:
     plate1-2 UWMC-9: goodness_of_fit
     plate10 SCH_29: goodness_of_fit
     plate12_SCH SCH_50: goodness_of_fit
+    plate18 NIID_29: goodness_of_fit
+    plate19 NIID_36: goodness_of_fit
     plate7_FCI FCI_12: goodness_of_fit
     plate7_FCI FCI_16: goodness_of_fit
     plate7_FCI FCI_17: goodness_of_fit
@@ -3261,6 +4279,7 @@ TCACGACTCGACTAAC:
     plate11 SCH_41: goodness_of_fit
     plate11 SCH_47: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
     plate7_FCI FCI_18: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
   barcode_wells:
@@ -3291,6 +4310,7 @@ TCCACACCCCTAGCTA:
     plate1-2 UWMC-7: goodness_of_fit
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
+    plate13 EPIHK_10: goodness_of_fit
     plate3 UWMC-23: goodness_of_fit
 TCCAGCGCGGTAAGAG:
   barcode_serum_replicates:
@@ -3309,11 +4329,17 @@ TCCCCGTGGTTTGACA:
     plate11 SCH_41: goodness_of_fit
     plate7_FCI FCI_18: goodness_of_fit
   barcode_wells:
+    plate13 H6: max_frac_infectivity_per_viral_barcode_well
     plate6 C4: max_frac_infectivity_per_viral_barcode_well
 TCGAACGAAGTAGGAG:
   barcode_serum_replicates:
+    plate13 EPIHK_16: goodness_of_fit
     plate9 SCH_18: min_dilutions_per_barcode_serum_replicate
   barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate15 C4: max_frac_infectivity_per_viral_barcode_well
+    plate17 E3: max_frac_infectivity_per_viral_barcode_well
+    plate18 D11: max_frac_infectivity_per_viral_barcode_well
     plate9 C3: max_frac_infectivity_per_viral_barcode_well
     plate9 E3: max_frac_infectivity_per_viral_barcode_well
     plate9 H3: max_frac_infectivity_per_viral_barcode_well
@@ -3322,8 +4348,36 @@ TCGAGTTAATATGCGC:
     plate1-2 UWMC-11: goodness_of_fit
     plate1-2 UWMC-5: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
+    plate14 EPIHK_30: min_dilutions_per_barcode_serum_replicate
   barcode_wells:
     plate1-2 F9: max_frac_infectivity_per_viral_barcode_well
+    plate13 E2: max_frac_infectivity_per_viral_barcode_well
+    plate13 H3: max_frac_infectivity_per_viral_barcode_well
+    plate14 C9: max_frac_infectivity_per_viral_barcode_well
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 E10: max_frac_infectivity_per_viral_barcode_well
+    plate14 F10: max_frac_infectivity_per_viral_barcode_well
+    plate14 F7: max_frac_infectivity_per_viral_barcode_well
+    plate14 F8: max_frac_infectivity_per_viral_barcode_well
+    plate14 H10: max_frac_infectivity_per_viral_barcode_well
+    plate14 H3: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate16 E4: max_frac_infectivity_per_viral_barcode_well
+    plate16 E9: max_frac_infectivity_per_viral_barcode_well
+    plate16 G9: max_frac_infectivity_per_viral_barcode_well
+    plate17 D1: max_frac_infectivity_per_viral_barcode_well
+    plate17 E7: max_frac_infectivity_per_viral_barcode_well
+    plate17 F10: max_frac_infectivity_per_viral_barcode_well
+    plate17 F11: max_frac_infectivity_per_viral_barcode_well
+    plate17 F8: max_frac_infectivity_per_viral_barcode_well
+    plate17 G11: max_frac_infectivity_per_viral_barcode_well
+    plate17 G5: max_frac_infectivity_per_viral_barcode_well
+    plate17 H5: max_frac_infectivity_per_viral_barcode_well
+    plate17 H6: max_frac_infectivity_per_viral_barcode_well
+    plate18 G5: max_frac_infectivity_per_viral_barcode_well
+    plate19 G4: max_frac_infectivity_per_viral_barcode_well
+    plate20 F3: max_frac_infectivity_per_viral_barcode_well
+    plate20 F4: max_frac_infectivity_per_viral_barcode_well
     plate6 H3: max_frac_infectivity_per_viral_barcode_well
     plate9 F4: max_frac_infectivity_per_viral_barcode_well
 TCGATTACTAGCCGGA:
@@ -3334,6 +4388,7 @@ TCGATTACTAGCCGGA:
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-7: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
+    plate13 EPIHK_15: goodness_of_fit
     plate3 UWMC-29: goodness_of_fit
     plate6 FCI_4: goodness_of_fit
     plate6 FCI_5: goodness_of_fit
@@ -3341,9 +4396,17 @@ TCGATTACTAGCCGGA:
     plate7_FCI FCI_18: goodness_of_fit
     plate8 SCH_14: goodness_of_fit
     plate9 SCH_25: goodness_of_fit
+  barcode_wells:
+    plate16 G11: max_frac_infectivity_per_viral_barcode_well
 TCGCTTCAACTAAAAA:
   barcode_serum_replicates:
     plate12_EPIHK EPIHK_5: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate15 F6: max_frac_infectivity_per_viral_barcode_well
+    plate16 E5: max_frac_infectivity_per_viral_barcode_well
+    plate19 E5: max_frac_infectivity_per_viral_barcode_well
 TCGTCCGTTGGGAACT:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -3374,6 +4437,12 @@ TCGTCGCACTACTGCT:
 TCTAACTCTCGCGGCA:
   barcode_serum_replicates:
     plate1-2 UWMC-8: goodness_of_fit
+  barcode_wells:
+    plate14 F8: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate17 E3: max_frac_infectivity_per_viral_barcode_well
+    plate17 F10: max_frac_infectivity_per_viral_barcode_well
+    plate17 G11: max_frac_infectivity_per_viral_barcode_well
 TCTCAGCTCTTAGCCG:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -3383,6 +4452,11 @@ TCTCAGCTCTTAGCCG:
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
     plate12_EPIHK EPIHK_6: goodness_of_fit
+    plate13 EPIHK_16: goodness_of_fit
+    plate18 NIID_26: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
+    plate19 NIID_38: goodness_of_fit
+    plate19 NIID_39: goodness_of_fit
     plate2-2 UWMC-16: goodness_of_fit
     plate3 UWMC-27: goodness_of_fit
     plate4 UWMC-37: goodness_of_fit
@@ -3401,6 +4475,15 @@ TCTCAGCTCTTAGCCG:
     plate9 SCH_25: goodness_of_fit
   barcode_wells:
     plate12_EPIHK G8: max_frac_infectivity_per_viral_barcode_well
+    plate14 G2: max_frac_infectivity_per_viral_barcode_well
+    plate14 H11: max_frac_infectivity_per_viral_barcode_well
+    plate15 G11: max_frac_infectivity_per_viral_barcode_well
+    plate15 G6: max_frac_infectivity_per_viral_barcode_well
+    plate16 H7: max_frac_infectivity_per_viral_barcode_well
+    plate17 G10: max_frac_infectivity_per_viral_barcode_well
+    plate17 H2: max_frac_infectivity_per_viral_barcode_well
+    plate17 H5: max_frac_infectivity_per_viral_barcode_well
+    plate18 H7: max_frac_infectivity_per_viral_barcode_well
 TCTGGAAACGATCCCC:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -3426,11 +4509,17 @@ TCTTAGAGTGAACGAT:
     plate1-2 UWMC-7: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate11 SCH_47: goodness_of_fit
+    plate13 EPIHK_10: goodness_of_fit
     plate6 FCI_10: goodness_of_fit
     plate7_FCI FCI_15: goodness_of_fit
     plate7_FCI FCI_18: goodness_of_fit
     plate9 SCH_24: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
+TCTTAGTCCTCGTATG:
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate15 H5: max_frac_infectivity_per_viral_barcode_well
+    plate17 F10: max_frac_infectivity_per_viral_barcode_well
 TCTTATTAGGCGGCAT:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -3449,6 +4538,11 @@ TCTTATTAGGCGGCAT:
 TCTTGACATAGCGATG:
   barcode_serum_replicates:
     plate12_EPIHK EPIHK_5: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
+  barcode_wells:
+    plate13 G7: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate18 G7: max_frac_infectivity_per_viral_barcode_well
 TCTTTACCACTGCATC:
   barcode_serum_replicates:
     plate1-2 UWMC-11: goodness_of_fit
@@ -3456,6 +4550,11 @@ TCTTTACCACTGCATC:
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-7: goodness_of_fit
   barcode_wells:
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate15 F6: max_frac_infectivity_per_viral_barcode_well
+    plate17 E3: max_frac_infectivity_per_viral_barcode_well
+    plate18 H7: max_frac_infectivity_per_viral_barcode_well
     plate8 F1: max_frac_infectivity_per_viral_barcode_well
 TGACAACAATACAAAT:
   barcode_serum_replicates:
@@ -3469,6 +4568,8 @@ TGACAACAATACAAAT:
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate6 FCI_8: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 TGAGTTCATAGCTCCA:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -3479,6 +4580,8 @@ TGAGTTCATAGCTCCA:
     plate7_FCI FCI_17: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
+  barcode_wells:
+    plate13 H7: max_frac_infectivity_per_viral_barcode_well
 TGATCTGTGACATTGC:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -3492,6 +4595,10 @@ TGATCTGTGACATTGC:
     plate10 SCH_29: goodness_of_fit
     plate10 SCH_32: goodness_of_fit
     plate12_EPIHK EPIHK_6: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
+    plate19 NIID_34: goodness_of_fit
+    plate19 NIID_36: goodness_of_fit
+    plate19 NIID_41: goodness_of_fit
     plate2-2 UWMC-19: goodness_of_fit
     plate3 UWMC-29: goodness_of_fit
     plate4 UWMC-35: goodness_of_fit
@@ -3511,6 +4618,7 @@ TGATCTTTTACATTTA:
     plate1-2 UWMC-7: goodness_of_fit
     plate1-2 UWMC-8: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
+    plate18 NIID_32: goodness_of_fit
     plate6 FCI_4: goodness_of_fit
     plate7_FCI FCI_12: goodness_of_fit
 TGCAGTGGTATACATA:
@@ -3518,19 +4626,34 @@ TGCAGTGGTATACATA:
     plate1-2 UWMC-11: goodness_of_fit
     plate1-2 UWMC-6: goodness_of_fit
     plate1-2 UWMC-8: goodness_of_fit
+  barcode_wells:
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 TGCGGTGGTCGATCCG:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
     plate1-2 UWMC-6: goodness_of_fit
+    plate20 NIID_47: goodness_of_fit
   barcode_wells:
     plate11 E2: max_frac_infectivity_per_viral_barcode_well
     plate11 G9: max_frac_infectivity_per_viral_barcode_well
+    plate13 F4: max_frac_infectivity_per_viral_barcode_well
+    plate13 H6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate15 H10: max_frac_infectivity_per_viral_barcode_well
 TGCTATTCCGGCGCGG:
   barcode_wells:
     plate10 G1: max_frac_infectivity_per_viral_barcode_well
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate20 D1: max_frac_infectivity_per_viral_barcode_well
 TGGAATCGTCACCGAT:
   barcode_serum_replicates:
+    plate19 NIID_44: goodness_of_fit
     plate6 FCI_11: goodness_of_fit
+  barcode_wells:
+    plate14 G9: max_frac_infectivity_per_viral_barcode_well
+    plate20 G1: max_frac_infectivity_per_viral_barcode_well
 TGGTCCGCTTCATGCT:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -3544,6 +4667,8 @@ TGGTCCGCTTCATGCT:
     plate1-2 UWMC-9: goodness_of_fit
     plate10 SCH_32: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
+    plate19 NIID_36: goodness_of_fit
     plate2-2 UWMC-17: goodness_of_fit
     plate4 UWMC-38: goodness_of_fit
     plate6 FCI_8: goodness_of_fit
@@ -3553,6 +4678,7 @@ TGGTCCGCTTCATGCT:
     plate9 SCH_22: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
   barcode_wells:
+    plate13 H6: max_frac_infectivity_per_viral_barcode_well
     plate6 C4: max_frac_infectivity_per_viral_barcode_well
 TGTAATAGGCGTCACA:
   barcode_serum_replicates:
@@ -3578,6 +4704,13 @@ TGTAATAGGCGTCACA:
 TGTCCGGATAAAGTAG:
   barcode_serum_replicates:
     plate1-2 UWMC-8: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
+  barcode_wells:
+    plate13 G6: max_frac_infectivity_per_viral_barcode_well
+    plate14 F10: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H7: max_frac_infectivity_per_viral_barcode_well
+    plate14 H9: max_frac_infectivity_per_viral_barcode_well
 TGTGGAGCGCCCTTAC:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -3593,6 +4726,7 @@ TGTGGAGCGCCCTTAC:
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
     plate12_EPIHK EPIHK_8: goodness_of_fit
+    plate17 NIID_16: goodness_of_fit
     plate3 UWMC-28: goodness_of_fit
     plate3 UWMC-29: goodness_of_fit
     plate9 SCH_19: goodness_of_fit
@@ -3603,6 +4737,12 @@ TGTTGAGCCAGTCTGA:
     plate1-2 UWMC-2: goodness_of_fit
     plate1-2 UWMC-6: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
+  barcode_wells:
+    plate13 H3: max_frac_infectivity_per_viral_barcode_well
+    plate14 H3: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate17 H9: max_frac_infectivity_per_viral_barcode_well
 TGTTGTAATCTGAATA:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -3625,12 +4765,35 @@ TGTTGTAATCTGAATA:
 TTAATGTAGCCGCTCC:
   barcode_serum_replicates:
     plate1-2 UWMC-5: goodness_of_fit
+    plate17 NIID_15: goodness_of_fit
+    plate17 NIID_18: goodness_of_fit
+    plate19 NIID_37: goodness_of_fit
     plate8 SCH_15: goodness_of_fit
   barcode_wells:
     plate1-2 C9: max_frac_infectivity_per_viral_barcode_well
     plate11 G1: max_frac_infectivity_per_viral_barcode_well
     plate11 H6: max_frac_infectivity_per_viral_barcode_well
     plate11 H7: max_frac_infectivity_per_viral_barcode_well
+    plate13 C12: min_no_serum_count_per_viral_barcode_well
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 E11: max_frac_infectivity_per_viral_barcode_well
+    plate14 F9: max_frac_infectivity_per_viral_barcode_well
+    plate14 H3: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate14 H9: max_frac_infectivity_per_viral_barcode_well
+    plate15 C10: max_frac_infectivity_per_viral_barcode_well
+    plate15 F11: max_frac_infectivity_per_viral_barcode_well
+    plate15 F8: max_frac_infectivity_per_viral_barcode_well
+    plate15 F9: max_frac_infectivity_per_viral_barcode_well
+    plate15 G9: max_frac_infectivity_per_viral_barcode_well
+    plate15 H8: max_frac_infectivity_per_viral_barcode_well
+    plate17 B12: min_no_serum_count_per_viral_barcode_well
+    plate17 E2: max_frac_infectivity_per_viral_barcode_well
+    plate17 F10: max_frac_infectivity_per_viral_barcode_well
+    plate17 G7: max_frac_infectivity_per_viral_barcode_well
+    plate17 H3: max_frac_infectivity_per_viral_barcode_well
+    plate19 G12: min_no_serum_count_per_viral_barcode_well
+    plate20 C12: min_no_serum_count_per_viral_barcode_well
     plate6 C3: max_frac_infectivity_per_viral_barcode_well
     plate6 E6: max_frac_infectivity_per_viral_barcode_well
     plate6 G6: max_frac_infectivity_per_viral_barcode_well
@@ -3676,10 +4839,12 @@ TTCTGTCCAGACTCGT:
     plate9 SCH_26: goodness_of_fit
 TTGAAAAAATCATAAA:
   barcode_serum_replicates:
+    plate15 EPIHK_32: goodness_of_fit
     plate7_FCI FCI_17: goodness_of_fit
     plate8 SCH_12: goodness_of_fit
     plate8 SCH_13: goodness_of_fit
   barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
     plate6 G4: max_frac_infectivity_per_viral_barcode_well
 TTGACTCACCGAATAA:
   barcode_serum_replicates:
@@ -3695,6 +4860,12 @@ TTGACTCACCGAATAA:
     plate11 SCH_47: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
+    plate16 NIID_7: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
+    plate17 NIID_21: goodness_of_fit
+    plate18 NIID_29: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
+    plate19 NIID_43: goodness_of_fit
     plate6 FCI_6: goodness_of_fit
     plate7_FCI FCI_15: goodness_of_fit
     plate7_SCH SCH_3: goodness_of_fit
@@ -3707,6 +4878,7 @@ TTGACTCACCGAATAA:
     plate11 C4: max_frac_infectivity_per_viral_barcode_well
     plate11 F6: max_frac_infectivity_per_viral_barcode_well
     plate11 H4: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
     plate7_FCI H6: max_frac_infectivity_per_viral_barcode_well
     plate9 F4: max_frac_infectivity_per_viral_barcode_well
 TTGCAATTGAAACATA:
@@ -3722,10 +4894,14 @@ TTGCAATTGAAACATA:
     plate10 SCH_32: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
+    plate18 NIID_29: goodness_of_fit
+    plate19 NIID_42: goodness_of_fit
     plate7_FCI FCI_15: goodness_of_fit
     plate7_FCI FCI_17: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
+  barcode_wells:
+    plate18 H3: max_frac_infectivity_per_viral_barcode_well
 TTGCTCCTGAGTAGTA:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -3738,6 +4914,8 @@ TTGCTCCTGAGTAGTA:
     plate1-2 UWMC-7: goodness_of_fit
     plate1-2 UWMC-9: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
+    plate19 NIID_36: goodness_of_fit
+    plate19 NIID_40: goodness_of_fit
     plate3 UWMC-29: goodness_of_fit
     plate6 FCI_8: goodness_of_fit
     plate8 SCH_14: goodness_of_fit
@@ -3748,8 +4926,10 @@ TTGGGCACTAAATTAA:
     plate1-2 UWMC-10: goodness_of_fit
     plate1-2 UWMC-7: goodness_of_fit
     plate11 SCH_41: goodness_of_fit
+    plate18 NIID_29: goodness_of_fit
     plate6 FCI_6: goodness_of_fit
   barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
     plate9 C3: max_frac_infectivity_per_viral_barcode_well
 TTGGGGAACGGGAAGC:
   barcode_serum_replicates:
@@ -3787,6 +4967,8 @@ TTTATATCCAACACCA:
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate12_EPIHK EPIHK_5: goodness_of_fit
     plate12_SCH SCH_49: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
+    plate19 NIID_42: goodness_of_fit
     plate6 FCI_3: goodness_of_fit
     plate6 FCI_5: goodness_of_fit
     plate7_FCI FCI_12: goodness_of_fit
@@ -3799,6 +4981,19 @@ TTTATATCCAACACCA:
 TTTATATCGAGATTCA:
   barcode_serum_replicates:
     plate1-2 UWMC-6: goodness_of_fit
+  barcode_wells:
+    plate13 E11: max_frac_infectivity_per_viral_barcode_well
+    plate13 G6: max_frac_infectivity_per_viral_barcode_well
+    plate13 H2: max_frac_infectivity_per_viral_barcode_well
+    plate14 D10: max_frac_infectivity_per_viral_barcode_well
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
+    plate16 E11: max_frac_infectivity_per_viral_barcode_well
+    plate17 D4: max_frac_infectivity_per_viral_barcode_well
+    plate17 E2: max_frac_infectivity_per_viral_barcode_well
+    plate17 F11: max_frac_infectivity_per_viral_barcode_well
+    plate17 G4: max_frac_infectivity_per_viral_barcode_well
+    plate17 G6: max_frac_infectivity_per_viral_barcode_well
+    plate18 G9: max_frac_infectivity_per_viral_barcode_well
 TTTCACAGAACCTATC:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -3812,6 +5007,12 @@ TTTCACAGAACCTATC:
     plate10 SCH_29: goodness_of_fit
     plate12_EPIHK EPIHK_3: goodness_of_fit
     plate12_EPIHK EPIHK_8: goodness_of_fit
+    plate17 NIID_12: goodness_of_fit
+    plate17 NIID_13: goodness_of_fit
+    plate17 NIID_19: goodness_of_fit
+    plate18 NIID_28: goodness_of_fit
+    plate19 NIID_39: goodness_of_fit
+    plate19 NIID_41: goodness_of_fit
     plate6 FCI_8: goodness_of_fit
     plate7_FCI FCI_12: goodness_of_fit
     plate7_FCI FCI_13: goodness_of_fit
@@ -3824,6 +5025,8 @@ TTTCACAGAACCTATC:
     plate9 SCH_21: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 TTTCAGCGTTGTTTTG:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -3834,6 +5037,8 @@ TTTCAGCGTTGTTTTG:
     plate1-2 UWMC-9: goodness_of_fit
     plate7_FCI FCI_17: goodness_of_fit
     plate9 SCH_20: goodness_of_fit
+  barcode_wells:
+    plate14 H6: max_frac_infectivity_per_viral_barcode_well
 TTTCGTGATACTCACA:
   barcode_serum_replicates:
     plate1-2 UWMC-10: goodness_of_fit
@@ -3848,6 +5053,7 @@ TTTCGTGATACTCACA:
     plate1-2 UWMC-9: goodness_of_fit
     plate10 SCH_29: goodness_of_fit
     plate12_EPIHK EPIHK_6: goodness_of_fit
+    plate19 NIID_38: goodness_of_fit
     plate9 SCH_19: goodness_of_fit
     plate9 SCH_22: goodness_of_fit
     plate9 SCH_26: goodness_of_fit
