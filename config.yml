@@ -136,7 +136,20 @@ plates:
     viral_library: flu-seqneut-2025_library_actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2025-08-11_plate1-2.csv
-    manual_drops: {}
+    manual_drops:
+      wells:
+        - H1
+        - H2
+        - H3
+        - H4
+        - H5
+        - H6
+        - H7
+        - H8
+        - H9
+        - H10
+        - H11
+        - H12
     qc_thresholds:
       <<: *default_process_plate_qc_thresholds
     curvefit_params:
