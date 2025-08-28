@@ -369,6 +369,143 @@ plates:
       upstream2: CGAGCT # Fwd8
       upstream2_mismatch: 1
 
+  plate13:
+    group: EPIHK
+    date: 2025-08-18
+    viral_library: flu-seqneut-2025_library_actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2025-08-18_plate13.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: GCTACA # Fwd1
+      upstream2_mismatch: 1
+
+  plate14:
+    group: EPIHK
+    date: 2025-08-18
+    viral_library: flu-seqneut-2025_library_actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2025-08-18_plate14.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: ATCGAT # Fwd2
+      upstream2_mismatch: 1
+
+  plate15:
+    group: EPIHK
+    date: 2025-08-18
+    viral_library: flu-seqneut-2025_library_actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2025-08-18_plate15.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: TGACGC # Fwd3
+      upstream2_mismatch: 1
+
+  plate16:
+    group: NIID
+    date: 2025-08-18
+    viral_library: flu-seqneut-2025_library_actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2025-08-18_plate16.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: CAGTTG # Fwd4
+      upstream2_mismatch: 1
+  
+  plate17:
+    group: NIID
+    date: 2025-08-20
+    viral_library: flu-seqneut-2025_library_actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2025-08-20_plate17.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: GTCTAA # Fwd5
+      upstream2_mismatch: 1
+
+  plate18:
+    group: NIID
+    date: 2025-08-20
+    viral_library: flu-seqneut-2025_library_actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2025-08-20_plate18.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: ACGCTG # Fwd6
+      upstream2_mismatch: 1
+
+  plate19:
+    group: NIID
+    date: 2025-08-20
+    viral_library: flu-seqneut-2025_library_actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2025-08-20_plate19.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: TATAGC # Fwd7
+      upstream2_mismatch: 1
+
+  plate20:
+    group: NIID
+    date: 2025-08-20
+    viral_library: flu-seqneut-2025_library_actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2025-08-20_plate20.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: CGAGCT # Fwd8
+      upstream2_mismatch: 1
+      
+
 miscellaneous_plates:
 
     20250716_initial_pool:
