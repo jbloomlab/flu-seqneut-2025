@@ -77,6 +77,7 @@ NIID:
   NIID_17: {}
   NIID_18: {}
   NIID_19: {}
+  NIID_1_post: {}
   NIID_2: {}
   NIID_20: {}
   NIID_21: {}
@@ -89,6 +90,7 @@ NIID:
   NIID_28: {}
   NIID_29:
     A/Hawaii/70/2019_H1N1: max_fold_change_from_median
+  NIID_2_post: {}
   NIID_3: {}
   NIID_30:
     A/HongKong/45/2019_H3N2: max_fold_change_from_median
@@ -101,6 +103,7 @@ NIID:
   NIID_37: {}
   NIID_38: {}
   NIID_39: {}
+  NIID_3_post: {}
   NIID_4: {}
   NIID_40: {}
   NIID_41: {}
@@ -112,9 +115,13 @@ NIID:
   NIID_47: {}
   NIID_48:
     A/Massachusetts/18/2022_H3N2: max_fold_change_from_median
+  NIID_4_post: {}
   NIID_5: {}
+  NIID_5_post: {}
   NIID_6: {}
+  NIID_6_post: {}
   NIID_7: {}
+  NIID_7_post: {}
   NIID_8: {}
   NIID_9: {}
 SCH:
@@ -174,8 +181,11 @@ SCH:
   SCH_9: {}
 UWMC:
   UWMC-1: {}
-  UWMC-10: {}
-  UWMC-11: {}
+  UWMC-10:
+    A/Darwin/6/2021_H3N2: max_fold_change_from_median
+  UWMC-11:
+    A/Minnesota/97/2024_H3N2: max_fold_change_from_median
+    A/Wisconsin/NIRC-IS-1028/2024_H3N2: max_fold_change_from_median
   UWMC-12: {}
   UWMC-13: {}
   UWMC-14: {}
@@ -186,9 +196,7 @@ UWMC:
     A/Hawaii/70/2019_H1N1: max_fold_change_from_median
   UWMC-19:
     A/Kansas/14/2017_H3N2: max_fold_change_from_median
-  UWMC-2:
-    A/HongKong/45/2019_H3N2: max_fold_change_from_median
-    A/France/BRE-IPP01880/2025_H3N2: max_fold_change_from_median
+  UWMC-2: {}
   UWMC-20: {}
   UWMC-21: {}
   UWMC-22: {}
@@ -200,7 +208,8 @@ UWMC:
   UWMC-28: {}
   UWMC-29:
     A/Texas/50/2012_H3N2: max_fold_change_from_median
-  UWMC-3: {}
+  UWMC-3:
+    A/Singapore/INFIMH-16-0019/2016X-307A_H3N2: max_fold_change_from_median
   UWMC-30: {}
   UWMC-31: {}
   UWMC-32: {}
@@ -216,7 +225,9 @@ UWMC:
   UWMC-39:
     A/Netherlands/10563/2023_H3N2: max_fold_change_from_median
     A/Rhode_Island/15446/2025_H3N2: max_fold_change_from_median
-  UWMC-4: {}
+  UWMC-4:
+    A/Darwin/6/2021_H3N2: max_fold_change_from_median
+    A/Nevada/216/2024_H3N2: max_fold_change_from_median
   UWMC-40: {}
   UWMC-41: {}
   UWMC-42:
