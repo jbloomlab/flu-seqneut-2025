@@ -220,14 +220,14 @@ UWMC:
   UWMC-37:
     A/Darwin/9/2021_H3N2: max_fold_change_from_median
   UWMC-38:
-    A/Darwin/9/2021_H3N2: max_fold_change_from_median
     A/Minnesota/97/2024_H3N2: max_fold_change_from_median
+    A/Darwin/9/2021_H3N2: max_fold_change_from_median
   UWMC-39:
     A/Netherlands/10563/2023_H3N2: max_fold_change_from_median
     A/Rhode_Island/15446/2025_H3N2: max_fold_change_from_median
   UWMC-4:
-    A/Darwin/6/2021_H3N2: max_fold_change_from_median
     A/Nevada/216/2024_H3N2: max_fold_change_from_median
+    A/Darwin/6/2021_H3N2: max_fold_change_from_median
   UWMC-40: {}
   UWMC-41: {}
   UWMC-42:
