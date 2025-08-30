@@ -7,7 +7,7 @@ _*
 # ignores specific to seqneut-pipeline output
 
 docs/*
-#!docs/*.html  # eventually remove this
+!docs/*.html
 
 results/*
 
