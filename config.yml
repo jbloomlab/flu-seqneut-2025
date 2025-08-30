@@ -12,10 +12,13 @@ recent_vaccine_strains:
   A/Thailand/8/2022_H3N2: 2024-2025 egg-based vaccine
   A/Massachusetts/18/2022_H3N2: 2024-2025 cell-based vaccine
 
-# Configuration relevant to aggregated analyses of human sera titeres
+# Configuration relevant to aggregated analyses of human sera titers
 human_sera_groups_to_exclude:  # sera groups excluded from aggregated human sera analysis
   - FCI  # these are ferret sera
-human_sera_to_exclude: []  # individual sera excluded from aggregated human sera analysis
+human_sera_to_exclude: # individual sera excluded from aggregated human sera analysis
+  - SCH_19 # This sera only got titers for 85% of viruses (below min_frac_strains = 0.9)
+  - SCH_22 # This sera only got titers for 88% of viruses (below min_frac_strains = 0.9)
+  - SCH_26 # This sera only got titers for 77% of viruses (below min_frac_strains = 0.9)
 
 # Configuration for plots of titers against human sera
 human_sera_plots_params:
@@ -23,7 +26,7 @@ human_sera_plots_params:
   titer_lower_limit: 40  # lower limit of titers in assay
   min_frac_strains: 0.9  # only include sera w titers against this fraction of strains
   min_frac_sera: 0.75  # only include strains w titers against this fraction of sera
-  min_frac_action: drop  # "drop" sera/strains below min_frac, or "raise" error
+  min_frac_action: raise  # "drop" sera/strains below min_frac, or "raise" error
 
 
 # --- Configuration for `seqneut-pipeline` ----------------------------------------------
