@@ -1,6 +1,5 @@
 wells: {}
-barcodes:
-  AAATGTTTAATAGACG: min_neut_standard_frac_per_well
+barcodes: {}
 barcode_wells:
   CTCTTACGCTCCTACG D12: min_no_serum_count_per_viral_barcode_well
   ATGGTTTTACGTCCAT H4: max_frac_infectivity_per_viral_barcode_well

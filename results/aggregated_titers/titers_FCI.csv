@@ -79,7 +79,6 @@ FCI,FCI_1,A/Pennsylvania/288/2024_H3N2,61.51,interpolated,5.863,2,midpoint
 FCI,FCI_1,A/Punta_Arenas/83659/2024_H3N2,50.28,interpolated,9.026,2,midpoint
 FCI,FCI_1,A/Qatar/83328/2024_H1N1,63.43,interpolated,5.651,2,midpoint
 FCI,FCI_1,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,44.39,interpolated,,1,midpoint
-FCI,FCI_1,A/Queensland/IN000684/2024_H1N1,52.37,interpolated,,1,midpoint
 FCI,FCI_1,A/Queensland/IN000692/2024_H3N2,266,interpolated,59.47,2,midpoint
 FCI,FCI_1,A/Queensland/IN000803/2024_H3N2,89.65,interpolated,11.92,2,midpoint
 FCI,FCI_1,A/Rhode_Island/15446/2025_H3N2,109.1,interpolated,6.686,2,midpoint
@@ -358,7 +357,6 @@ FCI,FCI_11,A/Pennsylvania/288/2024_H3N2,66.46,interpolated,19.87,2,midpoint
 FCI,FCI_11,A/Punta_Arenas/83659/2024_H3N2,90.57,interpolated,2.913,2,midpoint
 FCI,FCI_11,A/Qatar/83328/2024_H1N1,86.83,interpolated,24.44,2,midpoint
 FCI,FCI_11,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,74.34,interpolated,,1,midpoint
-FCI,FCI_11,A/Queensland/IN000684/2024_H1N1,69.45,interpolated,,1,midpoint
 FCI,FCI_11,A/Queensland/IN000692/2024_H3N2,311.2,interpolated,54.95,2,midpoint
 FCI,FCI_11,A/Queensland/IN000803/2024_H3N2,243.5,interpolated,13.36,2,midpoint
 FCI,FCI_11,A/Rhode_Island/15446/2025_H3N2,143.9,interpolated,2.392,2,midpoint
@@ -497,7 +495,6 @@ FCI,FCI_12,A/Pennsylvania/288/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_12,A/Punta_Arenas/83659/2024_H3N2,40.31,upper,0.3052,2,midpoint
 FCI,FCI_12,A/Qatar/83328/2024_H1N1,63.74,interpolated,0.5938,2,midpoint
 FCI,FCI_12,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,43.61,interpolated,,1,midpoint
-FCI,FCI_12,A/Queensland/IN000684/2024_H1N1,44.04,interpolated,,1,midpoint
 FCI,FCI_12,A/Queensland/IN000692/2024_H3N2,230.6,interpolated,51.83,2,midpoint
 FCI,FCI_12,A/Queensland/IN000803/2024_H3N2,139,interpolated,29.03,2,midpoint
 FCI,FCI_12,A/Rhode_Island/15446/2025_H3N2,180.4,interpolated,37.67,2,midpoint
@@ -636,7 +633,6 @@ FCI,FCI_13,A/Pennsylvania/288/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_13,A/Punta_Arenas/83659/2024_H3N2,84.87,interpolated,16.79,2,midpoint
 FCI,FCI_13,A/Qatar/83328/2024_H1N1,2979,interpolated,34.73,2,midpoint
 FCI,FCI_13,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,971.4,interpolated,,1,midpoint
-FCI,FCI_13,A/Queensland/IN000684/2024_H1N1,4292,interpolated,,1,midpoint
 FCI,FCI_13,A/Queensland/IN000692/2024_H3N2,203.3,interpolated,27.85,2,midpoint
 FCI,FCI_13,A/Queensland/IN000803/2024_H3N2,83.78,upper,43.78,2,midpoint
 FCI,FCI_13,A/Rhode_Island/15446/2025_H3N2,100,interpolated,54.06,2,midpoint
@@ -775,7 +771,6 @@ FCI,FCI_14,A/Pennsylvania/288/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_14,A/Punta_Arenas/83659/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_14,A/Qatar/83328/2024_H1N1,40,upper,0,2,midpoint
 FCI,FCI_14,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,40,upper,,1,midpoint
-FCI,FCI_14,A/Queensland/IN000684/2024_H1N1,40,upper,,1,midpoint
 FCI,FCI_14,A/Queensland/IN000692/2024_H3N2,80.91,interpolated,1.445,2,midpoint
 FCI,FCI_14,A/Queensland/IN000803/2024_H3N2,43.92,upper,3.923,2,midpoint
 FCI,FCI_14,A/Rhode_Island/15446/2025_H3N2,42.79,upper,2.789,2,midpoint
@@ -915,7 +910,6 @@ FCI,FCI_15,A/Pennsylvania/288/2024_H3N2,49.56,interpolated,9.348,2,midpoint
 FCI,FCI_15,A/Punta_Arenas/83659/2024_H3N2,92.03,interpolated,9.461,2,midpoint
 FCI,FCI_15,A/Qatar/83328/2024_H1N1,423.3,interpolated,47.26,2,midpoint
 FCI,FCI_15,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,411.6,interpolated,,1,midpoint
-FCI,FCI_15,A/Queensland/IN000684/2024_H1N1,511,interpolated,,1,midpoint
 FCI,FCI_15,A/Queensland/IN000692/2024_H3N2,277.1,interpolated,29.49,2,midpoint
 FCI,FCI_15,A/Queensland/IN000803/2024_H3N2,76.01,interpolated,19.46,2,midpoint
 FCI,FCI_15,A/Rhode_Island/15446/2025_H3N2,219.4,interpolated,31.17,2,midpoint
@@ -1055,7 +1049,6 @@ FCI,FCI_16,A/Pennsylvania/288/2024_H3N2,44.52,upper,4.52,2,midpoint
 FCI,FCI_16,A/Punta_Arenas/83659/2024_H3N2,97.72,interpolated,51.34,2,midpoint
 FCI,FCI_16,A/Qatar/83328/2024_H1N1,74.27,upper,34.27,2,midpoint
 FCI,FCI_16,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,76.24,interpolated,,1,midpoint
-FCI,FCI_16,A/Queensland/IN000684/2024_H1N1,86.89,interpolated,,1,midpoint
 FCI,FCI_16,A/Queensland/IN000692/2024_H3N2,360,interpolated,77.84,2,midpoint
 FCI,FCI_16,A/Queensland/IN000803/2024_H3N2,162.5,interpolated,57.16,2,midpoint
 FCI,FCI_16,A/Rhode_Island/15446/2025_H3N2,262.8,interpolated,84.86,2,midpoint
@@ -1195,7 +1188,6 @@ FCI,FCI_17,A/Pennsylvania/288/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_17,A/Punta_Arenas/83659/2024_H3N2,74.53,interpolated,,1,midpoint
 FCI,FCI_17,A/Qatar/83328/2024_H1N1,90.98,interpolated,14.94,2,midpoint
 FCI,FCI_17,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,40,upper,,1,midpoint
-FCI,FCI_17,A/Queensland/IN000684/2024_H1N1,40,upper,,1,midpoint
 FCI,FCI_17,A/Queensland/IN000692/2024_H3N2,358.6,interpolated,94.21,2,midpoint
 FCI,FCI_17,A/Queensland/IN000803/2024_H3N2,353.2,interpolated,163.5,2,midpoint
 FCI,FCI_17,A/Rhode_Island/15446/2025_H3N2,381.3,interpolated,41.07,2,midpoint
@@ -1336,7 +1328,6 @@ FCI,FCI_18,A/Pennsylvania/288/2024_H3N2,53.47,upper,13.47,2,midpoint
 FCI,FCI_18,A/Punta_Arenas/83659/2024_H3N2,90.96,interpolated,18.07,2,midpoint
 FCI,FCI_18,A/Qatar/83328/2024_H1N1,40.31,upper,0.313,2,midpoint
 FCI,FCI_18,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,40.81,interpolated,,1,midpoint
-FCI,FCI_18,A/Queensland/IN000684/2024_H1N1,42.1,interpolated,,1,midpoint
 FCI,FCI_18,A/Queensland/IN000692/2024_H3N2,172.2,interpolated,84.05,2,midpoint
 FCI,FCI_18,A/Queensland/IN000803/2024_H3N2,158.3,interpolated,61.48,2,midpoint
 FCI,FCI_18,A/Rhode_Island/15446/2025_H3N2,269.1,interpolated,70.18,2,midpoint
@@ -1477,7 +1468,6 @@ FCI,FCI_2,A/Pennsylvania/288/2024_H3N2,40,upper,,1,midpoint
 FCI,FCI_2,A/Punta_Arenas/83659/2024_H3N2,47.72,interpolated,3.179,2,midpoint
 FCI,FCI_2,A/Qatar/83328/2024_H1N1,65.44,interpolated,7.797,2,midpoint
 FCI,FCI_2,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,42.16,interpolated,,1,midpoint
-FCI,FCI_2,A/Queensland/IN000684/2024_H1N1,57.3,interpolated,,1,midpoint
 FCI,FCI_2,A/Queensland/IN000692/2024_H3N2,359.2,interpolated,137.8,2,midpoint
 FCI,FCI_2,A/Queensland/IN000803/2024_H3N2,67.85,upper,27.85,2,midpoint
 FCI,FCI_2,A/Rhode_Island/15446/2025_H3N2,169.8,interpolated,39.97,2,midpoint
@@ -1617,7 +1607,6 @@ FCI,FCI_3,A/Pennsylvania/288/2024_H3N2,51.79,upper,11.79,2,midpoint
 FCI,FCI_3,A/Punta_Arenas/83659/2024_H3N2,61.32,interpolated,7.535,2,midpoint
 FCI,FCI_3,A/Qatar/83328/2024_H1N1,40.81,interpolated,0.01844,2,midpoint
 FCI,FCI_3,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,42.48,interpolated,,1,midpoint
-FCI,FCI_3,A/Queensland/IN000684/2024_H1N1,42.26,interpolated,,1,midpoint
 FCI,FCI_3,A/Queensland/IN000692/2024_H3N2,148.3,interpolated,6.968,2,midpoint
 FCI,FCI_3,A/Queensland/IN000803/2024_H3N2,95.38,interpolated,6.236,2,midpoint
 FCI,FCI_3,A/Rhode_Island/15446/2025_H3N2,73.8,interpolated,2.96,2,midpoint
@@ -1757,7 +1746,6 @@ FCI,FCI_4,A/Pennsylvania/288/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_4,A/Punta_Arenas/83659/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_4,A/Qatar/83328/2024_H1N1,46.05,upper,6.051,2,midpoint
 FCI,FCI_4,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,40,upper,,1,midpoint
-FCI,FCI_4,A/Queensland/IN000684/2024_H1N1,40,upper,,1,midpoint
 FCI,FCI_4,A/Queensland/IN000692/2024_H3N2,62.66,interpolated,17.21,2,midpoint
 FCI,FCI_4,A/Queensland/IN000803/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_4,A/Rhode_Island/15446/2025_H3N2,40,upper,0,2,midpoint
@@ -1897,7 +1885,6 @@ FCI,FCI_5,A/Pennsylvania/288/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_5,A/Punta_Arenas/83659/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_5,A/Qatar/83328/2024_H1N1,44.82,upper,4.821,2,midpoint
 FCI,FCI_5,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,40,upper,,1,midpoint
-FCI,FCI_5,A/Queensland/IN000684/2024_H1N1,40,upper,,1,midpoint
 FCI,FCI_5,A/Queensland/IN000692/2024_H3N2,103.6,interpolated,27.33,2,midpoint
 FCI,FCI_5,A/Queensland/IN000803/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_5,A/Rhode_Island/15446/2025_H3N2,54.23,interpolated,11.43,2,midpoint
@@ -2037,7 +2024,6 @@ FCI,FCI_6,A/Pennsylvania/288/2024_H3N2,43.24,upper,3.24,2,midpoint
 FCI,FCI_6,A/Punta_Arenas/83659/2024_H3N2,56.99,upper,16.99,2,midpoint
 FCI,FCI_6,A/Qatar/83328/2024_H1N1,72.71,interpolated,9.605,2,midpoint
 FCI,FCI_6,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,40,upper,,1,midpoint
-FCI,FCI_6,A/Queensland/IN000684/2024_H1N1,97.97,interpolated,,1,midpoint
 FCI,FCI_6,A/Queensland/IN000692/2024_H3N2,220.6,interpolated,32,2,midpoint
 FCI,FCI_6,A/Queensland/IN000803/2024_H3N2,94.46,interpolated,5.774,2,midpoint
 FCI,FCI_6,A/Rhode_Island/15446/2025_H3N2,144.3,interpolated,0.7503,2,midpoint
@@ -2176,7 +2162,6 @@ FCI,FCI_7,A/Pennsylvania/288/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_7,A/Punta_Arenas/83659/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_7,A/Qatar/83328/2024_H1N1,63.97,interpolated,12.15,2,midpoint
 FCI,FCI_7,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,40,upper,,1,midpoint
-FCI,FCI_7,A/Queensland/IN000684/2024_H1N1,59.56,interpolated,,1,midpoint
 FCI,FCI_7,A/Queensland/IN000692/2024_H3N2,214.4,interpolated,74.47,2,midpoint
 FCI,FCI_7,A/Queensland/IN000803/2024_H3N2,42.72,upper,2.725,2,midpoint
 FCI,FCI_7,A/Rhode_Island/15446/2025_H3N2,84.53,interpolated,4.752,2,midpoint
@@ -2316,7 +2301,6 @@ FCI,FCI_8,A/Pennsylvania/288/2024_H3N2,40,upper,,1,midpoint
 FCI,FCI_8,A/Punta_Arenas/83659/2024_H3N2,42.74,upper,2.741,2,midpoint
 FCI,FCI_8,A/Qatar/83328/2024_H1N1,67.92,interpolated,21.38,2,midpoint
 FCI,FCI_8,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,40,upper,,1,midpoint
-FCI,FCI_8,A/Queensland/IN000684/2024_H1N1,40,upper,,1,midpoint
 FCI,FCI_8,A/Queensland/IN000692/2024_H3N2,304.7,interpolated,97.14,2,midpoint
 FCI,FCI_8,A/Queensland/IN000803/2024_H3N2,100.7,interpolated,9.841,2,midpoint
 FCI,FCI_8,A/Rhode_Island/15446/2025_H3N2,127.2,interpolated,41.03,2,midpoint
@@ -2455,7 +2439,6 @@ FCI,FCI_9,A/Pennsylvania/288/2024_H3N2,40,upper,0,2,midpoint
 FCI,FCI_9,A/Punta_Arenas/83659/2024_H3N2,53.09,upper,13.09,2,midpoint
 FCI,FCI_9,A/Qatar/83328/2024_H1N1,74.25,interpolated,19.49,2,midpoint
 FCI,FCI_9,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,45.53,interpolated,,1,midpoint
-FCI,FCI_9,A/Queensland/IN000684/2024_H1N1,65.35,interpolated,,1,midpoint
 FCI,FCI_9,A/Queensland/IN000692/2024_H3N2,244.4,interpolated,24.44,2,midpoint
 FCI,FCI_9,A/Queensland/IN000803/2024_H3N2,86.95,interpolated,17.79,2,midpoint
 FCI,FCI_9,A/Rhode_Island/15446/2025_H3N2,171.7,interpolated,12.05,2,midpoint
