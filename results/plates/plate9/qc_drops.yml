@@ -3,10 +3,8 @@ wells:
 barcodes: {}
 barcode_wells:
   GATTCAGATGCCCACC D12: min_no_serum_count_per_viral_barcode_well
-  AAATGTTTAATAGACG D12: min_no_serum_count_per_viral_barcode_well
   CACCAATCTTCGAACT D12: min_no_serum_count_per_viral_barcode_well
   CTCTTACGCTCCTACG F12: min_no_serum_count_per_viral_barcode_well
-  AAATGTTTAATAGACG F12: min_no_serum_count_per_viral_barcode_well
   TTAATGTAGCCGCTCC H12: min_no_serum_count_per_viral_barcode_well
   GCCGGCGTTAGTGTCA D1: max_frac_infectivity_per_viral_barcode_well
   GATCGCCACTGATAAG F1: max_frac_infectivity_per_viral_barcode_well
@@ -61,9 +59,7 @@ barcode_wells:
   CCGCATTAGCGGGAGG F4: max_frac_infectivity_per_viral_barcode_well
   TCGAGTTAATATGCGC F4: max_frac_infectivity_per_viral_barcode_well
   GCCGGCGTTAGTGTCA F4: max_frac_infectivity_per_viral_barcode_well
-  AAATGTTTAATAGACG F4: max_frac_infectivity_per_viral_barcode_well
   ACGCAAATAGACCGAA H5: max_frac_infectivity_per_viral_barcode_well
-  AAATGTTTAATAGACG H5: max_frac_infectivity_per_viral_barcode_well
   CAAAAGCAGCACGATA C7: max_frac_infectivity_per_viral_barcode_well
   GAAATCCCCAAATAAC E8: max_frac_infectivity_per_viral_barcode_well
   GATCACGCAGAAAAAG F8: max_frac_infectivity_per_viral_barcode_well

@@ -2,7 +2,6 @@ wells:
   F2: avg_barcode_counts_per_well
 barcodes: {}
 barcode_wells:
-  AAATGTTTAATAGACG D12: min_no_serum_count_per_viral_barcode_well
   TACAAGAGAGGGGTCC D12: min_no_serum_count_per_viral_barcode_well
   TACAAGAGAGGGGTCC F12: min_no_serum_count_per_viral_barcode_well
   CCTTTCTCAAAACATA G12: min_no_serum_count_per_viral_barcode_well
@@ -49,7 +48,6 @@ barcode_serum_replicates:
   AGTCCTATCCTCAAAT SCH_39: min_dilutions_per_barcode_serum_replicate
   CACCAATCTTCGAACT SCH_39: goodness_of_fit
   AAAGACCTTTAACTCT SCH_41: goodness_of_fit
-  AAATGTTTAATAGACG SCH_41: goodness_of_fit
   AACTGCGTTCATCGAT SCH_41: goodness_of_fit
   AACTTCCGTCGCCTGA SCH_41: goodness_of_fit
   AAGAAGACTTTGTGAT SCH_41: goodness_of_fit

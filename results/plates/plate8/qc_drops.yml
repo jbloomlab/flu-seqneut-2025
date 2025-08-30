@@ -25,7 +25,6 @@ barcode_wells:
 barcode_serum_replicates:
   AACCGTACCGCGTTTA SCH_10: goodness_of_fit
   AAAGACCTTTAACTCT SCH_12: goodness_of_fit
-  AAATGTTTAATAGACG SCH_12: goodness_of_fit
   AACCGTACCGCGTTTA SCH_12: goodness_of_fit
   ATCCGATTTAAAGGCA SCH_12: goodness_of_fit
   CGGGAATCTCCCATAC SCH_12: goodness_of_fit
@@ -80,7 +79,6 @@ barcode_serum_replicates:
   TTCATCAAGTTGGTGC SCH_13: goodness_of_fit
   TTGAAAAAATCATAAA SCH_13: goodness_of_fit
   TTGACTCACCGAATAA SCH_13: goodness_of_fit
-  AAATGTTTAATAGACG SCH_14: goodness_of_fit
   AACCACCCCAGAGATG SCH_14: goodness_of_fit
   AACCGTACCGCGTTTA SCH_14: goodness_of_fit
   AAGATTGATTGAAGTT SCH_14: goodness_of_fit
@@ -114,7 +112,6 @@ barcode_serum_replicates:
   TGTAATAGGCGTCACA SCH_14: goodness_of_fit
   TTGACTCACCGAATAA SCH_14: goodness_of_fit
   TTGCTCCTGAGTAGTA SCH_14: goodness_of_fit
-  AAATGTTTAATAGACG SCH_15: goodness_of_fit
   CACGGGCTAATGTCTC SCH_15: goodness_of_fit
   CCCCCGCTGTTTAAAA SCH_15: goodness_of_fit
   TTAATGTAGCCGCTCC SCH_15: goodness_of_fit

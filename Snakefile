@@ -74,6 +74,7 @@ rule plot_human_sera_titers:
         virus_csv=config["viral_libraries"]["flu-seqneut-2025_library_actual"],
         viral_strain_plot_order=config["viral_strain_plot_order"],
     output:
+        sera_collection_date_and_age_plot='results/aggregated_analyses/sera_collection_dates_and_ages.html',
         chart_htmls=[
             f"results/aggregated_analyses/human_sera_titers_{subtype}_{strain_type}_{chart_type}.html"
             for subtype in ["H1N1", "H3N2"]

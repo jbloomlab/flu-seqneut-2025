@@ -1,6 +1,5 @@
 wells: {}
 barcodes:
-  AAATGTTTAATAGACG: min_neut_standard_frac_per_well
   AGTCCTATCCTCAAAT: min_neut_standard_frac_per_well
   CACCAATCTTCGAACT: min_neut_standard_frac_per_well
   CTCTTACGCTCCTACG: min_neut_standard_frac_per_well

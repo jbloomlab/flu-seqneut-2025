@@ -51,7 +51,6 @@ barcode_serum_replicates:
   TTCTGTCCAGACTCGT UWMC-10: goodness_of_fit
   TTGCTCCTGAGTAGTA UWMC-10: goodness_of_fit
   TTTATATCCAACACCA UWMC-10: goodness_of_fit
-  AAATGTTTAATAGACG UWMC-11: goodness_of_fit
   AGACCATCGCACCCAA UWMC-11: goodness_of_fit
   ATGGCCCACGGGCATA UWMC-11: goodness_of_fit
   CTATCTTAATCTACAG UWMC-11: goodness_of_fit
@@ -68,7 +67,6 @@ barcode_serum_replicates:
   GATCGCCACTGATAAG UWMC-3: goodness_of_fit
   TGTGGAGCGCCCTTAC UWMC-3: goodness_of_fit
   TTGCAATTGAAACATA UWMC-3: goodness_of_fit
-  AAATGTTTAATAGACG UWMC-5: goodness_of_fit
   AACCACCCCAGAGATG UWMC-6: goodness_of_fit
   AGCGACATCGCCCTTT UWMC-6: goodness_of_fit
   ATTAGGGCTACGTGAG UWMC-6: goodness_of_fit

@@ -78,7 +78,6 @@ FCI,FCI_3,A/Pennsylvania/288/2024_H3N2,51.79,upper,11.79,2,midpoint
 FCI,FCI_3,A/Punta_Arenas/83659/2024_H3N2,61.32,interpolated,7.535,2,midpoint
 FCI,FCI_3,A/Qatar/83328/2024_H1N1,40.81,interpolated,0.01844,2,midpoint
 FCI,FCI_3,A/Qinghai-Chengzhong/SWL1410/2024_H1N1,42.48,interpolated,,1,midpoint
-FCI,FCI_3,A/Queensland/IN000684/2024_H1N1,42.26,interpolated,,1,midpoint
 FCI,FCI_3,A/Queensland/IN000692/2024_H3N2,148.3,interpolated,6.968,2,midpoint
 FCI,FCI_3,A/Queensland/IN000803/2024_H3N2,95.38,interpolated,6.236,2,midpoint
 FCI,FCI_3,A/Rhode_Island/15446/2025_H3N2,73.8,interpolated,2.96,2,midpoint

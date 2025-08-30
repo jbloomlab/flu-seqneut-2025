@@ -52,7 +52,6 @@ plate1-2:
     TTCTGTCCAGACTCGT UWMC-10: goodness_of_fit
     TTGCTCCTGAGTAGTA UWMC-10: goodness_of_fit
     TTTATATCCAACACCA UWMC-10: goodness_of_fit
-    AAATGTTTAATAGACG UWMC-11: goodness_of_fit
     AGACCATCGCACCCAA UWMC-11: goodness_of_fit
     ATGGCCCACGGGCATA UWMC-11: goodness_of_fit
     CTATCTTAATCTACAG UWMC-11: goodness_of_fit
@@ -69,7 +68,6 @@ plate1-2:
     GATCGCCACTGATAAG UWMC-3: goodness_of_fit
     TGTGGAGCGCCCTTAC UWMC-3: goodness_of_fit
     TTGCAATTGAAACATA UWMC-3: goodness_of_fit
-    AAATGTTTAATAGACG UWMC-5: goodness_of_fit
     AACCACCCCAGAGATG UWMC-6: goodness_of_fit
     AGCGACATCGCCCTTT UWMC-6: goodness_of_fit
     ATTAGGGCTACGTGAG UWMC-6: goodness_of_fit
@@ -143,7 +141,6 @@ plate2-2:
     CGGGAACATACATAAC UWMC-21: goodness_of_fit
     GTCGCCGCTAATCCGA UWMC-21: goodness_of_fit
     TATTCCTAACTAGCGA UWMC-21: goodness_of_fit
-    AAATGTTTAATAGACG UWMC-22: goodness_of_fit
     AGCGACATCGCCCTTT UWMC-22: goodness_of_fit
     AGTTTTTATAACTTGC UWMC-22: goodness_of_fit
     GCATCCTCAACTCCTA UWMC-22: goodness_of_fit
@@ -271,7 +268,6 @@ plate6:
     CAATTCGCCGTTCCCC F1: max_frac_infectivity_per_viral_barcode_well
     CCTTTCTCAAAACATA H1: max_frac_infectivity_per_viral_barcode_well
     CTTACTGCGCGAGAGT E2: max_frac_infectivity_per_viral_barcode_well
-    AAATGTTTAATAGACG G2: max_frac_infectivity_per_viral_barcode_well
     AGAGCTAAAAAGAGGA A3: max_frac_infectivity_per_viral_barcode_well
     CCTTTCTCAAAACATA A3: max_frac_infectivity_per_viral_barcode_well
     AACCACCCCAGAGATG B3: max_frac_infectivity_per_viral_barcode_well
@@ -297,9 +293,7 @@ plate6:
     GATCGCCACTGATAAG D4: max_frac_infectivity_per_viral_barcode_well
     CACAGACAATAAAAAA E4: max_frac_infectivity_per_viral_barcode_well
     ATAACGTTTGTGCAAA F4: max_frac_infectivity_per_viral_barcode_well
-    AAATGTTTAATAGACG F4: max_frac_infectivity_per_viral_barcode_well
     TTGAAAAAATCATAAA G4: max_frac_infectivity_per_viral_barcode_well
-    AAATGTTTAATAGACG G4: max_frac_infectivity_per_viral_barcode_well
     TATCCAAGGGACGGAC H4: max_frac_infectivity_per_viral_barcode_well
     CGTTAACGGCCTATCC A5: max_frac_infectivity_per_viral_barcode_well
     CAGATAGTGATGAACA E5: max_frac_infectivity_per_viral_barcode_well
@@ -325,7 +319,6 @@ plate6:
     CATAAAAGACTGTATA F7: max_frac_infectivity_per_viral_barcode_well
     TGTTGTAATCTGAATA F7: max_frac_infectivity_per_viral_barcode_well
     AGTCCTATCCTCAAAT G7: max_frac_infectivity_per_viral_barcode_well
-    AAATGTTTAATAGACG G7: max_frac_infectivity_per_viral_barcode_well
     CATGGGAATTGCCACT H7: max_frac_infectivity_per_viral_barcode_well
     TAAAAAGCCTCCATGA H7: max_frac_infectivity_per_viral_barcode_well
     CGGCCAGGGAATCAAA H7: max_frac_infectivity_per_viral_barcode_well
@@ -342,7 +335,6 @@ plate6:
     CAAAATCTACGGCGAC H8: max_frac_infectivity_per_viral_barcode_well
     CGTTTTTGGTTCGAGG H8: max_frac_infectivity_per_viral_barcode_well
     AGTCCTATCCTCAAAT H8: max_frac_infectivity_per_viral_barcode_well
-    AAATGTTTAATAGACG H8: max_frac_infectivity_per_viral_barcode_well
     AAAGTAGCAGAGGATT E9: max_frac_infectivity_per_viral_barcode_well
     AACTTCCCTGACTGCT H9: max_frac_infectivity_per_viral_barcode_well
     CAAAATCTACGGCGAC H9: max_frac_infectivity_per_viral_barcode_well
@@ -351,7 +343,6 @@ plate6:
     AGACCATCGCACCCAA D10: max_frac_infectivity_per_viral_barcode_well
     CCTTTCTCAAAACATA F10: max_frac_infectivity_per_viral_barcode_well
     AACCGTACCGCGTTTA G10: max_frac_infectivity_per_viral_barcode_well
-    AAATGTTTAATAGACG G10: max_frac_infectivity_per_viral_barcode_well
     CGGCCAGGGAATCAAA H10: max_frac_infectivity_per_viral_barcode_well
     GCCGCTGCGGCGTGTG G11: max_frac_infectivity_per_viral_barcode_well
     AACCGTACCGCGTTTA H11: max_frac_infectivity_per_viral_barcode_well
@@ -371,7 +362,6 @@ plate6:
     TCTCAGCTCTTAGCCG FCI_1: goodness_of_fit
     TGATCTGTGACATTGC FCI_1: goodness_of_fit
     AAAGTAGCAGAGGATT FCI_10: goodness_of_fit
-    AAATGTTTAATAGACG FCI_10: goodness_of_fit
     AAATTCACAATATCCA FCI_10: goodness_of_fit
     AAGTTAGTAGACCCAC FCI_10: goodness_of_fit
     CAATTCGCCGTTCCCC FCI_10: goodness_of_fit
@@ -842,7 +832,6 @@ plate8:
   barcode_serum_replicates:
     AACCGTACCGCGTTTA SCH_10: goodness_of_fit
     AAAGACCTTTAACTCT SCH_12: goodness_of_fit
-    AAATGTTTAATAGACG SCH_12: goodness_of_fit
     AACCGTACCGCGTTTA SCH_12: goodness_of_fit
     ATCCGATTTAAAGGCA SCH_12: goodness_of_fit
     CGGGAATCTCCCATAC SCH_12: goodness_of_fit
@@ -897,7 +886,6 @@ plate8:
     TTCATCAAGTTGGTGC SCH_13: goodness_of_fit
     TTGAAAAAATCATAAA SCH_13: goodness_of_fit
     TTGACTCACCGAATAA SCH_13: goodness_of_fit
-    AAATGTTTAATAGACG SCH_14: goodness_of_fit
     AACCACCCCAGAGATG SCH_14: goodness_of_fit
     AACCGTACCGCGTTTA SCH_14: goodness_of_fit
     AAGATTGATTGAAGTT SCH_14: goodness_of_fit
@@ -931,7 +919,6 @@ plate8:
     TGTAATAGGCGTCACA SCH_14: goodness_of_fit
     TTGACTCACCGAATAA SCH_14: goodness_of_fit
     TTGCTCCTGAGTAGTA SCH_14: goodness_of_fit
-    AAATGTTTAATAGACG SCH_15: goodness_of_fit
     CACGGGCTAATGTCTC SCH_15: goodness_of_fit
     CCCCCGCTGTTTAAAA SCH_15: goodness_of_fit
     TTAATGTAGCCGCTCC SCH_15: goodness_of_fit
@@ -944,10 +931,8 @@ plate9:
   barcodes: {}
   barcode_wells:
     GATTCAGATGCCCACC D12: min_no_serum_count_per_viral_barcode_well
-    AAATGTTTAATAGACG D12: min_no_serum_count_per_viral_barcode_well
     CACCAATCTTCGAACT D12: min_no_serum_count_per_viral_barcode_well
     CTCTTACGCTCCTACG F12: min_no_serum_count_per_viral_barcode_well
-    AAATGTTTAATAGACG F12: min_no_serum_count_per_viral_barcode_well
     TTAATGTAGCCGCTCC H12: min_no_serum_count_per_viral_barcode_well
     GCCGGCGTTAGTGTCA D1: max_frac_infectivity_per_viral_barcode_well
     GATCGCCACTGATAAG F1: max_frac_infectivity_per_viral_barcode_well
@@ -1002,9 +987,7 @@ plate9:
     CCGCATTAGCGGGAGG F4: max_frac_infectivity_per_viral_barcode_well
     TCGAGTTAATATGCGC F4: max_frac_infectivity_per_viral_barcode_well
     GCCGGCGTTAGTGTCA F4: max_frac_infectivity_per_viral_barcode_well
-    AAATGTTTAATAGACG F4: max_frac_infectivity_per_viral_barcode_well
     ACGCAAATAGACCGAA H5: max_frac_infectivity_per_viral_barcode_well
-    AAATGTTTAATAGACG H5: max_frac_infectivity_per_viral_barcode_well
     CAAAAGCAGCACGATA C7: max_frac_infectivity_per_viral_barcode_well
     GAAATCCCCAAATAAC E8: max_frac_infectivity_per_viral_barcode_well
     GATCACGCAGAAAAAG F8: max_frac_infectivity_per_viral_barcode_well
@@ -1399,7 +1382,6 @@ plate10:
   barcode_wells:
     AGTCCTATCCTCAAAT A12: min_no_serum_count_per_viral_barcode_well
     CGTGACCCCCTCCAAC E1: max_frac_infectivity_per_viral_barcode_well
-    AAATGTTTAATAGACG E1: max_frac_infectivity_per_viral_barcode_well
     CACCAATCTTCGAACT F1: max_frac_infectivity_per_viral_barcode_well
     TGCTATTCCGGCGCGG G1: max_frac_infectivity_per_viral_barcode_well
     CCTTTCTCAAAACATA H1: max_frac_infectivity_per_viral_barcode_well
@@ -1523,7 +1505,6 @@ plate11:
     F2: avg_barcode_counts_per_well
   barcodes: {}
   barcode_wells:
-    AAATGTTTAATAGACG D12: min_no_serum_count_per_viral_barcode_well
     TACAAGAGAGGGGTCC D12: min_no_serum_count_per_viral_barcode_well
     TACAAGAGAGGGGTCC F12: min_no_serum_count_per_viral_barcode_well
     CCTTTCTCAAAACATA G12: min_no_serum_count_per_viral_barcode_well
@@ -1570,7 +1551,6 @@ plate11:
     AGTCCTATCCTCAAAT SCH_39: min_dilutions_per_barcode_serum_replicate
     CACCAATCTTCGAACT SCH_39: goodness_of_fit
     AAAGACCTTTAACTCT SCH_41: goodness_of_fit
-    AAATGTTTAATAGACG SCH_41: goodness_of_fit
     AACTGCGTTCATCGAT SCH_41: goodness_of_fit
     AACTTCCGTCGCCTGA SCH_41: goodness_of_fit
     AAGAAGACTTTGTGAT SCH_41: goodness_of_fit
@@ -1646,8 +1626,7 @@ plate11:
 plate12_SCH:
   wells:
     F2: avg_barcode_counts_per_well
-  barcodes:
-    AAATGTTTAATAGACG: min_neut_standard_frac_per_well
+  barcodes: {}
   barcode_wells:
     CTCTTACGCTCCTACG D12: min_no_serum_count_per_viral_barcode_well
     TATCCAAGGGACGGAC B2: max_frac_infectivity_per_viral_barcode_well
@@ -1678,8 +1657,7 @@ plate12_SCH:
   serum_replicates: {}
 plate12_EPIHK:
   wells: {}
-  barcodes:
-    AAATGTTTAATAGACG: min_neut_standard_frac_per_well
+  barcodes: {}
   barcode_wells:
     CTCTTACGCTCCTACG D12: min_no_serum_count_per_viral_barcode_well
     ATGGTTTTACGTCCAT H4: max_frac_infectivity_per_viral_barcode_well
@@ -1838,7 +1816,6 @@ plate12_EPIHK:
 plate13:
   wells: {}
   barcodes:
-    AAATGTTTAATAGACG: min_neut_standard_frac_per_well
     AGTCCTATCCTCAAAT: min_neut_standard_frac_per_well
     CACCAATCTTCGAACT: min_neut_standard_frac_per_well
     CTCTTACGCTCCTACG: min_neut_standard_frac_per_well
@@ -1953,7 +1930,6 @@ plate14:
     C10: avg_barcode_counts_per_well
     C12: avg_barcode_counts_per_well
   barcodes:
-    AAATGTTTAATAGACG: min_neut_standard_frac_per_well
     CTCTTACGCTCCTACG: min_neut_standard_frac_per_well
   barcode_wells:
     GATTCAGATGCCCACC A12: min_no_serum_count_per_viral_barcode_well
@@ -2220,7 +2196,6 @@ plate14:
 plate15:
   wells: {}
   barcodes:
-    AAATGTTTAATAGACG: min_neut_standard_frac_per_well
     CCTTTCTCAAAACATA: min_neut_standard_frac_per_well
     CTCTTACGCTCCTACG: min_neut_standard_frac_per_well
   barcode_wells:
@@ -2310,7 +2285,6 @@ plate15:
 plate16:
   wells: {}
   barcodes:
-    AAATGTTTAATAGACG: min_neut_standard_frac_per_well
     AGTCCTATCCTCAAAT: min_neut_standard_frac_per_well
     CTCTTACGCTCCTACG: min_neut_standard_frac_per_well
     GATTCAGATGCCCACC: min_neut_standard_frac_per_well
@@ -2411,7 +2385,6 @@ plate16:
 plate17:
   wells: {}
   barcodes:
-    AAATGTTTAATAGACG: min_neut_standard_frac_per_well
     AGTCCTATCCTCAAAT: min_neut_standard_frac_per_well
     CTCTTACGCTCCTACG: min_neut_standard_frac_per_well
     GATTCAGATGCCCACC: min_neut_standard_frac_per_well
@@ -2645,7 +2618,6 @@ plate17:
 plate18:
   wells: {}
   barcodes:
-    AAATGTTTAATAGACG: min_neut_standard_frac_per_well
     CCTTTCTCAAAACATA: min_neut_standard_frac_per_well
     CTCTTACGCTCCTACG: min_neut_standard_frac_per_well
   barcode_wells:
@@ -2786,7 +2758,6 @@ plate18:
 plate19:
   wells: {}
   barcodes:
-    AAATGTTTAATAGACG: min_neut_standard_frac_per_well
     CTCTTACGCTCCTACG: min_neut_standard_frac_per_well
     GATTCAGATGCCCACC: min_neut_standard_frac_per_well
   barcode_wells:
@@ -2937,7 +2908,6 @@ plate19:
 plate20:
   wells: {}
   barcodes:
-    AAATGTTTAATAGACG: min_neut_standard_frac_per_well
     CCTTTCTCAAAACATA: min_neut_standard_frac_per_well
     CTCTTACGCTCCTACG: min_neut_standard_frac_per_well
     GATTCAGATGCCCACC: min_neut_standard_frac_per_well

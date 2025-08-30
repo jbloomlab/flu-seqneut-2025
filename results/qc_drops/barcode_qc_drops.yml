@@ -64,40 +64,6 @@ AAAGTAGCAGAGGATT:
     plate14 H8: max_frac_infectivity_per_viral_barcode_well
     plate6 E9: max_frac_infectivity_per_viral_barcode_well
     plate9 D11: max_frac_infectivity_per_viral_barcode_well
-AAATGTTTAATAGACG:
-  barcode_serum_replicates:
-    plate1-2 UWMC-11: goodness_of_fit
-    plate1-2 UWMC-5: goodness_of_fit
-    plate11 SCH_41: goodness_of_fit
-    plate2-2 UWMC-22: goodness_of_fit
-    plate6 FCI_10: goodness_of_fit
-    plate8 SCH_12: goodness_of_fit
-    plate8 SCH_14: goodness_of_fit
-    plate8 SCH_15: goodness_of_fit
-  barcode_wells:
-    plate10 E1: max_frac_infectivity_per_viral_barcode_well
-    plate11 D12: min_no_serum_count_per_viral_barcode_well
-    plate6 F4: max_frac_infectivity_per_viral_barcode_well
-    plate6 G10: max_frac_infectivity_per_viral_barcode_well
-    plate6 G2: max_frac_infectivity_per_viral_barcode_well
-    plate6 G4: max_frac_infectivity_per_viral_barcode_well
-    plate6 G7: max_frac_infectivity_per_viral_barcode_well
-    plate6 H8: max_frac_infectivity_per_viral_barcode_well
-    plate9 D12: min_no_serum_count_per_viral_barcode_well
-    plate9 F12: min_no_serum_count_per_viral_barcode_well
-    plate9 F4: max_frac_infectivity_per_viral_barcode_well
-    plate9 H5: max_frac_infectivity_per_viral_barcode_well
-  barcodes:
-    plate12_EPIHK: min_neut_standard_frac_per_well
-    plate12_SCH: min_neut_standard_frac_per_well
-    plate13: min_neut_standard_frac_per_well
-    plate14: min_neut_standard_frac_per_well
-    plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
-    plate17: min_neut_standard_frac_per_well
-    plate18: min_neut_standard_frac_per_well
-    plate19: min_neut_standard_frac_per_well
-    plate20: min_neut_standard_frac_per_well
 AAATTCACAATATCCA:
   barcode_serum_replicates:
     plate10 SCH_29: goodness_of_fit
