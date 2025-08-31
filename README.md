@@ -7,13 +7,16 @@ Experiments and analysis performed by Caroline Kikawa, using method and analysis
 
 Details about the viruses included in the library are in [data/viral_libraries/flu-seqneut-2025-barcode-to-strain_actual.csv](data/viral_libraries/flu-seqneut-2025-barcode-to-strain_actual.csv).
 That file contains an entry for each barcoded variant (note most strains have multiple barcodes) giving:
-  - strain name
-  - subtype
-  - strain_type: either a strain representative of this circulating in 2025 designed for this study, or a past vaccine strain
-  - barcode
-  - nucleotide sequence for the HA **ectodomain only**
-  - protein sequence for the HA **ectodomain only**
-  - Genbank accession
+  - *strain*: strain name
+  - *subtype*: H1N1 or H3N2
+  - *strain_type*: either a strain representative of this circulating in 2025 designed for this study, or a past vaccine strain
+  - *barcode*: nucleotide barcode
+  - *nt_sequence_HA_ectodomain*: nucleotide sequence for the HA **ectodomain only**
+  - *protein_sequence_HA_ectodomain*: protein sequence for the HA **ectodomain only**
+  - *accession*: Genbank accession
+  - *subclade*: subclade of strain
+  - *collection_date*: collection date of strain
+  - *vaccine_type*: if a vaccine strain, is it the cell- or egg-based strain
 
 Because the above file lists each barcode, strains are included more than once. If you want just FASTA files of the unique HA ectodomain sequences for the circulating 2025 strain and recent vaccine strains, see:
  - [results/viral_strain_seqs/circulating_2025_HA_ectodomain_prots.fa](results/viral_strain_seqs/circulating_2025_HA_ectodomain_prots.fa)
