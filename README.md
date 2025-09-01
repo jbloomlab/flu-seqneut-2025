@@ -1,5 +1,9 @@
-# Sequencing based neutralization assays using a library of pdmH1N1 and H3N2 human influenza strains
-Experiments and analysis performed by Caroline Kikawa, using method and analysis developed by the [Bloom lab](https://jbloomlab.github.io/) and described in [Loes et al (2024)](https://journals.asm.org/doi/10.1128/jvi.00689-24) and [Kikawa et al (2025)](https://www.biorxiv.org/content/10.1101/2025.03.04.641544v1).
+# Near real-time mapping of the human neutralizing antibody landscape to influenza virus to inform vaccine-strain selection in September 2025
+This repository has the data and computer code for the study described in [Kikawa et al (2025)]() **[Add citation when available]**.
+
+Experiments and analysis performed by Caroline Kikawa in the [Bloom lab](https://jbloomlab.github.io/) using the sequencing-based neutralization assay described in [Loes et al (2024)](https://journals.asm.org/doi/10.1128/jvi.00689-24) and [Kikawa et al (2025)](https://elifesciences.org/reviewed-preprints/106811).
+
+Briefly, this study measured neutralization titers to influenza viruses with HA from seasonal H3N2 and H1N1 viruses representative of those circulating in the summer of 2025 against a set of human sera collected in late 2024 to spring of 2025.
 
 ## Summary of key data
 
@@ -36,11 +40,14 @@ Specifically, the sera are from the following cohorts:
  - The University of Washington Medical Center (`UWMC`) cohort in Seattle, Washington, United States of America [data/sera_metadata/UWMC_metadata.csv](data/sera_metadata/UWMC_metadata.csv)
  - The National Institutes of Infectious Disease (`NIID`) cohort in Tokyo, Japan [data/sera_metadata/NIID_metadata.csv](data/sera_metadata/NIID_metadata.csv)
  - The EPI-HK cohort (`EPIHK`) at Hong Kong University in Hong Kong [data/sera_metadata/EPIHK_metadata.csv](data/sera_metadata/EPIHK_metadata.csv)
- - Innoculated ferrets from studies at the Francis Crick Institute (`FCI`) in London, United Kingdom [data/sera_metadata/FCI_metadata.csv](data/sera_metadata/FCI_metadata.csv)
+ - Innoculated ferrets from studies at the Francis Crick Institute (`FCI`) in London, United Kingdom [data/sera_metadata/FCI_metadata.csv](data/sera_metadata/FCI_metadata.csv). Note that there were some issues with coagulation of these ferret sera that may affect those titers.
 
 ### Titers
 The aggregated titers for all relevant **human sera** are in [results/aggregated_analyses/human_sera_titers.csv](results/aggregated_analyses/human_sera_titers.csv).
 Note that these titers are only for human sera not specified for exclusion (see relevant portion of [config.yml](config.yml) for details); in general the sera included here are the ones relevant to the goals of the study.
+
+### Interactive displays of results
+See the HTML documentation rendered at [https://jbloomlab.github.io/flu-seqneut-2025/](https://jbloomlab.github.io/flu-seqneut-2025/) for interactive plots summarizing the results (at the bottom of the page), as well as notebooks showing all neutralization curves and details on per-plate and per-serum quality control.
 
 ## Running the pipeline
 This repository contains an analysis of the data using the Bloom lab software [seqneut-pipeline](https://github.com/jbloomlab/seqneut-pipeline) as a submodule. See that repository for instructions on how to use Github submodules, including `seqneut-pipeline`. 
