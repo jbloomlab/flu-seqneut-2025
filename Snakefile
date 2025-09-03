@@ -13,8 +13,8 @@ rule all:
         # output from seqneut-pipeline
         seqneut_pipeline_outputs,
         # outputs from custom analyses
-        "results/viral_strain_seqs/circulating_2025_HA_ectodomain_nts.fa",
-        "results/viral_strain_seqs/circulating_2025_HA_ectodomain_prots.fa",
+        "results/viral_strain_seqs/recent_HA_ectodomain_nts.fa",
+        "results/viral_strain_seqs/recent_HA_ectodomain_prots.fa",
         "results/aggregated_analyses/human_sera_metadata.csv",
         "results/aggregated_analyses/human_sera_titers.csv",
         "results/aggregated_analyses/human_sera_titers_summarized.csv",
@@ -24,11 +24,12 @@ rule all:
 rule recent_strains_fasta:
     """Generate FASTA of recent strains in library."""
     input:
-        csv=config["viral_libraries"]["flu-seqneut-2025_library_actual"],
+        csv=config["viral_libraries"]["actual"],
     output:
-        nt_fasta="results/viral_strain_seqs/circulating_2025_HA_ectodomain_nts.fa",
-        prot_fasta="results/viral_strain_seqs/circulating_2025_HA_ectodomain_prots.fa",
+        nt_fasta="results/viral_strain_seqs/recent_HA_ectodomain_nts.fa",
+        prot_fasta="results/viral_strain_seqs/recent_HA_ectodomain_prots.fa",
     params:
+        circulating_strain_type=config["circulating_strain_type"],
         recent_vaccine_strains=config["recent_vaccine_strains"],  # also include these
     conda:
         "seqneut-pipeline/environment.yml"
@@ -71,13 +72,13 @@ rule plot_human_sera_titers:
     input:
         metadata_csv="results/aggregated_analyses/human_sera_metadata.csv",
         titers_csv="results/aggregated_analyses/human_sera_titers.csv",
-        virus_csv=config["viral_libraries"]["flu-seqneut-2025_library_actual"],
+        virus_csv=config["viral_libraries"]["actual"],
         viral_strain_plot_order=config["viral_strain_plot_order"],
     output:
         sera_collection_date_and_age_plot='results/aggregated_analyses/sera_collection_dates_and_ages.html',
         chart_htmls=[
             f"results/aggregated_analyses/human_sera_titers_{subtype}_{strain_type}_{chart_type}.html"
-            for subtype in ["H1N1", "H3N2"]
+            for subtype in config["subtypes"]
             for strain_type in ["recent", "vaccine"]
             for chart_type in ["individual_sera", "interquartile_range", "frac_below_cutoff"]
         ],
@@ -85,6 +86,7 @@ rule plot_human_sera_titers:
     params:
         recent_vaccine_strains=config["recent_vaccine_strains"],
         human_sera_plots_params=config["human_sera_plots_params"],
+        circulating_strain_type=config["circulating_strain_type"],
     conda:
         "seqneut-pipeline/environment.yml"
     log:
@@ -100,7 +102,7 @@ add_htmls_to_docs = {
     } | {
         f"Chart for {subtype} {strain_type} strains {chart_type}":
             f"results/aggregated_analyses/human_sera_titers_{subtype}_{strain_type}_{chart_type}.html"
-        for subtype in ["H1N1", "H3N2"]
+        for subtype in config["subtypes"]
         for strain_type in ["recent", "vaccine"]
         for chart_type in ["individual_sera", "interquartile_range", "frac_below_cutoff"]
     }

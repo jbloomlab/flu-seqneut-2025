@@ -54,8 +54,8 @@ results/miscellaneous_plates/*/*
 
 !results/viral_strain_seqs
 results/viral_strain_seqs/*
-!results/viral_strain_seqs/circulating_2025_HA_ectodomain_nts.fa
-!results/viral_strain_seqs/circulating_2025_HA_ectodomain_prots.fa
+!results/viral_strain_seqs/recent_HA_ectodomain_nts.fa
+!results/viral_strain_seqs/recent_HA_ectodomain_prots.fa
 
 !results/aggregated_analyses
 results/aggregated_analyses/*

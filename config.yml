@@ -2,6 +2,12 @@
 
 # --- Configuration for custom analyses in Snakefile outside of seqneut-pipeline --------
 
+# subtypes of strains
+subtypes: [H1N1, H3N2]
+
+# `strain_type` assigned to the recent circulating strains in the viral barcodes CSV
+circulating_strain_type: circulating_2025
+
 # For the most part our analyses separate recent and historical vaccine strains, but
 # consider these vaccine strains to be "recent" and include them alongside the recent strains.
 recent_vaccine_strains:
@@ -46,8 +52,8 @@ description: |
 
 
 viral_libraries:
-  flu-seqneut-2025_library_designed: data/viral_libraries/flu-seqneut-2025-barcode-to-strain_designed.csv
-  flu-seqneut-2025_library_actual: data/viral_libraries/flu-seqneut-2025-barcode-to-strain_actual.csv
+  designed: data/viral_libraries/flu-seqneut-2025-barcode-to-strain_designed.csv
+  actual: data/viral_libraries/flu-seqneut-2025-barcode-to-strain_actual.csv
 
 viral_strain_plot_order: data/viral_libraries/flu-seqneut-2025_plot_order.csv
 
@@ -106,7 +112,7 @@ plates:
   # plate1:
   #   group: UWMC
   #   date: 2025-07-23
-  #   viral_library: flu-seqneut-2025_library_actual
+  #   viral_library: actual
   #   neut_standard_set: loes2023
   #   samples_csv: data/plates/2024-07-23_plate1.csv
   #   manual_drops: {}
@@ -123,7 +129,7 @@ plates:
   # plate2:
   #   group: UWMC
   #   date: 2025-07-23
-  #   viral_library: flu-seqneut-2025_library_actual
+  #   viral_library: actual
   #   neut_standard_set: loes2023
   #   samples_csv: data/plates/2024-07-23_plate2.csv
   #   manual_drops: {}
@@ -140,7 +146,7 @@ plates:
   plate1-2:
     group: UWMC
     date: 2025-08-07
-    viral_library: flu-seqneut-2025_library_actual
+    viral_library: actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2025-08-11_plate1-2.csv
     manual_drops:
@@ -170,7 +176,7 @@ plates:
   plate2-2:
     group: UWMC
     date: 2025-08-07
-    viral_library: flu-seqneut-2025_library_actual
+    viral_library: actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2025-08-11_plate2-2.csv
     manual_drops: {}
@@ -187,7 +193,7 @@ plates:
   plate3:
     group: UWMC
     date: 2025-08-07
-    viral_library: flu-seqneut-2025_library_actual
+    viral_library: actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2025-08-11_plate3.csv
     manual_drops: {}
@@ -204,7 +210,7 @@ plates:
   plate4:
     group: UWMC
     date: 2025-08-07
-    viral_library: flu-seqneut-2025_library_actual
+    viral_library: actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2025-08-11_plate4.csv
     manual_drops: {}
@@ -222,7 +228,7 @@ plates:
   # plate5:
   #   group: UWMC
   #   date: 2025-08-12
-  #   viral_library: flu-seqneut-2025_library_actual
+  #   viral_library: actual
   #   neut_standard_set: loes2023
   #   samples_csv: data/plates/2025-08-12_plate5.csv
   #   manual_drops: {}
@@ -239,7 +245,7 @@ plates:
   plate6:
     group: FCI
     date: 2025-08-12
-    viral_library: flu-seqneut-2025_library_actual
+    viral_library: actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2025-08-12_plate6.csv
     manual_drops: {}
@@ -256,7 +262,7 @@ plates:
   plate7_FCI:
     group: FCI
     date: 2025-08-12
-    viral_library: flu-seqneut-2025_library_actual
+    viral_library: actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2025-08-12_plate7_FCI.csv
     manual_drops: {}
@@ -273,7 +279,7 @@ plates:
   plate7_SCH:
     group: SCH
     date: 2025-08-12
-    viral_library: flu-seqneut-2025_library_actual
+    viral_library: actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2025-08-12_plate7_SCH.csv
     manual_drops: {}
@@ -290,7 +296,7 @@ plates:
   plate8:
     group: SCH
     date: 2025-08-12
-    viral_library: flu-seqneut-2025_library_actual
+    viral_library: actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2025-08-12_plate8.csv
     manual_drops: {}
@@ -307,7 +313,7 @@ plates:
   plate9:
     group: SCH
     date: 2025-08-13
-    viral_library: flu-seqneut-2025_library_actual
+    viral_library: actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2025-08-13_plate9.csv
     manual_drops: {}
@@ -324,7 +330,7 @@ plates:
   plate10:
     group: SCH
     date: 2025-08-13
-    viral_library: flu-seqneut-2025_library_actual
+    viral_library: actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2025-08-13_plate10.csv
     manual_drops: {}
@@ -341,7 +347,7 @@ plates:
   plate11:
     group: SCH
     date: 2025-08-13
-    viral_library: flu-seqneut-2025_library_actual
+    viral_library: actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2025-08-13_plate11.csv
     manual_drops: {}
@@ -358,7 +364,7 @@ plates:
   plate12_SCH:
     group: SCH
     date: 2025-08-13
-    viral_library: flu-seqneut-2025_library_actual
+    viral_library: actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2025-08-13_plate12_SCH.csv
     manual_drops: {}
@@ -375,7 +381,7 @@ plates:
   plate12_EPIHK:
     group: EPIHK
     date: 2025-08-13
-    viral_library: flu-seqneut-2025_library_actual
+    viral_library: actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2025-08-13_plate12_EPIHK.csv
     manual_drops: {}
@@ -392,7 +398,7 @@ plates:
   plate13:
     group: EPIHK
     date: 2025-08-18
-    viral_library: flu-seqneut-2025_library_actual
+    viral_library: actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2025-08-18_plate13.csv
     manual_drops: {}
@@ -409,7 +415,7 @@ plates:
   plate14:
     group: EPIHK
     date: 2025-08-18
-    viral_library: flu-seqneut-2025_library_actual
+    viral_library: actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2025-08-18_plate14.csv
     manual_drops: {}
@@ -426,7 +432,7 @@ plates:
   plate15:
     group: EPIHK
     date: 2025-08-18
-    viral_library: flu-seqneut-2025_library_actual
+    viral_library: actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2025-08-18_plate15.csv
     manual_drops: {}
@@ -443,7 +449,7 @@ plates:
   plate16:
     group: NIID
     date: 2025-08-18
-    viral_library: flu-seqneut-2025_library_actual
+    viral_library: actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2025-08-18_plate16.csv
     manual_drops: {}
@@ -460,7 +466,7 @@ plates:
   plate17:
     group: NIID
     date: 2025-08-20
-    viral_library: flu-seqneut-2025_library_actual
+    viral_library: actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2025-08-20_plate17.csv
     manual_drops: {}
@@ -477,7 +483,7 @@ plates:
   plate18:
     group: NIID
     date: 2025-08-20
-    viral_library: flu-seqneut-2025_library_actual
+    viral_library: actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2025-08-20_plate18.csv
     manual_drops: {}
@@ -494,7 +500,7 @@ plates:
   plate19:
     group: NIID
     date: 2025-08-20
-    viral_library: flu-seqneut-2025_library_actual
+    viral_library: actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2025-08-20_plate19.csv
     manual_drops: {}
@@ -511,7 +517,7 @@ plates:
   plate20:
     group: NIID
     date: 2025-08-20
-    viral_library: flu-seqneut-2025_library_actual
+    viral_library: actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2025-08-20_plate20.csv
     manual_drops: {}
@@ -530,7 +536,7 @@ miscellaneous_plates:
 
     20250716_initial_pool:
       date: 2025-07-16
-      viral_library: flu-seqneut-2025_library_designed
+      viral_library: designed
       neut_standard_set: loes2023
       samples_csv: data/miscellaneous_plates/2025-07-16_initial_pool.csv
       illumina_barcode_parser_params:
@@ -539,7 +545,7 @@ miscellaneous_plates:
 
     20250723_balanced_pool:
       date: 2025-07-23
-      viral_library: flu-seqneut-2025_library_designed
+      viral_library: designed
       neut_standard_set: loes2023
       samples_csv: data/miscellaneous_plates/2025-07-23_balanced_repool.csv
       illumina_barcode_parser_params:
@@ -548,7 +554,7 @@ miscellaneous_plates:
 
     20250723_H3_and_partial_H1_balanced_pool:
       date: 2025-07-23
-      viral_library: flu-seqneut-2025_library_designed
+      viral_library: designed
       neut_standard_set: loes2023
       samples_csv: data/miscellaneous_plates/2025-07-23_H3_and_partial_H1_balanced_repool.csv
       illumina_barcode_parser_params:
@@ -557,7 +563,7 @@ miscellaneous_plates:
 
     20250807_balanced_pool:
       date: 2025-08-07
-      viral_library: flu-seqneut-2025_library_designed
+      viral_library: designed
       neut_standard_set: loes2023
       samples_csv: data/miscellaneous_plates/2025-08-07_balanced_repool.csv
       illumina_barcode_parser_params:
