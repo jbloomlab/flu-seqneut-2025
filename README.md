@@ -23,8 +23,8 @@ That file contains an entry for each barcoded variant (note most strains have mu
   - *vaccine_type*: if a vaccine strain, is it the cell- or egg-based strain
 
 Because the above file lists each barcode, strains are included more than once. If you want just FASTA files of the unique HA ectodomain sequences for the circulating 2025 strain and recent vaccine strains, see:
- - [results/viral_strain_seqs/circulating_2025_HA_ectodomain_prots.fa](results/viral_strain_seqs/circulating_2025_HA_ectodomain_prots.fa)
- - [results/viral_strain_seqs/circulating_2025_HA_ectodomain_nts.fa](results/viral_strain_seqs/circulating_2025_HA_ectodomain_nts.fa)
+ - [results/viral_strain_seqs/recent_HA_ectodomain_prots.fa](results/viral_strain_seqs/recent_HA_ectodomain_prots.fa)
+ - [results/viral_strain_seqs/recent_HA_ectodomain_nts.fa](results/viral_strain_seqs/recent_HA_ectodomain_nts.fa)
 
 The above files contain the barcoded variants that actually ended up in the library at adequate representation to get high-quality data.
 A small fraction of the strains that we attempted to design into the library did not actually end up at sufficient representation are so are not in the actual library; the full set of designed strains are in [data/viral_libraries/flu-seqneut-2025-barcode-to-strain_designed.csv](data/viral_libraries/flu-seqneut-2025-barcode-to-strain_designed.csv)

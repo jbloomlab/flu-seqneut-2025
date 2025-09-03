@@ -8,13 +8,14 @@ import pandas as pd
 sys.stderr = sys.stdout = open(snakemake.log[0], "w")
 
 recent_vaccine_strains = snakemake.params.recent_vaccine_strains
+circulating_strain_type = snakemake.params.circulating_strain_type
 
 df = pd.read_csv(snakemake.input.csv)
 
 assert set(recent_vaccine_strains).issubset(df["strain"])
 
 df = df[
-    (df["strain_type"] == "circulating_2025")
+    (df["strain_type"] == circulating_strain_type)
     | df["strain"].isin(recent_vaccine_strains)
 ]
 
