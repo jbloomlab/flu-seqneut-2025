@@ -1,9 +1,7 @@
-# Near real-time mapping of the human neutralizing antibody landscape to influenza virus to inform vaccine-strain selection in September 2025
-This repository has the data and computer code for the study described in [Kikawa et al (2025)]() **[Add citation when available]**.
+# Near real-time on the human neutralizing antibody landscape to influenza virus to inform vaccine-strain selection in September 2025
+This repository has the data and computer code for the study described in [Kikawa et al (2025)](https://doi.org/10.1101/2025.09.06.674661).
 
-Experiments and analysis performed by Caroline Kikawa in the [Bloom lab](https://jbloomlab.github.io/) using the sequencing-based neutralization assay described in [Loes et al (2024)](https://journals.asm.org/doi/10.1128/jvi.00689-24) and [Kikawa et al (2025)](https://elifesciences.org/reviewed-preprints/106811).
-
-Briefly, this study measured neutralization titers to influenza viruses with HA from seasonal H3N2 and H1N1 viruses representative of those circulating in the summer of 2025 against a set of human sera collected in late 2024 to spring of 2025.
+Briefly, this study used sequencing-based neutralization assays to measure titers to influenza viruses with HAs from seasonal H3N2 and H1N1 viruses representative of those circulating in the summer of 2025 against a set of human sera collected in late 2024 to spring of 2025.
 
 ## Summary of key data
 
