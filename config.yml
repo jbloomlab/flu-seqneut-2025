@@ -42,14 +42,13 @@ seqneut-pipeline: seqneut-pipeline
 docs: docs
 
 description: |
-  # Near real-time mapping of the human neutralizing antibody landscape to influenza virus to inform vaccine-strain selection in September 2025
+  # Near real-time data on the human neutralizing antibody landscape to influenza virus to inform vaccine-strain selection in September 2025
 
-  Experiments and analysis performed by Caroline Kikawa in the [Bloom lab](https://jbloomlab.github.io/) using the sequencing-based neutralization assay described in [Loes et al (2024)](https://journals.asm.org/doi/10.1128/jvi.00689-24) and [Kikawa et al (2025)](https://elifesciences.org/reviewed-preprints/106811).
+  See [Kikawa et al (2025)](https://doi.org/10.1101/2025.09.06.674661) for details on this study.
 
-  Briefly, this study measured neutralization titers to influenza viruses with HA from seasonal H3N2 and H1N1 viruses representative of those circulating in the summer of 2025 against a set of human sera collected in late 2024 to spring of 2025.
+  Briefly, this study used sequencing-based neutralization assays to measure titers to influenza viruses with HAs from seasonal H3N2 and H1N1 viruses representative of those circulating in the summer of 2025 against a set of human sera collected in late 2024 to spring of 2025.
 
   The numerical data and computer code are at [https://github.com/jbloomlab/flu-seqneut-2025](https://github.com/jbloomlab/flu-seqneut-2025)
-
 
 viral_libraries:
   designed: data/viral_libraries/flu-seqneut-2025-barcode-to-strain_designed.csv
