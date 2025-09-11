@@ -33,6 +33,28 @@ human_sera_plots_params:
   min_frac_strains: 0.9  # only include sera w titers against this fraction of strains
   min_frac_sera: 0.75  # only include strains w titers against this fraction of sera
   min_frac_action: raise  # "drop" sera/strains below min_frac, or "raise" error
+  facet_size: 135  # width (or height if horizontal) of each facet for each serum group
+  facet_orientation: vertical  # facet serum groups as vertical or horizontal plots
+  # `prop_colors` and `other_prop_colors` specify how we color the strain labels. Strains
+  # are colored as "cell vaccine" and "egg vaccine" if they are an egg or cell based vaccine,
+  # and are otherwise colored by subclade, as specified in the `viral_libraries` CSV. If you
+  # want to assign specific colors do so via the `prop_colors` dict, and remaining ones are
+  # assigned colors in a subtype specific fashion via the list in `other_prop_colors` (must
+  # have sufficient entries).
+  prop_colors:
+    cell vaccine: black
+    egg vaccine: gray
+  other_prop_colors:
+    - "#ffed6f"
+    - "#ccebc5"
+    - "#bc80bd"
+    - "#fccde5"
+    - "#b3de69"
+    - "#fdb462"
+    - "#80b1d3"
+    - "#fb8072"
+    - "#bebada"
+    - "#8dd3c7"
 
 
 # --- Configuration for `seqneut-pipeline` ----------------------------------------------
