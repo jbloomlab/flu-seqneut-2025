@@ -8,6 +8,14 @@ configfile: "config.yml"
 include: "seqneut-pipeline/seqneut-pipeline.smk"
 
 
+# auspice JSONs as target output
+auspice_jsons = []
+if "nextstrain-prot-titers-tree_config" in config:
+    for d in config["nextstrain-prot-titers-tree_config"].values():
+        auspice_jsons.append(d["auspice_json"])
+        if "titers" in d:
+            auspice_jsons.append(os.path.splitext(d["auspice_json"])[0] + "_measurements.json")
+
 rule all:
     input:
         # output from seqneut-pipeline
@@ -18,6 +26,8 @@ rule all:
         "results/aggregated_analyses/human_sera_metadata.csv",
         "results/aggregated_analyses/human_sera_titers.csv",
         "results/aggregated_analyses/human_sera_titers_summarized.csv",
+        [auspice_jsons],
+
 
 # --- Everything below here is a custom analysis not part of seqneut-pipeline -----------
 
@@ -107,3 +117,52 @@ add_htmls_to_docs = {
         for chart_type in ["individual_sera", "interquartile_range", "frac_below_cutoff"]
     }
 }
+
+
+rule nextstrain_prot_titers_tree_alignment_and_metadata:
+    """Build alignment and metadata used by `nextstrain-prot-titers-tree`."""
+    input:
+        viral_libraries_csv=config["viral_libraries"]["actual"],
+        summarized_titers_csv="results/aggregated_analyses/human_sera_titers_summarized.csv",
+        titers_csv="results/aggregated_analyses/human_sera_titers.csv",
+        sera_metadata_csv="results/aggregated_analyses/human_sera_metadata.csv",
+    output:
+        **{
+            f"alignment_{subtype}": f"results/nextstrain-prot-titers-tree/{subtype}/alignment.fa"
+            for subtype in config["subtypes"]
+        },
+        **{
+            f"metadata_{subtype}": f"results/nextstrain-prot-titers-tree/{subtype}/metadata.tsv"
+            for subtype in config["subtypes"]
+        },
+        **{
+            f"titers_{subtype}": f"results/nextstrain-prot-titers-tree/{subtype}/titers.tsv"
+            for subtype in config["subtypes"]
+        },
+    params:
+        subtypes=config["subtypes"],
+        # include just the circulating strains and recent vaccine strains
+        circulating_strain_type=config["circulating_strain_type"],
+        recent_vaccine_strains=config["recent_vaccine_strains"],
+        # columns in `summarize_titers_csv` with fraction below cutoff 
+        frac_below_cols=[
+            f"frac_w_titer_below_{config['human_sera_plots_params']['titer_cutoff']}"
+        ],
+        # prefixes to add to alignments
+        prefix_alignment=config["nextstrain-prot-titers-tree_prefix_alignment"],
+    conda:
+        "seqneut-pipeline/environment.yml"
+    log:
+        "results/logs/nextstrain_prot_titers_tree_alignment_and_metadata.txt",
+    script:
+        "scripts/nextstrain_prot_titers_tree_alignment_and_metadata.py"
+
+
+# run the nextstrain-prot-titers-tree submodule on each lineage
+for subtype in config["subtypes"]:
+    module_name = f"nextstrain-prot-titers-tree_{subtype}"
+    module:
+        name: module_name
+        snakefile: "nextstrain-prot-titers-tree/Snakefile"
+        config: config["nextstrain-prot-titers-tree_config"][subtype]
+    use rule * from module_name as module_name*

@@ -1,5 +1,7 @@
 # === Analysis configuration file ======================================================
 
+__use_yte__: true  # use YAML Template Engine formatting
+
 # --- Configuration for custom analyses in Snakefile outside of seqneut-pipeline --------
 
 # subtypes of strains
@@ -56,6 +58,82 @@ human_sera_plots_params:
     - "#bebada"
     - "#8dd3c7"
 
+# When building the alignment for nextstrain-prot-titers-tree, prepend this sequence onto
+# each sequence in the alignment:
+nextstrain-prot-titers-tree_prefix_alignment:
+  H3N2: ""  # no prefix needs to be added as HAs in viral_barcodes start at HA1 site 1
+  H1N1: DTL  # add these three amino acids as HAs in viral barcode miss first 3 ectodomain aas
+
+# For nextstrain-prot-titers-tree, plot these serum groups:
+serum_groups_for_tree: ["All", "EPIHK", "NIID", "SCH", "UWMC"]
+
+# Configuration for `nextstrain-prot-titers-tree`. For each subtype, provided the indicated arguments
+# that have the same meaning described at https://github.com/jbloomlab/nextstrain-prot-titers-tree
+nextstrain-prot-titers-tree_config:
+  H3N2: &H3N2
+    alignment: results/nextstrain-prot-titers-tree/H3N2/alignment.fa  # built by pipeline
+    outgroup: data/nextstrain-prot-titers-tree_data/H3N2_outgroup.fa
+    site_numbering_map: data/nextstrain-prot-titers-tree_data/H3N2_site_numbering_map.tsv
+    metadata: results/nextstrain-prot-titers-tree/H3N2/metadata.tsv  # built by pipeline
+    color_by_metadata:
+      strain_type: {}
+      subclade: {}
+      ?for group in doc["serum_groups_for_tree"]:
+        ?f"median_titer_{group}_sera":
+          scale_type: viridis_r_log
+        ?f"frac_w_titer_below_{doc['human_sera_plots_params']['titer_cutoff']}_{group}_sera":
+          scale_type: viridis_linear
+    titers:
+      titers_tsv: results/nextstrain-prot-titers-tree/H3N2/titers.tsv  # built by pipeline
+      titer_col: log2_titer
+      grouping_columns: [serum, group, collection_date_numerical, age_years, sex]
+      addtl_args:
+        title: serum neutralizing titers
+        x-axis-label: log2 titer
+        measurements-display: raw
+    display_defaults:
+      color_by: median_titer_All_sera
+      distance_measure: div
+      branch_label: aa
+    results_subdir: results/nextstrain-prot-titers-tree/H3N2/pipeline_results
+    auspice_json: auspice/flu-seqneut-2025_H3N2.json
+    addtl_export_args:
+      title: Near real-time on the human neutralizing antibody landscape to H3N2 influenza virus to inform vaccine-strain selection in September 2025
+      build-url: https://github.com/jbloomlab/flu-seqneut-2025
+      maintainers: Caroline Kikawa, John Huddleston, Jesse Bloom <https://jbloomlab.org>
+  H1N1:
+    alignment: results/nextstrain-prot-titers-tree/H1N1/alignment.fa  # built by pipeline
+    outgroup: data/nextstrain-prot-titers-tree_data/H1N1_outgroup.fa
+    site_numbering_map: data/nextstrain-prot-titers-tree_data/H1N1_site_numbering_map.tsv
+    metadata: results/nextstrain-prot-titers-tree/H1N1/metadata.tsv  # built by pipeline
+    color_by_metadata:
+      strain_type: {}
+      subclade: {}
+      ?for group in doc["serum_groups_for_tree"]:
+        ?f"median_titer_{group}_sera":
+          scale_type: viridis_r_log
+          exclude_auto_scale: [A/Victoria/4897/2022_IVR-238]  # egg vax strain, high titers blow out scale
+        ?f"frac_w_titer_below_{doc['human_sera_plots_params']['titer_cutoff']}_{group}_sera":
+          scale_type: viridis_linear
+          exclude_auto_scale: [A/Victoria/4897/2022_IVR-238]  # egg vax strain, high titers blow out scale
+    titers:
+      titers_tsv: results/nextstrain-prot-titers-tree/H1N1/titers.tsv  # built by pipeline
+      titer_col: log2_titer
+      grouping_columns: [serum, group, collection_date_numerical, age_years, sex]
+      addtl_args:
+        title: serum neutralizing titers
+        x-axis-label: log2 titer
+        measurements-display: raw
+    display_defaults:
+      color_by: median_titer_All_sera
+      distance_measure: div
+      branch_label: aa
+    results_subdir: results/nextstrain-prot-titers-tree/H1N1/pipeline_results
+    auspice_json: auspice/flu-seqneut-2025_H1N1.json
+    addtl_export_args:
+      title: Near real-time on the human neutralizing antibody landscape to H1N1 influenza virus to inform vaccine-strain selection in September 2025
+      build-url: https://github.com/jbloomlab/flu-seqneut-2025
+      maintainers: Caroline Kikawa, John Huddleston, Jesse Bloom <https://jbloomlab.org>
 
 # --- Configuration for `seqneut-pipeline` ----------------------------------------------
 

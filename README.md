@@ -1,4 +1,4 @@
-# Near real-time on the human neutralizing antibody landscape to influenza virus to inform vaccine-strain selection in September 2025
+# Near real-time data on the human neutralizing antibody landscape to influenza virus to inform vaccine-strain selection in September 2025
 This repository has the data and computer code for the study described in [Kikawa et al (2025)](https://doi.org/10.1101/2025.09.06.674661).
 
 Briefly, this study used sequencing-based neutralization assays to measure titers to influenza viruses with HAs from seasonal H3N2 and H1N1 viruses representative of those circulating in the summer of 2025 against a set of human sera collected in late 2024 to spring of 2025.
@@ -44,16 +44,28 @@ Specifically, the sera are from the following cohorts:
 The aggregated titers for all relevant **human sera** are in [results/aggregated_analyses/human_sera_titers.csv](results/aggregated_analyses/human_sera_titers.csv).
 Note that these titers are only for human sera not specified for exclusion (see relevant portion of [config.yml](config.yml) for details); in general the sera included here are the ones relevant to the goals of the study.
 
-### Interactive displays of results
+### Interactive plots of neutralization curves and titers
 See the HTML documentation rendered at [https://jbloomlab.github.io/flu-seqneut-2025/](https://jbloomlab.github.io/flu-seqneut-2025/) for interactive plots summarizing the results (at the bottom of the page), as well as notebooks showing all neutralization curves and details on per-plate and per-serum quality control.
+
+### Interactive Nextstrain protein trees with titers
+For interactive Nextstrain trees built with the protein sequences in the library only that also show the titers, see:
+
+ - [https://nextstrain.org/community/jbloomlab/flu-seqneut-2025@main/H3N2](https://nextstrain.org/community/jbloomlab/flu-seqneut-2025@main/H3N2)
+ - [https://nextstrain.org/community/jbloomlab/flu-seqneut-2025@main/H1N1](https://nextstrain.org/community/jbloomlab/flu-seqneut-2025@main/H1N1)
+
+Note that these are protein trees of just library sequences, see [Kikawa et al (2025)](https://www.biorxiv.org/content/10.1101/2025.09.06.674661v1) for links to interactive trees built on nucleotide sequences that show the library sequences in the context of larger seasonal influenza diversity.
 
 ## Running the pipeline
 This repository contains an analysis of the data using the Bloom lab software [seqneut-pipeline](https://github.com/jbloomlab/seqneut-pipeline) as a submodule. See that repository for instructions on how to use Github submodules, including `seqneut-pipeline`. 
 
+In addition, [nextstrain-prot-titers-tree](https://github.com/jbloomlab/nextstrain-prot-titers-tree) is also a submodule, and is used to render interactive Nextstrain trees with the results.
+
 The configuration for the analysis is in [config.yml](config.yml) and the analysis itself is run by `snakemake` using [Snakefile](Snakefile).
 Input data are in [./data/](data), and all results created by the pipeline are placed in [./results/](results).
+The final auspice JSON trees created by [nextstrain-prot-titers-tree](https://github.com/jbloomlab/nextstrain-prot-titers-tree) are in [./auspice/](auspice), where they can be viewed as [Nextstrain Community Builds](https://docs.nextstrain.org/en/latest/guides/share/community-builds.html).
 
 [Snakefile](Snakefile) both runs [seqneut-pipeline](https://github.com/jbloomlab/seqneut-pipeline) and runs custom rules within [Snakefile](Snakefile) that process the input data in [./data/](data) and the results in [./results/](results) to make some summary files and plots.
+These custom rules include the ones that build the auspice JSON trees in [./auspice/](auspice) using [nextstrain-prot-titers-tree](https://github.com/jbloomlab/nextstrain-prot-titers-tree).
 
 To run the pipeline, build the `seqneut-pipeline` conda environment from the [environment.yml](https://github.com/jbloomlab/seqneut-pipeline/blob/main/environment.yml) in `seqneut-pipeline`.
 Then run the pipeline using:
