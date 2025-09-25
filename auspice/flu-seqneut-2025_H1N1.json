@@ -1,0 +1,3376 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "Near real-time on the human neutralizing antibody landscape to H1N1 influenza virus to inform vaccine-strain selection in September 2025",
+    "updated": "2025-09-25",
+    "build_url": "https://github.com/jbloomlab/flu-seqneut-2025",
+    "maintainers": [
+      {
+        "name": "Caroline Kikawa, John Huddleston, Jesse Bloom",
+        "url": "https://jbloomlab.org"
+      }
+    ],
+    "display_defaults": {
+      "color_by": "median_titer_All_sera",
+      "distance_measure": "div",
+      "branch_label": "aa"
+    },
+    "genome_annotations": {
+      "nuc": {
+        "start": 1,
+        "end": 1509,
+        "strand": "+",
+        "type": "source"
+      },
+      "HA1": {
+        "start": 1,
+        "end": 981,
+        "strand": "+",
+        "type": "gene"
+      },
+      "HA2": {
+        "start": 982,
+        "end": 1509,
+        "strand": "+",
+        "type": "gene"
+      }
+    },
+    "colorings": [
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "strain_type",
+        "title": "strain_type",
+        "type": "categorical"
+      },
+      {
+        "key": "subclade",
+        "title": "subclade",
+        "type": "categorical"
+      },
+      {
+        "key": "median_titer_All_sera",
+        "title": "median_titer_All_sera",
+        "type": "continuous",
+        "scale": [
+          [
+            209.89999999999998,
+            "#fde725"
+          ],
+          [
+            231.74838892013324,
+            "#a0da39"
+          ],
+          [
+            255.87096601751935,
+            "#4ac16d"
+          ],
+          [
+            282.50445043353176,
+            "#1fa187"
+          ],
+          [
+            311.9102012898456,
+            "#277f8e"
+          ],
+          [
+            344.3767824520064,
+            "#365c8d"
+          ],
+          [
+            380.22279425798837,
+            "#46327e"
+          ],
+          [
+            419.80000000000024,
+            "#440154"
+          ]
+        ],
+        "legend": [
+          {
+            "value": 209.89999999999998,
+            "display": "210"
+          },
+          {
+            "value": 231.74838892013324,
+            "display": "232"
+          },
+          {
+            "value": 255.87096601751935,
+            "display": "256"
+          },
+          {
+            "value": 282.50445043353176,
+            "display": "283"
+          },
+          {
+            "value": 311.9102012898456,
+            "display": "312"
+          },
+          {
+            "value": 344.3767824520064,
+            "display": "344"
+          },
+          {
+            "value": 380.22279425798837,
+            "display": "380"
+          },
+          {
+            "value": 419.80000000000024,
+            "display": ">=420"
+          }
+        ]
+      },
+      {
+        "key": "frac_w_titer_below_140_All_sera",
+        "title": "frac_w_titer_below_140_All_sera",
+        "type": "continuous",
+        "scale": [
+          [
+            0.16,
+            "#440154"
+          ],
+          [
+            0.19257142857142856,
+            "#46327e"
+          ],
+          [
+            0.22514285714285714,
+            "#365c8d"
+          ],
+          [
+            0.25771428571428573,
+            "#277f8e"
+          ],
+          [
+            0.29028571428571426,
+            "#1fa187"
+          ],
+          [
+            0.32285714285714284,
+            "#4ac16d"
+          ],
+          [
+            0.3554285714285714,
+            "#a0da39"
+          ],
+          [
+            0.388,
+            "#fde725"
+          ]
+        ],
+        "legend": [
+          {
+            "value": 0.16,
+            "display": "<=0.16"
+          },
+          {
+            "value": 0.19257142857142856,
+            "display": "0.193"
+          },
+          {
+            "value": 0.22514285714285714,
+            "display": "0.225"
+          },
+          {
+            "value": 0.25771428571428573,
+            "display": "0.258"
+          },
+          {
+            "value": 0.29028571428571426,
+            "display": "0.29"
+          },
+          {
+            "value": 0.32285714285714284,
+            "display": "0.323"
+          },
+          {
+            "value": 0.3554285714285714,
+            "display": "0.355"
+          },
+          {
+            "value": 0.388,
+            "display": "0.388"
+          }
+        ]
+      },
+      {
+        "key": "median_titer_EPIHK_sera",
+        "title": "median_titer_EPIHK_sera",
+        "type": "continuous",
+        "scale": [
+          [
+            198.29999999999993,
+            "#fde725"
+          ],
+          [
+            215.1012389273585,
+            "#a0da39"
+          ],
+          [
+            233.32598581989186,
+            "#4ac16d"
+          ],
+          [
+            253.09484933840662,
+            "#1fa187"
+          ],
+          [
+            274.5386568775814,
+            "#277f8e"
+          ],
+          [
+            297.7993203621823,
+            "#365c8d"
+          ],
+          [
+            323.03077539904575,
+            "#46327e"
+          ],
+          [
+            350.4000000000002,
+            "#440154"
+          ]
+        ],
+        "legend": [
+          {
+            "value": 198.29999999999993,
+            "display": "198"
+          },
+          {
+            "value": 215.1012389273585,
+            "display": "215"
+          },
+          {
+            "value": 233.32598581989186,
+            "display": "233"
+          },
+          {
+            "value": 253.09484933840662,
+            "display": "253"
+          },
+          {
+            "value": 274.5386568775814,
+            "display": "275"
+          },
+          {
+            "value": 297.7993203621823,
+            "display": "298"
+          },
+          {
+            "value": 323.03077539904575,
+            "display": "323"
+          },
+          {
+            "value": 350.4000000000002,
+            "display": ">=350"
+          }
+        ]
+      },
+      {
+        "key": "frac_w_titer_below_140_EPIHK_sera",
+        "title": "frac_w_titer_below_140_EPIHK_sera",
+        "type": "continuous",
+        "scale": [
+          [
+            0.19,
+            "#440154"
+          ],
+          [
+            0.22214285714285714,
+            "#46327e"
+          ],
+          [
+            0.2542857142857143,
+            "#365c8d"
+          ],
+          [
+            0.2864285714285714,
+            "#277f8e"
+          ],
+          [
+            0.31857142857142856,
+            "#1fa187"
+          ],
+          [
+            0.3507142857142857,
+            "#4ac16d"
+          ],
+          [
+            0.38285714285714284,
+            "#a0da39"
+          ],
+          [
+            0.415,
+            "#fde725"
+          ]
+        ],
+        "legend": [
+          {
+            "value": 0.19,
+            "display": "0.19"
+          },
+          {
+            "value": 0.22214285714285714,
+            "display": "0.222"
+          },
+          {
+            "value": 0.2542857142857143,
+            "display": "0.254"
+          },
+          {
+            "value": 0.2864285714285714,
+            "display": "0.286"
+          },
+          {
+            "value": 0.31857142857142856,
+            "display": "0.319"
+          },
+          {
+            "value": 0.3507142857142857,
+            "display": "0.351"
+          },
+          {
+            "value": 0.38285714285714284,
+            "display": "0.383"
+          },
+          {
+            "value": 0.415,
+            "display": "0.415"
+          }
+        ]
+      },
+      {
+        "key": "median_titer_NIID_sera",
+        "title": "median_titer_NIID_sera",
+        "type": "continuous",
+        "scale": [
+          [
+            113.10000000000005,
+            "#fde725"
+          ],
+          [
+            126.67720555911319,
+            "#a0da39"
+          ],
+          [
+            141.88430069200538,
+            "#4ac16d"
+          ],
+          [
+            158.91694716509446,
+            "#1fa187"
+          ],
+          [
+            177.9942951623287,
+            "#277f8e"
+          ],
+          [
+            199.36180297637284,
+            "#365c8d"
+          ],
+          [
+            223.29439519251451,
+            "#46327e"
+          ],
+          [
+            250.10000000000002,
+            "#440154"
+          ]
+        ],
+        "legend": [
+          {
+            "value": 113.10000000000005,
+            "display": "113"
+          },
+          {
+            "value": 126.67720555911319,
+            "display": "127"
+          },
+          {
+            "value": 141.88430069200538,
+            "display": "142"
+          },
+          {
+            "value": 158.91694716509446,
+            "display": "159"
+          },
+          {
+            "value": 177.9942951623287,
+            "display": "178"
+          },
+          {
+            "value": 199.36180297637284,
+            "display": "199"
+          },
+          {
+            "value": 223.29439519251451,
+            "display": "223"
+          },
+          {
+            "value": 250.10000000000002,
+            "display": ">=250"
+          }
+        ]
+      },
+      {
+        "key": "frac_w_titer_below_140_NIID_sera",
+        "title": "frac_w_titer_below_140_NIID_sera",
+        "type": "continuous",
+        "scale": [
+          [
+            0.145,
+            "#440154"
+          ],
+          [
+            0.20214285714285712,
+            "#46327e"
+          ],
+          [
+            0.2592857142857143,
+            "#365c8d"
+          ],
+          [
+            0.3164285714285714,
+            "#277f8e"
+          ],
+          [
+            0.37357142857142855,
+            "#1fa187"
+          ],
+          [
+            0.4307142857142857,
+            "#4ac16d"
+          ],
+          [
+            0.4878571428571429,
+            "#a0da39"
+          ],
+          [
+            0.545,
+            "#fde725"
+          ]
+        ],
+        "legend": [
+          {
+            "value": 0.145,
+            "display": "<=0.145"
+          },
+          {
+            "value": 0.20214285714285712,
+            "display": "0.202"
+          },
+          {
+            "value": 0.2592857142857143,
+            "display": "0.259"
+          },
+          {
+            "value": 0.3164285714285714,
+            "display": "0.316"
+          },
+          {
+            "value": 0.37357142857142855,
+            "display": "0.374"
+          },
+          {
+            "value": 0.4307142857142857,
+            "display": "0.431"
+          },
+          {
+            "value": 0.4878571428571429,
+            "display": "0.488"
+          },
+          {
+            "value": 0.545,
+            "display": "0.545"
+          }
+        ]
+      },
+      {
+        "key": "median_titer_SCH_sera",
+        "title": "median_titer_SCH_sera",
+        "type": "continuous",
+        "scale": [
+          [
+            263.79999999999995,
+            "#fde725"
+          ],
+          [
+            296.5243511337938,
+            "#a0da39"
+          ],
+          [
+            333.3081532043872,
+            "#4ac16d"
+          ],
+          [
+            374.65498050240365,
+            "#1fa187"
+          ],
+          [
+            421.1308756350238,
+            "#277f8e"
+          ],
+          [
+            473.3720987114552,
+            "#365c8d"
+          ],
+          [
+            532.0938378137091,
+            "#46327e"
+          ],
+          [
+            598.1000000000001,
+            "#440154"
+          ]
+        ],
+        "legend": [
+          {
+            "value": 263.79999999999995,
+            "display": "264"
+          },
+          {
+            "value": 296.5243511337938,
+            "display": "297"
+          },
+          {
+            "value": 333.3081532043872,
+            "display": "333"
+          },
+          {
+            "value": 374.65498050240365,
+            "display": "375"
+          },
+          {
+            "value": 421.1308756350238,
+            "display": "421"
+          },
+          {
+            "value": 473.3720987114552,
+            "display": "473"
+          },
+          {
+            "value": 532.0938378137091,
+            "display": "532"
+          },
+          {
+            "value": 598.1000000000001,
+            "display": ">=598"
+          }
+        ]
+      },
+      {
+        "key": "frac_w_titer_below_140_SCH_sera",
+        "title": "frac_w_titer_below_140_SCH_sera",
+        "type": "continuous",
+        "scale": [
+          [
+            0.213,
+            "#440154"
+          ],
+          [
+            0.2372857142857143,
+            "#46327e"
+          ],
+          [
+            0.26157142857142857,
+            "#365c8d"
+          ],
+          [
+            0.28585714285714287,
+            "#277f8e"
+          ],
+          [
+            0.31014285714285716,
+            "#1fa187"
+          ],
+          [
+            0.3344285714285714,
+            "#4ac16d"
+          ],
+          [
+            0.35871428571428576,
+            "#a0da39"
+          ],
+          [
+            0.383,
+            "#fde725"
+          ]
+        ],
+        "legend": [
+          {
+            "value": 0.213,
+            "display": "<=0.213"
+          },
+          {
+            "value": 0.2372857142857143,
+            "display": "0.237"
+          },
+          {
+            "value": 0.26157142857142857,
+            "display": "0.262"
+          },
+          {
+            "value": 0.28585714285714287,
+            "display": "0.286"
+          },
+          {
+            "value": 0.31014285714285716,
+            "display": "0.31"
+          },
+          {
+            "value": 0.3344285714285714,
+            "display": "0.334"
+          },
+          {
+            "value": 0.35871428571428576,
+            "display": "0.359"
+          },
+          {
+            "value": 0.383,
+            "display": "0.383"
+          }
+        ]
+      },
+      {
+        "key": "median_titer_UWMC_sera",
+        "title": "median_titer_UWMC_sera",
+        "type": "continuous",
+        "scale": [
+          [
+            241.85000000000005,
+            "#fde725"
+          ],
+          [
+            284.5713792519777,
+            "#a0da39"
+          ],
+          [
+            334.83923874043006,
+            "#4ac16d"
+          ],
+          [
+            393.98661978931733,
+            "#1fa187"
+          ],
+          [
+            463.58203762774673,
+            "#277f8e"
+          ],
+          [
+            545.4710764695889,
+            "#365c8d"
+          ],
+          [
+            641.825332119132,
+            "#46327e"
+          ],
+          [
+            755.2,
+            "#440154"
+          ]
+        ],
+        "legend": [
+          {
+            "value": 241.85000000000005,
+            "display": "242"
+          },
+          {
+            "value": 284.5713792519777,
+            "display": "285"
+          },
+          {
+            "value": 334.83923874043006,
+            "display": "335"
+          },
+          {
+            "value": 393.98661978931733,
+            "display": "394"
+          },
+          {
+            "value": 463.58203762774673,
+            "display": "464"
+          },
+          {
+            "value": 545.4710764695889,
+            "display": "545"
+          },
+          {
+            "value": 641.825332119132,
+            "display": "642"
+          },
+          {
+            "value": 755.2,
+            "display": ">=755"
+          }
+        ]
+      },
+      {
+        "key": "frac_w_titer_below_140_UWMC_sera",
+        "title": "frac_w_titer_below_140_UWMC_sera",
+        "type": "continuous",
+        "scale": [
+          [
+            0.0,
+            "#440154"
+          ],
+          [
+            0.052,
+            "#46327e"
+          ],
+          [
+            0.104,
+            "#365c8d"
+          ],
+          [
+            0.156,
+            "#277f8e"
+          ],
+          [
+            0.208,
+            "#1fa187"
+          ],
+          [
+            0.26,
+            "#4ac16d"
+          ],
+          [
+            0.312,
+            "#a0da39"
+          ],
+          [
+            0.364,
+            "#fde725"
+          ]
+        ],
+        "legend": [
+          {
+            "value": 0.0,
+            "display": "0"
+          },
+          {
+            "value": 0.052,
+            "display": "0.052"
+          },
+          {
+            "value": 0.104,
+            "display": "0.104"
+          },
+          {
+            "value": 0.156,
+            "display": "0.156"
+          },
+          {
+            "value": 0.208,
+            "display": "0.208"
+          },
+          {
+            "value": 0.26,
+            "display": "0.26"
+          },
+          {
+            "value": 0.312,
+            "display": "0.312"
+          },
+          {
+            "value": 0.364,
+            "display": "0.364"
+          }
+        ]
+      }
+    ],
+    "filters": [
+      "strain_type",
+      "subclade"
+    ],
+    "panels": [
+      "tree",
+      "entropy",
+      "measurements"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000009",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 1993.185
+      }
+    },
+    "branch_attrs": {},
+    "children": [
+      {
+        "name": "NODE_0000008",
+        "node_attrs": {
+          "div": 6.042288,
+          "num_date": {
+            "value": 2012.385
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "HA1": [
+              "P137S",
+              "K142R",
+              "D260E",
+              "T277A"
+            ],
+            "HA2": [
+              "E29D",
+              "N124H"
+            ]
+          },
+          "labels": {
+            "aa": "HA1: P137S, K142R, D260E, T277A; HA2: E29D, N124H"
+          }
+        },
+        "children": [
+          {
+            "name": "A/Wisconsin/67/2022",
+            "node_attrs": {
+              "div": 6.042791,
+              "num_date": {
+                "value": 2022.82
+              },
+              "frac_w_titer_below_140_All_sera": {
+                "value": 0.388
+              },
+              "strain_type": {
+                "value": "2025-2026 cell-based vaccine"
+              },
+              "median_titer_SCH_sera": {
+                "value": 263.8
+              },
+              "median_titer_UWMC_sera": {
+                "value": 241.85
+              },
+              "median_titer_All_sera": {
+                "value": 215.15
+              },
+              "frac_w_titer_below_140_SCH_sera": {
+                "value": 0.298
+              },
+              "frac_w_titer_below_140_NIID_sera": {
+                "value": 0.545
+              },
+              "frac_w_titer_below_140_UWMC_sera": {
+                "value": 0.364
+              },
+              "median_titer_NIID_sera": {
+                "value": 113.1
+              },
+              "frac_w_titer_below_140_EPIHK_sera": {
+                "value": 0.31
+              },
+              "subclade": {
+                "value": "C.1.1"
+              },
+              "median_titer_EPIHK_sera": {
+                "value": 220.8
+              }
+            },
+            "branch_attrs": {}
+          },
+          {
+            "name": "NODE_0000001",
+            "node_attrs": {
+              "div": 7.043358,
+              "num_date": {
+                "value": 2014.283
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "HA1": [
+                  "T216A"
+                ]
+              },
+              "labels": {
+                "aa": "HA1: T216A"
+              }
+            },
+            "children": [
+              {
+                "name": "A/Victoria/4897/2022_IVR-238",
+                "node_attrs": {
+                  "div": 9.047562,
+                  "num_date": {
+                    "value": 2023.0
+                  },
+                  "frac_w_titer_below_140_All_sera": {
+                    "value": 0.122
+                  },
+                  "strain_type": {
+                    "value": "2025-2026 egg-based vaccine"
+                  },
+                  "median_titer_SCH_sera": {
+                    "value": 2246.0
+                  },
+                  "median_titer_UWMC_sera": {
+                    "value": 1901.5
+                  },
+                  "median_titer_All_sera": {
+                    "value": 1515.5
+                  },
+                  "frac_w_titer_below_140_SCH_sera": {
+                    "value": 0.128
+                  },
+                  "frac_w_titer_below_140_NIID_sera": {
+                    "value": 0.091
+                  },
+                  "frac_w_titer_below_140_UWMC_sera": {
+                    "value": 0.068
+                  },
+                  "median_titer_NIID_sera": {
+                    "value": 1219.0
+                  },
+                  "frac_w_titer_below_140_EPIHK_sera": {
+                    "value": 0.214
+                  },
+                  "subclade": {
+                    "value": "D"
+                  },
+                  "median_titer_EPIHK_sera": {
+                    "value": 1074.5
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "HA1": [
+                      "R142K",
+                      "Q223R"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "HA1: R142K, Q223R"
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000000",
+                "node_attrs": {
+                  "div": 8.044529,
+                  "num_date": {
+                    "value": 2017.441
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "HA1": [
+                      "R45K"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "HA1: R45K"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "A/Bangkok/P176/2025",
+                    "node_attrs": {
+                      "div": 11.054481,
+                      "num_date": {
+                        "value": 2025.05
+                      },
+                      "frac_w_titer_below_140_All_sera": {
+                        "value": 0.245
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025"
+                      },
+                      "median_titer_SCH_sera": {
+                        "value": 274.9
+                      },
+                      "median_titer_UWMC_sera": {
+                        "value": 433.85
+                      },
+                      "median_titer_All_sera": {
+                        "value": 248.7
+                      },
+                      "frac_w_titer_below_140_SCH_sera": {
+                        "value": 0.298
+                      },
+                      "frac_w_titer_below_140_NIID_sera": {
+                        "value": 0.418
+                      },
+                      "frac_w_titer_below_140_UWMC_sera": {
+                        "value": 0.023
+                      },
+                      "median_titer_NIID_sera": {
+                        "value": 174.6
+                      },
+                      "frac_w_titer_below_140_EPIHK_sera": {
+                        "value": 0.19
+                      },
+                      "subclade": {
+                        "value": "D.1"
+                      },
+                      "median_titer_EPIHK_sera": {
+                        "value": 242.95
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA1": [
+                          "D86N",
+                          "S157M"
+                        ],
+                        "HA2": [
+                          "L2I"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA1: D86N, S157M; HA2: L2I"
+                      }
+                    }
+                  },
+                  {
+                    "name": "A/Vermont/10/2025",
+                    "node_attrs": {
+                      "div": 9.045701,
+                      "num_date": {
+                        "value": 2025.04
+                      },
+                      "frac_w_titer_below_140_All_sera": {
+                        "value": 0.202
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025"
+                      },
+                      "median_titer_SCH_sera": {
+                        "value": 410.9
+                      },
+                      "median_titer_UWMC_sera": {
+                        "value": 749.9
+                      },
+                      "median_titer_All_sera": {
+                        "value": 331.65
+                      },
+                      "frac_w_titer_below_140_SCH_sera": {
+                        "value": 0.234
+                      },
+                      "frac_w_titer_below_140_NIID_sera": {
+                        "value": 0.309
+                      },
+                      "frac_w_titer_below_140_UWMC_sera": {
+                        "value": 0.0
+                      },
+                      "median_titer_NIID_sera": {
+                        "value": 219.7
+                      },
+                      "frac_w_titer_below_140_EPIHK_sera": {
+                        "value": 0.238
+                      },
+                      "subclade": {
+                        "value": "D.5"
+                      },
+                      "median_titer_EPIHK_sera": {
+                        "value": 258.7
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA2": [
+                          "F88L"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA2: F88L"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000003",
+                "node_attrs": {
+                  "div": 9.047411,
+                  "num_date": {
+                    "value": 2022.716
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "HA1": [
+                      "V152I",
+                      "R308K"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "HA1: V152I, R308K"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "A/Santiago/101713/2024",
+                    "node_attrs": {
+                      "div": 10.048481,
+                      "num_date": {
+                        "value": 2024.96
+                      },
+                      "frac_w_titer_below_140_All_sera": {
+                        "value": 0.245
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025"
+                      },
+                      "median_titer_SCH_sera": {
+                        "value": 338.5
+                      },
+                      "median_titer_UWMC_sera": {
+                        "value": 534.45
+                      },
+                      "median_titer_All_sera": {
+                        "value": 299.15
+                      },
+                      "frac_w_titer_below_140_SCH_sera": {
+                        "value": 0.277
+                      },
+                      "frac_w_titer_below_140_NIID_sera": {
+                        "value": 0.345
+                      },
+                      "frac_w_titer_below_140_UWMC_sera": {
+                        "value": 0.045
+                      },
+                      "median_titer_NIID_sera": {
+                        "value": 167.4
+                      },
+                      "frac_w_titer_below_140_EPIHK_sera": {
+                        "value": 0.286
+                      },
+                      "subclade": {
+                        "value": "D"
+                      },
+                      "median_titer_EPIHK_sera": {
+                        "value": 282.8
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA1": [
+                          "I149V"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA1: I149V"
+                      }
+                    }
+                  },
+                  {
+                    "name": "A/Vermont/05/2025",
+                    "node_attrs": {
+                      "div": 9.047914,
+                      "num_date": {
+                        "value": 2025.02
+                      },
+                      "frac_w_titer_below_140_All_sera": {
+                        "value": 0.25
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025"
+                      },
+                      "median_titer_SCH_sera": {
+                        "value": 419.8
+                      },
+                      "median_titer_UWMC_sera": {
+                        "value": 629.4
+                      },
+                      "median_titer_All_sera": {
+                        "value": 305.1
+                      },
+                      "frac_w_titer_below_140_SCH_sera": {
+                        "value": 0.298
+                      },
+                      "frac_w_titer_below_140_NIID_sera": {
+                        "value": 0.4
+                      },
+                      "frac_w_titer_below_140_UWMC_sera": {
+                        "value": 0.045
+                      },
+                      "median_titer_NIID_sera": {
+                        "value": 172.7
+                      },
+                      "frac_w_titer_below_140_EPIHK_sera": {
+                        "value": 0.214
+                      },
+                      "subclade": {
+                        "value": "D"
+                      },
+                      "median_titer_EPIHK_sera": {
+                        "value": 335.0
+                      }
+                    },
+                    "branch_attrs": {}
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000004",
+                "node_attrs": {
+                  "div": 10.052606,
+                  "num_date": {
+                    "value": 2022.121
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "HA1": [
+                      "T120A"
+                    ],
+                    "HA2": [
+                      "I45V",
+                      "I133T"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "HA1: T120A; HA2: I45V, I133T"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "A/Colorado/218/2024",
+                    "node_attrs": {
+                      "div": 11.053677,
+                      "num_date": {
+                        "value": 2024.79
+                      },
+                      "frac_w_titer_below_140_All_sera": {
+                        "value": 0.353
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025"
+                      },
+                      "median_titer_SCH_sera": {
+                        "value": 309.8
+                      },
+                      "median_titer_UWMC_sera": {
+                        "value": 439.8
+                      },
+                      "median_titer_All_sera": {
+                        "value": 216.8
+                      },
+                      "frac_w_titer_below_140_SCH_sera": {
+                        "value": 0.383
+                      },
+                      "frac_w_titer_below_140_NIID_sera": {
+                        "value": 0.519
+                      },
+                      "frac_w_titer_below_140_UWMC_sera": {
+                        "value": 0.136
+                      },
+                      "median_titer_NIID_sera": {
+                        "value": 132.95
+                      },
+                      "frac_w_titer_below_140_EPIHK_sera": {
+                        "value": 0.333
+                      },
+                      "subclade": {
+                        "value": "D.3.1"
+                      },
+                      "median_titer_EPIHK_sera": {
+                        "value": 221.8
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA1": [
+                          "R113K"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA1: R113K"
+                      }
+                    }
+                  },
+                  {
+                    "name": "A/Utah/39/2025",
+                    "node_attrs": {
+                      "div": 10.053109,
+                      "num_date": {
+                        "value": 2025.23
+                      },
+                      "frac_w_titer_below_140_All_sera": {
+                        "value": 0.25
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025"
+                      },
+                      "median_titer_SCH_sera": {
+                        "value": 398.1
+                      },
+                      "median_titer_UWMC_sera": {
+                        "value": 588.4
+                      },
+                      "median_titer_All_sera": {
+                        "value": 296.2
+                      },
+                      "frac_w_titer_below_140_SCH_sera": {
+                        "value": 0.298
+                      },
+                      "frac_w_titer_below_140_NIID_sera": {
+                        "value": 0.382
+                      },
+                      "frac_w_titer_below_140_UWMC_sera": {
+                        "value": 0.0
+                      },
+                      "median_titer_NIID_sera": {
+                        "value": 168.8
+                      },
+                      "frac_w_titer_below_140_EPIHK_sera": {
+                        "value": 0.286
+                      },
+                      "subclade": {
+                        "value": "D.3.1"
+                      },
+                      "median_titer_EPIHK_sera": {
+                        "value": 291.45
+                      }
+                    },
+                    "branch_attrs": {}
+                  },
+                  {
+                    "name": "A/Hawaii/ISC-1140/2025",
+                    "node_attrs": {
+                      "div": 11.053677,
+                      "num_date": {
+                        "value": 2025.23
+                      },
+                      "frac_w_titer_below_140_All_sera": {
+                        "value": 0.191
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025"
+                      },
+                      "median_titer_SCH_sera": {
+                        "value": 390.3
+                      },
+                      "median_titer_UWMC_sera": {
+                        "value": 593.6
+                      },
+                      "median_titer_All_sera": {
+                        "value": 301.05
+                      },
+                      "frac_w_titer_below_140_SCH_sera": {
+                        "value": 0.255
+                      },
+                      "frac_w_titer_below_140_NIID_sera": {
+                        "value": 0.255
+                      },
+                      "frac_w_titer_below_140_UWMC_sera": {
+                        "value": 0.0
+                      },
+                      "median_titer_NIID_sera": {
+                        "value": 177.3
+                      },
+                      "frac_w_titer_below_140_EPIHK_sera": {
+                        "value": 0.238
+                      },
+                      "subclade": {
+                        "value": "D.3.1"
+                      },
+                      "median_titer_EPIHK_sera": {
+                        "value": 288.35
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA1": [
+                          "R45K"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA1: R45K"
+                      }
+                    }
+                  },
+                  {
+                    "name": "A/Massachusetts/ISC-1679/2025",
+                    "node_attrs": {
+                      "div": 11.053677,
+                      "num_date": {
+                        "value": 2025.17
+                      },
+                      "frac_w_titer_below_140_All_sera": {
+                        "value": 0.207
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025"
+                      },
+                      "median_titer_SCH_sera": {
+                        "value": 398.9
+                      },
+                      "median_titer_UWMC_sera": {
+                        "value": 551.0
+                      },
+                      "median_titer_All_sera": {
+                        "value": 295.75
+                      },
+                      "frac_w_titer_below_140_SCH_sera": {
+                        "value": 0.277
+                      },
+                      "frac_w_titer_below_140_NIID_sera": {
+                        "value": 0.291
+                      },
+                      "frac_w_titer_below_140_UWMC_sera": {
+                        "value": 0.023
+                      },
+                      "median_titer_NIID_sera": {
+                        "value": 185.7
+                      },
+                      "frac_w_titer_below_140_EPIHK_sera": {
+                        "value": 0.214
+                      },
+                      "subclade": {
+                        "value": "D.3.1"
+                      },
+                      "median_titer_EPIHK_sera": {
+                        "value": 266.4
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA1": [
+                          "V295I"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA1: V295I"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NODE_0000010",
+        "node_attrs": {
+          "div": 0.997952,
+          "num_date": {
+            "value": 2002.727
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "HA1": [
+              "T120A"
+            ]
+          },
+          "labels": {
+            "aa": "HA1: T120A"
+          }
+        },
+        "children": [
+          {
+            "name": "A/Madagascar/00003/2025",
+            "node_attrs": {
+              "div": 3.002457,
+              "num_date": {
+                "value": 2024.98
+              },
+              "frac_w_titer_below_140_All_sera": {
+                "value": 0.16
+              },
+              "strain_type": {
+                "value": "circulating_2025"
+              },
+              "median_titer_SCH_sera": {
+                "value": 598.1
+              },
+              "median_titer_UWMC_sera": {
+                "value": 755.2
+              },
+              "median_titer_All_sera": {
+                "value": 419.8
+              },
+              "frac_w_titer_below_140_SCH_sera": {
+                "value": 0.213
+              },
+              "frac_w_titer_below_140_NIID_sera": {
+                "value": 0.145
+              },
+              "frac_w_titer_below_140_UWMC_sera": {
+                "value": 0.023
+              },
+              "median_titer_NIID_sera": {
+                "value": 250.1
+              },
+              "frac_w_titer_below_140_EPIHK_sera": {
+                "value": 0.262
+              },
+              "subclade": {
+                "value": "C.1"
+              },
+              "median_titer_EPIHK_sera": {
+                "value": 334.85
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "HA1": [
+                  "R45K",
+                  "I96T"
+                ]
+              },
+              "labels": {
+                "aa": "HA1: R45K, I96T"
+              }
+            }
+          },
+          {
+            "name": "NODE_0000011",
+            "node_attrs": {
+              "div": 1.999123,
+              "num_date": {
+                "value": 2007.298
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "HA1": [
+                  "K169Q"
+                ]
+              },
+              "labels": {
+                "aa": "HA1: K169Q"
+              }
+            },
+            "children": [
+              {
+                "name": "NODE_0000023",
+                "node_attrs": {
+                  "div": 3.000244,
+                  "num_date": {
+                    "value": 2009.672
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "HA1": [
+                      "N38D"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "HA1: N38D"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "NODE_0000024",
+                    "node_attrs": {
+                      "div": 4.001566,
+                      "num_date": {
+                        "value": 2013.073
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA2": [
+                          "K153R"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA2: K153R"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "A/KANAGAWA/AC2408/2025",
+                        "node_attrs": {
+                          "div": 8.01943,
+                          "num_date": {
+                            "value": 2025.09
+                          },
+                          "frac_w_titer_below_140_All_sera": {
+                            "value": 0.351
+                          },
+                          "strain_type": {
+                            "value": "circulating_2025"
+                          },
+                          "median_titer_SCH_sera": {
+                            "value": 299.1
+                          },
+                          "median_titer_UWMC_sera": {
+                            "value": 262.45
+                          },
+                          "median_titer_All_sera": {
+                            "value": 209.9
+                          },
+                          "frac_w_titer_below_140_SCH_sera": {
+                            "value": 0.319
+                          },
+                          "frac_w_titer_below_140_NIID_sera": {
+                            "value": 0.545
+                          },
+                          "frac_w_titer_below_140_UWMC_sera": {
+                            "value": 0.114
+                          },
+                          "median_titer_NIID_sera": {
+                            "value": 138.0
+                          },
+                          "frac_w_titer_below_140_EPIHK_sera": {
+                            "value": 0.381
+                          },
+                          "subclade": {
+                            "value": "C.1.9.2"
+                          },
+                          "median_titer_EPIHK_sera": {
+                            "value": 201.15
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "HA1": [
+                              "P137S",
+                              "G155E",
+                              "R205K",
+                              "T270A"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "HA1: P137S, G155E, R205K, T270A"
+                          }
+                        }
+                      },
+                      {
+                        "name": "A/Singapore/MOH0547/2024",
+                        "node_attrs": {
+                          "div": 6.006373,
+                          "num_date": {
+                            "value": 2024.94
+                          },
+                          "frac_w_titer_below_140_All_sera": {
+                            "value": 0.293
+                          },
+                          "strain_type": {
+                            "value": "circulating_2025"
+                          },
+                          "median_titer_SCH_sera": {
+                            "value": 322.1
+                          },
+                          "median_titer_UWMC_sera": {
+                            "value": 396.55
+                          },
+                          "median_titer_All_sera": {
+                            "value": 240.75
+                          },
+                          "frac_w_titer_below_140_SCH_sera": {
+                            "value": 0.362
+                          },
+                          "frac_w_titer_below_140_NIID_sera": {
+                            "value": 0.436
+                          },
+                          "frac_w_titer_below_140_UWMC_sera": {
+                            "value": 0.045
+                          },
+                          "median_titer_NIID_sera": {
+                            "value": 159.4
+                          },
+                          "frac_w_titer_below_140_EPIHK_sera": {
+                            "value": 0.286
+                          },
+                          "subclade": {
+                            "value": "C.1.9.2"
+                          },
+                          "median_titer_EPIHK_sera": {
+                            "value": 243.1
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "HA1": [
+                              "A139T",
+                              "A141E"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "HA1: A139T, A141E"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000025",
+                    "node_attrs": {
+                      "div": 7.01856,
+                      "num_date": {
+                        "value": 2021.235
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA1": [
+                          "Q54K",
+                          "D86N",
+                          "N125D",
+                          "I149V"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA1: Q54K, D86N, N125D, I149V"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "A/Ohio/259/2024",
+                        "node_attrs": {
+                          "div": 8.019581,
+                          "num_date": {
+                            "value": 2024.76
+                          },
+                          "frac_w_titer_below_140_All_sera": {
+                            "value": 0.255
+                          },
+                          "strain_type": {
+                            "value": "circulating_2025"
+                          },
+                          "median_titer_SCH_sera": {
+                            "value": 464.6
+                          },
+                          "median_titer_UWMC_sera": {
+                            "value": 439.0
+                          },
+                          "median_titer_All_sera": {
+                            "value": 246.65
+                          },
+                          "frac_w_titer_below_140_SCH_sera": {
+                            "value": 0.277
+                          },
+                          "frac_w_titer_below_140_NIID_sera": {
+                            "value": 0.327
+                          },
+                          "frac_w_titer_below_140_UWMC_sera": {
+                            "value": 0.045
+                          },
+                          "median_titer_NIID_sera": {
+                            "value": 168.6
+                          },
+                          "frac_w_titer_below_140_EPIHK_sera": {
+                            "value": 0.357
+                          },
+                          "subclade": {
+                            "value": "C.1.9.4"
+                          },
+                          "median_titer_EPIHK_sera": {
+                            "value": 225.1
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "HA1": [
+                              "V152I"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "HA1: V152I"
+                          }
+                        }
+                      },
+                      {
+                        "name": "A/Oregon/261/2024",
+                        "node_attrs": {
+                          "div": 8.019731,
+                          "num_date": {
+                            "value": 2024.85
+                          },
+                          "frac_w_titer_below_140_All_sera": {
+                            "value": 0.282
+                          },
+                          "strain_type": {
+                            "value": "circulating_2025"
+                          },
+                          "median_titer_SCH_sera": {
+                            "value": 408.7
+                          },
+                          "median_titer_UWMC_sera": {
+                            "value": 337.55
+                          },
+                          "median_titer_All_sera": {
+                            "value": 249.65
+                          },
+                          "frac_w_titer_below_140_SCH_sera": {
+                            "value": 0.298
+                          },
+                          "frac_w_titer_below_140_NIID_sera": {
+                            "value": 0.4
+                          },
+                          "frac_w_titer_below_140_UWMC_sera": {
+                            "value": 0.068
+                          },
+                          "median_titer_NIID_sera": {
+                            "value": 183.3
+                          },
+                          "frac_w_titer_below_140_EPIHK_sera": {
+                            "value": 0.333
+                          },
+                          "subclade": {
+                            "value": "C.1.9.4"
+                          },
+                          "median_titer_EPIHK_sera": {
+                            "value": 271.4
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "HA1": [
+                              "I96V"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "HA1: I96V"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000014",
+                "node_attrs": {
+                  "div": 1.999123,
+                  "num_date": {
+                    "value": 2014.812
+                  }
+                },
+                "branch_attrs": {},
+                "children": [
+                  {
+                    "name": "A/Victoria/3599/2024",
+                    "node_attrs": {
+                      "div": 4.003327,
+                      "num_date": {
+                        "value": 2024.97
+                      },
+                      "frac_w_titer_below_140_All_sera": {
+                        "value": 0.218
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025"
+                      },
+                      "median_titer_SCH_sera": {
+                        "value": 437.3
+                      },
+                      "median_titer_UWMC_sera": {
+                        "value": 431.4
+                      },
+                      "median_titer_All_sera": {
+                        "value": 287.5
+                      },
+                      "frac_w_titer_below_140_SCH_sera": {
+                        "value": 0.255
+                      },
+                      "frac_w_titer_below_140_NIID_sera": {
+                        "value": 0.291
+                      },
+                      "frac_w_titer_below_140_UWMC_sera": {
+                        "value": 0.045
+                      },
+                      "median_titer_NIID_sera": {
+                        "value": 181.6
+                      },
+                      "frac_w_titer_below_140_EPIHK_sera": {
+                        "value": 0.262
+                      },
+                      "subclade": {
+                        "value": "C.1.9"
+                      },
+                      "median_titer_EPIHK_sera": {
+                        "value": 285.1
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA1": [
+                          "A139S"
+                        ],
+                        "HA2": [
+                          "A65S"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA1: A139S; HA2: A65S"
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000019",
+                    "node_attrs": {
+                      "div": 1.999123,
+                      "num_date": {
+                        "value": 2014.812
+                      }
+                    },
+                    "branch_attrs": {},
+                    "children": [
+                      {
+                        "name": "NODE_0000020",
+                        "node_attrs": {
+                          "div": 1.999123,
+                          "num_date": {
+                            "value": 2015.723
+                          }
+                        },
+                        "branch_attrs": {},
+                        "children": [
+                          {
+                            "name": "NODE_0000017",
+                            "node_attrs": {
+                              "div": 2.564797,
+                              "num_date": {
+                                "value": 2018.402
+                              }
+                            },
+                            "branch_attrs": {},
+                            "children": [
+                              {
+                                "name": "A/Lisboa/188/2023",
+                                "node_attrs": {
+                                  "div": 4.437214,
+                                  "num_date": {
+                                    "value": 2023.89
+                                  },
+                                  "frac_w_titer_below_140_All_sera": {
+                                    "value": 0.17
+                                  },
+                                  "strain_type": {
+                                    "value": "circulating_2025"
+                                  },
+                                  "median_titer_SCH_sera": {
+                                    "value": 435.0
+                                  },
+                                  "median_titer_UWMC_sera": {
+                                    "value": 482.85
+                                  },
+                                  "median_titer_All_sera": {
+                                    "value": 330.65
+                                  },
+                                  "frac_w_titer_below_140_SCH_sera": {
+                                    "value": 0.234
+                                  },
+                                  "frac_w_titer_below_140_NIID_sera": {
+                                    "value": 0.236
+                                  },
+                                  "frac_w_titer_below_140_UWMC_sera": {
+                                    "value": 0.0
+                                  },
+                                  "median_titer_NIID_sera": {
+                                    "value": 190.5
+                                  },
+                                  "frac_w_titer_below_140_EPIHK_sera": {
+                                    "value": 0.19
+                                  },
+                                  "subclade": {
+                                    "value": "C.1.9"
+                                  },
+                                  "median_titer_EPIHK_sera": {
+                                    "value": 291.8
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "HA1": [
+                                      "T216A"
+                                    ],
+                                    "HA2": [
+                                      "V176I"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "HA1: T216A; HA2: V176I"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "A/NovaScotia/ET1801CP00018S/2025",
+                                "node_attrs": {
+                                  "div": 3.131678,
+                                  "num_date": {
+                                    "value": 2025.05
+                                  },
+                                  "frac_w_titer_below_140_All_sera": {
+                                    "value": 0.229
+                                  },
+                                  "strain_type": {
+                                    "value": "circulating_2025"
+                                  },
+                                  "median_titer_SCH_sera": {
+                                    "value": 399.0
+                                  },
+                                  "median_titer_UWMC_sera": {
+                                    "value": 493.2
+                                  },
+                                  "median_titer_All_sera": {
+                                    "value": 296.7
+                                  },
+                                  "frac_w_titer_below_140_SCH_sera": {
+                                    "value": 0.255
+                                  },
+                                  "frac_w_titer_below_140_NIID_sera": {
+                                    "value": 0.236
+                                  },
+                                  "frac_w_titer_below_140_UWMC_sera": {
+                                    "value": 0.091
+                                  },
+                                  "median_titer_NIID_sera": {
+                                    "value": 211.9
+                                  },
+                                  "frac_w_titer_below_140_EPIHK_sera": {
+                                    "value": 0.333
+                                  },
+                                  "subclade": {
+                                    "value": "C.1.9"
+                                  },
+                                  "median_titer_EPIHK_sera": {
+                                    "value": 305.05
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "HA1": [
+                                      "T216P"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "HA1: T216P"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000013",
+                            "node_attrs": {
+                              "div": 1.999123,
+                              "num_date": {
+                                "value": 2016.696
+                              }
+                            },
+                            "branch_attrs": {},
+                            "children": [
+                              {
+                                "name": "NODE_0000012",
+                                "node_attrs": {
+                                  "div": 3.000194,
+                                  "num_date": {
+                                    "value": 2021.446
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "HA1": [
+                                      "P137S"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "HA1: P137S"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "A/Wisconsin/NIRC-IS-1111/2025",
+                                    "node_attrs": {
+                                      "div": 4.001264,
+                                      "num_date": {
+                                        "value": 2025.12
+                                      },
+                                      "frac_w_titer_below_140_All_sera": {
+                                        "value": 0.255
+                                      },
+                                      "strain_type": {
+                                        "value": "circulating_2025"
+                                      },
+                                      "median_titer_SCH_sera": {
+                                        "value": 523.0
+                                      },
+                                      "median_titer_UWMC_sera": {
+                                        "value": 446.8
+                                      },
+                                      "median_titer_All_sera": {
+                                        "value": 284.6
+                                      },
+                                      "frac_w_titer_below_140_SCH_sera": {
+                                        "value": 0.277
+                                      },
+                                      "frac_w_titer_below_140_NIID_sera": {
+                                        "value": 0.345
+                                      },
+                                      "frac_w_titer_below_140_UWMC_sera": {
+                                        "value": 0.114
+                                      },
+                                      "median_titer_NIID_sera": {
+                                        "value": 175.3
+                                      },
+                                      "frac_w_titer_below_140_EPIHK_sera": {
+                                        "value": 0.262
+                                      },
+                                      "subclade": {
+                                        "value": "C.1.9"
+                                      },
+                                      "median_titer_EPIHK_sera": {
+                                        "value": 298.7
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "HA1": [
+                                          "E68G"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "HA1: E68G"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "A/TOKYO/EIS11-277/2024",
+                                    "node_attrs": {
+                                      "div": 3.000697,
+                                      "num_date": {
+                                        "value": 2024.97
+                                      },
+                                      "frac_w_titer_below_140_All_sera": {
+                                        "value": 0.261
+                                      },
+                                      "strain_type": {
+                                        "value": "circulating_2025"
+                                      },
+                                      "median_titer_SCH_sera": {
+                                        "value": 300.1
+                                      },
+                                      "median_titer_UWMC_sera": {
+                                        "value": 508.3
+                                      },
+                                      "median_titer_All_sera": {
+                                        "value": 247.35
+                                      },
+                                      "frac_w_titer_below_140_SCH_sera": {
+                                        "value": 0.277
+                                      },
+                                      "frac_w_titer_below_140_NIID_sera": {
+                                        "value": 0.327
+                                      },
+                                      "frac_w_titer_below_140_UWMC_sera": {
+                                        "value": 0.091
+                                      },
+                                      "median_titer_NIID_sera": {
+                                        "value": 188.4
+                                      },
+                                      "frac_w_titer_below_140_EPIHK_sera": {
+                                        "value": 0.333
+                                      },
+                                      "subclade": {
+                                        "value": "C.1.9"
+                                      },
+                                      "median_titer_EPIHK_sera": {
+                                        "value": 224.75
+                                      }
+                                    },
+                                    "branch_attrs": {}
+                                  },
+                                  {
+                                    "name": "A/Uganda/UVRI_KIS6850_2024",
+                                    "node_attrs": {
+                                      "div": 4.001264,
+                                      "num_date": {
+                                        "value": 2024.87
+                                      },
+                                      "frac_w_titer_below_140_All_sera": {
+                                        "value": 0.245
+                                      },
+                                      "strain_type": {
+                                        "value": "circulating_2025"
+                                      },
+                                      "median_titer_SCH_sera": {
+                                        "value": 438.3
+                                      },
+                                      "median_titer_UWMC_sera": {
+                                        "value": 393.45
+                                      },
+                                      "median_titer_All_sera": {
+                                        "value": 270.0
+                                      },
+                                      "frac_w_titer_below_140_SCH_sera": {
+                                        "value": 0.255
+                                      },
+                                      "frac_w_titer_below_140_NIID_sera": {
+                                        "value": 0.364
+                                      },
+                                      "frac_w_titer_below_140_UWMC_sera": {
+                                        "value": 0.045
+                                      },
+                                      "median_titer_NIID_sera": {
+                                        "value": 185.8
+                                      },
+                                      "frac_w_titer_below_140_EPIHK_sera": {
+                                        "value": 0.286
+                                      },
+                                      "subclade": {
+                                        "value": "C.1.9"
+                                      },
+                                      "median_titer_EPIHK_sera": {
+                                        "value": 254.55
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "HA1": [
+                                          "K36N"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "HA1: K36N"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "A/Wisconsin/30/2025",
+                                    "node_attrs": {
+                                      "div": 4.001264,
+                                      "num_date": {
+                                        "value": 2025.08
+                                      },
+                                      "frac_w_titer_below_140_All_sera": {
+                                        "value": 0.261
+                                      },
+                                      "strain_type": {
+                                        "value": "circulating_2025"
+                                      },
+                                      "median_titer_SCH_sera": {
+                                        "value": 407.4
+                                      },
+                                      "median_titer_UWMC_sera": {
+                                        "value": 443.55
+                                      },
+                                      "median_titer_All_sera": {
+                                        "value": 272.85
+                                      },
+                                      "frac_w_titer_below_140_SCH_sera": {
+                                        "value": 0.255
+                                      },
+                                      "frac_w_titer_below_140_NIID_sera": {
+                                        "value": 0.382
+                                      },
+                                      "frac_w_titer_below_140_UWMC_sera": {
+                                        "value": 0.114
+                                      },
+                                      "median_titer_NIID_sera": {
+                                        "value": 158.4
+                                      },
+                                      "frac_w_titer_below_140_EPIHK_sera": {
+                                        "value": 0.262
+                                      },
+                                      "subclade": {
+                                        "value": "C.1.9.1"
+                                      },
+                                      "median_titer_EPIHK_sera": {
+                                        "value": 279.2
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "HA1": [
+                                          "P271Q"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "HA1: P271Q"
+                                      }
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "NODE_0000015",
+                                "node_attrs": {
+                                  "div": 1.999123,
+                                  "num_date": {
+                                    "value": 2019.927
+                                  }
+                                },
+                                "branch_attrs": {},
+                                "children": [
+                                  {
+                                    "name": "A/Qinghai-Chengzhong/SWL1410/2024",
+                                    "node_attrs": {
+                                      "div": 3.000194,
+                                      "num_date": {
+                                        "value": 2024.76
+                                      },
+                                      "frac_w_titer_below_140_All_sera": {
+                                        "value": 0.282
+                                      },
+                                      "strain_type": {
+                                        "value": "circulating_2025"
+                                      },
+                                      "median_titer_SCH_sera": {
+                                        "value": 504.0
+                                      },
+                                      "median_titer_UWMC_sera": {
+                                        "value": 354.8
+                                      },
+                                      "median_titer_All_sera": {
+                                        "value": 241.85
+                                      },
+                                      "frac_w_titer_below_140_SCH_sera": {
+                                        "value": 0.234
+                                      },
+                                      "frac_w_titer_below_140_NIID_sera": {
+                                        "value": 0.382
+                                      },
+                                      "frac_w_titer_below_140_UWMC_sera": {
+                                        "value": 0.136
+                                      },
+                                      "median_titer_NIID_sera": {
+                                        "value": 167.1
+                                      },
+                                      "frac_w_titer_below_140_EPIHK_sera": {
+                                        "value": 0.357
+                                      },
+                                      "subclade": {
+                                        "value": "C.1.9"
+                                      },
+                                      "median_titer_EPIHK_sera": {
+                                        "value": 239.1
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "HA1": [
+                                          "V152I"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "HA1: V152I"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000016",
+                                    "node_attrs": {
+                                      "div": 1.999123,
+                                      "num_date": {
+                                        "value": 2020.015
+                                      }
+                                    },
+                                    "branch_attrs": {},
+                                    "children": [
+                                      {
+                                        "name": "A/Shanghai-Huangpu/SWL12109/2024",
+                                        "node_attrs": {
+                                          "div": 3.000194,
+                                          "num_date": {
+                                            "value": 2024.85
+                                          },
+                                          "frac_w_titer_below_140_All_sera": {
+                                            "value": 0.191
+                                          },
+                                          "strain_type": {
+                                            "value": "circulating_2025"
+                                          },
+                                          "median_titer_SCH_sera": {
+                                            "value": 472.0
+                                          },
+                                          "median_titer_UWMC_sera": {
+                                            "value": 412.15
+                                          },
+                                          "median_titer_All_sera": {
+                                            "value": 332.15
+                                          },
+                                          "frac_w_titer_below_140_SCH_sera": {
+                                            "value": 0.234
+                                          },
+                                          "frac_w_titer_below_140_NIID_sera": {
+                                            "value": 0.2
+                                          },
+                                          "frac_w_titer_below_140_UWMC_sera": {
+                                            "value": 0.068
+                                          },
+                                          "median_titer_NIID_sera": {
+                                            "value": 206.4
+                                          },
+                                          "frac_w_titer_below_140_EPIHK_sera": {
+                                            "value": 0.262
+                                          },
+                                          "subclade": {
+                                            "value": "C.1.9"
+                                          },
+                                          "median_titer_EPIHK_sera": {
+                                            "value": 350.4
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "HA1": [
+                                              "R205K"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "HA1: R205K"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "NODE_0000018",
+                                        "node_attrs": {
+                                          "div": 1.999123,
+                                          "num_date": {
+                                            "value": 2020.321
+                                          }
+                                        },
+                                        "branch_attrs": {},
+                                        "children": [
+                                          {
+                                            "name": "A/Pakistan/306/2024",
+                                            "node_attrs": {
+                                              "div": 3.000194,
+                                              "num_date": {
+                                                "value": 2024.91
+                                              },
+                                              "frac_w_titer_below_140_All_sera": {
+                                                "value": 0.298
+                                              },
+                                              "strain_type": {
+                                                "value": "circulating_2025"
+                                              },
+                                              "median_titer_SCH_sera": {
+                                                "value": 403.0
+                                              },
+                                              "median_titer_UWMC_sera": {
+                                                "value": 385.5
+                                              },
+                                              "median_titer_All_sera": {
+                                                "value": 247.5
+                                              },
+                                              "frac_w_titer_below_140_SCH_sera": {
+                                                "value": 0.255
+                                              },
+                                              "frac_w_titer_below_140_NIID_sera": {
+                                                "value": 0.455
+                                              },
+                                              "frac_w_titer_below_140_UWMC_sera": {
+                                                "value": 0.114
+                                              },
+                                              "median_titer_NIID_sera": {
+                                                "value": 161.0
+                                              },
+                                              "frac_w_titer_below_140_EPIHK_sera": {
+                                                "value": 0.333
+                                              },
+                                              "subclade": {
+                                                "value": "C.1.9"
+                                              },
+                                              "median_titer_EPIHK_sera": {
+                                                "value": 201.95
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "HA1": [
+                                                  "H138Q"
+                                                ]
+                                              },
+                                              "labels": {
+                                                "aa": "HA1: H138Q"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "name": "A/Saint-Petersburg/RII-04/2025",
+                                            "node_attrs": {
+                                              "div": 1.999626,
+                                              "num_date": {
+                                                "value": 2025.05
+                                              },
+                                              "frac_w_titer_below_140_All_sera": {
+                                                "value": 0.207
+                                              },
+                                              "strain_type": {
+                                                "value": "circulating_2025"
+                                              },
+                                              "median_titer_SCH_sera": {
+                                                "value": 411.5
+                                              },
+                                              "median_titer_UWMC_sera": {
+                                                "value": 425.75
+                                              },
+                                              "median_titer_All_sera": {
+                                                "value": 300.35
+                                              },
+                                              "frac_w_titer_below_140_SCH_sera": {
+                                                "value": 0.277
+                                              },
+                                              "frac_w_titer_below_140_NIID_sera": {
+                                                "value": 0.255
+                                              },
+                                              "frac_w_titer_below_140_UWMC_sera": {
+                                                "value": 0.023
+                                              },
+                                              "median_titer_NIID_sera": {
+                                                "value": 209.9
+                                              },
+                                              "frac_w_titer_below_140_EPIHK_sera": {
+                                                "value": 0.262
+                                              },
+                                              "subclade": {
+                                                "value": "C.1.9"
+                                              },
+                                              "median_titer_EPIHK_sera": {
+                                                "value": 246.9
+                                              }
+                                            },
+                                            "branch_attrs": {}
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000026",
+                        "node_attrs": {
+                          "div": 3.000144,
+                          "num_date": {
+                            "value": 2019.283
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "HA1": [
+                              "S83P"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "HA1: S83P"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "A/Iowa/123/2024",
+                            "node_attrs": {
+                              "div": 4.001264,
+                              "num_date": {
+                                "value": 2024.86
+                              },
+                              "frac_w_titer_below_140_All_sera": {
+                                "value": 0.266
+                              },
+                              "strain_type": {
+                                "value": "circulating_2025"
+                              },
+                              "median_titer_SCH_sera": {
+                                "value": 493.4
+                              },
+                              "median_titer_UWMC_sera": {
+                                "value": 474.2
+                              },
+                              "median_titer_All_sera": {
+                                "value": 290.95
+                              },
+                              "frac_w_titer_below_140_SCH_sera": {
+                                "value": 0.277
+                              },
+                              "frac_w_titer_below_140_NIID_sera": {
+                                "value": 0.4
+                              },
+                              "frac_w_titer_below_140_UWMC_sera": {
+                                "value": 0.045
+                              },
+                              "median_titer_NIID_sera": {
+                                "value": 181.6
+                              },
+                              "frac_w_titer_below_140_EPIHK_sera": {
+                                "value": 0.31
+                              },
+                              "subclade": {
+                                "value": "C.1.9.3"
+                              },
+                              "median_titer_EPIHK_sera": {
+                                "value": 298.9
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "HA1": [
+                                  "E283Q"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "HA1: E283Q"
+                              }
+                            }
+                          },
+                          {
+                            "name": "A/Illinois/65/2024",
+                            "node_attrs": {
+                              "div": 4.001214,
+                              "num_date": {
+                                "value": 2024.84
+                              },
+                              "frac_w_titer_below_140_All_sera": {
+                                "value": 0.191
+                              },
+                              "strain_type": {
+                                "value": "circulating_2025"
+                              },
+                              "median_titer_SCH_sera": {
+                                "value": 529.2
+                              },
+                              "median_titer_UWMC_sera": {
+                                "value": 454.45
+                              },
+                              "median_titer_All_sera": {
+                                "value": 308.65
+                              },
+                              "frac_w_titer_below_140_SCH_sera": {
+                                "value": 0.255
+                              },
+                              "frac_w_titer_below_140_NIID_sera": {
+                                "value": 0.273
+                              },
+                              "frac_w_titer_below_140_UWMC_sera": {
+                                "value": 0.0
+                              },
+                              "median_titer_NIID_sera": {
+                                "value": 213.1
+                              },
+                              "frac_w_titer_below_140_EPIHK_sera": {
+                                "value": 0.214
+                              },
+                              "subclade": {
+                                "value": "C.1.9.3"
+                              },
+                              "median_titer_EPIHK_sera": {
+                                "value": 265.55
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "HA1": [
+                                  "I161V"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "HA1: I161V"
+                              }
+                            }
+                          },
+                          {
+                            "name": "A/Tambov/160-1V/2024",
+                            "node_attrs": {
+                              "div": 4.001214,
+                              "num_date": {
+                                "value": 2024.97
+                              },
+                              "frac_w_titer_below_140_All_sera": {
+                                "value": 0.202
+                              },
+                              "strain_type": {
+                                "value": "circulating_2025"
+                              },
+                              "median_titer_SCH_sera": {
+                                "value": 447.3
+                              },
+                              "median_titer_UWMC_sera": {
+                                "value": 543.7
+                              },
+                              "median_titer_All_sera": {
+                                "value": 341.05
+                              },
+                              "frac_w_titer_below_140_SCH_sera": {
+                                "value": 0.234
+                              },
+                              "frac_w_titer_below_140_NIID_sera": {
+                                "value": 0.255
+                              },
+                              "frac_w_titer_below_140_UWMC_sera": {
+                                "value": 0.023
+                              },
+                              "median_titer_NIID_sera": {
+                                "value": 197.0
+                              },
+                              "frac_w_titer_below_140_EPIHK_sera": {
+                                "value": 0.286
+                              },
+                              "subclade": {
+                                "value": "C.1.9.3"
+                              },
+                              "median_titer_EPIHK_sera": {
+                                "value": 254.55
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "HA1": [
+                                  "Q169K"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "HA1: Q169K"
+                              }
+                            }
+                          },
+                          {
+                            "name": "A/Zacapa/FLU-012/2025",
+                            "node_attrs": {
+                              "div": 3.000647,
+                              "num_date": {
+                                "value": 2025.08
+                              },
+                              "frac_w_titer_below_140_All_sera": {
+                                "value": 0.369
+                              },
+                              "strain_type": {
+                                "value": "circulating_2025"
+                              },
+                              "median_titer_SCH_sera": {
+                                "value": 358.7
+                              },
+                              "median_titer_UWMC_sera": {
+                                "value": 296.55
+                              },
+                              "median_titer_All_sera": {
+                                "value": 214.4
+                              },
+                              "frac_w_titer_below_140_SCH_sera": {
+                                "value": 0.277
+                              },
+                              "frac_w_titer_below_140_NIID_sera": {
+                                "value": 0.509
+                              },
+                              "frac_w_titer_below_140_UWMC_sera": {
+                                "value": 0.25
+                              },
+                              "median_titer_NIID_sera": {
+                                "value": 129.1
+                              },
+                              "frac_w_titer_below_140_EPIHK_sera": {
+                                "value": 0.415
+                              },
+                              "subclade": {
+                                "value": "C.1.9.3"
+                              },
+                              "median_titer_EPIHK_sera": {
+                                "value": 198.3
+                              }
+                            },
+                            "branch_attrs": {}
+                          },
+                          {
+                            "name": "A/Ufa/CRIE/47/2024",
+                            "node_attrs": {
+                              "div": 4.001214,
+                              "num_date": {
+                                "value": 2024.89
+                              },
+                              "frac_w_titer_below_140_All_sera": {
+                                "value": 0.234
+                              },
+                              "strain_type": {
+                                "value": "circulating_2025"
+                              },
+                              "median_titer_SCH_sera": {
+                                "value": 449.5
+                              },
+                              "median_titer_UWMC_sera": {
+                                "value": 383.8
+                              },
+                              "median_titer_All_sera": {
+                                "value": 283.85
+                              },
+                              "frac_w_titer_below_140_SCH_sera": {
+                                "value": 0.255
+                              },
+                              "frac_w_titer_below_140_NIID_sera": {
+                                "value": 0.345
+                              },
+                              "frac_w_titer_below_140_UWMC_sera": {
+                                "value": 0.068
+                              },
+                              "median_titer_NIID_sera": {
+                                "value": 198.6
+                              },
+                              "frac_w_titer_below_140_EPIHK_sera": {
+                                "value": 0.238
+                              },
+                              "subclade": {
+                                "value": "C.1.9.3"
+                              },
+                              "median_titer_EPIHK_sera": {
+                                "value": 277.25
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "HA1": [
+                                  "D35N"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "HA1: D35N"
+                              }
+                            }
+                          },
+                          {
+                            "name": "A/Ulsan/492/2025",
+                            "node_attrs": {
+                              "div": 4.001214,
+                              "num_date": {
+                                "value": 2025.05
+                              },
+                              "frac_w_titer_below_140_All_sera": {
+                                "value": 0.358
+                              },
+                              "strain_type": {
+                                "value": "circulating_2025"
+                              },
+                              "median_titer_SCH_sera": {
+                                "value": 341.5
+                              },
+                              "median_titer_UWMC_sera": {
+                                "value": 273.45
+                              },
+                              "median_titer_All_sera": {
+                                "value": 219.3
+                              },
+                              "frac_w_titer_below_140_SCH_sera": {
+                                "value": 0.34
+                              },
+                              "frac_w_titer_below_140_NIID_sera": {
+                                "value": 0.527
+                              },
+                              "frac_w_titer_below_140_UWMC_sera": {
+                                "value": 0.159
+                              },
+                              "median_titer_NIID_sera": {
+                                "value": 129.8
+                              },
+                              "frac_w_titer_below_140_EPIHK_sera": {
+                                "value": 0.366
+                              },
+                              "subclade": {
+                                "value": "C.1.9.3"
+                              },
+                              "median_titer_EPIHK_sera": {
+                                "value": 204.6
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "HA1": [
+                                  "G155E"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "HA1: G155E"
+                              }
+                            }
+                          },
+                          {
+                            "name": "A/Busan/277/2025",
+                            "node_attrs": {
+                              "div": 4.001214,
+                              "num_date": {
+                                "value": 2025.03
+                              },
+                              "frac_w_titer_below_140_All_sera": {
+                                "value": 0.277
+                              },
+                              "strain_type": {
+                                "value": "circulating_2025"
+                              },
+                              "median_titer_SCH_sera": {
+                                "value": 394.3
+                              },
+                              "median_titer_UWMC_sera": {
+                                "value": 363.1
+                              },
+                              "median_titer_All_sera": {
+                                "value": 262.6
+                              },
+                              "frac_w_titer_below_140_SCH_sera": {
+                                "value": 0.277
+                              },
+                              "frac_w_titer_below_140_NIID_sera": {
+                                "value": 0.4
+                              },
+                              "frac_w_titer_below_140_UWMC_sera": {
+                                "value": 0.091
+                              },
+                              "median_titer_NIID_sera": {
+                                "value": 165.6
+                              },
+                              "frac_w_titer_below_140_EPIHK_sera": {
+                                "value": 0.31
+                              },
+                              "subclade": {
+                                "value": "C.1.9.3"
+                              },
+                              "median_titer_EPIHK_sera": {
+                                "value": 258.0
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "HA1": [
+                                  "S157L"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "HA1: S157L"
+                              }
+                            }
+                          },
+                          {
+                            "name": "A/Maryland/64/2024",
+                            "node_attrs": {
+                              "div": 4.001214,
+                              "num_date": {
+                                "value": 2024.87
+                              },
+                              "frac_w_titer_below_140_All_sera": {
+                                "value": 0.271
+                              },
+                              "strain_type": {
+                                "value": "circulating_2025"
+                              },
+                              "median_titer_SCH_sera": {
+                                "value": 395.1
+                              },
+                              "median_titer_UWMC_sera": {
+                                "value": 535.15
+                              },
+                              "median_titer_All_sera": {
+                                "value": 269.0
+                              },
+                              "frac_w_titer_below_140_SCH_sera": {
+                                "value": 0.277
+                              },
+                              "frac_w_titer_below_140_NIID_sera": {
+                                "value": 0.436
+                              },
+                              "frac_w_titer_below_140_UWMC_sera": {
+                                "value": 0.045
+                              },
+                              "median_titer_NIID_sera": {
+                                "value": 164.7
+                              },
+                              "frac_w_titer_below_140_EPIHK_sera": {
+                                "value": 0.286
+                              },
+                              "subclade": {
+                                "value": "C.1.9.3"
+                              },
+                              "median_titer_EPIHK_sera": {
+                                "value": 233.0
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "HA1": [
+                                  "A141T"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "HA1: A141T"
+                              }
+                            }
+                          },
+                          {
+                            "name": "A/Vladimir/RII-MH223382S/2024",
+                            "node_attrs": {
+                              "div": 4.001214,
+                              "num_date": {
+                                "value": 2024.98
+                              },
+                              "frac_w_titer_below_140_All_sera": {
+                                "value": 0.271
+                              },
+                              "strain_type": {
+                                "value": "circulating_2025"
+                              },
+                              "median_titer_SCH_sera": {
+                                "value": 409.2
+                              },
+                              "median_titer_UWMC_sera": {
+                                "value": 586.2
+                              },
+                              "median_titer_All_sera": {
+                                "value": 274.65
+                              },
+                              "frac_w_titer_below_140_SCH_sera": {
+                                "value": 0.255
+                              },
+                              "frac_w_titer_below_140_NIID_sera": {
+                                "value": 0.455
+                              },
+                              "frac_w_titer_below_140_UWMC_sera": {
+                                "value": 0.068
+                              },
+                              "median_titer_NIID_sera": {
+                                "value": 147.4
+                              },
+                              "frac_w_titer_below_140_EPIHK_sera": {
+                                "value": 0.262
+                              },
+                              "subclade": {
+                                "value": "C.1.9.3"
+                              },
+                              "median_titer_EPIHK_sera": {
+                                "value": 240.1
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "HA1": [
+                                  "A73E"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "HA1: A73E"
+                              }
+                            }
+                          },
+                          {
+                            "name": "NODE_0000029",
+                            "node_attrs": {
+                              "div": 4.001214,
+                              "num_date": {
+                                "value": 2020.719
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "HA1": [
+                                  "I166V"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "HA1: I166V"
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "A/Tennessee/04/2025",
+                                "node_attrs": {
+                                  "div": 6.005418,
+                                  "num_date": {
+                                    "value": 2025.01
+                                  },
+                                  "frac_w_titer_below_140_All_sera": {
+                                    "value": 0.239
+                                  },
+                                  "strain_type": {
+                                    "value": "circulating_2025"
+                                  },
+                                  "median_titer_SCH_sera": {
+                                    "value": 327.2
+                                  },
+                                  "median_titer_UWMC_sera": {
+                                    "value": 470.15
+                                  },
+                                  "median_titer_All_sera": {
+                                    "value": 255.6
+                                  },
+                                  "frac_w_titer_below_140_SCH_sera": {
+                                    "value": 0.277
+                                  },
+                                  "frac_w_titer_below_140_NIID_sera": {
+                                    "value": 0.327
+                                  },
+                                  "frac_w_titer_below_140_UWMC_sera": {
+                                    "value": 0.068
+                                  },
+                                  "median_titer_NIID_sera": {
+                                    "value": 168.5
+                                  },
+                                  "frac_w_titer_below_140_EPIHK_sera": {
+                                    "value": 0.262
+                                  },
+                                  "subclade": {
+                                    "value": "C.1.9.3"
+                                  },
+                                  "median_titer_EPIHK_sera": {
+                                    "value": 283.05
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "HA1": [
+                                      "A139T",
+                                      "I149V"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "HA1: A139T, I149V"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "A/Qatar/83328/2024",
+                                "node_attrs": {
+                                  "div": 4.001717,
+                                  "num_date": {
+                                    "value": 2024.81
+                                  },
+                                  "frac_w_titer_below_140_All_sera": {
+                                    "value": 0.25
+                                  },
+                                  "strain_type": {
+                                    "value": "circulating_2025"
+                                  },
+                                  "median_titer_SCH_sera": {
+                                    "value": 377.5
+                                  },
+                                  "median_titer_UWMC_sera": {
+                                    "value": 397.1
+                                  },
+                                  "median_titer_All_sera": {
+                                    "value": 265.55
+                                  },
+                                  "frac_w_titer_below_140_SCH_sera": {
+                                    "value": 0.234
+                                  },
+                                  "frac_w_titer_below_140_NIID_sera": {
+                                    "value": 0.364
+                                  },
+                                  "frac_w_titer_below_140_UWMC_sera": {
+                                    "value": 0.091
+                                  },
+                                  "median_titer_NIID_sera": {
+                                    "value": 204.1
+                                  },
+                                  "frac_w_titer_below_140_EPIHK_sera": {
+                                    "value": 0.286
+                                  },
+                                  "subclade": {
+                                    "value": "C.1.9.3"
+                                  },
+                                  "median_titer_EPIHK_sera": {
+                                    "value": 279.05
+                                  }
+                                },
+                                "branch_attrs": {}
+                              },
+                              {
+                                "name": "A/Minnesota/131/2024",
+                                "node_attrs": {
+                                  "div": 5.002285,
+                                  "num_date": {
+                                    "value": 2024.85
+                                  },
+                                  "frac_w_titer_below_140_All_sera": {
+                                    "value": 0.298
+                                  },
+                                  "strain_type": {
+                                    "value": "circulating_2025"
+                                  },
+                                  "median_titer_SCH_sera": {
+                                    "value": 380.3
+                                  },
+                                  "median_titer_UWMC_sera": {
+                                    "value": 461.7
+                                  },
+                                  "median_titer_All_sera": {
+                                    "value": 235.55
+                                  },
+                                  "frac_w_titer_below_140_SCH_sera": {
+                                    "value": 0.255
+                                  },
+                                  "frac_w_titer_below_140_NIID_sera": {
+                                    "value": 0.491
+                                  },
+                                  "frac_w_titer_below_140_UWMC_sera": {
+                                    "value": 0.068
+                                  },
+                                  "median_titer_NIID_sera": {
+                                    "value": 141.2
+                                  },
+                                  "frac_w_titer_below_140_EPIHK_sera": {
+                                    "value": 0.333
+                                  },
+                                  "subclade": {
+                                    "value": "C.1.9.3"
+                                  },
+                                  "median_titer_EPIHK_sera": {
+                                    "value": 219.35
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "HA1": [
+                                      "S143G"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "HA1: S143G"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000032",
+                                "node_attrs": {
+                                  "div": 5.002385,
+                                  "num_date": {
+                                    "value": 2022.44
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "HA1": [
+                                      "P137S"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "HA1: P137S"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "A/Maldives/2132/2024",
+                                    "node_attrs": {
+                                      "div": 6.003557,
+                                      "num_date": {
+                                        "value": 2024.79
+                                      },
+                                      "frac_w_titer_below_140_All_sera": {
+                                        "value": 0.202
+                                      },
+                                      "strain_type": {
+                                        "value": "circulating_2025"
+                                      },
+                                      "median_titer_SCH_sera": {
+                                        "value": 420.5
+                                      },
+                                      "median_titer_UWMC_sera": {
+                                        "value": 599.35
+                                      },
+                                      "median_titer_All_sera": {
+                                        "value": 294.1
+                                      },
+                                      "frac_w_titer_below_140_SCH_sera": {
+                                        "value": 0.255
+                                      },
+                                      "frac_w_titer_below_140_NIID_sera": {
+                                        "value": 0.273
+                                      },
+                                      "frac_w_titer_below_140_UWMC_sera": {
+                                        "value": 0.023
+                                      },
+                                      "median_titer_NIID_sera": {
+                                        "value": 181.3
+                                      },
+                                      "frac_w_titer_below_140_EPIHK_sera": {
+                                        "value": 0.238
+                                      },
+                                      "subclade": {
+                                        "value": "C.1.9.3"
+                                      },
+                                      "median_titer_EPIHK_sera": {
+                                        "value": 268.6
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "HA1": [
+                                          "A120T"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "HA1: A120T"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "A/Oregon/11/2025",
+                                    "node_attrs": {
+                                      "div": 6.003557,
+                                      "num_date": {
+                                        "value": 2025.05
+                                      },
+                                      "frac_w_titer_below_140_All_sera": {
+                                        "value": 0.266
+                                      },
+                                      "strain_type": {
+                                        "value": "circulating_2025"
+                                      },
+                                      "median_titer_SCH_sera": {
+                                        "value": 384.5
+                                      },
+                                      "median_titer_UWMC_sera": {
+                                        "value": 483.15
+                                      },
+                                      "median_titer_All_sera": {
+                                        "value": 251.3
+                                      },
+                                      "frac_w_titer_below_140_SCH_sera": {
+                                        "value": 0.255
+                                      },
+                                      "frac_w_titer_below_140_NIID_sera": {
+                                        "value": 0.364
+                                      },
+                                      "frac_w_titer_below_140_UWMC_sera": {
+                                        "value": 0.091
+                                      },
+                                      "median_titer_NIID_sera": {
+                                        "value": 163.2
+                                      },
+                                      "frac_w_titer_below_140_EPIHK_sera": {
+                                        "value": 0.333
+                                      },
+                                      "subclade": {
+                                        "value": "C.1.9.3"
+                                      },
+                                      "median_titer_EPIHK_sera": {
+                                        "value": 234.2
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "HA1": [
+                                          "S69P"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "HA1: S69P"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "root_sequence": {
+    "nuc": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
+    "HA1": "DTLCIGYHANNSTDTVDTVLEKNVTVTHSVNLLEDKHNGKLCKLRGVAPLHLGQCNIAGWILGNPECESLSTARSWSYIVETSNSDNGTCYPGDFINYEELREQLSSVSSFERFEIFPKTSSWPNHDSDNGVTAACPHAGAKSFYKNLIWLVKKGKSYPKINQTYINDKGKEVLVLWGIHHPPTITDQESLYQNADAYVFVGTSRYSKKFKPEIATRPKVRDQAGRMNYYWTLVEPGDKITFEATGNLVAPRYAFTMEKDAGSGIIISDTPVHDCNTTCQTPEGAINTSLPFQNVHPITIGKCPKYVRSTKLRLATGLRNVPSIQSR",
+    "HA2": "GLFGAIAGFIEGGWTGMVDGWYGYHHQNEQGSGYAADLKSTQNAIDKITNKVNSVIEKMNTQFTAVGKEFNHLEKRIENLNKKVDDGFLDVWTYNAELLVLLENERTLDYHDSNVKNLYEKVRNQLKNNAKEIGNGCFEFYHKCDNTCMESVKNGTYDYPKYSEEAKLNREKIDGV"
+  }
+}
