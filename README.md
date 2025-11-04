@@ -1,5 +1,5 @@
 # Near real-time data on the human neutralizing antibody landscape to influenza virus to inform vaccine-strain selection in September 2025
-This repository has the data and computer code for the study described in [Kikawa et al (2025)](https://doi.org/10.1101/2025.09.06.674661).
+This repository has the data and computer code for the study described in [Kikawa et al (2025)](https://doi.org/10.1093/ve/veaf086).
 
 Briefly, this study used sequencing-based neutralization assays to measure titers to influenza viruses with HAs from seasonal H3N2 and H1N1 viruses representative of those circulating in the summer of 2025 against a set of human sera collected in late 2024 to spring of 2025.
 
