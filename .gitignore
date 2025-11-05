@@ -6,9 +6,6 @@ _*
 
 # ignores specific to seqneut-pipeline output
 
-docs/*
-!docs/*.html
-
 results/*
 
 !results/barcode_counts

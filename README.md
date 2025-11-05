@@ -1,5 +1,5 @@
 # Near real-time data on the human neutralizing antibody landscape to influenza virus to inform vaccine-strain selection in September 2025
-This repository has the data and computer code for the study described in [Kikawa et al (2025)](https://doi.org/10.1101/2025.09.06.674661).
+This repository has the data and computer code for the study described in [Kikawa et al (2025)](https://doi.org/10.1093/ve/veaf086).
 
 Briefly, this study used sequencing-based neutralization assays to measure titers to influenza viruses with HAs from seasonal H3N2 and H1N1 viruses representative of those circulating in the summer of 2025 against a set of human sera collected in late 2024 to spring of 2025.
 
@@ -72,4 +72,12 @@ Then run the pipeline using:
 
     snakemake -j <n_jobs> --software-deployment-method conda
 
-To run on the Hutch cluster, you can use the Bash script [run_Hutch_cluster.bash](run_Hutch_cluster.bash)
+To run on the Hutch cluster, you can use the Bash script [run_Hutch_cluster.bash](run_Hutch_cluster.bash).
+
+## Rendering the documentation on GitHub Pages
+To render the HTML documentation of the pipeline generated in `./results/docs` to GitHub Pages, run:
+
+    ./seqneut-pipeline/publish_docs_gh-pages.sh
+
+And then set the GitHub repository to serve the docs from the *gh-pages* branch and the `/root` directory.
+The docs will then be available at [https://jbloomlab.github.io/flu-seqneut-2025/](https://jbloomlab.github.io/flu-seqneut-2025/).
