@@ -139,8 +139,6 @@ nextstrain-prot-titers-tree_config:
 
 seqneut-pipeline: seqneut-pipeline
 
-docs: docs
-
 description: |
   # Near real-time data on the human neutralizing antibody landscape to influenza virus to inform vaccine-strain selection in September 2025
 

@@ -72,4 +72,12 @@ Then run the pipeline using:
 
     snakemake -j <n_jobs> --software-deployment-method conda
 
-To run on the Hutch cluster, you can use the Bash script [run_Hutch_cluster.bash](run_Hutch_cluster.bash)
+To run on the Hutch cluster, you can use the Bash script [run_Hutch_cluster.bash](run_Hutch_cluster.bash).
+
+## Rendering the documentation on GitHub Pages
+To render the HTML documentation of the pipeline generated in `./results/docs` to GitHub Pages, run:
+
+    ./seqneut-pipeline/publish_docs_gh-pages.sh
+
+And then set the GitHub repository to serve the docs from the *gh-pages* branch and the `/root` directory.
+The docs will then be available at [https://jbloomlab.github.io/flu-seqneut-2025/](https://jbloomlab.github.io/flu-seqneut-2025/).

@@ -6,11 +6,6 @@ _*
 
 # ignores specific to seqneut-pipeline output
 
-docs/*
-# only stop ignoring `!docs/*.html` when you have project near complete
-# and want to start tracking large docs.
-!docs/*.html
-
 results/*
 
 !results/barcode_counts
